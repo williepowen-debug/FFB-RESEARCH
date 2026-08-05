@@ -1,0 +1,45 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-miami-dolphins,official_news,https://www.miamidolphins.com/news/latest-news,free,metadata_and_summary,"Includes transcripts, roster moves, and practice notebooks.",2026-08-05
+local-source-miami-dolphins,official_injury_report,https://www.miamidolphins.com/team/injury-report/,free,structured_monitoring,"Official weekly practice status and game designation page.",2026-08-05
+local-source-miami-dolphins,official_transactions,https://www.miamidolphins.com/team/transactions/,free,structured_monitoring,"Official team transaction ledger.",2026-08-05
+local-source-miami-dolphins,official_press_conferences,https://www.miamidolphins.com/video/press-conferences,free,metadata_and_summary,"Video availability; use accompanying official transcripts when published.",2026-08-05
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,"Open the completed game and retrieve its gamebook or participation report.",2026-08-05
+local-writer-barry-jackson,x,https://x.com/flasportsbuzz,free,manual_or_platform_compliant,"Fastest endpoint for current reporting; preserve the linked original article when available.",2026-08-05
+local-writer-barry-jackson,outlet_landing,https://www.miamiherald.com/sports/nfl/miami-dolphins/,mixed,metadata_and_summary,"Miami Herald Dolphins landing page.",2026-08-05
+local-writer-marcel-louis-jacques,outlet_profile,https://espnpressroom.com/us/bios/marcel-louis-jacques/,free,manual,"Official ESPN biography confirming assignment.",2026-08-05
+local-writer-marcel-louis-jacques,x,https://x.com/Marcel_LJ,free,manual_or_platform_compliant,"Reporter social feed.",2026-08-05
+local-writer-marcel-louis-jacques,outlet_landing,https://www.espn.com/nfl/team/_/name/mia/miami-dolphins,mixed,metadata_and_summary,"ESPN Dolphins landing page.",2026-08-05
+local-writer-david-furones,x,https://x.com/DavidFurones_,free,manual_or_platform_compliant,"Reporter social feed.",2026-08-05
+local-writer-david-furones,outlet_landing,https://www.sun-sentinel.com/sports/miami-dolphins/,mixed,metadata_and_summary,"Sun Sentinel Dolphins landing page.",2026-08-05
+local-writer-joe-schad,x,https://x.com/SchadJoe,free,manual_or_platform_compliant,"Reporter social feed.",2026-08-05
+local-writer-joe-schad,outlet_landing,https://www.palmbeachpost.com/sports/dolphins/,mixed,metadata_and_summary,"Palm Beach Post Dolphins landing page.",2026-08-05
+local-writer-omar-kelly,x,https://x.com/OmarKelly,free,manual_or_platform_compliant,"Hybrid reporting and commentary feed; classify each claim.",2026-08-05
+local-writer-omar-kelly,outlet_landing,https://www.miamiherald.com/sports/nfl/miami-dolphins/,mixed,metadata_and_summary,"Miami Herald Dolphins landing page.",2026-08-05
+local-writer-c-isaiah-smalls-ii,outlet_profile,https://www.miamiherald.com/profile/231244783/,mixed,metadata_and_summary,"Herald profile identifying current Dolphins coverage.",2026-08-05
+local-writer-c-isaiah-smalls-ii,x,https://x.com/stclaudeii,free,manual_or_platform_compliant,"Reporter social feed.",2026-08-05
+local-writer-hal-habib,x,https://x.com/gunnerhal,free,manual_or_platform_compliant,"Reporter social feed.",2026-08-05
+local-writer-hal-habib,outlet_landing,https://www.palmbeachpost.com/sports/dolphins/,mixed,metadata_and_summary,"Palm Beach Post Dolphins landing page.",2026-08-05
+local-writer-alain-poupart,outlet_profile,https://www.si.com/nfl/dolphins/onsi/author/alain-poupart,free,metadata_and_summary,"Author page with current practice-by-practice coverage.",2026-08-05
+local-writer-alain-poupart,x,https://x.com/PoupartNFL,free,manual_or_platform_compliant,"Reporter social feed.",2026-08-05
+local-writer-alain-poupart,youtube,https://www.youtube.com/@alldolphinspodcast,free,metadata_only,"All Dolphins Podcast; do not reproduce transcripts without permission.",2026-08-05
+local-writer-kyle-crabbs,podcast_landing,https://lockedonpodcasts.com/podcasts/locked-on-dolphins/,free,metadata_and_summary,"Canonical show page.",2026-08-05
+local-writer-kyle-crabbs,youtube,https://www.youtube.com/c/LockedOnDolphins,free,metadata_only,"Full episodes and clips; do not reproduce transcripts without permission.",2026-08-05
+local-writer-kyle-crabbs,x,https://x.com/KyleCrabbs,free,manual_or_platform_compliant,"Analyst social feed.",2026-08-05
+local-source-3ypc,podcast_landing,https://www.fivereasonssports.com/south-florida-podcasts/three-yards-per-carry/,free,metadata_and_summary,"Canonical Five Reasons show page.",2026-08-05
+local-source-3ypc,rss,https://feed.podbean.com/threeyardspercarry/feed.xml,free,metadata_only,"Use for episode discovery; do not reproduce audio or transcripts.",2026-08-05
+local-source-3ypc,x,https://x.com/3YardsPerCarry,free,manual_or_platform_compliant,"Collective show feed.",2026-08-05
+local-writer-travis-wingfield,podcast_landing,https://www.miamidolphins.com/studio72/drive-time-with-travis-wingfield,free,metadata_and_summary,"Permanent Drive Time page with current camp reports.",2026-08-05
+local-writer-travis-wingfield,x,https://x.com/WingfieldNFL,free,manual_or_platform_compliant,"Team analyst social feed.",2026-08-05
+local-writer-travis-wingfield,apple_podcasts,https://podcasts.apple.com/us/podcast/drive-time-with-travis-wingfield/id1500281964,free,metadata_only,"Feed carries an express text-and-data-mining restriction; do not ingest transcripts or content.",2026-08-05
+local-writer-chris-perkins,x,https://x.com/chrisperk,free,manual_or_platform_compliant,"Current Sun Sentinel Dolphins columnist feed.",2026-08-05
+local-writer-chris-perkins,outlet_landing,https://www.sun-sentinel.com/sports/miami-dolphins/,mixed,metadata_and_summary,"Sun Sentinel Dolphins landing page.",2026-08-05
+local-writer-cameron-wolfe,x,https://x.com/CameronWolfe,free,manual_or_platform_compliant,"National reporter feed; monitor when assigned to Dolphins stories.",2026-08-05
+local-source-pff,team_page,https://www.pff.com/nfl/teams/miami-dolphins/17,paid,manual,"Do not commit proprietary exports or reproduce paid data.",2026-08-05
+local-source-pfr,team_page,https://www.pro-football-reference.com/teams/mia/2026.htm,free,structured_monitoring,"Structured season reference.",2026-08-05
+local-source-pfr,snap_counts,https://www.pro-football-reference.com/teams/mia/2026-snap-counts.htm,free,structured_monitoring,"Convenient but identified by PFR as unofficial.",2026-08-05
+local-source-over-the-cap,team_page,https://overthecap.com/salary-cap/miami-dolphins,free,structured_monitoring,"Contract and cap reference.",2026-08-05
+local-source-spotrac,team_page,https://www.spotrac.com/nfl/miami-dolphins/overview,mixed,manual,"Contract and roster reference; URL should be rechecked if Spotrac changes routing.",2026-08-05
+local-source-the-phinsider,site,https://www.thephinsider.com/,free,metadata_and_summary,"Aggregation and community coverage; cite original reports.",2026-08-05
+local-source-the-phinsider,rss,https://www.thephinsider.com/rss/index.xml,free,metadata_and_summary,"Use for discovery and link retrieval.",2026-08-05
+local-source-rotowire,team_page,https://www.rotowire.com/football/team/miami-dolphins-mia,paid,manual,"Use attribution to find the original report.",2026-08-05
+local-source-fantasy-life,site,https://www.fantasylife.com/,mixed,manual,"Fantasy interpretation and tools.",2026-08-05
