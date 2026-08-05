@@ -1,0 +1,29 @@
+name: Validate repository
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate schedule
+        run: python scripts/validate_schedule.py
+
+      - name: Validate structured research
+        run: python scripts/validate_repository.py
+
+      - name: Confirm generated catalog is current
+        run: python scripts/generate_catalog.py --check

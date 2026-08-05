@@ -1,3 +1,21 @@
+---
+schema_version: 1
+record_id: null
+record_type: research_finding
+title: "<short title>"
+team_ids: []
+player_ids: []
+season: 2026
+week: null
+status: draft
+time_horizon: seasonal
+valid_as_of: null
+last_verified: null
+confidence: null
+source_ids: []
+supersedes: []
+---
+
 # Finding: <short title>
 
 ## Scope
@@ -5,7 +23,7 @@
 - Team/player:
 - Area:
 - Season/week:
-- Status: active | superseded | invalidated
+- Status: draft | active | superseded | invalidated
 - Last verified:
 
 ## Finding

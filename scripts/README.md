@@ -2,6 +2,16 @@
 
 These scripts use only Python's standard library.
 
+## Validate the full repository
+
+```bash
+python scripts/generate_catalog.py
+python scripts/validate_repository.py
+python scripts/generate_catalog.py --check
+```
+
+The repository validator checks front matter, JSON Schemas, controlled values, immutable record-ID format, duplicate IDs, team references, supersession references, required sections, relative links, and catalog drift. `catalog.jsonl` is generated from Markdown metadata and must not be edited manually.
+
 ## Validate schedule data
 
 ```bash
@@ -36,4 +46,4 @@ weekly/2026/week-01/
     └── ...
 ```
 
-It refuses to overwrite generated files unless `--force` is supplied. Each matchup file links back to both team research folders and includes sections for injuries, matchup analysis, fantasy implications, evidence, and invalidation/watch items.
+It refuses to overwrite generated files unless `--force` is supplied. Each matchup is a schema-valid draft record with a stable record ID, game ID, links to both team research folders, and sections for environment, matchup analysis, decisions, sources, and invalidation/watch items.

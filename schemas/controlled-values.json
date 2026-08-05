@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "record_types": [
+    "beat_writer_registry",
+    "coaching_profile",
+    "depth_chart",
+    "injury_update",
+    "player_profile",
+    "research_finding",
+    "team_overview",
+    "weekly_matchup"
+  ],
+  "statuses": ["draft", "active", "superseded", "invalidated"],
+  "confidence_levels": ["low", "medium", "high"],
+  "time_horizons": ["durable", "seasonal", "weekly"],
+  "fantasy_formats": [
+    "standard",
+    "half_ppr",
+    "ppr",
+    "superflex",
+    "two_qb",
+    "tight_end_premium",
+    "best_ball",
+    "dynasty",
+    "dfs",
+    "player_props",
+    "idp",
+    "general"
+  ],
+  "positions": [
+    "QB", "RB", "FB", "WR", "TE", "OT", "OG", "C", "OL",
+    "EDGE", "DE", "DT", "DL", "LB", "CB", "S", "DB",
+    "K", "P", "LS", "KR", "PR", "D/ST"
+  ],
+  "practice_statuses": [
+    "did_not_participate",
+    "limited",
+    "full",
+    "estimated_did_not_participate",
+    "estimated_limited",
+    "estimated_full",
+    "not_listed",
+    "unknown"
+  ],
+  "game_designations": ["out", "doubtful", "questionable", "none", "unknown"],
+  "depth_chart_statuses": ["projected", "unofficial", "official"]
+}

@@ -18,7 +18,9 @@ league/teams.csv            Canonical team names, abbreviations, venues, time zo
 league/schedule/2026.csv    Canonical 2026 regular-season schedule
 league/                     League-wide data, methodology, transactions, and formats
 templates/                  Standard research and decision templates
-scripts/                    Schedule validation and weekly-workspace generation
+schemas/                    Record schemas, controlled values, and ID conventions
+catalog.jsonl               Generated index of structured research records
+scripts/                    Validation, catalog, and weekly-workspace utilities
 ```
 
 The initial team scaffold covers all 32 NFL teams for the 2026 season. Empty research areas use `.gitkeep` files until material is added.
@@ -45,4 +47,11 @@ See `league/schedule/README.md` and `scripts/README.md`.
 
 Use the templates in `templates/`. Important findings should identify the evidence, source, publication and verification dates, applicable season/week, confidence, fantasy implication, and what would invalidate the conclusion.
 
-See `league/methodology/README.md` and `SOURCE_POLICY.md` before adding research.
+Substantive Markdown records use structured YAML front matter governed by `schemas/`. This preserves readable research while allowing agents and scripts to validate, filter, and retrieve records through `catalog.jsonl`.
+
+```bash
+python scripts/generate_catalog.py
+python scripts/validate_repository.py
+```
+
+See `AGENTS.md`, `schemas/README.md`, `league/methodology/README.md`, and `SOURCE_POLICY.md` before adding research.

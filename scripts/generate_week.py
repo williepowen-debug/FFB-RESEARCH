@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 from pathlib import Path
 
 
@@ -22,7 +23,33 @@ def matchup_markdown(
     time_label = game["kickoff_et"] or "TBD"
     away_link = f"../../../../{away['folder_path']}/2026/"
     home_link = f"../../../../{home['folder_path']}/2026/"
-    return f"""# {game['away_team']} at {game['home_team']} — Week {game['week']}
+    week = int(game["week"])
+    season = int(game["season"])
+    game_id = f"{season}-W{week:02d}-{game['away_abbr']}-{game['home_abbr']}"
+    record_id = f"wm-{season}-w{week:02d}-{game['away_abbr'].lower()}-{game['home_abbr'].lower()}-001"
+    title = f"Week {week}: {game['away_team']} at {game['home_team']}"
+    valid_as_of = json.dumps(game["date_et"]) if game["date_et"] else "null"
+    return f"""---
+schema_version: 1
+record_id: {record_id}
+record_type: weekly_matchup
+title: {json.dumps(title)}
+team_ids: {json.dumps([game['away_abbr'], game['home_abbr']])}
+player_ids: []
+season: {season}
+week: {week}
+status: draft
+time_horizon: weekly
+valid_as_of: {valid_as_of}
+last_verified: {json.dumps(game['last_verified'])}
+confidence: null
+source_ids: []
+supersedes: []
+game_id: {game_id}
+fantasy_formats: ["general"]
+---
+
+# {title}
 
 - Date (ET): {date_label}
 - Kickoff (ET): {time_label}
@@ -33,25 +60,34 @@ def matchup_markdown(
 - Schedule source: [NFL]({game['source_url']})
 - Last schedule verification: {game['last_verified']}
 
-## Injuries and personnel
+## Game environment
+
+- Expected pace:
+- Weather:
+- Betting context:
+- Injury context:
+
+## Matchup analysis
+
+### Away offense vs. home defense
+
+### Home offense vs. away defense
+
+### Special-teams considerations
+
+## Fantasy decisions
+
+| Player/unit | Decision or range | Confidence | Primary reason | Invalidation trigger |
+|---|---|---|---|---|
+| | | | | |
+
+## Open questions and next checks
 
 _TBD_
 
-## Matchup
+## Sources
 
-_TBD_
-
-## Fantasy implications
-
-_TBD_
-
-## Evidence
-
-_TBD_
-
-## Watch items and invalidation
-
-_TBD_
+- [NFL schedule]({game['source_url']}) — last verified {game['last_verified']}
 """
 
 

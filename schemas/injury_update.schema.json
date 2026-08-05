@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/williepowen-debug/FFB-RESEARCH/schemas/injury_update.schema.json",
+  "title": "Injury update metadata",
+  "type": "object",
+  "required": ["schema_version", "record_id", "record_type", "title", "team_ids", "player_ids", "season", "week", "status", "time_horizon", "valid_as_of", "last_verified", "confidence", "source_ids", "supersedes", "practice_status", "game_designation"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "record_id": {"type": ["string", "null"], "pattern": "^iu-(?:[0-9]{4}|all)-[a-z0-9-]+-[0-9]{3}$"},
+    "record_type": {"const": "injury_update"},
+    "title": {"type": "string", "minLength": 1},
+    "team_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 1, "uniqueItems": true},
+    "player_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 1, "uniqueItems": true},
+    "season": {"type": "integer", "minimum": 2000, "maximum": 2100},
+    "week": {"type": "integer", "minimum": 1, "maximum": 18},
+    "status": {"enum": ["draft", "active", "superseded", "invalidated"]},
+    "time_horizon": {"const": "weekly"},
+    "valid_as_of": {"type": ["string", "null"], "format": "date"},
+    "last_verified": {"type": ["string", "null"], "format": "date"},
+    "confidence": {"type": ["string", "null"], "enum": ["low", "medium", "high", null]},
+    "source_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "supersedes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "practice_status": {"enum": ["did_not_participate", "limited", "full", "estimated_did_not_participate", "estimated_limited", "estimated_full", "not_listed", "unknown"]},
+    "game_designation": {"enum": ["out", "doubtful", "questionable", "none", "unknown"]}
+  },
+  "additionalProperties": false
+}

@@ -1,3 +1,23 @@
+---
+schema_version: 1
+record_id: null
+record_type: weekly_matchup
+title: "Week <Number>: <Away Team> at <Home Team>"
+team_ids: ["AWAY", "HOME"]
+player_ids: []
+season: 2026
+week: 1
+status: draft
+time_horizon: weekly
+valid_as_of: null
+last_verified: null
+confidence: null
+source_ids: []
+supersedes: []
+game_id: null
+fantasy_formats: ["general"]
+---
+
 # Week <Number>: <Away Team> at <Home Team>
 
 - Season:
