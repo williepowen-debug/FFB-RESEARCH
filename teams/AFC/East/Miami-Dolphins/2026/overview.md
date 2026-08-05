@@ -33,7 +33,10 @@ The supporting machine-readable files are:
 - [Retentions and extensions](roster/retentions.csv)
 - [2026 draft class](roster/draft-class.csv)
 - [Undrafted free agents](roster/undrafted-free-agents.csv)
-- [Monitoring priorities](monitoring-priorities.csv)
+- [Preseason intelligence workspace](preseason/README.md)
+- [Monitoring priorities](preseason/monitoring-priorities.csv)
+- [Current priority status](preseason/priority-status.csv)
+- [First projected depth chart](preseason/depth-charts/2026-08-05-projected.md)
 - [Source-monitoring registry](beat-writers/registry.md)
 
 ## Fantasy-relevant snapshot
@@ -127,7 +130,7 @@ Canonical player profiles have not yet been created. Do not duplicate full playe
 
 ## Open questions
 
-The ten ranked monitoring nodes are maintained in [monitoring-priorities.csv](monitoring-priorities.csv). The highest-leverage unknowns are the new offensive structure around Willis, Achane's workload, the receiver pecking order, Proctor's position, Johnson's immediate role, and the edge/secondary rotations.
+The ten ranked monitoring nodes are maintained in [preseason/monitoring-priorities.csv](preseason/monitoring-priorities.csv). The highest-leverage unknowns are the new offensive structure around Willis, Achane's workload, the receiver pecking order, Proctor's position, Johnson's immediate role, and the edge/secondary rotations.
 
 Final cutdowns will invalidate some camp-roster rows. Update the CSV status fields rather than deleting historical acquisitions.
 
