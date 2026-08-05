@@ -1,0 +1,33 @@
+team_name,abbr,conference,division,city,stadium,stadium_city,time_zone,folder_path
+Arizona Cardinals,ARI,NFC,West,Arizona,State Farm Stadium,"Glendale, AZ",America/Phoenix,teams/NFC/West/Arizona-Cardinals
+Atlanta Falcons,ATL,NFC,South,Atlanta,Mercedes-Benz Stadium,"Atlanta, GA",America/New_York,teams/NFC/South/Atlanta-Falcons
+Baltimore Ravens,BAL,AFC,North,Baltimore,M&T Bank Stadium,"Baltimore, MD",America/New_York,teams/AFC/North/Baltimore-Ravens
+Buffalo Bills,BUF,AFC,East,Buffalo,Highmark Stadium,"Orchard Park, NY",America/New_York,teams/AFC/East/Buffalo-Bills
+Carolina Panthers,CAR,NFC,South,Carolina,Bank of America Stadium,"Charlotte, NC",America/New_York,teams/NFC/South/Carolina-Panthers
+Chicago Bears,CHI,NFC,North,Chicago,Soldier Field,"Chicago, IL",America/Chicago,teams/NFC/North/Chicago-Bears
+Cincinnati Bengals,CIN,AFC,North,Cincinnati,Paycor Stadium,"Cincinnati, OH",America/New_York,teams/AFC/North/Cincinnati-Bengals
+Cleveland Browns,CLE,AFC,North,Cleveland,Huntington Bank Field,"Cleveland, OH",America/New_York,teams/AFC/North/Cleveland-Browns
+Dallas Cowboys,DAL,NFC,East,Dallas,AT&T Stadium,"Arlington, TX",America/Chicago,teams/NFC/East/Dallas-Cowboys
+Denver Broncos,DEN,AFC,West,Denver,Empower Field at Mile High,"Denver, CO",America/Denver,teams/AFC/West/Denver-Broncos
+Detroit Lions,DET,NFC,North,Detroit,Ford Field,"Detroit, MI",America/Detroit,teams/NFC/North/Detroit-Lions
+Green Bay Packers,GB,NFC,North,Green Bay,Lambeau Field,"Green Bay, WI",America/Chicago,teams/NFC/North/Green-Bay-Packers
+Houston Texans,HOU,AFC,South,Houston,NRG Stadium,"Houston, TX",America/Chicago,teams/AFC/South/Houston-Texans
+Indianapolis Colts,IND,AFC,South,Indianapolis,Lucas Oil Stadium,"Indianapolis, IN",America/Indiana/Indianapolis,teams/AFC/South/Indianapolis-Colts
+Jacksonville Jaguars,JAX,AFC,South,Jacksonville,EverBank Stadium,"Jacksonville, FL",America/New_York,teams/AFC/South/Jacksonville-Jaguars
+Kansas City Chiefs,KC,AFC,West,Kansas City,GEHA Field at Arrowhead Stadium,"Kansas City, MO",America/Chicago,teams/AFC/West/Kansas-City-Chiefs
+Las Vegas Raiders,LV,AFC,West,Las Vegas,Allegiant Stadium,"Las Vegas, NV",America/Los_Angeles,teams/AFC/West/Las-Vegas-Raiders
+Los Angeles Chargers,LAC,AFC,West,Los Angeles,SoFi Stadium,"Inglewood, CA",America/Los_Angeles,teams/AFC/West/Los-Angeles-Chargers
+Los Angeles Rams,LAR,NFC,West,Los Angeles,SoFi Stadium,"Inglewood, CA",America/Los_Angeles,teams/NFC/West/Los-Angeles-Rams
+Miami Dolphins,MIA,AFC,East,Miami,Hard Rock Stadium,"Miami Gardens, FL",America/New_York,teams/AFC/East/Miami-Dolphins
+Minnesota Vikings,MIN,NFC,North,Minnesota,U.S. Bank Stadium,"Minneapolis, MN",America/Chicago,teams/NFC/North/Minnesota-Vikings
+New England Patriots,NE,AFC,East,New England,Gillette Stadium,"Foxborough, MA",America/New_York,teams/AFC/East/New-England-Patriots
+New Orleans Saints,NO,NFC,South,New Orleans,Caesars Superdome,"New Orleans, LA",America/Chicago,teams/NFC/South/New-Orleans-Saints
+New York Giants,NYG,NFC,East,New York,MetLife Stadium,"East Rutherford, NJ",America/New_York,teams/NFC/East/New-York-Giants
+New York Jets,NYJ,AFC,East,New York,MetLife Stadium,"East Rutherford, NJ",America/New_York,teams/AFC/East/New-York-Jets
+Philadelphia Eagles,PHI,NFC,East,Philadelphia,Lincoln Financial Field,"Philadelphia, PA",America/New_York,teams/NFC/East/Philadelphia-Eagles
+Pittsburgh Steelers,PIT,AFC,North,Pittsburgh,Acrisure Stadium,"Pittsburgh, PA",America/New_York,teams/AFC/North/Pittsburgh-Steelers
+San Francisco 49ers,SF,NFC,West,San Francisco,Levi's Stadium,"Santa Clara, CA",America/Los_Angeles,teams/NFC/West/San-Francisco-49ers
+Seattle Seahawks,SEA,NFC,West,Seattle,Lumen Field,"Seattle, WA",America/Los_Angeles,teams/NFC/West/Seattle-Seahawks
+Tampa Bay Buccaneers,TB,NFC,South,Tampa Bay,Raymond James Stadium,"Tampa, FL",America/New_York,teams/NFC/South/Tampa-Bay-Buccaneers
+Tennessee Titans,TEN,AFC,South,Tennessee,Nissan Stadium,"Nashville, TN",America/Chicago,teams/AFC/South/Tennessee-Titans
+Washington Commanders,WAS,NFC,East,Washington,Northwest Stadium,"Landover, MD",America/New_York,teams/NFC/East/Washington-Commanders
