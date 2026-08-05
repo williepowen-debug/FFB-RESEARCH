@@ -1,0 +1,273 @@
+season,week,date_et,kickoff_et,away_team,away_abbr,home_team,home_abbr,venue,venue_city,neutral_site,schedule_status,source_url,last_verified
+2026,1,2026-09-09,8:20 PM,New England Patriots,NE,Seattle Seahawks,SEA,Lumen Field,"Seattle, WA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-10,8:35 PM,San Francisco 49ers,SF,Los Angeles Rams,LAR,Melbourne Cricket Ground,"Melbourne, Australia",true,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,1:00 PM,Atlanta Falcons,ATL,Pittsburgh Steelers,PIT,Acrisure Stadium,"Pittsburgh, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,1:00 PM,Baltimore Ravens,BAL,Indianapolis Colts,IND,Lucas Oil Stadium,"Indianapolis, IN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,1:00 PM,Buffalo Bills,BUF,Houston Texans,HOU,NRG Stadium,"Houston, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,1:00 PM,Chicago Bears,CHI,Carolina Panthers,CAR,Bank of America Stadium,"Charlotte, NC",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,1:00 PM,Cleveland Browns,CLE,Jacksonville Jaguars,JAX,EverBank Stadium,"Jacksonville, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,1:00 PM,New Orleans Saints,NO,Detroit Lions,DET,Ford Field,"Detroit, MI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,1:00 PM,New York Jets,NYJ,Tennessee Titans,TEN,Nissan Stadium,"Nashville, TN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,1:00 PM,Tampa Bay Buccaneers,TB,Cincinnati Bengals,CIN,Paycor Stadium,"Cincinnati, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,4:25 PM,Arizona Cardinals,ARI,Los Angeles Chargers,LAC,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,4:25 PM,Green Bay Packers,GB,Minnesota Vikings,MIN,U.S. Bank Stadium,"Minneapolis, MN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,4:25 PM,Miami Dolphins,MIA,Las Vegas Raiders,LV,Allegiant Stadium,"Las Vegas, NV",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,4:25 PM,Washington Commanders,WAS,Philadelphia Eagles,PHI,Lincoln Financial Field,"Philadelphia, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-13,8:20 PM,Dallas Cowboys,DAL,New York Giants,NYG,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,1,2026-09-14,8:15 PM,Denver Broncos,DEN,Kansas City Chiefs,KC,GEHA Field at Arrowhead Stadium,"Kansas City, MO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-1,2026-08-05
+2026,2,2026-09-17,8:15 PM,Detroit Lions,DET,Buffalo Bills,BUF,Highmark Stadium,"Orchard Park, NY",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,1:00 PM,Carolina Panthers,CAR,Atlanta Falcons,ATL,Mercedes-Benz Stadium,"Atlanta, GA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,1:00 PM,Cincinnati Bengals,CIN,Houston Texans,HOU,NRG Stadium,"Houston, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,1:00 PM,Cleveland Browns,CLE,Tampa Bay Buccaneers,TB,Raymond James Stadium,"Tampa, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,1:00 PM,Green Bay Packers,GB,New York Jets,NYJ,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,1:00 PM,Minnesota Vikings,MIN,Chicago Bears,CHI,Soldier Field,"Chicago, IL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,1:00 PM,New Orleans Saints,NO,Baltimore Ravens,BAL,M&T Bank Stadium,"Baltimore, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,1:00 PM,Philadelphia Eagles,PHI,Tennessee Titans,TEN,Nissan Stadium,"Nashville, TN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,1:00 PM,Pittsburgh Steelers,PIT,New England Patriots,NE,Gillette Stadium,"Foxborough, MA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,4:05 PM,Jacksonville Jaguars,JAX,Denver Broncos,DEN,Empower Field at Mile High,"Denver, CO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,4:05 PM,Las Vegas Raiders,LV,Los Angeles Chargers,LAC,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,4:25 PM,Miami Dolphins,MIA,San Francisco 49ers,SF,Levi's Stadium,"Santa Clara, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,4:25 PM,Seattle Seahawks,SEA,Arizona Cardinals,ARI,State Farm Stadium,"Glendale, AZ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,4:25 PM,Washington Commanders,WAS,Dallas Cowboys,DAL,AT&T Stadium,"Arlington, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-20,8:20 PM,Indianapolis Colts,IND,Kansas City Chiefs,KC,GEHA Field at Arrowhead Stadium,"Kansas City, MO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,2,2026-09-21,8:15 PM,New York Giants,NYG,Los Angeles Rams,LAR,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-2,2026-08-05
+2026,3,2026-09-24,8:15 PM,Atlanta Falcons,ATL,Green Bay Packers,GB,Lambeau Field,"Green Bay, WI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,1:00 PM,Carolina Panthers,CAR,Cleveland Browns,CLE,Huntington Bank Field,"Cleveland, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,1:00 PM,Cincinnati Bengals,CIN,Pittsburgh Steelers,PIT,Acrisure Stadium,"Pittsburgh, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,1:00 PM,Houston Texans,HOU,Indianapolis Colts,IND,Lucas Oil Stadium,"Indianapolis, IN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,1:00 PM,Kansas City Chiefs,KC,Miami Dolphins,MIA,Hard Rock Stadium,"Miami Gardens, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,1:00 PM,Los Angeles Chargers,LAC,Buffalo Bills,BUF,Highmark Stadium,"Orchard Park, NY",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,1:00 PM,New England Patriots,NE,Jacksonville Jaguars,JAX,EverBank Stadium,"Jacksonville, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,1:00 PM,New York Jets,NYJ,Detroit Lions,DET,Ford Field,"Detroit, MI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,1:00 PM,Seattle Seahawks,SEA,Washington Commanders,WAS,Northwest Stadium,"Landover, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,1:00 PM,Tennessee Titans,TEN,New York Giants,NYG,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,4:05 PM,Arizona Cardinals,ARI,San Francisco 49ers,SF,Levi's Stadium,"Santa Clara, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,4:05 PM,Minnesota Vikings,MIN,Tampa Bay Buccaneers,TB,Raymond James Stadium,"Tampa, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,4:25 PM,Baltimore Ravens,BAL,Dallas Cowboys,DAL,Maracanã Stadium,"Rio de Janeiro, Brazil",true,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,4:25 PM,Las Vegas Raiders,LV,New Orleans Saints,NO,Caesars Superdome,"New Orleans, LA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-27,8:20 PM,Los Angeles Rams,LAR,Denver Broncos,DEN,Empower Field at Mile High,"Denver, CO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,3,2026-09-28,8:15 PM,Philadelphia Eagles,PHI,Chicago Bears,CHI,Soldier Field,"Chicago, IL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-3,2026-08-05
+2026,4,2026-10-01,8:15 PM,Pittsburgh Steelers,PIT,Cleveland Browns,CLE,Huntington Bank Field,"Cleveland, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,9:30 AM,Indianapolis Colts,IND,Washington Commanders,WAS,Tottenham Hotspur Stadium,"London, U.K.",true,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,1:00 PM,Arizona Cardinals,ARI,New York Giants,NYG,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,1:00 PM,Dallas Cowboys,DAL,Houston Texans,HOU,NRG Stadium,"Houston, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,1:00 PM,Green Bay Packers,GB,Tampa Bay Buccaneers,TB,Raymond James Stadium,"Tampa, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,1:00 PM,Jacksonville Jaguars,JAX,Cincinnati Bengals,CIN,Paycor Stadium,"Cincinnati, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,1:00 PM,Los Angeles Rams,LAR,Philadelphia Eagles,PHI,Lincoln Financial Field,"Philadelphia, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,1:00 PM,New England Patriots,NE,Buffalo Bills,BUF,Highmark Stadium,"Orchard Park, NY",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,1:00 PM,New York Jets,NYJ,Chicago Bears,CHI,Soldier Field,"Chicago, IL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,1:00 PM,Tennessee Titans,TEN,Baltimore Ravens,BAL,M&T Bank Stadium,"Baltimore, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,4:05 PM,Miami Dolphins,MIA,Minnesota Vikings,MIN,U.S. Bank Stadium,"Minneapolis, MN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,4:25 PM,Denver Broncos,DEN,San Francisco 49ers,SF,Levi's Stadium,"Santa Clara, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,4:25 PM,Kansas City Chiefs,KC,Las Vegas Raiders,LV,Allegiant Stadium,"Las Vegas, NV",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,4:25 PM,Los Angeles Chargers,LAC,Seattle Seahawks,SEA,Lumen Field,"Seattle, WA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-04,8:20 PM,Detroit Lions,DET,Carolina Panthers,CAR,Bank of America Stadium,"Charlotte, NC",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,4,2026-10-05,8:15 PM,Atlanta Falcons,ATL,New Orleans Saints,NO,Caesars Superdome,"New Orleans, LA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-4,2026-08-05
+2026,5,2026-10-08,8:15 PM,Tampa Bay Buccaneers,TB,Dallas Cowboys,DAL,AT&T Stadium,"Arlington, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,9:30 AM,Philadelphia Eagles,PHI,Jacksonville Jaguars,JAX,Tottenham Hotspur Stadium,"London, U.K.",true,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,1:00 PM,Cincinnati Bengals,CIN,Miami Dolphins,MIA,Hard Rock Stadium,"Miami Gardens, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,1:00 PM,Cleveland Browns,CLE,New York Jets,NYJ,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,1:00 PM,Houston Texans,HOU,Tennessee Titans,TEN,Nissan Stadium,"Nashville, TN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,1:00 PM,Indianapolis Colts,IND,Pittsburgh Steelers,PIT,Acrisure Stadium,"Pittsburgh, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,1:00 PM,Las Vegas Raiders,LV,New England Patriots,NE,Gillette Stadium,"Foxborough, MA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,1:00 PM,Minnesota Vikings,MIN,New Orleans Saints,NO,Caesars Superdome,"New Orleans, LA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,1:00 PM,New York Giants,NYG,Washington Commanders,WAS,Northwest Stadium,"Landover, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,4:05 PM,Denver Broncos,DEN,Los Angeles Chargers,LAC,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,4:25 PM,Chicago Bears,CHI,Green Bay Packers,GB,Lambeau Field,"Green Bay, WI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,4:25 PM,Detroit Lions,DET,Arizona Cardinals,ARI,State Farm Stadium,"Glendale, AZ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,4:25 PM,San Francisco 49ers,SF,Seattle Seahawks,SEA,Lumen Field,"Seattle, WA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-11,8:20 PM,Baltimore Ravens,BAL,Atlanta Falcons,ATL,Mercedes-Benz Stadium,"Atlanta, GA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,5,2026-10-12,8:15 PM,Buffalo Bills,BUF,Los Angeles Rams,LAR,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-5,2026-08-05
+2026,6,2026-10-15,8:15 PM,Seattle Seahawks,SEA,Denver Broncos,DEN,Empower Field at Mile High,"Denver, CO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,9:30 AM,Houston Texans,HOU,Jacksonville Jaguars,JAX,Wembley Stadium,"London, U.K.",true,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,1:00 PM,Baltimore Ravens,BAL,Cleveland Browns,CLE,Huntington Bank Field,"Cleveland, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,1:00 PM,Carolina Panthers,CAR,Philadelphia Eagles,PHI,Lincoln Financial Field,"Philadelphia, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,1:00 PM,Chicago Bears,CHI,Atlanta Falcons,ATL,Mercedes-Benz Stadium,"Atlanta, GA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,1:00 PM,New Orleans Saints,NO,New York Giants,NYG,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,1:00 PM,New York Jets,NYJ,New England Patriots,NE,Gillette Stadium,"Foxborough, MA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,1:00 PM,Pittsburgh Steelers,PIT,Tampa Bay Buccaneers,TB,Raymond James Stadium,"Tampa, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,1:00 PM,Tennessee Titans,TEN,Indianapolis Colts,IND,Lucas Oil Stadium,"Indianapolis, IN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,4:05 PM,Arizona Cardinals,ARI,Los Angeles Rams,LAR,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,4:25 PM,Buffalo Bills,BUF,Las Vegas Raiders,LV,Allegiant Stadium,"Las Vegas, NV",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,4:25 PM,Los Angeles Chargers,LAC,Kansas City Chiefs,KC,GEHA Field at Arrowhead Stadium,"Kansas City, MO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-18,8:20 PM,Dallas Cowboys,DAL,Green Bay Packers,GB,Lambeau Field,"Green Bay, WI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,6,2026-10-19,8:15 PM,Washington Commanders,WAS,San Francisco 49ers,SF,Levi's Stadium,"Santa Clara, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-6,2026-08-05
+2026,7,2026-10-22,8:15 PM,New England Patriots,NE,Chicago Bears,CHI,Soldier Field,"Chicago, IL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,9:30 AM,Pittsburgh Steelers,PIT,New Orleans Saints,NO,Stade de France,"Paris, France",true,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,1:00 PM,Cincinnati Bengals,CIN,Baltimore Ravens,BAL,M&T Bank Stadium,"Baltimore, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,1:00 PM,Cleveland Browns,CLE,Tennessee Titans,TEN,Nissan Stadium,"Nashville, TN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,1:00 PM,Indianapolis Colts,IND,Minnesota Vikings,MIN,U.S. Bank Stadium,"Minneapolis, MN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,1:00 PM,Miami Dolphins,MIA,New York Jets,NYJ,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,1:00 PM,New York Giants,NYG,Houston Texans,HOU,NRG Stadium,"Houston, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,1:00 PM,San Francisco 49ers,SF,Atlanta Falcons,ATL,Mercedes-Benz Stadium,"Atlanta, GA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,1:00 PM,Tampa Bay Buccaneers,TB,Carolina Panthers,CAR,Bank of America Stadium,"Charlotte, NC",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,4:05 PM,Denver Broncos,DEN,Arizona Cardinals,ARI,State Farm Stadium,"Glendale, AZ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,4:25 PM,Green Bay Packers,GB,Detroit Lions,DET,Ford Field,"Detroit, MI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,4:25 PM,Los Angeles Rams,LAR,Las Vegas Raiders,LV,Allegiant Stadium,"Las Vegas, NV",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-25,8:20 PM,Kansas City Chiefs,KC,Seattle Seahawks,SEA,Lumen Field,"Seattle, WA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,7,2026-10-26,8:15 PM,Dallas Cowboys,DAL,Philadelphia Eagles,PHI,Lincoln Financial Field,"Philadelphia, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-7,2026-08-05
+2026,8,2026-10-29,8:15 PM,Carolina Panthers,CAR,Green Bay Packers,GB,Lambeau Field,"Green Bay, WI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,1:00 PM,Arizona Cardinals,ARI,Dallas Cowboys,DAL,AT&T Stadium,"Arlington, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,1:00 PM,Atlanta Falcons,ATL,Tampa Bay Buccaneers,TB,Raymond James Stadium,"Tampa, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,1:00 PM,Baltimore Ravens,BAL,Buffalo Bills,BUF,Highmark Stadium,"Orchard Park, NY",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,1:00 PM,Cleveland Browns,CLE,Pittsburgh Steelers,PIT,Acrisure Stadium,"Pittsburgh, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,1:00 PM,Indianapolis Colts,IND,Jacksonville Jaguars,JAX,EverBank Stadium,"Jacksonville, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,1:00 PM,Las Vegas Raiders,LV,New York Jets,NYJ,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,1:00 PM,Minnesota Vikings,MIN,Detroit Lions,DET,Ford Field,"Detroit, MI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,1:00 PM,Tennessee Titans,TEN,Cincinnati Bengals,CIN,Paycor Stadium,"Cincinnati, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,4:05 PM,Los Angeles Chargers,LAC,Los Angeles Rams,LAR,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,4:25 PM,Kansas City Chiefs,KC,Denver Broncos,DEN,Empower Field at Mile High,"Denver, CO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,4:25 PM,New England Patriots,NE,Miami Dolphins,MIA,Hard Rock Stadium,"Miami Gardens, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-01,8:20 PM,Philadelphia Eagles,PHI,Washington Commanders,WAS,Northwest Stadium,"Landover, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,8,2026-11-02,8:15 PM,Chicago Bears,CHI,Seattle Seahawks,SEA,Lumen Field,"Seattle, WA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-8,2026-08-05
+2026,9,2026-11-05,8:15 PM,Jacksonville Jaguars,JAX,Baltimore Ravens,BAL,M&T Bank Stadium,"Baltimore, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,9:30 AM,Cincinnati Bengals,CIN,Atlanta Falcons,ATL,Bernabéu Stadium,"Madrid, Spain",true,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,1:00 PM,Cleveland Browns,CLE,New Orleans Saints,NO,Caesars Superdome,"New Orleans, LA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,1:00 PM,Dallas Cowboys,DAL,Indianapolis Colts,IND,Lucas Oil Stadium,"Indianapolis, IN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,1:00 PM,Denver Broncos,DEN,Carolina Panthers,CAR,Bank of America Stadium,"Charlotte, NC",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,1:00 PM,Detroit Lions,DET,Miami Dolphins,MIA,Hard Rock Stadium,"Miami Gardens, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,1:00 PM,Los Angeles Rams,LAR,Washington Commanders,WAS,Northwest Stadium,"Landover, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,1:00 PM,New York Giants,NYG,Philadelphia Eagles,PHI,Lincoln Financial Field,"Philadelphia, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,1:00 PM,New York Jets,NYJ,Kansas City Chiefs,KC,GEHA Field at Arrowhead Stadium,"Kansas City, MO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,4:05 PM,Houston Texans,HOU,Los Angeles Chargers,LAC,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,4:05 PM,Las Vegas Raiders,LV,San Francisco 49ers,SF,Levi's Stadium,"Santa Clara, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,4:25 PM,Arizona Cardinals,ARI,Seattle Seahawks,SEA,Lumen Field,"Seattle, WA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,4:25 PM,Green Bay Packers,GB,New England Patriots,NE,Gillette Stadium,"Foxborough, MA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-08,8:20 PM,Tampa Bay Buccaneers,TB,Chicago Bears,CHI,Soldier Field,"Chicago, IL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,9,2026-11-09,8:15 PM,Buffalo Bills,BUF,Minnesota Vikings,MIN,U.S. Bank Stadium,"Minneapolis, MN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-9,2026-08-05
+2026,10,2026-11-12,8:15 PM,Washington Commanders,WAS,New York Giants,NYG,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,9:30 AM,New England Patriots,NE,Detroit Lions,DET,FC Bayern Munich Arena,"Munich, Germany",true,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,1:00 PM,Buffalo Bills,BUF,New York Jets,NYJ,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,1:00 PM,Carolina Panthers,CAR,New Orleans Saints,NO,Caesars Superdome,"New Orleans, LA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,1:00 PM,Houston Texans,HOU,Cleveland Browns,CLE,Huntington Bank Field,"Cleveland, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,1:00 PM,Jacksonville Jaguars,JAX,Tennessee Titans,TEN,Nissan Stadium,"Nashville, TN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,1:00 PM,Kansas City Chiefs,KC,Atlanta Falcons,ATL,Mercedes-Benz Stadium,"Atlanta, GA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,1:00 PM,Miami Dolphins,MIA,Indianapolis Colts,IND,Lucas Oil Stadium,"Indianapolis, IN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,1:00 PM,Minnesota Vikings,MIN,Green Bay Packers,GB,Lambeau Field,"Green Bay, WI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,4:05 PM,Seattle Seahawks,SEA,Las Vegas Raiders,LV,Allegiant Stadium,"Las Vegas, NV",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,4:25 PM,Los Angeles Rams,LAR,Arizona Cardinals,ARI,State Farm Stadium,"Glendale, AZ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,4:25 PM,San Francisco 49ers,SF,Dallas Cowboys,DAL,AT&T Stadium,"Arlington, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-15,8:20 PM,Pittsburgh Steelers,PIT,Cincinnati Bengals,CIN,Paycor Stadium,"Cincinnati, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,10,2026-11-16,8:15 PM,Baltimore Ravens,BAL,Los Angeles Chargers,LAC,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-10,2026-08-05
+2026,11,2026-11-19,8:15 PM,Indianapolis Colts,IND,Houston Texans,HOU,NRG Stadium,"Houston, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,1:00 PM,Arizona Cardinals,ARI,Kansas City Chiefs,KC,GEHA Field at Arrowhead Stadium,"Kansas City, MO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,1:00 PM,Baltimore Ravens,BAL,Carolina Panthers,CAR,Bank of America Stadium,"Charlotte, NC",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,1:00 PM,Jacksonville Jaguars,JAX,New York Giants,NYG,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,1:00 PM,Miami Dolphins,MIA,Buffalo Bills,BUF,Highmark Stadium,"Orchard Park, NY",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,1:00 PM,New Orleans Saints,NO,Chicago Bears,CHI,Soldier Field,"Chicago, IL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,1:00 PM,Tampa Bay Buccaneers,TB,Detroit Lions,DET,Ford Field,"Detroit, MI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,1:00 PM,Tennessee Titans,TEN,Dallas Cowboys,DAL,AT&T Stadium,"Arlington, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,4:05 PM,New York Jets,NYJ,Los Angeles Chargers,LAC,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,4:25 PM,Las Vegas Raiders,LV,Denver Broncos,DEN,Empower Field at Mile High,"Denver, CO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,4:25 PM,Pittsburgh Steelers,PIT,Philadelphia Eagles,PHI,Lincoln Financial Field,"Philadelphia, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-22,8:20 PM,Minnesota Vikings,MIN,San Francisco 49ers,SF,Estadio Banorte,"Mexico City, Mexico",true,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,11,2026-11-23,8:15 PM,Cincinnati Bengals,CIN,Washington Commanders,WAS,Northwest Stadium,"Landover, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-11,2026-08-05
+2026,12,2026-11-25,8:00 PM,Green Bay Packers,GB,Los Angeles Rams,LAR,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-26,1:00 PM,Chicago Bears,CHI,Detroit Lions,DET,Ford Field,"Detroit, MI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-26,4:30 PM,Philadelphia Eagles,PHI,Dallas Cowboys,DAL,AT&T Stadium,"Arlington, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-26,8:20 PM,Kansas City Chiefs,KC,Buffalo Bills,BUF,Highmark Stadium,"Orchard Park, NY",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-27,3:00 PM,Denver Broncos,DEN,Pittsburgh Steelers,PIT,Acrisure Stadium,"Pittsburgh, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,1:00 PM,Atlanta Falcons,ATL,Minnesota Vikings,MIN,U.S. Bank Stadium,"Minneapolis, MN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,1:00 PM,Baltimore Ravens,BAL,Houston Texans,HOU,NRG Stadium,"Houston, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,1:00 PM,Las Vegas Raiders,LV,Cleveland Browns,CLE,Huntington Bank Field,"Cleveland, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,1:00 PM,New Orleans Saints,NO,Cincinnati Bengals,CIN,Paycor Stadium,"Cincinnati, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,1:00 PM,New York Giants,NYG,Indianapolis Colts,IND,Lucas Oil Stadium,"Indianapolis, IN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,1:00 PM,New York Jets,NYJ,Miami Dolphins,MIA,Hard Rock Stadium,"Miami Gardens, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,4:05 PM,Tennessee Titans,TEN,Jacksonville Jaguars,JAX,EverBank Stadium,"Jacksonville, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,4:25 PM,Seattle Seahawks,SEA,San Francisco 49ers,SF,Levi's Stadium,"Santa Clara, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,4:25 PM,Washington Commanders,WAS,Arizona Cardinals,ARI,State Farm Stadium,"Glendale, AZ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-29,8:20 PM,New England Patriots,NE,Los Angeles Chargers,LAC,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,12,2026-11-30,8:15 PM,Carolina Panthers,CAR,Tampa Bay Buccaneers,TB,Raymond James Stadium,"Tampa, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-12,2026-08-05
+2026,13,2026-12-03,8:15 PM,Kansas City Chiefs,KC,Los Angeles Rams,LAR,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,1:00 PM,Cincinnati Bengals,CIN,Cleveland Browns,CLE,Huntington Bank Field,"Cleveland, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,1:00 PM,Detroit Lions,DET,Atlanta Falcons,ATL,Mercedes-Benz Stadium,"Atlanta, GA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,1:00 PM,Green Bay Packers,GB,New Orleans Saints,NO,Caesars Superdome,"New Orleans, LA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,1:00 PM,Jacksonville Jaguars,JAX,Chicago Bears,CHI,Soldier Field,"Chicago, IL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,1:00 PM,Los Angeles Chargers,LAC,Tampa Bay Buccaneers,TB,Raymond James Stadium,"Tampa, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,1:00 PM,San Francisco 49ers,SF,New York Giants,NYG,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,1:00 PM,Washington Commanders,WAS,Tennessee Titans,TEN,Nissan Stadium,"Nashville, TN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,4:05 PM,Miami Dolphins,MIA,Denver Broncos,DEN,Empower Field at Mile High,"Denver, CO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,4:05 PM,Philadelphia Eagles,PHI,Arizona Cardinals,ARI,State Farm Stadium,"Glendale, AZ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,4:25 PM,Buffalo Bills,BUF,New England Patriots,NE,Gillette Stadium,"Foxborough, MA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,4:25 PM,Carolina Panthers,CAR,Minnesota Vikings,MIN,U.S. Bank Stadium,"Minneapolis, MN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-06,8:20 PM,Houston Texans,HOU,Pittsburgh Steelers,PIT,Acrisure Stadium,"Pittsburgh, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,13,2026-12-07,8:15 PM,Dallas Cowboys,DAL,Seattle Seahawks,SEA,Lumen Field,"Seattle, WA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-13,2026-08-05
+2026,14,2026-12-10,8:15 PM,Minnesota Vikings,MIN,New England Patriots,NE,Gillette Stadium,"Foxborough, MA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,1:00 PM,Atlanta Falcons,ATL,Cleveland Browns,CLE,Huntington Bank Field,"Cleveland, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,1:00 PM,Chicago Bears,CHI,Miami Dolphins,MIA,Hard Rock Stadium,"Miami Gardens, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,1:00 PM,Denver Broncos,DEN,New York Jets,NYJ,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,1:00 PM,Houston Texans,HOU,Washington Commanders,WAS,Northwest Stadium,"Landover, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,1:00 PM,Indianapolis Colts,IND,Philadelphia Eagles,PHI,Lincoln Financial Field,"Philadelphia, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,1:00 PM,New Orleans Saints,NO,Carolina Panthers,CAR,Bank of America Stadium,"Charlotte, NC",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,1:00 PM,Tampa Bay Buccaneers,TB,Baltimore Ravens,BAL,M&T Bank Stadium,"Baltimore, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,1:00 PM,Tennessee Titans,TEN,Detroit Lions,DET,Ford Field,"Detroit, MI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,4:05 PM,Los Angeles Chargers,LAC,Las Vegas Raiders,LV,Allegiant Stadium,"Las Vegas, NV",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,4:25 PM,Kansas City Chiefs,KC,Cincinnati Bengals,CIN,Paycor Stadium,"Cincinnati, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,4:25 PM,Los Angeles Rams,LAR,San Francisco 49ers,SF,Levi's Stadium,"Santa Clara, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,4:25 PM,New York Giants,NYG,Seattle Seahawks,SEA,Lumen Field,"Seattle, WA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-13,8:20 PM,Buffalo Bills,BUF,Green Bay Packers,GB,Lambeau Field,"Green Bay, WI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,14,2026-12-14,8:15 PM,Pittsburgh Steelers,PIT,Jacksonville Jaguars,JAX,EverBank Stadium,"Jacksonville, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-14,2026-08-05
+2026,15,2026-12-17,8:15 PM,San Francisco 49ers,SF,Los Angeles Chargers,LAC,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-19,5:00 PM,Seattle Seahawks,SEA,Philadelphia Eagles,PHI,Lincoln Financial Field,"Philadelphia, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-19,8:20 PM,Chicago Bears,CHI,Buffalo Bills,BUF,Highmark Stadium,"Orchard Park, NY",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,1:00 PM,Atlanta Falcons,ATL,Washington Commanders,WAS,Northwest Stadium,"Landover, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,1:00 PM,Baltimore Ravens,BAL,Pittsburgh Steelers,PIT,Acrisure Stadium,"Pittsburgh, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,1:00 PM,Cincinnati Bengals,CIN,Carolina Panthers,CAR,Bank of America Stadium,"Charlotte, NC",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,1:00 PM,Cleveland Browns,CLE,New York Giants,NYG,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,1:00 PM,Indianapolis Colts,IND,Tennessee Titans,TEN,Nissan Stadium,"Nashville, TN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,1:00 PM,Jacksonville Jaguars,JAX,Houston Texans,HOU,NRG Stadium,"Houston, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,1:00 PM,Miami Dolphins,MIA,Green Bay Packers,GB,Lambeau Field,"Green Bay, WI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,1:00 PM,New Orleans Saints,NO,Tampa Bay Buccaneers,TB,Raymond James Stadium,"Tampa, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,4:05 PM,New York Jets,NYJ,Arizona Cardinals,ARI,State Farm Stadium,"Glendale, AZ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,4:25 PM,Dallas Cowboys,DAL,Los Angeles Rams,LAR,SoFi Stadium,"Inglewood, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,4:25 PM,Denver Broncos,DEN,Las Vegas Raiders,LV,Allegiant Stadium,"Las Vegas, NV",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-20,8:20 PM,Detroit Lions,DET,Minnesota Vikings,MIN,U.S. Bank Stadium,"Minneapolis, MN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,15,2026-12-21,8:15 PM,New England Patriots,NE,Kansas City Chiefs,KC,GEHA Field at Arrowhead Stadium,"Kansas City, MO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-15,2026-08-05
+2026,16,2026-12-24,8:15 PM,Houston Texans,HOU,Philadelphia Eagles,PHI,Lincoln Financial Field,"Philadelphia, PA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-25,1:00 PM,Green Bay Packers,GB,Chicago Bears,CHI,Soldier Field,"Chicago, IL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-25,4:30 PM,Buffalo Bills,BUF,Denver Broncos,DEN,Empower Field at Mile High,"Denver, CO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-25,8:15 PM,Los Angeles Rams,LAR,Seattle Seahawks,SEA,Lumen Field,"Seattle, WA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,1:00 PM,Arizona Cardinals,ARI,New Orleans Saints,NO,Caesars Superdome,"New Orleans, LA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,1:00 PM,Cleveland Browns,CLE,Baltimore Ravens,BAL,M&T Bank Stadium,"Baltimore, MD",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,1:00 PM,Los Angeles Chargers,LAC,Miami Dolphins,MIA,Hard Rock Stadium,"Miami Gardens, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,1:00 PM,New England Patriots,NE,New York Jets,NYJ,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,4:05 PM,Tennessee Titans,TEN,Las Vegas Raiders,LV,Allegiant Stadium,"Las Vegas, NV",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,4:25 PM,Carolina Panthers,CAR,Pittsburgh Steelers,PIT,Acrisure Stadium,"Pittsburgh, PA",false,flex_pending,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,4:25 PM,Cincinnati Bengals,CIN,Indianapolis Colts,IND,Lucas Oil Stadium,"Indianapolis, IN",false,flex_pending,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,4:25 PM,San Francisco 49ers,SF,Kansas City Chiefs,KC,GEHA Field at Arrowhead Stadium,"Kansas City, MO",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,4:25 PM,Tampa Bay Buccaneers,TB,Atlanta Falcons,ATL,Mercedes-Benz Stadium,"Atlanta, GA",false,flex_pending,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,4:25 PM,Washington Commanders,WAS,Minnesota Vikings,MIN,U.S. Bank Stadium,"Minneapolis, MN",false,flex_pending,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-27,8:20 PM,Jacksonville Jaguars,JAX,Dallas Cowboys,DAL,AT&T Stadium,"Arlington, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,16,2026-12-28,8:15 PM,New York Giants,NYG,Detroit Lions,DET,Ford Field,"Detroit, MI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-16,2026-08-05
+2026,17,2026-12-31,8:15 PM,Baltimore Ravens,BAL,Cincinnati Bengals,CIN,Paycor Stadium,"Cincinnati, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,1:00 PM,Buffalo Bills,BUF,Miami Dolphins,MIA,Hard Rock Stadium,"Miami Gardens, FL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,1:00 PM,Indianapolis Colts,IND,Cleveland Browns,CLE,Huntington Bank Field,"Cleveland, OH",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,1:00 PM,Minnesota Vikings,MIN,New York Jets,NYJ,MetLife Stadium,"East Rutherford, NJ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,1:00 PM,New Orleans Saints,NO,Atlanta Falcons,ATL,Mercedes-Benz Stadium,"Atlanta, GA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,1:00 PM,New York Giants,NYG,Dallas Cowboys,DAL,AT&T Stadium,"Arlington, TX",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,1:00 PM,Pittsburgh Steelers,PIT,Tennessee Titans,TEN,Nissan Stadium,"Nashville, TN",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,1:00 PM,Seattle Seahawks,SEA,Carolina Panthers,CAR,Bank of America Stadium,"Charlotte, NC",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,4:05 PM,Las Vegas Raiders,LV,Arizona Cardinals,ARI,State Farm Stadium,"Glendale, AZ",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,4:25 PM,Denver Broncos,DEN,New England Patriots,NE,Gillette Stadium,"Foxborough, MA",false,flex_pending,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,4:25 PM,Detroit Lions,DET,Chicago Bears,CHI,Soldier Field,"Chicago, IL",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,4:25 PM,Kansas City Chiefs,KC,Los Angeles Chargers,LAC,SoFi Stadium,"Inglewood, CA",false,flex_pending,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,4:25 PM,Los Angeles Rams,LAR,Tampa Bay Buccaneers,TB,Raymond James Stadium,"Tampa, FL",false,flex_pending,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,4:25 PM,Washington Commanders,WAS,Jacksonville Jaguars,JAX,EverBank Stadium,"Jacksonville, FL",false,flex_pending,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-03,8:20 PM,Philadelphia Eagles,PHI,San Francisco 49ers,SF,Levi's Stadium,"Santa Clara, CA",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,17,2027-01-04,8:15 PM,Houston Texans,HOU,Green Bay Packers,GB,Lambeau Field,"Green Bay, WI",false,scheduled,https://www.nfl.com/schedules/2026/by-week/week-17,2026-08-05
+2026,18,,,Cleveland Browns,CLE,Cincinnati Bengals,CIN,Paycor Stadium,"Cincinnati, OH",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Los Angeles Chargers,LAC,Denver Broncos,DEN,Empower Field at Mile High,"Denver, CO",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,New York Jets,NYJ,Buffalo Bills,BUF,Highmark Stadium,"Orchard Park, NY",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Atlanta Falcons,ATL,Carolina Panthers,CAR,Bank of America Stadium,"Charlotte, NC",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Chicago Bears,CHI,Minnesota Vikings,MIN,U.S. Bank Stadium,"Minneapolis, MN",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Dallas Cowboys,DAL,Washington Commanders,WAS,Northwest Stadium,"Landover, MD",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Detroit Lions,DET,Green Bay Packers,GB,Lambeau Field,"Green Bay, WI",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Jacksonville Jaguars,JAX,Indianapolis Colts,IND,Lucas Oil Stadium,"Indianapolis, IN",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Las Vegas Raiders,LV,Kansas City Chiefs,KC,GEHA Field at Arrowhead Stadium,"Kansas City, MO",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Miami Dolphins,MIA,New England Patriots,NE,Gillette Stadium,"Foxborough, MA",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Philadelphia Eagles,PHI,New York Giants,NYG,MetLife Stadium,"East Rutherford, NJ",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Pittsburgh Steelers,PIT,Baltimore Ravens,BAL,M&T Bank Stadium,"Baltimore, MD",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,San Francisco 49ers,SF,Arizona Cardinals,ARI,State Farm Stadium,"Glendale, AZ",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Seattle Seahawks,SEA,Los Angeles Rams,LAR,SoFi Stadium,"Inglewood, CA",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Tampa Bay Buccaneers,TB,New Orleans Saints,NO,Caesars Superdome,"New Orleans, LA",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
+2026,18,,,Tennessee Titans,TEN,Houston Texans,HOU,NRG Stadium,"Houston, TX",false,date_time_tbd,https://www.nfl.com/schedules/2026/by-week/week-18,2026-08-05
