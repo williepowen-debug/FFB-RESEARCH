@@ -1,33 +1,39 @@
 # New England Patriots — 2026 Regular-Season Schedule
 
 - Last verified: 2026-08-05
-- Schedule scope: Weeks 1–18
-- Times omitted because NFL flex scheduling can change them.
+- Canonical data: [league/schedule/2026.csv](../../../../../league/schedule/2026.csv)
+- All dates and kickoff times are Eastern.
 
-| Week | Opponent |
-|---:|---|
-| 1 | at Seattle Seahawks |
-| 2 | vs. Pittsburgh Steelers |
-| 3 | at Jacksonville Jaguars |
-| 4 | at Buffalo Bills |
-| 5 | vs. Las Vegas Raiders |
-| 6 | vs. New York Jets |
-| 7 | at Chicago Bears |
-| 8 | at Miami Dolphins |
-| 9 | vs. Green Bay Packers |
-| 10 | at Detroit Lions |
-| 11 | BYE |
-| 12 | at Los Angeles Chargers |
-| 13 | vs. Buffalo Bills |
-| 14 | vs. Minnesota Vikings |
-| 15 | at Kansas City Chiefs |
-| 16 | at New York Jets |
-| 17 | vs. Denver Broncos |
-| 18 | vs. Miami Dolphins |
+| Week | Date (ET) | Kickoff (ET) | Opponent | Venue | Status |
+|---:|---|---|---|---|---|
+| 1 | 2026-09-09 | 8:20 PM | at Seattle Seahawks | Lumen Field | scheduled |
+| 2 | 2026-09-20 | 1:00 PM | vs. Pittsburgh Steelers | Gillette Stadium | scheduled |
+| 3 | 2026-09-27 | 1:00 PM | at Jacksonville Jaguars | EverBank Stadium | scheduled |
+| 4 | 2026-10-04 | 1:00 PM | at Buffalo Bills | Highmark Stadium | scheduled |
+| 5 | 2026-10-11 | 1:00 PM | vs. Las Vegas Raiders | Gillette Stadium | scheduled |
+| 6 | 2026-10-18 | 1:00 PM | vs. New York Jets | Gillette Stadium | scheduled |
+| 7 | 2026-10-22 | 8:15 PM | at Chicago Bears | Soldier Field | scheduled |
+| 8 | 2026-11-01 | 4:25 PM | at Miami Dolphins | Hard Rock Stadium | scheduled |
+| 9 | 2026-11-08 | 4:25 PM | vs. Green Bay Packers | Gillette Stadium | scheduled |
+| 10 | 2026-11-15 | 9:30 AM | at Detroit Lions | FC Bayern Munich Arena | scheduled |
+| 11 | — | — | BYE | — | bye |
+| 12 | 2026-11-29 | 8:20 PM | at Los Angeles Chargers | SoFi Stadium | scheduled |
+| 13 | 2026-12-06 | 4:25 PM | vs. Buffalo Bills | Gillette Stadium | scheduled |
+| 14 | 2026-12-10 | 8:15 PM | vs. Minnesota Vikings | Gillette Stadium | scheduled |
+| 15 | 2026-12-21 | 8:15 PM | at Kansas City Chiefs | GEHA Field at Arrowhead Stadium | scheduled |
+| 16 | 2026-12-27 | 1:00 PM | at New York Jets | MetLife Stadium | scheduled |
+| 17 | 2027-01-03 | 4:25 PM | vs. Denver Broncos | Gillette Stadium | flex_pending |
+| 18 | TBD | TBD | vs. Miami Dolphins | Gillette Stadium | date_time_tbd |
+
+## Status notes
+
+- `scheduled`: currently assigned date and kickoff.
+- `flex_pending`: specifically designated for late-season flexible scheduling.
+- `date_time_tbd`: the NFL has not yet assigned the date or kickoff.
+- Week 18 dates and times will be assigned after Week 17.
 
 ## Sources
 
 - [NFL 2026 schedule](https://www.nfl.com/schedules/2026/)
-- [FFToday 2026 schedule grid](https://www.fftoday.com/nfl/schedule.php)
-
-Home/away labels follow the official designation; some international games are played at neutral venues.
+- [NFL international slate](https://operations.nfl.com/programs-initiatives/international-growth/nfl-international-games)
+- [FFToday schedule grid](https://www.fftoday.com/nfl/schedule.php) as a cross-check
