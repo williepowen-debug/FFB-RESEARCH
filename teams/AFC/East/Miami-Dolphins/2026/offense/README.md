@@ -8,7 +8,7 @@ This directory treats the offense as a connected system rather than a collection
 - [`malik-willis-transition.md`](malik-willis-transition.md): the Green Bay evidence, starting-role projection, rushing value, and passing-volume risks.
 - [`receiving-hierarchy.md`](receiving-hierarchy.md): current wide-receiver and tight-end role hypotheses after the room reset.
 - [`devon-achane-usage.md`](devon-achane-usage.md): rushing, receiving, two-minute, and scoring-opportunity scenarios.
-- [`offensive-line-and-protection.md`](offensive-line-and-protection.md): projected five, run-scheme fit, protection dependencies, and depth risks.
+- [`offensive-line/`](offensive-line/): dedicated unit study covering personnel, run blocking, pass protection, depth, fantasy transmission, and live monitoring.
 - [`hypotheses.csv`](hypotheses.csv): machine-readable questions with confirming and disconfirming evidence.
 
 ## Evidence boundary
