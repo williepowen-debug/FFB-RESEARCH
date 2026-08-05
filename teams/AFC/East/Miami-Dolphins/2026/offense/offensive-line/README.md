@@ -78,6 +78,7 @@ This is a projection, not a settled official depth chart. The stable camp combin
 - [`personnel.md`](personnel.md): player-by-player assessment and roster roles.
 - [`run-blocking.md`](run-blocking.md): concept fit, directional hypotheses, and charting plan.
 - [`pass-protection.md`](pass-protection.md): the primary uncertainty and diagnostic framework.
+- [`../slowik-willis-protection.md`](../slowik-willis-protection.md): Slowik's mitigation tools, Willis's pressure behavior, and the center-quarterback protection interface.
 - [`depth-and-contingencies.md`](depth-and-contingencies.md): injury responses and unit failure scenarios.
 - [`fantasy-impact.md`](fantasy-impact.md): transmission to quarterbacks, backs, receivers, and tight ends.
 - [`monitoring.md`](monitoring.md): live questions, evidence standards, and update rules.

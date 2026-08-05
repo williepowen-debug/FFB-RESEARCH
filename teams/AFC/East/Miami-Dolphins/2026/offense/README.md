@@ -6,6 +6,7 @@ This directory treats the offense as a connected system rather than a collection
 
 - [`offensive-ecosystem.md`](offensive-ecosystem.md): integrated baseline, causal relationships, ranked uncertainties, and fantasy implications.
 - [`malik-willis-transition.md`](malik-willis-transition.md): the Green Bay evidence, starting-role projection, rushing value, and passing-volume risks.
+- [`slowik-willis-protection.md`](slowik-willis-protection.md): protection design, the Brewer-Willis decision interface, pressure answers, and misleading fantasy signals.
 - [`receiving-hierarchy.md`](receiving-hierarchy.md): current wide-receiver and tight-end role hypotheses after the room reset.
 - [`devon-achane-usage.md`](devon-achane-usage.md): rushing, receiving, two-minute, and scoring-opportunity scenarios.
 - [`offensive-line/`](offensive-line/): dedicated unit study covering personnel, run blocking, pass protection, depth, fantasy transmission, and live monitoring.
@@ -23,5 +24,6 @@ Dated camp observations remain canonical in [`../preseason/evidence-log.csv`](..
 2. Does Willis remain efficient when asked to sustain full-game passing volume?
 3. Which pass catchers remain on the field in 11 personnel, two-minute offense, third down, and the red zone?
 4. Can the projected line stabilize its five-man combination and protect without sacrificing the multiple run game?
+5. Can Brewer and Willis identify and answer pressure while preserving the full route menu?
 
 Last verified: 2026-08-05.
