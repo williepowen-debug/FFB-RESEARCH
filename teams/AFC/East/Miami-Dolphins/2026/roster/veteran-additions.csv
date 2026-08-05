@@ -1,4 +1,15 @@
 player,position,acquisition_type,transaction_date,current_status_as_of_2026_08_05,role_or_competition,source_url,last_verified
+Cam Miller,QB,Signed from Las Vegas practice squad,2026-01-01,active,Quarterback competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Donovan Edwards,RB,Signed from Washington practice squad,2026-01-01,active,Running-back and special-teams competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Keith Cooper Jr.,DL,Reserve/future contract,2026-01-03,active,Defensive-line competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Braeden Daniels,G/T,Reserve/future contract,2026-01-03,waived_2026-05-21,Historical offensive-line acquisition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Cole Turner,TE,Reserve/future contract,2026-01-03,active,Tight-end competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Carter Warren,OT,Reserve/future contract,2026-01-03,reserve_injured_2026-06-15,Offensive-line depth when available,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Omar Brown,DB,Reserve/future contract,2026-01-13,active,Secondary and special-teams competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Seth Coleman,EDGE,Reserve/future contract,2026-01-21,active,Edge and special-teams competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Terrace Marshall Jr.,WR,Reserve/future contract,2026-02-04,active,Receiver competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Zack Kuntz,TE,Reserve/future contract,2026-02-06,waived_2026-05-04,Historical tight-end acquisition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Miles Battle,CB,Free agent,2026-02-11,active,Cornerback and special-teams competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
 Malik Willis,QB,Unrestricted free agent,2026-03-12,active,Intended starting quarterback; verify first-team share,https://www.miamidolphins.com/free-agency/,2026-08-05
 Tutu Atwell,WR,Unrestricted free agent,2026-03-13,active,Receiver and return competition,https://www.miamidolphins.com/free-agency/,2026-08-05
 Jalen Tolbert,WR,Unrestricted free agent,2026-03-16,active,Receiver competition,https://www.miamidolphins.com/free-agency/,2026-08-05
@@ -22,3 +33,8 @@ Major Burns,S,Free agent,2026-06-15,active,Safety and special-teams competition,
 Zane Gonzalez,K,Unrestricted free agent,2026-03-12,active,Kicker competition,https://www.miamidolphins.com/free-agency/,2026-08-05
 Bradley Pinion,P,Unrestricted free agent,2026-03-20,active,Leading punter candidate,https://www.miamidolphins.com/free-agency/,2026-08-05
 Tucker Addington,LS,Free agent,2026-03-13,active,Long-snapper role,https://www.miamidolphins.com/free-agency/,2026-08-05
+Seth Vernon,P,Free agent,2026-03-13,waived_2026-05-04,Historical punter acquisition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Taybor Pepper,LS,Free agent,2026-03-19,released_2026-05-04,Historical long-snapper acquisition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+James Ester,DL,Waiver claim from Green Bay,2026-05-14,active,Defensive-line competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Marques Cox,OT,Free agent,2026-05-21,active,Offensive-line depth competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
+Carlos Washington Jr.,RB,Free agent,2026-05-21,active,Running-back competition,https://www.miamidolphins.com/team/transactions/,2026-08-05
