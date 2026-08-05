@@ -28,6 +28,8 @@ The supporting machine-readable files are:
 
 - [Leadership transition](coaching-staff/leadership-transition.csv)
 - [Complete 2026 coaching staff](coaching-staff/staff.csv)
+- [Coaching intelligence module](coaching-staff/README.md)
+- [Coaching and scheme watchlist](coaching-staff/scheme-watchlist.md)
 - [Veteran additions](roster/veteran-additions.csv)
 - [Departures](roster/departures.csv)
 - [Retentions and extensions](roster/retentions.csv)
@@ -108,7 +110,7 @@ The coordinator changes were:
 
 Six 2025 assistants were retained: Slowik, Joe Barry, Austin Clark, Lemuel Jeanpierre, Jonathan Krause, and DeShawn Shead. Slowik's promotion from senior pass-game coordinator creates some terminology and personnel continuity, but McDaniel was the former designer and play-caller. The offense should not be treated as unchanged.
 
-The complete role-level staff and retention flags are in [staff.csv](coaching-staff/staff.csv).
+The complete role-level staff and retention flags are in [staff.csv](coaching-staff/staff.csv). Authority, staff connections, coach profiles, and measurable scheme hypotheses are organized in the [coaching intelligence module](coaching-staff/README.md).
 
 ### Analytical projection
 
@@ -122,7 +124,7 @@ Track the full snap operation, kickoff role, field-goal attempts by distance, an
 
 ## Current depth chart
 
-No team-local depth-chart record has been activated yet. Generate or add the first record when preseason usage provides evidence for the quarterback, receiver, offensive-line, edge, cornerback, safety, and specialist competitions.
+The first [projected preseason depth chart](preseason/depth-charts/2026-08-05-projected.md) is active as a dated, non-official snapshot. Replace it with superseding snapshots when personnel ordering changes materially; do not overwrite its historical state.
 
 ## Canonical player profiles
 
