@@ -30,6 +30,8 @@ The supporting machine-readable files are:
 - [Complete 2026 coaching staff](coaching-staff/staff.csv)
 - [Coaching intelligence module](coaching-staff/README.md)
 - [Coaching and scheme watchlist](coaching-staff/scheme-watchlist.md)
+- [Offensive ecosystem module](offense/README.md)
+- [Offensive hypotheses](offense/hypotheses.csv)
 - [Veteran additions](roster/veteran-additions.csv)
 - [Departures](roster/departures.csv)
 - [Retentions and extensions](roster/retentions.csv)
@@ -74,8 +76,8 @@ The quarterback profile changed from Tagovailoa's timing, anticipation, and quic
 - Quinn Ewers's share of first-team work.
 - The first-team receiver combination, slot/boundary alignments, third-down targets, and red-zone packages.
 - Chris Bell's return from his late-2025 ACL tear and active/NFI placement.
-- Whether Proctor starts at guard or tackle, plus the starting guard combination.
-- Patrick Paul's development and Austin Jackson's availability.
+- Proctor's transition from college tackle to NFL left guard and Savaiinaea's move to right guard.
+- Patrick Paul's development, Austin Jackson's availability, and Charlie Heck's ability to replace Jackson at right tackle.
 - Whether the offense actually increases multiple-tight-end personnel.
 
 ## Defensive matchup profile
