@@ -62,6 +62,8 @@ Analytical label: “Hafley–Duggan defense” is useful shorthand for the auth
 
 Public philosophy is not observed regular-season behavior. Scheme rates must be established from preseason and game charting. Green Bay outcomes include different personnel and cannot be imported as Miami projections without adjustment.
 
+The complete 2024–25 Green Bay operating-model review is maintained in [`../defense/jeff-hafley-green-bay-audit.md`](../defense/jeff-hafley-green-bay-audit.md). It establishes a zone-heavy, low-early-down/high-late-down pressure baseline while preserving the personnel and charting limitations that Miami must test.
+
 ## Sources
 
 - Miami Dolphins — [Jeff Hafley biography](https://www.miamidolphins.com/team/front-office-roster/jeff-hafley) — verified 2026-08-05.

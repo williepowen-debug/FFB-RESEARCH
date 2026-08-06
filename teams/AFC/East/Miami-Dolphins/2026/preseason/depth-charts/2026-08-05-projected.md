@@ -58,7 +58,7 @@ Miami's public depth-chart page was incomplete at verification time, and camp re
 | LB | Tyrel Dodson | Kyle Louis; Ronnie Harrison Jr.; Trey Moore | medium | Dodson is the incumbent projection; subpackage and hybrid usage remain unsettled. |
 | Outside CB | Chris Johnson | Darrell Baker Jr.; Ethan Bonner; Marco Wilson; Miles Battle | medium | Johnson projects to start and is cross-training at outside and nickel. Baker began camp on PUP. |
 | Outside CB | JuJu Brents | Alex Austin; Storm Duck; A.J. Green III | low | Brents is the roster-based projection; the opposite-boundary ordering lacks strong camp confirmation. |
-| Nickel | Jason Marshall Jr. / Chris Johnson | Ethan Robinson | low | Johnson's cross-training keeps this open; preseason alignment is the next decisive test. |
+| Nickel | Chris Johnson | Ethan Robinson; big-nickel safety unresolved | low | Johnson is the only candidate with a confirmed current inside/outside plan; Duggan views Marshall primarily outside, and Hafley may split the role by situation. |
 | Safety | Dante Trader Jr. | Michael Taaffe; Omar Brown; Louis Moore | medium | Trader is the leading returning safety projection but did not participate in August 4 team work. |
 | Safety | Lonnie Johnson Jr. / Zayne Anderson | Michael Taaffe; Major Burns | low | Johnson is day-to-day; Anderson has two reported camp interceptions and is actively pressing the competition. |
 

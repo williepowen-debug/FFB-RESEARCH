@@ -32,6 +32,8 @@ The supporting machine-readable files are:
 - [Coaching and scheme watchlist](coaching-staff/scheme-watchlist.md)
 - [Offensive ecosystem module](offense/README.md)
 - [Offensive hypotheses](offense/hypotheses.csv)
+- [Defensive ecosystem module](defense/README.md)
+- [Defensive hypotheses](defense/hypotheses.csv)
 - [Veteran additions](roster/veteran-additions.csv)
 - [Departures](roster/departures.csv)
 - [Retentions and extensions](roster/retentions.csv)
@@ -97,6 +99,8 @@ The secondary lost Fitzpatrick, Douglas, and Kohou. First-round cornerback Chris
 - Hafley's use of single-high, split-safety, press-man, and zone structures.
 
 These items affect opponent passing-game and protection matchups, but no final schematic profile should be assigned before preseason and early-season evidence.
+
+The durable defensive baseline, unit dependencies, position-group studies, fantasy translation, and charting plan are maintained in the [defensive ecosystem module](defense/README.md). Dated camp and preseason observations remain in the preseason workspace.
 
 ## Coaching and scheme
 
