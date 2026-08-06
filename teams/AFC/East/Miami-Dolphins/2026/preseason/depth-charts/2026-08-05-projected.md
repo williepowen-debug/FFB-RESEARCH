@@ -44,6 +44,7 @@ Miami's public depth-chart page was incomplete at verification time, and camp re
 | C | Aaron Brewer | Andrew Meyer; Jim Bonifas | high | Brewer is an established starter and line leader. |
 | RG | Jonah Savaiinaea | Josh Priebe; DJ Campbell | high | Savaiinaea has moved back to right guard. |
 | RT | Austin Jackson | Charlie Heck; Jamaree Salyer; Gottlieb Ayedze; Marques Cox | medium | Jackson remains the starter projection but is day-to-day; backup order is a live competition. |
+| Developmental OL | — | James Ester | low | Miami's official offensive-line preview says the former defensive lineman is converting to offense; exact line position is not established. |
 
 ## Defense
 
@@ -51,7 +52,7 @@ Miami's public depth-chart page was incomplete at verification time, and camp re
 |---|---|---|---|---|
 | EDGE | Chop Robinson | David Ojabo; Robert Beal Jr.; Max Llewellyn; Seth Coleman | high | Robinson is the lead pressure player and has been disruptive against run and pass. |
 | EDGE | Josh Uche | Clelin Ferrell; Cameron Goode; Trey Moore; David Ojabo | medium | Uche has the strongest early complementary pass-rush evidence; early-down and subpackage ordering remains open. |
-| DT | Zach Sieler | Zeek Biggers; Matthew Butler; James Ester | high | Sieler remains the established interior anchor. |
+| DT | Zach Sieler | Zeek Biggers; Matthew Butler | high | Sieler remains the established interior anchor. |
 | DT | Kenneth Grant | Jordan Phillips; Zeek Biggers; Alex Huntley; Keith Cooper Jr. | high | Grant is the returning first-round starter projection. Rene Konga is out for the season. |
 | LB | Jordyn Brooks | Jacob Rodriguez; Willie Gay Jr.; Jackson Woodard | high | Brooks is the every-down foundation; Rodriguez has become more visible in camp. |
 | LB | Tyrel Dodson | Kyle Louis; Ronnie Harrison Jr.; Trey Moore | medium | Dodson is the incumbent projection; subpackage and hybrid usage remain unsettled. |
@@ -88,6 +89,7 @@ Miami's public depth-chart page was incomplete at verification time, and camp re
 - Robinson is the lead edge; Uche has repeatedly reached the backfield and won one-on-ones.
 - Anderson's two reported interceptions have strengthened his safety case.
 - Jackson, Salyer, Dulcich, and Lonnie Johnson were described as day-to-day; Konga is out for the season.
+- James Ester is treated as a developmental offensive lineman, consistent with Miami's official position-group preview, rather than as defensive-line depth.
 
 ## Sources
 
