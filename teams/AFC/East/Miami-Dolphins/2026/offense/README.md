@@ -6,6 +6,7 @@ This directory treats the offense as a connected system rather than a collection
 
 - [`offensive-ecosystem.md`](offensive-ecosystem.md): integrated baseline, causal relationships, ranked uncertainties, and fantasy implications.
 - [`malik-willis-transition.md`](malik-willis-transition.md): the Green Bay evidence, starting-role projection, rushing value, and passing-volume risks.
+- [`malik-willis-green-bay-audit.md`](malik-willis-green-bay-audit.md): appearance-by-appearance Green Bay audit, demonstrated development, scheme protections, transfer limits, and Miami test plan.
 - [`slowik-willis-protection.md`](slowik-willis-protection.md): protection design, the Brewer-Willis decision interface, pressure answers, and misleading fantasy signals.
 - [`receiving-hierarchy.md`](receiving-hierarchy.md): current wide-receiver and tight-end role hypotheses after the room reset.
 - [`devon-achane-usage.md`](devon-achane-usage.md): rushing, receiving, two-minute, and scoring-opportunity scenarios.

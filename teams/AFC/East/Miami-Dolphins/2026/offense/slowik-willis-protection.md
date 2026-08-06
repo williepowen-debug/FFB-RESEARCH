@@ -34,6 +34,8 @@ The decisive variable is the **center-quarterback protection interface**: how Aa
 
 This creates an important false signal for fantasy analysis: **Willis can score well while Miami's passing ecosystem remains unhealthy.** Scrambles can convert failed protection into quarterback points while reducing attempts, designed running-back targets, and receiver route value.
 
+The companion [`malik-willis-green-bay-audit.md`](malik-willis-green-bay-audit.md) establishes the historical boundary for these tests. Green Bay verified high-level execution and downfield accuracy inside a tailored offense, but its three-start sample did not establish protection ownership, intermediate-middle consistency, or high-volume dropback performance.
+
 ## Evidence
 
 ### Historical Slowik evidence
