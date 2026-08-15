@@ -44,7 +44,7 @@ The supporting machine-readable files are:
 ### Confirmed baseline
 
 - John Harbaugh was dismissed on 2026-01-06; Jesse Minter was hired as head coach on 2026-01-22. GM Eric DeCosta remains.
-- New coordinators: Declan Doyle (offense, from Chicago; reported play-caller), Anthony Weaver (defense, from Miami), and Anthony Levine Sr. (special teams). Former OC Todd Monken left to become the Cleveland Browns' offensive coordinator.
+- New coordinators: Declan Doyle (offense, from Chicago; reported play-caller), Anthony Weaver (defense, from Miami), and Anthony Levine Sr. (special teams). Former OC Todd Monken left to become the Cleveland Browns' head coach.
 - Lamar Jackson returns at quarterback; Derrick Henry returns as the lead back; Zay Flowers was extended (four years, $140M through 2030); Rashod Bateman and Mark Andrews return.
 - The pass rush was rebuilt through free agency: Baltimore agreed to trade two first-round picks for Maxx Crosby, voided the deal after his failed physical, and then signed Trey Hendrickson (four years, $112M) away from division-rival Cincinnati.
 - The interior offensive line lost center Tyler Linderbaum (to Las Vegas); the tight-end room lost Isaiah Likely (Giants) and Charlie Kolar (Chargers). Baltimore added guard John Simpson and drafted first-round guard Vega Ioane.

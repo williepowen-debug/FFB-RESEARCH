@@ -25,7 +25,7 @@ coach_id: local-coach-declan-doyle
 
 ## Responsibilities
 
-Doyle designs and is reported to call the 2026 Ravens offense, replacing Todd Monken, who left to become the Cleveland Browns' offensive coordinator. Hired on 2026-02-02, Doyle is among the youngest play-callers in the NFL and arrives after serving as offensive coordinator on Ben Johnson's first Chicago staff in 2025. His central task is to build a system around Lamar Jackson's dual-threat profile and Derrick Henry's downhill running while integrating an extended Zay Flowers.
+Doyle designs and is reported to call the 2026 Ravens offense, replacing Todd Monken, who left to become the Cleveland Browns' head coach. Hired on 2026-02-02, Doyle is among the youngest play-callers in the NFL and arrives after serving as offensive coordinator on Ben Johnson's first Chicago staff in 2025. His central task is to build a system around Lamar Jackson's dual-threat profile and Derrick Henry's downhill running while integrating an extended Zay Flowers.
 
 ## Scheme and tendencies
 
