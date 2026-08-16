@@ -9,6 +9,7 @@ This file is the repository-level operating contract for human and LLM contribut
 3. Use `league/teams.csv` for canonical team names, abbreviations, and paths.
 4. Use `league/schedule/2026.csv` as the canonical schedule. Team-local `schedule.md` files are generated views.
 5. Read the closest template in `templates/` before creating a record.
+6. To build out a whole team, follow `TEAM_BUILD.md` (Core-tier layout, IDs, CSV headers, validation gate).
 
 ## Canonical sources
 
