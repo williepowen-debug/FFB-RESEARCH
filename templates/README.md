@@ -1,5 +1,9 @@
 # Templates
 
+To build out a whole team module, read [`TEAM_BUILD.md`](../TEAM_BUILD.md) first. It codifies the
+Core-tier layout, per-file record types and required sections, the ID scheme, canonical CSV
+headers, build order, and the validation gate.
+
 Copy the closest template before adding a new record:
 
 - `research-finding.md`

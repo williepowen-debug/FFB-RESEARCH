@@ -9,8 +9,8 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-05
-last_verified: 2026-08-05
+valid_as_of: 2026-08-06
+last_verified: 2026-08-06
 confidence: low
 source_ids: ["local-source-miami-dolphins", "local-source-nfl", "local-source-cbs-sports"]
 supersedes: []
@@ -24,7 +24,7 @@ supersedes: []
 - Area: alignment, route participation, situational usage, and target hierarchy
 - Season: 2026
 - Status: active preseason baseline
-- Last verified: 2026-08-05
+- Last verified: 2026-08-06
 
 ## Finding
 
@@ -38,8 +38,10 @@ Malik Washington currently has the strongest claim on stable receiver volume, wh
 - Jalen Tolbert's best NFL season produced 49 catches, 610 yards, and seven touchdowns in 2024. Tutu Atwell's best produced 42 catches for 562 yards; his career average is 14.6 yards per reception.
 - Miami drafted three stylistically different receivers: Caleb Douglas played flanker, Chris Bell played X, and Kevin Coleman Jr. worked primarily from the slot in college. Bell had not practiced by August 4 while rehabilitating an ACL injury.
 - Douglas has been moved among multiple receiver positions and has flashed in red-zone practice. Slowik also emphasized that his technique and ball security remain developmental.
-- Dulcich caught 16 of 18 targets for 222 yards and a touchdown over the final five games of 2025. Miami added blocking-oriented tight ends Will Kacmarek and Ben Sims plus receiving prospect Seydou Traore.
+- Miami's official August 6 roster lists 12 receivers: 11 active and Bell on active/NFI.
+- Dulcich caught 16 of 18 targets for 222 yards and a touchdown over the final five games of 2025. Miami added blocking-oriented tight ends Will Kacmarek and Ben Sims plus receiving prospect Seydou Traore, then expanded the room to six by claiming rookie Jeremiah Franklin on August 5.
 - Early camp reporting identifies Washington as the most consistent receiver, but reporting restrictions have limited public detail about personnel groupings and alignments.
+- The official August 6 practice notebook recorded another deep target to Washington and a 30-yard back-shoulder catch by Tolbert from Quinn Ewers. Those plays support broader route possibilities without establishing route or target shares.
 
 ### Current role hypotheses
 
@@ -49,8 +51,11 @@ Malik Washington currently has the strongest claim on stable receiver volume, wh
 | Jalen Tolbert | initial outside starter with red-zone potential | low | rookie Douglas or another veteran consistently takes first-unit outside routes |
 | Tutu Atwell | field-stretcher and motion player whose value may exceed target volume | low | limited routes, package-only use, or poor blocking fit |
 | Caleb Douglas | developmental outside receiver with contested-catch and red-zone upside | low | cannot earn first-unit routes or loses trust through assignment/ball-security errors |
+| Chris Bell | unavailable physical X/movement prospect with long-term upside | low | returns to full practice and rapidly earns team routes |
+| Kevin Coleman Jr. | slot/return challenger with reliable-hands evidence | low | wins independent third-down or return work rather than duplicating Washington |
 | Greg Dulcich | leading receiving tight end and credible middle-field target | medium | blocking demands remove him from core packages or Kacmarek/Traore wins more routes |
 | Will Kacmarek | blocking-led role that can unlock multiple personnel and play action | medium | pass protection or assignment errors prevent early playing time |
+| Jeremiah Franklin | late-camp H-back and special-teams competition | low | immediate first-unit work or a distinct passing-game package |
 
 ### Inferences
 
@@ -81,5 +86,8 @@ Malik Washington currently has the strongest claim on stable receiver volume, wh
 - Miami Dolphins — [Training Camp Preview 2026: Tight Ends](https://www.miamidolphins.com/news/training-camp-preview-2026-tight-ends) — published 2026-07-18.
 - Miami Dolphins — [Bobby Slowik press conference](https://www.miamidolphins.com/news/transcript-oc-bobby-slowik-press-conference-august-4) — published 2026-08-04.
 - Miami Dolphins — [Practice 6 training-camp notebook](https://www.miamidolphins.com/news/practice-6-2026-miami-dolphins-training-camp-notebook) — published 2026-08-04.
+- Miami Dolphins — [Practice 7 training-camp notebook](https://www.miamidolphins.com/news/practice-7-2026-miami-dolphins-training-camp-notebook) — published 2026-08-06.
+- Miami Dolphins — [Official roster](https://www.miamidolphins.com/team/players-roster/) — verified 2026-08-06.
+- Miami Dolphins — [Dolphins claim tight end Jeremiah Franklin](https://www.miamidolphins.com/news/dolphins-make-roster-moves-x4517) — published 2026-08-05.
 - NFL.com — [Greg Dulcich as a potential top Miami target](https://www.nfl.com/news/former-walk-on-greg-dulcich-could-be-top-target-for-malik-willis-in-dolphins-reclamation-project) — published 2026-06-07.
 - CBS Sports — [Dolphins 2026 fantasy outlook under Bobby Slowik](https://www.cbssports.com/fantasy/football/news/dolphins-2026-fantasy-football-outlook-offensive-coordinator-bobby-slowik/) — published 2026-06-09.
