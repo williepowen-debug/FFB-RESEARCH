@@ -26,6 +26,8 @@ supersedes: []
 - Status: active
 - Last verified: 2026-08-16
 
+This finding is the offense-level companion to the detailed [`offensive-line/README.md`](offensive-line/README.md) module. Dated camp and game observations remain in [`../preseason/evidence-log.csv`](../preseason/evidence-log.csv).
+
 ## Finding
 
 The Chargers are addressing Herbert's 2025 pressure problem with both personnel and structure. Herbert was sacked 54 times and faced a league-high 263 pressures while Los Angeles cycled through more than two dozen offensive-line combinations. The 2026 plan restores tackles Rashawn Slater and Joe Alt, installs Tyler Biadasz at center and Cole Strange at right guard, holds an open left-guard competition, and uses Mike McDaniel's run/pass marriage to reduce obvious straight-dropback situations.

@@ -1,0 +1,21 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-los-angeles-chargers,official_news,https://www.chargers.com/news/all-news,free,metadata_and_summary,Team news and camp-report index.,2026-08-16
+local-source-los-angeles-chargers,official_roster,https://www.chargers.com/team/players-roster/,free,structured_page,Current active roster and reserve lists.,2026-08-16
+local-source-los-angeles-chargers,official_transactions,https://www.chargers.com/team/transactions/app,free,structured_page,Dated transaction ledger.,2026-08-16
+local-source-los-angeles-chargers,official_depth_chart,https://www.chargers.com/team/depth-chart,free,structured_page,Team-issued unofficial ordering; not measured usage.,2026-08-16
+local-source-los-angeles-chargers,official_injury_report,https://www.chargers.com/team/injury-report/,free,structured_page,Use once regular-season reporting begins.,2026-08-16
+local-source-nfl-gamebooks,league_team_page,https://www.nfl.com/teams/los-angeles-chargers/,free,metadata_and_summary,Entry point for official games and statistics.,2026-08-16
+local-writer-kris-rhim,role_bio,https://espnpressroom.com/bio/kris-rhim/,free,metadata_and_summary,Confirms current ESPN NFL Nation assignment.,2026-08-16
+local-writer-kris-rhim,outlet_team_page,https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers,free,metadata_and_summary,ESPN Chargers reporting and reference page.,2026-08-16
+local-writer-fernando-ramirez,outlet_home,https://www.thesportingtribune.com/,free,metadata_and_summary,Current Chargers reporting appears on the outlet home and team coverage.,2026-08-16
+local-writer-fernando-ramirez,current_article,https://www.thesportingtribune.com/2026/07/29/chargers-camp-day-1-justin-herbert-comfortable-in-offense-olearys-defense-flying--tuipulotu-sits-out,free,manual,Confirms active on-site 2026 camp coverage.,2026-08-16
+local-writer-joaquin-ruiz,outlet_team_page,https://www.latimes.com/sports/chargers,mixed,metadata_and_summary,Los Angeles Times Chargers coverage index.,2026-08-16
+local-writer-joaquin-ruiz,current_article,https://www.latimes.com/sports/chargers/story/2026-07-30/tuli-tuipulotu-sitting-out-of-practice-as-he-chases-chargers-deal,mixed,metadata_and_summary,Example of current firsthand camp and availability reporting.,2026-08-16
+local-writer-eric-smith,author_page,https://www.chargers.com/author/eric-smith,free,metadata_and_summary,Team-employed editorial author page.,2026-08-16
+local-writer-omar-navarro,official_news,https://www.chargers.com/news/all-news,free,metadata_and_summary,Team news index carrying Navarro's reports and previews.,2026-08-16
+local-writer-sam-farmer,outlet_team_page,https://www.latimes.com/sports/chargers,mixed,metadata_and_summary,Selected on-site Chargers and broader NFL reporting.,2026-08-16
+local-writer-daniel-popper,role_change_announcement,https://x.com/danielrpopper/status/2081785570590945471,free,manual,Original announcement of the move from the Chargers beat to a national NFL role.,2026-08-16
+local-source-pfr,team_reference,https://www.pro-football-reference.com/teams/sdg/2026.htm,free,structured_page,Season roster statistics and later snap-count links.,2026-08-16
+local-source-over-the-cap,team_contracts,https://overthecap.com/salary-cap/los-angeles-chargers,free,structured_page,Contract and cap reference.,2026-08-16
+local-source-spotrac,team_contracts,https://www.spotrac.com/nfl/los-angeles-chargers/overview/,mixed,structured_page,Contract and transaction cross-check.,2026-08-16
+local-source-pff,outlet_home,https://www.pff.com/nfl/teams/los-angeles-chargers/27,paid,manual,Proprietary grades and charting; do not commit exports.,2026-08-16

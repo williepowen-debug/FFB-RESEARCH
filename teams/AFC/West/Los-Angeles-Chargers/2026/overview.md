@@ -21,7 +21,7 @@ supersedes: []
 - Conference/division: AFC West
 - Last verified: 2026-08-16
 - Scope: changes from the 2025 team to the 2026 preseason roster and staff
-- Build tier: Core
+- Build tier: Core plus Full-tier source, preseason, and offensive-line modules
 
 Los Angeles retained Head Coach Jim Harbaugh after a second consecutive 11-win playoff season but changed both play-callers. Mike McDaniel replaces Greg Roman with authority over the offense, and Chris O'Leary returns to replace new Baltimore Head Coach Jesse Minter on defense. The roster response was concentrated: rebuild the offensive line and tight-end room around Justin Herbert, retain the defense's central communicators, and add first-round edge rusher Akheem Mesidor.
 
@@ -31,13 +31,18 @@ The supporting files are:
 - [2026 coaching staff](coaching-staff/staff.csv)
 - [Coaching intelligence module](coaching-staff/README.md)
 - [Offensive research module](offense/README.md)
+- [Offensive-line research module](offense/offensive-line/README.md)
 - [Offensive hypotheses](offense/hypotheses.csv)
 - [Defensive research module](defense/README.md)
 - [Defensive hypotheses](defense/hypotheses.csv)
+- [Source registry and monitoring guide](beat-writers/README.md)
+- [Preseason intelligence workspace](preseason/README.md)
+- [Current unofficial depth chart](preseason/depth-charts/2026-08-16-unofficial.md)
 - [Veteran additions](roster/veteran-additions.csv)
 - [Departures](roster/departures.csv)
 - [Retentions and extensions](roster/retentions.csv)
 - [2026 draft class](roster/draft-class.csv)
+- [2026 undrafted free agents](roster/undrafted-free-agents.csv)
 - [2026 schedule](schedule.md)
 
 ## Fantasy-relevant snapshot
@@ -111,11 +116,11 @@ The offense should be treated as a true system transition with a credible effici
 
 ## Special teams
 
-Ryan Ficken returns for a fifth season as coordinator with assistant Chris Gould. Kicker Cameron Dicker and punter JK Scott return, while the long-snapper position was retained through Josh Harris. Rookie receiver Brenen Thompson is a return-role candidate. Special teams remains scaffolded at Core tier; role changes belong in weekly or preseason state if they become fantasy relevant.
+Ryan Ficken returns for a fifth season as coordinator with assistant Chris Gould. Kicker Cameron Dicker and punter JK Scott return, while the long-snapper position was retained through Josh Harris. The August 16 unofficial chart lists Derius Davis first at both return positions, with Brenen Thompson second on punts and Keaton Mitchell second on kickoffs. Special teams remains scaffolded as a durable module; dated role changes belong in the [preseason workspace](preseason/README.md) and later in `weekly/2026/`.
 
 ## Current depth chart
 
-No dated depth-chart snapshot is maintained at Core tier. Add one if the Chargers module is deepened to Full tier; weekly lineup state belongs under `weekly/2026/`.
+The current snapshot is the [August 16 team-issued unofficial depth chart](preseason/depth-charts/2026-08-16-unofficial.md). It records the published ordering without treating starter labels as proof of routes, touches, or subpackage usage. Later regular-season lineup state belongs under `weekly/2026/`.
 
 ## Canonical player profiles
 
@@ -135,3 +140,5 @@ The highest-leverage unknowns are the starting left guard and collective protect
 - Los Angeles Chargers — [2026 coaching staff](https://www.chargers.com/news/coaching-fellows-and-promotions-announcement-2026) — published 2026-05-21.
 - Los Angeles Chargers — [2026 offensive-line training-camp preview](https://www.chargers.com/news/2026-training-camp-preview-offensive-line-depth-chart) — published 2026-07-27.
 - Los Angeles Chargers — [How O'Leary plans to maintain defensive success](https://www.chargers.com/news/chris-oleary-jesse-minter-defensive-coordinator) — published 2026-02-03.
+- Los Angeles Chargers — [Live unofficial depth chart](https://www.chargers.com/team/depth-chart) — verified 2026-08-16.
+- Los Angeles Chargers — [18 undrafted free-agent signings](https://www.chargers.com/news/sign-five-members-2026-draft-class-18-undrafted-free-agents-2026) — published 2026-05-08.

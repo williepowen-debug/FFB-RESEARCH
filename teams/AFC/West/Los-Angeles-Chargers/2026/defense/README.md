@@ -7,6 +7,7 @@ The defense changes play-callers without discarding its foundation. Chris O'Lear
 - [`front-and-pressure-plan.md`](front-and-pressure-plan.md): front multiplicity, edge rotation, linebacker authority, and IDP implications.
 - [`secondary-and-coverage.md`](secondary-and-coverage.md): coverage continuity, Derwin James Jr.'s movable role, and the coordinator transition.
 - [`hypotheses.csv`](hypotheses.csv): falsifiable preseason and early-season tests.
+- [`../preseason/README.md`](../preseason/README.md): dated evidence, current answers, and depth-chart snapshots used to test those hypotheses.
 
 ## Priority order
 

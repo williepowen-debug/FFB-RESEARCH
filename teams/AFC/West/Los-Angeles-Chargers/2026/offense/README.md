@@ -5,8 +5,10 @@ The offense is a genuine 2026 reset: Mike McDaniel replaces Greg Roman as play-c
 ## Files
 
 - [`herbert-protection-and-structure.md`](herbert-protection-and-structure.md): the 2025 pressure failure, 2026 line rebuild, and scheme-based mitigation plan.
+- [`offensive-line/README.md`](offensive-line/README.md): full offensive-line module covering personnel, run blocking, protection, contingencies, fantasy impact, and monitoring.
 - [`skill-position-usage.md`](skill-position-usage.md): lead candidates and unresolved carry, route, target, and tight-end concentration.
 - [`hypotheses.csv`](hypotheses.csv): falsifiable preseason and early-season tests.
+- [`../preseason/README.md`](../preseason/README.md): dated evidence, current answers, and depth-chart snapshots used to test those hypotheses.
 
 ## Priority order
 

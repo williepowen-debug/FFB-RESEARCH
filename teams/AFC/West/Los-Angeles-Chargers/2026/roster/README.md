@@ -1,6 +1,6 @@
 # Los Angeles Chargers 2026 Roster Changes
 
-These machine-readable files preserve the personnel transition supporting the Chargers Core-tier module. Update time-sensitive status fields rather than deleting historical acquisition rows.
+These machine-readable files preserve the personnel transition supporting the Chargers module. Update time-sensitive status fields rather than deleting historical acquisition rows.
 
 ## Files
 
@@ -8,6 +8,7 @@ These machine-readable files preserve the personnel transition supporting the Ch
 - [`veteran-additions.csv`](veteran-additions.csv): external veteran additions relevant to the 2026 structure.
 - [`retentions.csv`](retentions.csv): re-signings, tenders, and extensions that preserve the core.
 - [`draft-class.csv`](draft-class.csv): all eight 2026 selections and their immediate monitoring questions.
+- [`undrafted-free-agents.csv`](undrafted-free-agents.csv): all 18 post-draft signings and their current roster disposition.
 
 ## Headline changes
 
@@ -15,6 +16,7 @@ These machine-readable files preserve the personnel transition supporting the Ch
 - Replaced Will Dissly and Tyler Conklin with a multiple tight-end group built around returning Oronde Gadsden plus David Njoku and Charlie Kolar.
 - Retained Kimani Vidal and added Keaton Mitchell behind Omarion Hampton after Najee Harris' contract expired.
 - Extended Khalil Mack, Teair Tart, and Derwin James Jr.; added Dalvin Tomlinson and first-round edge Akheem Mesidor after Odafe Oweh departed.
+- Signed 18 undrafted free agents on May 8. As of August 16, 15 remained on the active camp roster, Isaiah World was on Active/NFI, Jeremiah Wilson was on Reserve/Injured, and Niles King had been waived.
 
 The veteran-additions table intentionally focuses on external players with a plausible structural or fantasy role rather than every reserve/future and camp transaction. Contract values remain blank unless directly reported and necessary to interpret commitment.
 
