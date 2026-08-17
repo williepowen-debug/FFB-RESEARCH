@@ -5,6 +5,7 @@ League-wide research belongs here:
 - `scoring-formats/`
 - `positional-research/`
 - `schedule/`
+  - `schedule/strength-of-schedule/`
 - `injuries/`
 - `transactions/`
 - `rankings/`

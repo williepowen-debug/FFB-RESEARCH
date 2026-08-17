@@ -36,6 +36,7 @@ The likely direction is Montgomery leading carries and goal-line chances while S
 
 - Montgomery has immediate touchdown and standard/half-PPR relevance if he owns early downs and inside-the-10 work.
 - Woody Marks and Jawhar Jordan need route and two-minute evidence before they are more than contingent PPR stashes.
+- A dated betting-market snapshot as of 2026-08-17 prices Montgomery ahead of Marks, but with enough committee risk to avoid treating him as a locked three-down back.
 - Schultz remains draftable in PPR and tight-end-premium formats, but a larger tight-end room can lower route share even while helping the real offense.
 - Moreau and Klein are better treated as usage-watch players than draft targets unless preseason routes show a concentrated role.
 
@@ -55,6 +56,7 @@ The likely direction is Montgomery leading carries and goal-line chances while S
 - Houston Texans - [2026 draft class](https://www.houstontexans.com/news/2026-houston-texans-full-draft-class) - published 2026-04-25.
 - Houston Texans - [current roster](https://www.houstontexans.com/team/players-roster/) - verified 2026-08-17.
 - Houston Chronicle - [Texans 53-man roster projection](https://www.houstonchronicle.com/sports/texans/article/53-man-roster-projection-houston-22390507.php) - published 2026-08-17.
+- FFB Research - [Montgomery vs. Marks betting-market snapshot](montgomery-marks-betting-market-2026-08-17.md) - verified 2026-08-17.
 
 ## Assessment
 
@@ -63,4 +65,3 @@ The likely direction is Montgomery leading carries and goal-line chances while S
 - Fact/inference boundary: Mixon's release, Montgomery's trade, Schultz's extension, Moreau's signing, and Klein's draft slot are facts. Montgomery's touchdown share and Schultz's route share are projections.
 - What would invalidate this: Marks or Jordan taking first-team passing downs, Montgomery leaving the field near the goal line, or Moreau/Klein significantly out-routing Schultz in first-team packages.
 - Next review: Each preseason game for running-back third-down snaps, inside-10 touches, tight-end routes, and 12-personnel pass rate.
-

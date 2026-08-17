@@ -2,6 +2,8 @@
 
 `2026.csv` is the canonical regular-season schedule for this repository. Team-local `schedule.md` files are human-readable views; scripts and agents should treat this CSV as the source of truth.
 
+Strength-of-schedule research belongs in `strength-of-schedule/`. Use that workspace for overall schedule difficulty, fantasy position-specific schedule difficulty, fantasy playoff-window analysis, and schedule-friction notes.
+
 ## Fields
 
 | Field | Meaning |
