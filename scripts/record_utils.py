@@ -9,6 +9,7 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+NON_RECORD_MARKDOWN_ROOTS = {".agents", ".claude"}
 CATALOG_FIELDS = (
     "record_id",
     "record_type",
@@ -105,6 +106,7 @@ def markdown_files(root: Path = REPO_ROOT) -> list[Path]:
         path
         for path in root.rglob("*.md")
         if ".git" not in path.parts
+        and path.relative_to(root).parts[0] not in NON_RECORD_MARKDOWN_ROOTS
     )
 
 

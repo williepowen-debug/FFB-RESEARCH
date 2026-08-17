@@ -2,6 +2,15 @@
 
 This file is the repository-level operating contract for human and LLM contributors.
 
+## Team maintainers
+
+- `bolt` is the Los Angeles Chargers desk lead. Its project-agent definition is
+  `.claude/agents/bolt.md`, and its path-scoped operating contract is
+  `teams/AFC/West/Los-Angeles-Chargers/AGENTS.md`.
+- Invoke BOLT for Chargers research, source maintenance, module buildout, evidence
+  reconciliation, and validation. BOLT may use other teams as structural comparators,
+  but it does not own or edit their trees unless explicitly instructed.
+
 ## Read first
 
 1. Read this file, `README.md`, and `SOURCE_POLICY.md`.
