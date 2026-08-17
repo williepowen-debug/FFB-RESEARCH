@@ -9,13 +9,15 @@ This directory treats the offense as a connected system rather than a collection
 - [`malik-willis-green-bay-audit.md`](malik-willis-green-bay-audit.md): appearance-by-appearance Green Bay audit, demonstrated development, scheme protections, transfer limits, and Miami test plan.
 - [`slowik-willis-protection.md`](slowik-willis-protection.md): protection design, the Brewer-Willis decision interface, pressure answers, and misleading fantasy signals.
 - [`receiving-hierarchy.md`](receiving-hierarchy.md): current wide-receiver and tight-end role hypotheses after the room reset.
+- [`wide-receivers/`](wide-receivers/): all 12 receiver candidates, veteran and rookie audits, roster paths, scheme/fantasy effects, and live monitoring.
+- [`tight-ends/`](tight-ends/): dedicated room study covering personnel, role splits, Dulcich and Kacmarek audits, scheme effects, fantasy scenarios, and live monitoring.
 - [`devon-achane-usage.md`](devon-achane-usage.md): rushing, receiving, two-minute, and scoring-opportunity scenarios.
 - [`offensive-line/`](offensive-line/): dedicated unit study covering personnel, run blocking, pass protection, depth, fantasy transmission, and live monitoring.
 - [`hypotheses.csv`](hypotheses.csv): machine-readable questions with confirming and disconfirming evidence.
 
 ## Evidence boundary
 
-These records establish the pre-preseason baseline as of 2026-08-05. They do not convert coach intentions, training-camp praise, or small historical samples into settled 2026 usage.
+These records establish the pre-preseason baseline as of 2026-08-06. They do not convert coach intentions, training-camp praise, or small historical samples into settled 2026 usage.
 
 Dated camp observations remain canonical in [`../preseason/evidence-log.csv`](../preseason/evidence-log.csv). Current answers remain in [`../preseason/priority-status.csv`](../preseason/priority-status.csv). The offense files explain why each question matters and what evidence should change the answer.
 
@@ -26,5 +28,7 @@ Dated camp observations remain canonical in [`../preseason/evidence-log.csv`](..
 3. Which pass catchers remain on the field in 11 personnel, two-minute offense, third down, and the red zone?
 4. Can the projected line stabilize its five-man combination and protect without sacrificing the multiple run game?
 5. Can Brewer and Willis identify and answer pressure while preserving the full route menu?
+6. Do Miami's multiple-tight-end packages create two receiving releases, or does one tight end remain a blocker or protector?
+7. Does one receiver consolidate full routes and first-read targets, or does Miami rotate specialists by alignment and situation?
 
-Last verified: 2026-08-05.
+Last verified: 2026-08-06.
