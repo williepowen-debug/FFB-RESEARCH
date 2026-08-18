@@ -2,14 +2,49 @@
 
 This file is the repository-level operating contract for human and LLM contributors.
 
+## Boot and closeout sequence
+
+Before editing, read `BOOTSTRAP.md` and run the boot-up process. For source-of-truth work, operate
+from an up-to-date `main`:
+
+```bash
+git switch main
+git pull --ff-only
+git status -sb
+```
+
+Create a feature branch for substantive changes. Run Standard Closeout before stopping. Run Publish
+Closeout only when the user explicitly approves committing, pushing, opening a pull request, and
+merging to `main`.
+
+Before stopping, inspect status and diff, run the relevant validation gate, report branch/repo
+state, and ask for explicit authorization before commit, push, PR creation, merge, or destructive
+cleanup. If publishing is approved, promote work through GitHub `main`, then switch local checkout
+back to `main` and pull `--ff-only`.
+
 ## Team maintainers
 
+- `architect` is the upper-tier orchestration and build lead. Its project-agent definition is
+  `.claude/agents/architect.md`.
+- Invoke ARCHITECT for repo startup, GitHub source-of-truth workflow, branch planning, team-module
+  build sequencing, cross-team standards, templates, schemas, scripts, validation, and routing to
+  specialist desk agents.
 - `bolt` is the Los Angeles Chargers desk lead. Its project-agent definition is
   `.claude/agents/bolt.md`, and its path-scoped operating contract is
   `teams/AFC/West/Los-Angeles-Chargers/AGENTS.md`.
 - Invoke BOLT for Chargers research, source maintenance, module buildout, evidence
   reconciliation, and validation. BOLT may use other teams as structural comparators,
   but it does not own or edit their trees unless explicitly instructed.
+
+## Agent hierarchy
+
+```text
+ARCHITECT — repo orchestration, build planning, standards, validation, source-of-truth workflow
+└── BOLT — Los Angeles Chargers specialist desk
+```
+
+Start with ARCHITECT for broad repo/build work. Route to BOLT only after repo state and task scope
+are clear and the work is Chargers-specific.
 
 ## Read first
 
@@ -63,7 +98,7 @@ Do not manually edit:
 Regenerate the catalog after record changes:
 
 ```bash
-python scripts/generate_catalog.py
+python3 scripts/generate_catalog.py
 ```
 
 ## Required checks
@@ -71,10 +106,10 @@ python scripts/generate_catalog.py
 Run before committing:
 
 ```bash
-python scripts/validate_schedule.py
-python scripts/generate_catalog.py
-python scripts/validate_repository.py
-python scripts/generate_catalog.py --check
+python3 scripts/validate_schedule.py
+python3 scripts/generate_catalog.py
+python3 scripts/validate_repository.py
+python3 scripts/generate_catalog.py --check
 ```
 
 Do not weaken validation to make a failing record pass. Fix the record, schema, controlled vocabulary, or canonical registry deliberately.
