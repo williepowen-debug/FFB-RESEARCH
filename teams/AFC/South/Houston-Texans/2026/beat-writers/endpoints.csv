@@ -1,0 +1,32 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-houston-texans,official_news,https://www.houstontexans.com/news/,free,metadata_and_summary,"Team news index with Harris Hits, transactions, previews, and official stories.",2026-08-18
+local-source-houston-texans,official_press_room,https://www.houstontexans.com/news/press-room,free,metadata_and_summary,"Press-room index with dated transactions and team-update links.",2026-08-18
+local-source-houston-texans,official_roster,https://www.houstontexans.com/team/players-roster/,free,structured_page,"Current roster and reserve-list entry point.",2026-08-18
+local-source-houston-texans,official_transactions,https://www.houstontexans.com/team/transactions/2026,free,structured_page,"Dated 2026 transaction ledger.",2026-08-18
+local-source-houston-texans,official_depth_chart,https://www.houstontexans.com/team/depth-chart,free,structured_page,"Team-issued unofficial ordering; not measured usage.",2026-08-18
+local-source-houston-texans,official_injury_report,https://www.houstontexans.com/team/injury-report/,free,structured_page,"Use once regular-season injury reporting begins.",2026-08-18
+local-source-houston-texans,official_podcasts,https://www.houstontexans.com/podcasts/,free,metadata_and_summary,"Official podcast hub for Texans All Access and team audio.",2026-08-18
+local-writer-john-harris,author_index,https://www.houstontexans.com/news/john-harris-harris-hits,free,metadata_and_summary,"Harris Hits practice and game-observation index.",2026-08-18
+local-writer-john-harris,current_article,https://www.houstontexans.com/news/harris-hits-c-j-stroud-and-the-texans-offense-have-their-best-day-of-training-camp,free,metadata_and_summary,"Example current 2026 camp observation article.",2026-08-18
+local-writer-deepi-sidhu,author_page,https://www.houstontexans.com/author/deepi-sidhu,free,metadata_and_summary,"Official profile identifies Sidhu as Texans Insider and lead writer.",2026-08-18
+local-writer-dj-bien-aime,role_bio,https://espnpressroom.com/bio/dj-bien-aime/,free,metadata_and_summary,"Confirms current ESPN NFL Nation Houston Texans assignment.",2026-08-18
+local-writer-dj-bien-aime,outlet_team_page,https://www.espn.com/nfl/team/_/name/hou/houston-texans,mixed,metadata_and_summary,"ESPN Texans reporting and reference page.",2026-08-18
+local-writer-jonathan-m-alexander,outlet_profile,https://www.houstonchronicle.com/author/jonathan-alexander//,mixed,metadata_and_summary,"Chronicle profile for Texans/NFL reporter.",2026-08-18
+local-writer-jonathan-m-alexander,outlet_newsletter,https://www.houstonchronicle.com/newsletters/texans-insider/,mixed,metadata_and_summary,"Texans Insider newsletter by Alexander; use as analysis/reporting context.",2026-08-18
+local-writer-jonathan-m-alexander,outlet_team_page,https://www.houstonchronicle.com/sports/texans/,mixed,metadata_and_summary,"Houston Chronicle Texans coverage index.",2026-08-18
+local-writer-aaron-wilson,outlet_profile,https://www.click2houston.com/team/FS6OB7DGY03RI4N120W4J10FG3,free,metadata_and_summary,"KPRC profile identifies Wilson as Houston Texans reporter.",2026-08-18
+local-writer-aaron-wilson,outlet_team_page,https://www.click2houston.com/sports/nfl/texans/,free,metadata_and_summary,"KPRC Texans coverage page.",2026-08-18
+local-writer-aaron-wilson,x,https://x.com/AaronWilson_NFL,free,manual_or_platform_compliant,"Reporter social feed; preserve linked article or official source when available.",2026-08-18
+local-source-nfl-gamebooks,official_scores,https://www.nfl.com/scores/,free,manual_retrieval,"Open completed game and retrieve gamebook or participation record.",2026-08-18
+local-source-nfl-gamebooks,league_team_page,https://www.nfl.com/teams/houston-texans/,free,metadata_and_summary,"Official NFL team page and stats entry point.",2026-08-18
+local-source-battle-red-blog,site,https://www.battleredblog.com/,free,metadata_and_summary,"Community analysis and aggregation; cite original reports for consequential claims.",2026-08-18
+local-source-battle-red-blog,rss,https://www.battleredblog.com/rss/index.xml,free,metadata_and_summary,"Discovery feed for articles and links.",2026-08-18
+local-source-ourlads,depth_chart,https://secure.ourlads.com/nfldepthcharts/depthchart/HOU,mixed,manual,"Unofficial depth-chart cross-check.",2026-08-18
+local-source-pfr,team_reference,https://www.pro-football-reference.com/teams/htx/2026.htm,free,structured_page,"Season roster/statistics reference; recheck once 2026 page fully populates.",2026-08-18
+local-source-pfr,snap_counts,https://www.pro-football-reference.com/teams/htx/2026-snap-counts.htm,free,structured_page,"Unofficial snap counts once available.",2026-08-18
+local-source-pff,team_page,https://www.pff.com/nfl/teams/houston-texans/13,paid,manual,"Proprietary grades and charting; do not commit exports.",2026-08-18
+local-source-over-the-cap,team_contracts,https://overthecap.com/salary-cap/houston-texans,free,structured_page,"Contract and cap reference.",2026-08-18
+local-source-spotrac,team_contracts,https://www.spotrac.com/nfl/houston-texans/overview,mixed,structured_page,"Contract and transaction cross-check.",2026-08-18
+local-source-rotowire,team_page,https://www.rotowire.com/football/team.php?team=HOU,paid,manual,"Fantasy news, roster, and attributed player updates.",2026-08-18
+local-source-rotowire,position_roles,https://www.rotowire.com/football/position-roles.php?team=HOU,paid,manual,"Fantasy role estimates; use as interpretation only.",2026-08-18
+local-source-fantasy-life,team_preview,https://www.fantasylife.com/articles/fantasy/houston-texans-fantasy-football-team-preview-for-2026,mixed,manual,"Fantasy team preview and usage framing.",2026-08-18
