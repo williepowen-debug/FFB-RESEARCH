@@ -40,6 +40,12 @@ The supporting machine-readable files are:
 - [Retentions and extensions](roster/retentions.csv)
 - [2026 draft class](roster/draft-class.csv)
 - [Undrafted free agents](roster/undrafted-free-agents.csv)
+- [Wide receiver module](offense/wide-receivers/README.md)
+- [Tight end module](offense/tight-ends/README.md)
+- [Backfield usage finding](offense/backfield-usage.md)
+- [Source registry](beat-writers/registry.md)
+- [Preseason monitoring workspace](preseason/README.md)
+- [Projected depth chart (2026-08-17)](preseason/depth-charts/2026-08-17-projected.md)
 
 ## Fantasy-relevant snapshot
 
@@ -47,7 +53,7 @@ The supporting machine-readable files are:
 
 - Kevin Stefanski replaced Raheem Morris as head coach, Tommy Rees replaced Zac Robinson as offensive coordinator, and Jeff Ulbrich was retained as defensive coordinator.
 - Atlanta officially signed Tua Tagovailoa and released Kirk Cousins. Michael Penix Jr. is returning from a 2025 ACL injury and was still short of full 11-on-11 clearance when training camp opened.
-- Bijan Robinson's fifth-year option was exercised through 2027. Drake London signed an extension through 2030, Kyle Pitts Sr. signed a new three-year deal through 2028, and Matthew Bergeron signed an extension through 2030.
+- Bijan Robinson, after his fifth-year option was exercised through 2027, signed a new three-year extension in August 2026 (reported at up to about $75M) as the highest-paid running back in the NFL. Drake London signed an extension through 2030, Kyle Pitts Sr. signed a new three-year deal through 2028, and Matthew Bergeron signed an extension through 2030.
 - Major offensive additions: Brian Robinson Jr., Jahan Dotson, Olamide Zaccheaus, Austin Hooper, Jawaan Taylor, and rookie Zachariah Branch.
 - Major defensive additions: Azeez Ojulari, Samson Ebukam, Cameron Thomas, Christian Harris, Channing Tindall, Darnay Holmes, Avieon Terrell, Kendal Daniels, Harold Perkins Jr., and Anterio Thompson.
 - Major exits: Tyler Allgeier, Kaden Elliss, Darnell Mooney, KhaDarel Hodge, Kirk Cousins, Zane Gonzalez, and Jovaughn Gwyn.
@@ -123,7 +129,13 @@ No dated depth-chart snapshot is maintained at Core tier. Use the generated [sch
 
 ## Canonical player profiles
 
-Canonical player profiles have not yet been created or linked for this module. Do not duplicate enduring player biographies here; link player profiles after stable player IDs are verified.
+Canonical, team-independent player profiles are maintained under `players/` and linked here. Do not duplicate enduring player biographies in this module.
+
+- [Bijan Robinson](../../../../../players/bijan-robinson/profile.md) (RB)
+- [Drake London](../../../../../players/drake-london/profile.md) (WR)
+- [Kyle Pitts Sr.](../../../../../players/kyle-pitts/profile.md) (TE)
+
+Additional profiles (quarterbacks, secondary skill players) will be added as stable player IDs are verified.
 
 ## Open questions
 
