@@ -2,6 +2,20 @@
 
 A season-aware NFL research workspace built to support fantasy-football decisions.
 
+## Start here
+
+Use `BOOTSTRAP.md` when starting work on a laptop, desktop, or agent session. The repo workflow is:
+
+```bash
+cd /home/willi/FFB-RESEARCH
+git switch main
+git pull --ff-only
+git status -sb
+```
+
+Treat GitHub `main` as the source of truth. Start feature work from an up-to-date `main`, merge
+completed work back to `main` through GitHub, then pull `main` on each machine.
+
 ## Structure
 
 ```text
