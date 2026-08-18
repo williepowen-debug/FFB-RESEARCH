@@ -31,9 +31,12 @@ The supporting files are:
 - [2026 coaching staff](coaching-staff/staff.csv)
 - [Coaching intelligence module](coaching-staff/README.md)
 - [Offensive research module](offense/README.md)
+- [Offensive line module](offense/offensive-line/README.md)
 - [Offensive hypotheses](offense/hypotheses.csv)
 - [Defensive research module](defense/README.md)
 - [Defensive hypotheses](defense/hypotheses.csv)
+- [Preseason intelligence](preseason/README.md)
+- [Source registry](beat-writers/registry.md)
 - [Veteran additions](roster/veteran-additions.csv)
 - [Departures](roster/departures.csv)
 - [Retentions and extensions](roster/retentions.csv)
@@ -108,4 +111,3 @@ The highest-leverage offensive unknowns are the starting offensive-line combinat
 - Houston Texans - [Nick Caley coaching profile](https://www.houstontexans.com/team/coaches-roster/nick-caley) - verified 2026-08-17.
 - Houston Texans - [Matt Burke coaching profile](https://www.houstontexans.com/team/coaches-roster/matt-burke) - verified 2026-08-17.
 - Houston Chronicle - [Texans training camp risers and fallers](https://www.houstonchronicle.com/sports/texans/article/texans-training-camp-risers-fallers-22381555.php) - published 2026-08-11.
-

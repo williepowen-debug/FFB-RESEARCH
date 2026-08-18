@@ -4,6 +4,7 @@ Houston's offensive module centers on a continuity coordinator with a materially
 
 ## Files
 
+- [Offensive line module](offensive-line/README.md)
 - [Stroud protection and Year 2 Caley structure](stroud-protection-and-year-two.md)
 - [Backfield and tight-end redistribution](backfield-and-tight-end-usage.md)
 - [Montgomery vs. Marks betting-market snapshot](montgomery-marks-betting-market-2026-08-17.md)
