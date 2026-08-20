@@ -8,6 +8,7 @@ This directory treats the offense as a connected system. Buffalo's 2026 story is
 - [`backfield-and-cook-role-002.md`](backfield-and-cook-role-002.md): **current** — Cook's confirmed lead role, Carmichael's stated receiving expansion, and the interior-line risk, as of the preseason opener.
 - [`backfield-and-cook-role.md`](backfield-and-cook-role.md): superseded 2026-08-20; retained as the pre-preseason baseline.
 - [`interior-offensive-line.md`](interior-offensive-line.md): the McGovern center injury and the Anderson/Corbett left-guard competition — the run game's blocking variable.
+- [`run-game-blocking.md`](run-game-blocking.md): the 2025-to-2026 run-blocking delta — scheme carryover, the Kromer-to-Meyer coaching change, the Boras run-game-coordinator promotion, and the 2025 performance baselines to measure against.
 - [`red-zone-and-touchdown-share.md`](red-zone-and-touchdown-share.md): how Buffalo splits scoring work between Josh Allen and the backfield, and why the Allen cap is looser than the 2023 baseline implies.
 - [`hypotheses.csv`](hypotheses.csv): machine-readable offensive questions with confirming and disconfirming evidence.
 
@@ -24,5 +25,6 @@ The backfield and offensive-line records are current to 2026-08-20, after one pr
 3. Does Carmichael expand or trim James Cook's passing-down usage?
 4. How tightly does Allen's goal-line rushing still cap backfield touchdown upside? (2025 evidence says looser than before — see [`red-zone-and-touchdown-share.md`](red-zone-and-touchdown-share.md).)
 5. Does the interior line stabilize at center and left guard before Week 1, given Connor McGovern's lower-body injury and the unresolved Anderson/Corbett competition?
+6. Does Pat Meyer's positional-versatility approach at left guard hold up against the 2025 run-blocking baselines (3.1 yards before contact, 74.7 percent run-block win rate)?
 
 Last verified: 2026-08-20.
