@@ -7,7 +7,7 @@ team_ids: ["BUF"]
 player_ids: []
 season: 2026
 week: null
-status: active
+status: superseded
 time_horizon: seasonal
 valid_as_of: 2026-08-13
 last_verified: 2026-08-13
@@ -23,7 +23,7 @@ supersedes: []
 - Unit: running backs
 - Area: rushing role, passing-down usage, and goal-line/scoring work
 - Season: 2026
-- Status: active preseason baseline
+- Status: superseded by rf-2026-buf-backfield-role-002 on 2026-08-20
 - Last verified: 2026-08-13
 
 ## Finding
