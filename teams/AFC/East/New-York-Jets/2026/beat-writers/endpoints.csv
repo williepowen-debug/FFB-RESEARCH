@@ -1,0 +1,14 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-new-york-jets,official_news,https://www.newyorkjets.com/news/,free,metadata_and_summary,Official news and practice-report index.,2026-08-20
+local-source-new-york-jets,official_roster,https://www.newyorkjets.com/team/players-roster/,free,structured_page,Current roster and reserve lists.,2026-08-20
+local-source-new-york-jets,official_transactions,https://www.newyorkjets.com/team/transactions/,free,structured_monitoring,Official transaction ledger.,2026-08-20
+local-source-new-york-jets,official_injury_report,https://www.newyorkjets.com/team/injury-report/,free,structured_monitoring,Official practice participation and game status.,2026-08-20
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve the completed game's gamebook or participation report.,2026-08-20
+local-writer-rich-cimini,outlet_profile,https://espnpressroom.com/bio/rich-cimini/,free,metadata_and_summary,Official ESPN biography confirming the Jets assignment.,2026-08-20
+local-writer-rich-cimini,podcast_landing,https://podcasts.apple.com/us/podcast/flight-deck-with-rich-cimini/id1466085257,free,metadata_only,Episode discovery; do not reproduce transcripts.,2026-08-20
+local-writer-brian-costello,podcast_landing,https://podcasts.apple.com/us/podcast/gangs-all-here-new-york-jets-podcast/id1484134393,free,metadata_only,New York Post program confirming beat assignment and current camp coverage.,2026-08-20
+local-source-new-york-post-jets,outlet_landing,https://nypost.com/sports/new-york-jets/,mixed,metadata_and_summary,New York Post Jets coverage landing page.,2026-08-20
+local-writer-connor-hughes,outlet_profile,https://sny.tv/authors/connor-hughes,free,metadata_and_summary,SNY author page with current Jets reporting.,2026-08-20
+local-source-sny-jets,outlet_profile,https://sny.tv/talent,free,metadata_and_summary,SNY role biographies for Connor Hughes and Chelsea Sherrod.,2026-08-20
+local-source-sny-jets,outlet_landing,https://sny.tv/teams/jets,free,metadata_and_summary,SNY Jets news and video landing page.,2026-08-20
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/nyj/2026.htm,free,structured_page,Season statistics and game logs; automated access may be rate-limited.,2026-08-20

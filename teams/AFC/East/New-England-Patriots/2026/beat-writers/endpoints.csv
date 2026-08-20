@@ -1,0 +1,15 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-new-england-patriots,official_news,https://www.patriots.com/news/,free,metadata_and_summary,Official news and roster-move index.,2026-08-20
+local-source-new-england-patriots,official_roster,https://www.patriots.com/team/players-roster/,free,structured_page,Current roster and reserve lists.,2026-08-20
+local-source-new-england-patriots,official_injury_report,https://www.patriots.com/team/injury-report/,free,structured_monitoring,Official practice participation and game status.,2026-08-20
+local-source-new-england-patriots,official_media,https://www.patriots.com/press-room/mediasite/,free,metadata_and_summary,Official press conferences and transcripts.,2026-08-20
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve the completed game's gamebook or participation report.,2026-08-20
+local-writer-mike-reiss,outlet_profile,https://espnpressroom.com/bio/mike-reiss/,free,metadata_and_summary,Official ESPN biography confirming the Patriots assignment.,2026-08-20
+local-writer-mike-reiss,outlet_landing,https://www.espn.com/nfl/team/_/name/ne/new-england-patriots,mixed,metadata_and_summary,ESPN Patriots coverage landing page.,2026-08-20
+local-writer-andrew-callahan,outlet_landing,https://www.bostonherald.com/sports/nfl/new-england-patriots/,mixed,metadata_and_summary,Boston Herald Patriots coverage.,2026-08-20
+local-writer-doug-kyed,podcast_landing,https://www.iheart.com/podcast/269-pats-chat-a-patriots-podca-105622005/,free,metadata_only,Pats Chat episode discovery; do not reproduce transcripts.,2026-08-20
+local-writer-christopher-price,outlet_landing,https://www.bostonglobe.com/sports/patriots/,paid,metadata_and_summary,Boston Globe Patriots coverage and bylines.,2026-08-20
+local-writer-nicole-yang,outlet_profile,https://www.bostonglobe.com/about/staff-list/staff/nicole-yang/,mixed,metadata_and_summary,Globe profile confirming Patriots beat role.,2026-08-20
+local-writer-ben-volin,outlet_profile,https://www.bostonglobe.com/about/staff-list/staff/ben-volin/,mixed,metadata_and_summary,Globe profile confirming senior NFL role.,2026-08-20
+local-source-patriots-unfiltered,podcast_landing,https://www.patriots.com/audio/podcasts,free,metadata_only,Official podcast discovery page.,2026-08-20
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/nwe/2026.htm,free,structured_page,Season statistics and game logs; automated access may be rate-limited.,2026-08-20
