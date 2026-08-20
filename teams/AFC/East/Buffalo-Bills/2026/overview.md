@@ -4,24 +4,24 @@ record_id: to-2026-buf-overview-001
 record_type: team_overview
 title: "Buffalo Bills — 2026 Coaching Succession and Skill-Group Upgrade"
 team_ids: ["BUF"]
-player_ids: []
+player_ids: ["local-player-james-cook-2022"]
 season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-13
-last_verified: 2026-08-13
+valid_as_of: 2026-08-20
+last_verified: 2026-08-20
 confidence: high
-source_ids: ["local-source-buffalo-bills", "local-source-cbs-sports", "local-source-espn"]
+source_ids: ["local-source-buffalo-bills", "local-source-cbs-sports", "local-source-espn", "local-source-si-bills-central"]
 supersedes: []
 ---
 
 # Buffalo Bills — 2026 Coaching Succession and Skill-Group Upgrade
 
 - Conference/division: AFC East
-- Last verified: 2026-08-13
-- Scope: changes from the 2025 team to the 2026 preseason roster and staff
-- Build tier: Core
+- Last verified: 2026-08-20
+- Scope: changes from the 2025 team to the 2026 preseason roster and staff, through the 2026-08-15 preseason opener
+- Build tier: Core, deepened with a preseason depth chart, a beat-writer registry, and a canonical player profile
 
 Buffalo made a coaching change without a roster reset. Head coach Sean McDermott was dismissed after nine seasons and offensive coordinator Joe Brady was promoted to head coach, while general manager Brandon Beane and quarterback Josh Allen stayed in place. The Bills then upgraded the skill group — trading for wide receiver DJ Moore — and reworked the defensive staff and secondary. This is continuity with a targeted upgrade, the structural opposite of the Miami Dolphins' 2026 regime-and-roster reset in the same division.
 
@@ -38,6 +38,8 @@ The supporting machine-readable files are:
 - [Departures](roster/departures.csv)
 - [Retentions and extensions](roster/retentions.csv)
 - [2026 draft class](roster/draft-class.csv)
+- [Preseason depth chart — 2026-08-20](preseason/depth-charts/2026-08-20-unofficial.md)
+- [Source and beat-writer registry](beat-writers/registry.md)
 
 ## Fantasy-relevant snapshot
 
@@ -57,8 +59,24 @@ These are projections to test, not established 2026 outcomes:
 
 - Josh Allen's environment is stable-to-improved: same play-caller, upgraded perimeter target. His floor and ceiling are the least uncertain in the division.
 - DJ Moore is the clearest projected WR1, but Buffalo has distributed targets under Brady; the hierarchy below Moore is a committee to chart.
-- James Cook remains the backfield anchor; new OC Carmichael is the main usage variable, and Allen's goal-line rushing caps the touchdown ceiling.
+- James Cook remains the backfield anchor. Carmichael has since stated an intent to *expand* Cook's receiving usage, which is the largest open swing in his value; Allen's goal-line rushing still caps the touchdown ceiling, but less tightly than the 2023 baseline implies.
 - The defense's coverage identity and rebuilt secondary roles are unestablished, creating early-season variance.
+
+### Preseason updates through 2026-08-20
+
+One preseason game has been played (2026-08-15, a 29-14 win over Carolina at the new
+Highmark Stadium); the second is 2026-08-22 at Cleveland.
+
+- Joe Brady is confirmed as the offensive play-caller. Pete Carmichael is testing the
+  booth in one preseason game and the sideline in the other, and prepares as the backup
+  caller.
+- Offensive starters played two possessions and 15 snaps in the opener, scoring on both.
+- Center Connor McGovern has been out since 2026-08-08 with a lower-body injury
+  (reported two-to-four weeks); he is targeting Week 1 and Lloyd Cushenberry started in
+  his place. Left guard is unresolved between Alec Anderson (first team) and Austin
+  Corbett.
+- No running back was added by trade, draft, or free agency; the room is Cook, Ray
+  Davis, Ty Johnson, and Frank Gore Jr.
 
 ## Offensive identity
 
@@ -112,15 +130,31 @@ Buffalo hired special-teams coordinator Jeff Rodgers and signed punter Mitch Wis
 
 ## Current depth chart
 
-No dated depth-chart snapshot is maintained at Core tier. Add a preseason depth-chart record if this module is deepened to Full tier.
+An offense-focused unofficial depth chart is maintained at
+[preseason/depth-charts/2026-08-20-unofficial.md](preseason/depth-charts/2026-08-20-unofficial.md),
+established after the preseason opener. Defensive and special-teams order are
+deliberately uncharted in that record pending a verified two-deep.
 
 ## Canonical player profiles
 
-Canonical player profiles have not yet been created. Do not duplicate full player biographies in this overview; link them here after stable player IDs are verified.
+- [James Cook](../../../../../players/james-cook/profile.md) — `local-player-james-cook-2022`
+
+Do not duplicate full player biographies in this overview; link them here after stable
+player IDs are verified.
 
 ## Open questions
 
-The highest-leverage unknowns are Carmichael's influence on a Brady-called offense, the DJ Moore target share in a distributed system, James Cook's passing-down usage, Leonhard's defensive identity, and the rebuilt secondary's roles and early exploitability.
+As of 2026-08-20 the highest-leverage unknowns are:
+
+1. Whether Cook's route participation and target rate actually rise, against a two-year
+   32-33 reception baseline, now that Carmichael has stated the intent.
+2. Whether McGovern returns for Week 1 and who holds left guard — the run game's
+   blocking variable into the league's hardest early RB schedule.
+3. The DJ Moore target share in a historically distributed offense.
+4. Leonhard's defensive identity and the rebuilt secondary's roles.
+5. Red-zone distribution between Allen and Cook, which moves before touchdown totals do.
+
+Brady's retained play-calling and Cook's lead role are no longer open questions.
 
 ## Sources
 
@@ -130,3 +164,6 @@ The highest-leverage unknowns are Carmichael's influence on a Brady-called offen
 - Buffalo Bills — [All 10 picks in the Buffalo Bills 2026 NFL Draft class](https://www.buffalobills.com/news/full-list-of-buffalo-bills-2026-nfl-draft-picks) — published 2026-04-25.
 - ESPN — [Bills 2026 free agency tracker: offseason moves, signings](https://www.espn.com/nfl/story/_/id/48015515/bills-2026-free-agency-tracker-offseason-moves-signings-contract-trades) — verified 2026-08-13.
 - Audacy / WGR 550 — [Bills announce 2026 coaching staff](https://www.audacy.com/wgr550/sports/bills/bills-announce-2026-coaching-staff) — verified 2026-08-13.
+- ESPN — [Bills 29-14 Panthers (Aug 15, 2026) game recap](https://www.espn.com/nfl/recap/_/gameId/401873282) — published 2026-08-15, verified 2026-08-20.
+- Sports Illustrated / Bills Central — [Everything preseason opener snap counts taught us about Joe Brady's Buffalo Bills](https://www.si.com/nfl/bills/onsi/preseason-everything-opener-snap-counts-taught-us-about-joe-brady-buffalo-bills-vs-panthers) — verified 2026-08-20.
+- Two Bills Drive — [Buffalo Bills center Connor McGovern reveals goal return date from lower body injury](https://www.twobillsdrive.com/2026/08/17/buffalo-bills-center-connor-mcgovern-reveals-goal-return-date-from-lower-body-injury/) — published 2026-08-17, verified 2026-08-20.
