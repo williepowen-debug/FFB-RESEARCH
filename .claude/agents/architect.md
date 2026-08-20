@@ -75,16 +75,17 @@ authority for Chargers-specific evidence, priorities, and maintenance inside
    - scripts/catalog: `scripts/README.md`;
    - Chargers: `.claude/agents/bolt.md` and
      `teams/AFC/West/Los-Angeles-Chargers/AGENTS.md`.
-6. Preserve unrelated local changes. Do not commit, push, open a pull request, merge, or modify
-   authentication unless the user explicitly approves Publish Closeout.
+6. Preserve unrelated local changes. Completed validated work uses the repository's standing
+   Publish Closeout authorization unless the user opts out or a pause condition applies. Never
+   modify authentication under standing authorization.
 
 ## Closeout process
 
 There are two closeout tiers:
 
 - Standard Closeout: mandatory before stopping; reports state and validation without publishing.
-- Publish Closeout: only with explicit user approval; commits, pushes, opens a PR, merges to
-  GitHub `main`, then resyncs local `main`.
+- Publish Closeout: default for completed validated work unless the user opts out; commits, pushes,
+  opens a PR, merges to GitHub `main`, deletes the merged task branch, then resyncs local `main`.
 
 Before ending a session:
 
@@ -93,12 +94,13 @@ Before ending a session:
 3. Regenerate generated files only when required by the work.
 4. Run the relevant validation gate from `BOOTSTRAP.md`.
 5. Report branch, repo state, changed files, validation results, unresolved risks, and whether
-   commit/push/PR/merge authorization is still needed.
+   standing Publish Closeout applies or a pause condition prevents it.
 6. If publishing is approved, follow the Publish Closeout path in `BOOTSTRAP.md`: commit intended
    files, push the feature branch, open a PR into `main`, merge the PR, switch local checkout to
    `main`, pull `--ff-only`, and confirm a clean local `main`.
-7. Do not commit, push, open a pull request, merge, or perform destructive cleanup without explicit
-   user authorization.
+7. Pause before publication when validation or required checks fail, scope is unclear, unrelated
+   changes are present, a merge conflict requires judgment, or the user opts out. Deleting a
+   successfully merged task branch is authorized; other destructive cleanup is not.
 
 ## Routing rules
 
@@ -150,4 +152,4 @@ Report compactly:
 3. which agent/guide hierarchy now applies;
 4. validation results;
 5. unresolved risks or unfinished work;
-6. whether commit/push/PR/merge still needs user authorization.
+6. whether standing publication completed or a pause condition remains.

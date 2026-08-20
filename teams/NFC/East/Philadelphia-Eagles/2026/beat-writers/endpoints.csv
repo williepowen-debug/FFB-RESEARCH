@@ -1,0 +1,11 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-philadelphia-eagles,official_news,https://www.philadelphiaeagles.com/news/all,free,metadata_and_summary,Official news index.,2026-08-20
+local-source-philadelphia-eagles,official_roster,https://www.philadelphiaeagles.com/team/players-roster/,free,structured_page,Current roster and reserve lists.,2026-08-20
+local-source-philadelphia-eagles,official_injury_report,https://www.philadelphiaeagles.com/team/injury-report/,free,structured_monitoring,Official practice and game status.,2026-08-20
+local-source-philadelphia-eagles,official_media,https://media.philadelphiaeagles.com/,free,structured_monitoring,Weekly releases gamebooks rosters and injury reports.,2026-08-20
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook and participation report.,2026-08-20
+local-writer-tim-mcmanus,outlet_profile,https://espnpressroom.com/us/bios/tim-mcmanus/,free,metadata_and_summary,ESPN biography confirming assignment.,2026-08-20
+local-writer-olivia-reiner,outlet_profile,https://www.inquirer.com/author/reiner_olivia/,mixed,metadata_and_summary,Inquirer profile and current coverage.,2026-08-20
+local-source-philadelphia-inquirer-eagles,outlet_landing,https://www.inquirer.com/eagles/,paid,metadata_and_summary,Eagles reporting landing page.,2026-08-20
+local-writer-dave-zangaro,outlet_landing,https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/,free,metadata_and_summary,NBC Sports Philadelphia Eagles coverage.,2026-08-20
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/phi/2026.htm,free,structured_page,Season reference; automation may be rate-limited.,2026-08-20

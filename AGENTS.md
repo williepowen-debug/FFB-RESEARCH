@@ -13,14 +13,17 @@ git pull --ff-only
 git status -sb
 ```
 
-Create a feature branch for substantive changes. Run Standard Closeout before stopping. Run Publish
-Closeout only when the user explicitly approves committing, pushing, opening a pull request, and
-merging to `main`.
+Create a feature branch for substantive changes. Run Standard Closeout before stopping. This
+repository carries standing authorization for Publish Closeout after an in-scope task is complete
+and validated: commit the intended files, push the feature branch, open a non-draft pull request,
+merge it to `main` after required checks pass, delete the merged feature branch locally and
+remotely, then resynchronize local `main`. The user may opt out or limit publication for any task.
 
-Before stopping, inspect status and diff, run the relevant validation gate, report branch/repo
-state, and ask for explicit authorization before commit, push, PR creation, merge, or destructive
-cleanup. If publishing is approved, promote work through GitHub `main`, then switch local checkout
-back to `main` and pull `--ff-only`.
+Before stopping, inspect status and diff, run the relevant validation gate, and report branch/repo
+state. Pause instead of publishing when validation or required GitHub checks fail, the intended
+scope is unclear, unrelated changes are present, a merge conflict requires judgment, or the user
+opts out. Destructive cleanup other than deleting a successfully merged task branch still requires
+explicit authorization.
 
 ## Team maintainers
 

@@ -1,0 +1,10 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-cincinnati-bengals,official_news,https://www.bengals.com/news/,free,metadata_and_summary,Official news.,2026-08-20
+local-source-cincinnati-bengals,official_roster,https://www.bengals.com/team/players-roster/,free,structured_page,Current roster.,2026-08-20
+local-source-cincinnati-bengals,official_injury_report,https://www.bengals.com/team/injury-report/,free,structured_monitoring,Official status.,2026-08-20
+local-source-cincinnati-bengals,official_media,https://www.bengals.com/news/media,free,structured_monitoring,Depth chart injury transactions releases and conferences.,2026-08-20
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook.,2026-08-20
+local-writer-ben-baby,outlet_profile,https://espnpressroom.com/bio/ben-baby/,free,metadata_and_summary,ESPN assignment biography.,2026-08-20
+local-writer-kelsey-conway,outlet_landing,https://www.cincinnati.com/sports/bengals/,paid,metadata_and_summary,Enquirer Bengals coverage.,2026-08-20
+local-writer-paul-dehner-jr,outlet_landing,https://www.nytimes.com/athletic/nfl/team/bengals/,paid,metadata_and_summary,Athletic Bengals coverage.,2026-08-20
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/cin/2026.htm,free,structured_page,Season reference.,2026-08-20
