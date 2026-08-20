@@ -28,6 +28,26 @@ Some record types extend the envelope: `league_format` adds `fantasy_formats`,
 
 Templates are valid drafts: IDs and dates may remain `null`. Before a record becomes `active`, it must have a stable `record_id`, `valid_as_of`, and `last_verified`.
 
+## Choosing a time horizon
+
+Choose the horizon based on how often the claim can become stale, not on where the file lives:
+
+| Horizon | Use for | Examples | Normal review trigger |
+|---|---|---|---|
+| `durable` | Traits or historical findings expected to survive roster and week changes | Player skill traits, a coach's established philosophy, multi-season methodology | New multi-game evidence or a major role/system change |
+| `seasonal` | State tied to the current league year | Coaching assignments, roster construction, projected roles, preseason depth charts | Transaction, depth-chart change, or new season |
+| `weekly` | Short-lived decision context | Injuries, weather, matchup analysis, projections, start/sit decisions | Each practice report, forecast update, or completed game |
+
+A record should use the shortest horizon needed by any material claim it contains. If durable
+analysis and weekly state are both important, split them into linked records rather than labeling
+the combined record `seasonal`. Changing a horizon is a metadata correction; it does not justify
+changing the record's stable ID.
+
+## Supersession integrity
+
+`supersedes` relationships must reference existing stable IDs. A record may not supersede itself,
+and supersession chains may not contain cycles. The repository validator enforces these rules.
+
 Use JSON-style inline arrays because the standard-library parser intentionally supports a small, deterministic YAML subset:
 
 ```yaml
