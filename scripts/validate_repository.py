@@ -13,15 +13,26 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import unquote
 
-from record_utils import (
-    REPO_ROOT,
-    FrontMatterError,
-    is_managed_record_path,
-    markdown_files,
-    parse_front_matter,
-    record_files,
-    render_catalog,
-)
+if __package__:
+    from .record_utils import (
+        REPO_ROOT,
+        FrontMatterError,
+        is_managed_record_path,
+        markdown_files,
+        parse_front_matter,
+        record_files,
+        render_catalog,
+    )
+else:
+    from record_utils import (
+        REPO_ROOT,
+        FrontMatterError,
+        is_managed_record_path,
+        markdown_files,
+        parse_front_matter,
+        record_files,
+        render_catalog,
+    )
 
 
 LINK_RE = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
