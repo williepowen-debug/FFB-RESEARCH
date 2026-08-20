@@ -2,6 +2,14 @@
 
 Document each supported fantasy format before attaching value judgments to players.
 
+## Documented leagues
+
+| League | Season | Format | Record |
+|---|---|---|---|
+| Gridiron Guru's Only | 2026 | 12-team H2H, full PPR, 6-pt pass TD | [gridiron-gurus-only-2026.md](gridiron-gurus-only-2026.md) |
+
+New league records use `templates/league-format.md` and the `league_format` schema.
+
 For each format, record:
 
 - League or format name

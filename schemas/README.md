@@ -23,6 +23,9 @@ All record types use the same core fields:
 | `source_ids` | Stable source IDs, when a source registry exists. |
 | `supersedes` | Record IDs directly replaced by this record. |
 
+Some record types extend the envelope: `league_format` adds `fantasy_formats`,
+`platform`, `league_size`, `draft_slot`, and `draft_date`.
+
 Templates are valid drafts: IDs and dates may remain `null`. Before a record becomes `active`, it must have a stable `record_id`, `valid_as_of`, and `last_verified`.
 
 Use JSON-style inline arrays because the standard-library parser intentionally supports a small, deterministic YAML subset:

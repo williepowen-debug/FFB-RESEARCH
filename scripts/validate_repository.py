@@ -41,6 +41,7 @@ REQUIRED_SECTIONS = {
     "coaching_profile": ["Responsibilities", "Scheme and tendencies", "Fantasy implications", "Sources"],
     "beat_writer_registry": ["Reliability history", "Usage notes"],
     "injury_update": ["Reported facts", "Source timeline", "Fantasy implication", "Assessment"],
+    "league_format": ["Format summary", "Roster and lineup", "Scoring", "Strategic implications", "Sources"],
     "weekly_matchup": ["Game environment", "Matchup analysis", "Fantasy decisions", "Open questions and next checks", "Sources"],
     "depth_chart": ["Offense", "Defense", "Special teams", "Recent changes", "Sources"],
 }
