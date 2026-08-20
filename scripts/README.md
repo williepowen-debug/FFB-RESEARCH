@@ -47,3 +47,15 @@ weekly/2026/week-01/
 ```
 
 It refuses to overwrite generated files unless `--force` is supplied. Each matchup is a schema-valid draft record with a stable record ID, game ID, links to both team research folders, and sections for environment, matchup analysis, decisions, sources, and invalidation/watch items.
+
+## Fetch ADP snapshots
+
+```bash
+python3 scripts/fetch_adp.py
+```
+
+Pulls current ADP from the Fantasy Football Calculator public API (format-specific
+real drafts) and ESPN's fantasy read API (default lobby ranks plus live ADP) into
+date-stamped CSVs under `league/rankings/adp/`. Options: `--teams`, `--scoring`
+(`ppr`, `half-ppr`, `standard`, `2qb`), `--year`, `--date`. Snapshots are
+append-only history; do not overwrite or hand-edit prior files.
