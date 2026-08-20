@@ -151,6 +151,43 @@ def validate_links(failures: list[str]) -> None:
                 failures.append(f"{path.relative_to(REPO_ROOT)}: broken relative link {raw_target}")
 
 
+def validate_supersession_references(
+    supersedes_by_id: dict[str, list[str]],
+    paths_by_id: dict[str, Path],
+    failures: list[str],
+) -> None:
+    """Reject missing, self-referential, and cyclic supersession relationships."""
+    known_ids = set(paths_by_id)
+    for record_id, supersedes in supersedes_by_id.items():
+        relative = paths_by_id[record_id]
+        missing = sorted(set(supersedes) - known_ids)
+        if missing:
+            failures.append(f"{relative}: supersedes unknown record_ids {missing}")
+        if record_id in supersedes:
+            failures.append(f"{relative}: record cannot supersede itself")
+
+    visiting: set[str] = set()
+    visited: set[str] = set()
+
+    def visit(record_id: str, trail: list[str]) -> None:
+        if record_id in visited:
+            return
+        if record_id in visiting:
+            cycle_start = trail.index(record_id)
+            cycle = trail[cycle_start:]
+            failures.append(f"supersession cycle: {' -> '.join(cycle)}")
+            return
+        visiting.add(record_id)
+        for superseded_id in supersedes_by_id.get(record_id, []):
+            if superseded_id in known_ids and superseded_id != record_id:
+                visit(superseded_id, trail + [superseded_id])
+        visiting.remove(record_id)
+        visited.add(record_id)
+
+    for record_id in sorted(known_ids):
+        visit(record_id, [record_id])
+
+
 def main() -> int:
     failures: list[str] = []
     schemas_dir = REPO_ROOT / "schemas"
@@ -175,7 +212,8 @@ def main() -> int:
         team_ids = {row["abbr"] for row in csv.DictReader(handle)}
 
     ids: list[str] = []
-    supersedes_by_path: list[tuple[Path, list[str]]] = []
+    supersedes_by_id: dict[str, list[str]] = {}
+    paths_by_id: dict[str, Path] = {}
     record_count = 0
     for path in record_files(REPO_ROOT, include_templates=True):
         relative = path.relative_to(REPO_ROOT)
@@ -206,13 +244,14 @@ def main() -> int:
             record_id = metadata.get("record_id")
             if record_id:
                 ids.append(record_id)
+                paths_by_id[record_id] = relative
+                supersedes_by_id[record_id] = metadata.get("supersedes", [])
             if metadata.get("status") != "draft":
                 for key in ("record_id", "valid_as_of", "last_verified", "confidence"):
                     if metadata.get(key) is None:
                         failures.append(f"{relative}: non-draft record requires {key}")
                 if "<" in str(metadata.get("title", "")):
                     failures.append(f"{relative}: non-draft title contains a placeholder")
-            supersedes_by_path.append((relative, metadata.get("supersedes", [])))
 
         headings = {
             line.lstrip("#").strip()
@@ -231,11 +270,7 @@ def main() -> int:
     duplicates = sorted(record_id for record_id, count in Counter(ids).items() if count > 1)
     if duplicates:
         failures.append(f"duplicate record_ids: {duplicates}")
-    known_ids = set(ids)
-    for relative, supersedes in supersedes_by_path:
-        missing = sorted(set(supersedes) - known_ids)
-        if missing:
-            failures.append(f"{relative}: supersedes unknown record_ids {missing}")
+    validate_supersession_references(supersedes_by_id, paths_by_id, failures)
 
     validate_links(failures)
 

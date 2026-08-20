@@ -54,10 +54,16 @@ teams/<conference>/<division>/<Team-Name>/2026/
 └── schedule.md                     already generated — do not hand-edit
 ```
 
-`README.md`, `*.csv`, and `.gitkeep` files carry **no** YAML front matter — they are not
-records and the validator ignores them for schema purposes (but it *does* check that
-relative links in Markdown resolve). Only `overview.md`, the coaching profiles, and the
-findings are schema-governed records.
+For new Core-tier modules, `README.md`, `*.csv`, and `.gitkeep` files carry **no** YAML front
+matter. READMEs are navigation and framing documents, not research records. The validator still
+checks their relative links. Only `overview.md`, coaching profiles, and dedicated finding files
+are schema-governed records.
+
+Some Full-tier modules created before this convention use unit READMEs as cataloged research
+findings. Those files are supported legacy records and should remain stable until a deliberate
+migration can preserve their `record_id` and inbound links. Do not copy that legacy shape into a
+new module; place new findings in descriptively named Markdown files and link them from a plain
+README.
 
 ## Record types and required sections
 
