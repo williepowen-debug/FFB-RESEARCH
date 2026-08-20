@@ -44,7 +44,8 @@ At the start of every Codex/LLM session in this repo, establish context in this 
    - script/catalog work: `scripts/README.md`;
    - Chargers work: ARCHITECT scopes first, then BOLT uses `.claude/agents/bolt.md` and
      `teams/AFC/West/Los-Angeles-Chargers/AGENTS.md`.
-7. Preserve unrelated local changes. Do not commit, push, or open a PR unless explicitly asked.
+7. Preserve unrelated local changes. Completed validated tasks use the standing Publish Closeout
+   authorization unless the user opts out or limits publication.
 
 Suggested user prompt:
 
@@ -53,8 +54,8 @@ Work in /home/willi/FFB-RESEARCH as ARCHITECT, the repo orchestration/build agen
 Use GitHub main as the source of truth. Run the boot-up process from BOOTSTRAP.md:
 switch to main, pull --ff-only, confirm status, then create a feature branch for this task.
 Read AGENTS.md before editing. Route Chargers-specific research to BOLT only after repo state
-and scope are clear. Use Standard Closeout when stopping. Use Publish Closeout only if I
-explicitly approve committing, pushing, opening a PR, and merging to main.
+and scope are clear. Use Standard Closeout when stopping. After successful validation, use the
+standing Publish Closeout workflow unless I explicitly opt out or limit publication.
 ```
 
 ## Source-of-truth model
@@ -92,15 +93,16 @@ git switch -c agent/bengals-core-research
 
 ## Closeout model
 
-Goal: end every work session with the repo in an explainable state. Publishing to GitHub `main` is
-part of closeout only when the user explicitly approves it.
+Goal: end every work session with the repo in an explainable state. For completed validated tasks,
+publishing to GitHub `main` is the default closeout under the repository's standing authorization.
 
 Use two closeout tiers:
 
 - **Standard Closeout** — always run before stopping. It reports status, validation, and next
   action, but does not publish.
-- **Publish Closeout** — run only when the user approves making the work part of the GitHub
-  source of truth. It commits, pushes, opens a PR, merges to `main`, and resyncs local `main`.
+- **Publish Closeout** — the default for completed validated work unless the user opts out. It
+  commits, pushes, opens a PR, merges to `main`, deletes the merged task branch, and resyncs local
+  `main`.
 
 ## Standard Closeout
 
@@ -117,7 +119,7 @@ Before stopping work, ARCHITECT should:
 6. State whether changes are uncommitted, committed locally, pushed, or merged.
 7. State the branch name and whether it is ahead/behind its remote.
 8. State the recommended next action.
-9. Ask for explicit authorization before commit, push, PR creation, merge, or destructive cleanup.
+9. State whether standing Publish Closeout applies or whether a pause condition prevents it.
 
 ### Standard Closeout report format
 
@@ -130,13 +132,13 @@ Changed:
 Validation:
 Not done / risks:
 Recommended next action:
-Needs your authorization:
+Publication / pause condition:
 ```
 
 ## Publish Closeout
 
-Use Publish Closeout only when the user explicitly confirms that the work is complete and should
-be promoted to GitHub `main`.
+Use Publish Closeout when work is complete and validated unless the user explicitly opts out or
+limits publication for the task.
 
 Publish Closeout is the source-of-truth path:
 
@@ -152,7 +154,7 @@ Before publishing:
 2. Confirm the worktree contains only intended changes.
 3. Run the relevant validation gate.
 4. Confirm the commit message and PR scope are clear.
-5. Get explicit user approval for commit, push, PR creation, and merge.
+5. Confirm standing authorization applies and the user has not opted out or limited publication.
 
 ### Publish sequence
 
@@ -167,6 +169,9 @@ git push -u origin <feature-branch>
 
 Then open a PR from `<feature-branch>` into `main`, verify checks/review expectations, and merge
 the PR into `main` when approved.
+
+Delete the remote feature branch as part of the successful merge, then delete the local feature
+branch after switching away from it. Do not delete an unmerged branch under standing authorization.
 
 After the PR is merged:
 
