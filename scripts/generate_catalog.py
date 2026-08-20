@@ -7,7 +7,10 @@ import argparse
 import sys
 from pathlib import Path
 
-from record_utils import REPO_ROOT, render_catalog
+if __package__:
+    from .record_utils import REPO_ROOT, render_catalog
+else:
+    from record_utils import REPO_ROOT, render_catalog
 
 
 def main() -> int:

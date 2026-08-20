@@ -4,12 +4,8 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-import sys
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(REPO_ROOT / "scripts"))
-
-import validate_repository
+from scripts import validate_repository
 
 
 class LinkValidationTests(unittest.TestCase):
