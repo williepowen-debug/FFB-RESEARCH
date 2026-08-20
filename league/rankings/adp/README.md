@@ -1,5 +1,8 @@
 # ADP Snapshots
 
+> Current analysis: [`2026-08-20-availability-windows.md`](2026-08-20-availability-windows.md).
+> The 08-19 market baseline is superseded; its snapshot CSVs remain the data of record.
+
 Date-stamped market-price snapshots pulled by `scripts/fetch_adp.py`. Each run writes
 new dated CSVs; never overwrite or hand-edit a prior snapshot — history is the point.
 
