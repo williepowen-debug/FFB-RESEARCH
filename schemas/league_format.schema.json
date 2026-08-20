@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/williepowen-debug/FFB-RESEARCH/schemas/league_format.schema.json",
+  "title": "League format metadata",
+  "type": "object",
+  "required": ["schema_version", "record_id", "record_type", "title", "team_ids", "player_ids", "season", "week", "status", "time_horizon", "valid_as_of", "last_verified", "confidence", "source_ids", "supersedes", "fantasy_formats", "platform", "league_size", "draft_slot", "draft_date"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "record_id": {"type": ["string", "null"], "pattern": "^lf-(?:[0-9]{4}|all)-[a-z0-9-]+-[0-9]{3}$"},
+    "record_type": {"const": "league_format"},
+    "title": {"type": "string", "minLength": 1},
+    "team_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "player_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "season": {"type": "integer", "minimum": 2000, "maximum": 2100},
+    "week": {"type": ["integer", "null"], "minimum": 1, "maximum": 18},
+    "status": {"enum": ["draft", "active", "superseded", "invalidated"]},
+    "time_horizon": {"const": "seasonal"},
+    "valid_as_of": {"type": ["string", "null"], "format": "date"},
+    "last_verified": {"type": ["string", "null"], "format": "date"},
+    "confidence": {"type": ["string", "null"], "enum": ["low", "medium", "high", null]},
+    "source_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "supersedes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "fantasy_formats": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "platform": {"type": ["string", "null"], "minLength": 1},
+    "league_size": {"type": ["integer", "null"], "minimum": 2, "maximum": 32},
+    "draft_slot": {"type": ["integer", "null"], "minimum": 1, "maximum": 32},
+    "draft_date": {"type": ["string", "null"], "format": "date"}
+  },
+  "additionalProperties": false
+}
