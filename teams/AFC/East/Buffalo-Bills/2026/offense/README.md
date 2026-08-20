@@ -15,6 +15,9 @@ This directory treats the offense as a connected system. Buffalo's 2026 story is
 
 Canonical player profiles: [James Cook](../../../../../../players/james-cook/profile.md) · [Josh Allen](../../../../../../players/josh-allen/profile.md).
 
+Schedule context: Buffalo's opening five-game run-defense slate is independently validated as the league's
+hardest in [`../../../../../../league/schedule/strength-of-schedule/snapshots/2026-08-20-buf-early-rb-schedule-validation.md`](../../../../../../league/schedule/strength-of-schedule/snapshots/2026-08-20-buf-early-rb-schedule-validation.md).
+
 ## Evidence boundary
 
 The backfield and offensive-line records are current to 2026-08-20, after one preseason game (2026-08-15 vs. Carolina); the receiving-hierarchy record remains at the 2026-08-13 pre-preseason baseline. Brady's play-calling and Cook's lead role are now settled by evidence. Carmichael's stated plan to expand Cook's receiving usage is intent, not charted usage, and is not treated as a projection.
