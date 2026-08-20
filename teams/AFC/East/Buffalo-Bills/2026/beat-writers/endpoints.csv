@@ -1,0 +1,9 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-buffalo-bills,official_news,https://www.buffalobills.com/news/,free,metadata_and_summary,Team news and daily training-camp report index.,2026-08-20
+local-source-buffalo-bills,official_roster,https://www.buffalobills.com/team/players-roster/,free,structured_page,Current active roster and reserve lists.,2026-08-20
+local-source-buffalo-bills,player_page,https://www.buffalobills.com/team/players-roster/james-cook/,free,structured_page,Official player bio and season statistics.,2026-08-20
+local-source-espn-bills,camp_intel,https://www.espn.com/nfl/story/_/id/49434544/buffalo-bills-training-camp-2026-intel-updates,free,metadata_and_summary,Updated in place through camp; record retrieval date with any claim.,2026-08-20
+local-writer-katherine-fitzgerald,collection,https://buffalonews.com/sports/professional/nfl/bills/,free,metadata_and_summary,Buffalo News Bills section; individual articles are partially paywalled.,2026-08-20
+local-source-si-bills-central,team_site,https://www.si.com/nfl/bills/,free,metadata_and_summary,Snap-count and depth-chart analysis posts.,2026-08-20
+local-source-buffalo-rumblings,team_site,https://www.buffalorumblings.com/,free,metadata_and_summary,Scouting reports and roster analysis.,2026-08-20
+local-source-pro-football-reference,player_stats,https://www.pro-football-reference.com/players/C/CookJa01.htm,free,structured_page,"Returned HTTP 403 to automated retrieval on 2026-08-20; use a browser or an alternate stats source.",2026-08-20
