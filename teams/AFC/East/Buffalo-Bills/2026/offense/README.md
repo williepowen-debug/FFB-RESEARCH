@@ -4,7 +4,9 @@ This directory treats the offense as a connected system. Buffalo's 2026 story is
 
 ## Files
 
-- [`receiving-hierarchy.md`](receiving-hierarchy.md): target-hierarchy hypotheses after the DJ Moore trade, in a distributed Brady offense.
+- [`receiving-hierarchy-002.md`](receiving-hierarchy-002.md): **current** — 2025 target baselines confirm the distributed thesis; the binding constraint is team pass volume, not the pecking order.
+- [`receiving-hierarchy.md`](receiving-hierarchy.md): superseded 2026-08-20; retained as the pre-preseason baseline.
+- [`cook-ball-security.md`](cook-ball-security.md): the league-worst 2025 fumble total, why its direct scoring cost is trivial, and the coaching-response mechanism that is not.
 - [`backfield-and-cook-role-002.md`](backfield-and-cook-role-002.md): **current** — Cook's confirmed lead role, Carmichael's stated receiving expansion, and the interior-line risk, as of the preseason opener.
 - [`backfield-and-cook-role.md`](backfield-and-cook-role.md): superseded 2026-08-20; retained as the pre-preseason baseline.
 - [`interior-offensive-line.md`](interior-offensive-line.md): the McGovern center injury and the Anderson/Corbett left-guard competition — the run game's blocking variable.

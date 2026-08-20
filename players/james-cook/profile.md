@@ -178,9 +178,10 @@ indistinguishable from zero. See
 
 ### Source conflict note
 
-One aggregator surfaced a 2025 receiving line of 72 receptions / 719 yards / 4
-touchdowns for Cook. That figure is not used here. Two independent sources — the
-Bills' official player feature (2026-08-17) and the Wikipedia career table — agree on
-33 receptions / 291 yards / 2 touchdowns, and that pair is treated as correct.
-Re-verify against an official game-log export before relying on 2025 receiving totals
-for projection work.
+**Resolved 2026-08-20.** One aggregator surfaced a 2025 receiving line of 72
+receptions / 719 yards / 4 touchdowns for Cook. That is **Khalil Shakir's** 2025 line,
+not Cook's — Shakir led Buffalo with 95 targets, 72 receptions, 719 yards, and 4
+touchdowns. Cook's correct 2025 receiving line is 33 receptions for 291 yards and 2
+touchdowns, as given by the Bills' official player feature (2026-08-17) and the
+Wikipedia career table. See the
+[receiving hierarchy record](../../teams/AFC/East/Buffalo-Bills/2026/offense/receiving-hierarchy-002.md).
