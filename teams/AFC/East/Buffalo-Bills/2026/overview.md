@@ -4,7 +4,7 @@ record_id: to-2026-buf-overview-001
 record_type: team_overview
 title: "Buffalo Bills — 2026 Coaching Succession and Skill-Group Upgrade"
 team_ids: ["BUF"]
-player_ids: ["local-player-james-cook-2022"]
+player_ids: ["local-player-james-cook-2022", "local-player-josh-allen-2018"]
 season: 2026
 week: null
 status: active
@@ -138,6 +138,7 @@ deliberately uncharted in that record pending a verified two-deep.
 ## Canonical player profiles
 
 - [James Cook](../../../../../players/james-cook/profile.md) — `local-player-james-cook-2022`
+- [Josh Allen](../../../../../players/josh-allen/profile.md) — `local-player-josh-allen-2018`
 
 Do not duplicate full player biographies in this overview; link them here after stable
 player IDs are verified.

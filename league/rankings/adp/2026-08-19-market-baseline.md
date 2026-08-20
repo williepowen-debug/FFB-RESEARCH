@@ -7,7 +7,7 @@ team_ids: []
 player_ids: []
 season: 2026
 week: null
-status: active
+status: superseded
 time_horizon: seasonal
 valid_as_of: 2026-08-19
 last_verified: 2026-08-19
@@ -15,6 +15,11 @@ confidence: medium
 source_ids: ["ffc-2026-adp-api", "espn-2026-fantasy-api"]
 supersedes: []
 ---
+
+> **Superseded 2026-08-20 by `rf-2026-league-adp-baseline-002`**
+> ([2026-08-20-availability-windows.md](2026-08-20-availability-windows.md)). The data below
+> stands; two conclusions in "Fantasy implication" did not survive the availability
+> arithmetic and are corrected there.
 
 # Finding: The market prices the first QB near pick 33; slot 10's window is exactly the dual-threat RB tier
 

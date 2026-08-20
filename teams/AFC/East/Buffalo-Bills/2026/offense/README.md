@@ -8,11 +8,12 @@ This directory treats the offense as a connected system. Buffalo's 2026 story is
 - [`backfield-and-cook-role-002.md`](backfield-and-cook-role-002.md): **current** — Cook's confirmed lead role, Carmichael's stated receiving expansion, and the interior-line risk, as of the preseason opener.
 - [`backfield-and-cook-role.md`](backfield-and-cook-role.md): superseded 2026-08-20; retained as the pre-preseason baseline.
 - [`interior-offensive-line.md`](interior-offensive-line.md): the McGovern center injury and the Anderson/Corbett left-guard competition — the run game's blocking variable.
+- [`passing-volume-decline.md`](passing-volume-decline.md): the four-year, 186-attempt decline in team passing volume — the structural constraint on Josh Allen and every Bills pass-catcher.
 - [`run-game-blocking.md`](run-game-blocking.md): the 2025-to-2026 run-blocking delta — scheme carryover, the Kromer-to-Meyer coaching change, the Boras run-game-coordinator promotion, and the 2025 performance baselines to measure against.
 - [`red-zone-and-touchdown-share.md`](red-zone-and-touchdown-share.md): how Buffalo splits scoring work between Josh Allen and the backfield, and why the Allen cap is looser than the 2023 baseline implies.
 - [`hypotheses.csv`](hypotheses.csv): machine-readable offensive questions with confirming and disconfirming evidence.
 
-Canonical player profile: [James Cook](../../../../../../players/james-cook/profile.md).
+Canonical player profiles: [James Cook](../../../../../../players/james-cook/profile.md) · [Josh Allen](../../../../../../players/josh-allen/profile.md).
 
 ## Evidence boundary
 
