@@ -1,0 +1,7 @@
+source_id,entity_type,name,outlet,current_role,source_class,priority,status,access,specialties,handling_note,former_role,ended_on,replacement_if_known,last_verified
+local-source-baltimore-ravens,organization,Baltimore Ravens communications,Baltimore Ravens,Official team communications,official,essential,active,free,"roster; injuries; transactions; releases; transcripts","Team analysis is not independent.",,,,2026-08-20
+local-source-nfl-gamebooks,organization,NFL gamebooks and participation records,NFL,Official game records,official,essential,active,free,"participation; starters; statistics; play-by-play","Use postgame source of record.",,,,2026-08-20
+local-writer-jeff-zrebiec,person,Jeff Zrebiec,The Athletic,Ravens beat writer,reporting,essential,active,paid,"daily beat; contracts; roster; organization; practice","Summarize paywalled reporting and separate analysis.",,,,2026-08-20
+local-writer-brian-wacker,person,Brian Wacker,Baltimore Sun,Lead Ravens reporter,reporting,essential,active,paid,"practice; roster; organization; game coverage","Preserve claim-level attribution.",,,,2026-08-20
+local-writer-jamison-hensley,person,Jamison Hensley,ESPN,Ravens reporter,reporting,essential,active,mixed,"injuries; roster; team context; daily beat","Record retrieval date for updated work.",,,,2026-08-20
+local-source-pro-football-reference,organization,Pro Football Reference,Sports Reference,Statistical reference,data,valuable,active,free,"game logs; snap counts; history","Secondary reference.",,,,2026-08-20

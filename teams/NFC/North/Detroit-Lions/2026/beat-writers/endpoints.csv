@@ -1,0 +1,12 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-detroit-lions,official_news,https://www.detroitlions.com/news/,free,metadata_and_summary,Official news index.,2026-08-20
+local-source-detroit-lions,official_roster,https://www.detroitlions.com/team/players-roster/,free,structured_page,Current roster.,2026-08-20
+local-source-detroit-lions,official_injury_report,https://www.detroitlions.com/team/injury-report/,free,structured_monitoring,Official practice and game status.,2026-08-20
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook.,2026-08-20
+local-writer-eric-woodyard,outlet_profile,https://espnpressroom.com/bio/eric-woodyard/,free,metadata_and_summary,ESPN assignment biography.,2026-08-20
+local-writer-dave-birkett,outlet_landing,https://www.freep.com/sports/lions/,paid,metadata_and_summary,Free Press Lions coverage.,2026-08-20
+local-writer-colton-pouncy,outlet_landing,https://www.nytimes.com/athletic/nfl/team/lions/,paid,metadata_and_summary,Athletic Lions coverage.,2026-08-20
+local-writer-justin-rogers,outlet_landing,https://www.detroitfootball.net/,mixed,metadata_and_summary,Independent Lions reporting.,2026-08-20
+local-writer-benjamin-raven,outlet_landing,https://www.mlive.com/lions/,mixed,metadata_and_summary,MLive Lions coverage.,2026-08-20
+local-source-lions-collective,podcast_landing,https://lions-collective-v2.simplecast.com/,free,metadata_only,Episode discovery.,2026-08-20
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/det/2026.htm,free,structured_page,Season reference.,2026-08-20

@@ -1,0 +1,7 @@
+source_id,entity_type,name,outlet,current_role,source_class,priority,status,access,specialties,handling_note,former_role,ended_on,replacement_if_known,last_verified
+local-source-cincinnati-bengals,organization,Cincinnati Bengals communications,Cincinnati Bengals,Official team communications,official,essential,active,free,"roster; injuries; transactions; depth chart; conferences","Team analysis is not independent.",,,,2026-08-20
+local-source-nfl-gamebooks,organization,NFL gamebooks and participation records,NFL,Official game records,official,essential,active,free,"participation; starters; statistics; play-by-play","Use postgame source of record.",,,,2026-08-20
+local-writer-ben-baby,person,Ben Baby,ESPN NFL Nation,Cincinnati Bengals NFL Nation reporter,reporting,essential,active,mixed,"daily beat; injuries; roster; organization","Record retrieval date for updated pieces.",,,,2026-08-20
+local-writer-kelsey-conway,person,Kelsey Conway,Cincinnati Enquirer,Bengals beat reporter,reporting,essential,active,paid,"practice; roster; injuries; personnel","Summarize paywalled work and attribute.",,,,2026-08-20
+local-writer-paul-dehner-jr,person,Paul Dehner Jr.,The Athletic,Senior Bengals writer,reporting,essential,active,paid,"contracts; roster; scheme; organization","Separate reporting from analysis and podcast opinion.",,,,2026-08-20
+local-source-pro-football-reference,organization,Pro Football Reference,Sports Reference,Statistical reference,data,valuable,active,free,"game logs; snap counts; history","Secondary reference.",,,,2026-08-20

@@ -1,0 +1,10 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-baltimore-ravens,official_news,https://www.baltimoreravens.com/news/,free,metadata_and_summary,Official news.,2026-08-20
+local-source-baltimore-ravens,official_roster,https://www.baltimoreravens.com/team/players-roster/,free,structured_page,Current roster.,2026-08-20
+local-source-baltimore-ravens,official_injury_report,https://www.baltimoreravens.com/team/injury-report/,free,structured_monitoring,Official status.,2026-08-20
+local-source-baltimore-ravens,official_press_room,https://www.baltimoreravens.com/news/press-room/,free,structured_monitoring,Media guide releases game materials and transcripts.,2026-08-20
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook.,2026-08-20
+local-writer-jeff-zrebiec,outlet_landing,https://www.nytimes.com/athletic/nfl/team/ravens/,paid,metadata_and_summary,Athletic Ravens coverage.,2026-08-20
+local-writer-brian-wacker,outlet_landing,https://www.baltimoresun.com/sports/ravens/,paid,metadata_and_summary,Baltimore Sun Ravens coverage.,2026-08-20
+local-writer-jamison-hensley,outlet_landing,https://www.espn.com/nfl/team/_/name/bal/baltimore-ravens,mixed,metadata_and_summary,ESPN Ravens coverage.,2026-08-20
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/rav/2026.htm,free,structured_page,Season reference.,2026-08-20
