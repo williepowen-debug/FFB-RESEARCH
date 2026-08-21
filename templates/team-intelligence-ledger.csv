@@ -1,1 +1,1 @@
-ledger_id,review_date,team_id,synthesis_record_id,observation_ids,routing_level,signal_type,entity_or_unit,evidence_effect,target_path,disposition,next_review_trigger,status,notes
+ledger_id,review_date,team_id,synthesis_record_id,observation_ids,routing_level,signal_type,entity_or_unit,evidence_effect,target_ids,target_path,disposition,next_review_trigger,status,notes

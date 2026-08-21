@@ -142,8 +142,10 @@ disposition in `<team>/<season>/intelligence-ledger.csv`. Copy
 needs one. This is the filtered bridge between dated intelligence and the team's evolving research
 baseline; readers and synthesizers do not edit it.
 
-Each ledger row preserves the synthesis record, observation IDs, affected team record, evidence
-effect, next review trigger, and one disposition:
+Each ledger row preserves the synthesis record, observation IDs, stable target record or question
+IDs, target path, evidence effect, next review trigger, and one disposition. Use semicolon-separated
+`target_ids` when one signal affects multiple questions. Stable IDs are authoritative; the path is
+the current navigation target.
 
 - `promoted`: ARCHITECT updated the named canonical team, player, or weekly record;
 - `deferred`: material evidence is preserved, but the promotion threshold is not yet met;
