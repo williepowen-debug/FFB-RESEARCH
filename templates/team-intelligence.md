@@ -44,6 +44,18 @@ change them.>
 
 <What remains unresolved and what evidence would resolve it.>
 
+## Excluded noise
+
+<List generic praise, repetition, unsupported speculation, or other false positives reviewed but
+not routed. State `None` when there were no exclusions.>
+
+## Run metrics
+
+- Raw observations:
+- Unique evidence clusters:
+- Repeats removed:
+- Synthesis elapsed time:
+
 ## Sources
 
 - <Source, original URL, publication time, retrieval time, and observation ID.>

@@ -37,8 +37,13 @@ broadening scope.
 - Give equivalent claims the same stable `dedup_key` even when wording differs.
 - `confidence` measures fidelity to the source, not fantasy conviction.
 - Do not edit findings, profiles, hypotheses, rankings, weekly records, syntheses, or priority boards.
+- Treat `no meaningful update` as a valid run result; do not create filler observations.
+- During a pilot, stop at the assignment's observation cap and report potentially material overflow
+  to ARCHITECT rather than choosing silently what to omit.
 
 ## Closeout
 
-Run `python3 scripts/validate_intelligence.py`. Report rows emitted, sources checked, inaccessible
-sources, likely duplicate clusters, conflicts, and time-sensitive items requiring synthesis.
+Run `python3 scripts/validate_intelligence.py`. Complete
+`templates/reader-run-report.csv` with rows emitted, source access outcomes, likely duplicate
+clusters, conflicts, elapsed time, and time-sensitive items requiring synthesis. Record every
+assigned source as checked, inaccessible, no new material, or failed endpoint.

@@ -58,6 +58,12 @@ Use [templates/reader-assignment.csv](templates/reader-assignment.csv) to freeze
 Spawn-ready role contracts live in `.claude/agents/reader.md` and
 `.claude/agents/synthesizer.md`.
 
+Use the same exact retrieval window for every team in a comparative pilot. A completed reader run
+may contain zero observations: `no meaningful update` is a valid result when the reader documents
+which sources were checked and what could not be accessed. Pilot assignments should normally cap
+output at 20 observations per team, with 10–20 as a useful target when the window contains real
+news. The cap is a noise control, not a quota; never manufacture rows to reach it.
+
 ## Observation contract
 
 Copy [templates/reader-observations.csv](templates/reader-observations.csv). Required fields are
@@ -109,6 +115,11 @@ Routing levels:
 - `escalate`: material, time-sensitive change to availability, role, projection, ranking, waiver,
   trade, draft, or lineup decisions.
 
+Escalation should be intentionally difficult. It normally requires official evidence, measured
+usage, or strong independent reporting plus an immediate fantasy decision consequence. Generic
+praise, repeated commentary, unsupported speculation, and unchanged status remain `log` or are
+excluded as false positives.
+
 ## League priority board
 
 Copy [templates/intelligence-priority-board.csv](templates/intelligence-priority-board.csv). The
@@ -145,4 +156,7 @@ underlying observation or synthesis snapshot.
 7. Run the standard repository validation gate.
 
 Pilot the system on one dense ecosystem, one subscription-heavy ecosystem, and one thinner or
-team-controlled ecosystem before scheduling all 32 teams.
+team-controlled ecosystem before scheduling all 32 teams. Use
+[THREE_TEAM_PILOT.md](THREE_TEAM_PILOT.md) for the initial 49ers, Saints, and Cardinals manual
+pilot. Do not automate scheduling, retrieval, synthesis, or promotion until the retrospective
+identifies a stable repeated step worth automating.
