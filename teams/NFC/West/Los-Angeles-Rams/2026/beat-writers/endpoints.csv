@@ -1,0 +1,15 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-los-angeles-rams,official_news,https://www.therams.com/news/,free,metadata_and_summary,"Official news.",2026-08-21
+local-source-nfl-gamebooks,official_data,https://www.nfl.com/scores/,free,manual_only,"Official gamebooks.",2026-08-21
+local-writer-sarah-barshop,article_author,https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams,free,metadata_and_summary,"ESPN Rams hub.",2026-08-21
+local-writer-gary-klein,article_author,https://www.latimes.com/people/gary-klein,paywall,manual_only,"Current Rams archive.",2026-08-21
+local-writer-adam-grosbard,article_author,https://www.ocregister.com/author/adam-grosbard/,paywall,manual_only,"SCNG Rams bylines.",2026-08-21
+local-writer-jourdan-rodrigue,article_author,https://www.nytimes.com/athletic/author/jourdan-rodrigue/,paywall,manual_only,"National NFL and Rams enterprise archive.",2026-08-21
+local-writer-stu-jackson,article_author,https://www.therams.com/news/,free,metadata_and_summary,"Official bylines.",2026-08-21
+local-writer-zach-edwards,article_author,https://www.therams.com/news/,free,metadata_and_summary,"Official bylines and recurring 2026 camp observations.",2026-08-21
+local-writer-jb-long,podcast,https://www.therams.com/podcasts/,free,metadata_and_summary,"Official interviews and weekly shows.",2026-08-21
+local-writer-dmarco-farr,podcast,https://www.therams.com/video/between-the-horns,free,metadata_and_summary,"Official analysis.",2026-08-21
+local-writer-darren-haynes,broadcast,https://www.therams.com/news/rams-announce-2026-tv-and-broadcast-teams,free,metadata_and_summary,"CBS LA preseason sideline role and interviews.",2026-08-21
+local-writer-jake-ellenbogen,video,https://www.youtube.com/@JKBOGEN,free,manual_only,"Rams film and roster analysis.",2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/ram/2026.htm,free,structured_data,"Stats and unofficial snaps.",2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/los-angeles-rams,free,structured_data,"Cap and contracts.",2026-08-21

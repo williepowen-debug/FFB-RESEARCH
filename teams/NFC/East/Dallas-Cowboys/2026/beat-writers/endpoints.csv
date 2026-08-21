@@ -1,0 +1,19 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-dallas-cowboys,official_news,https://www.dallascowboys.com/news/,free,metadata_and_summary,Official news and transactions.,2026-08-21
+local-source-dallas-cowboys,official_roster,https://www.dallascowboys.com/team/players-roster/,free,structured_page,Current roster and reserve lists.,2026-08-21
+local-source-dallas-cowboys,official_podcasts,https://www.dallascowboys.com/podcast/,free,metadata_and_summary,Team-controlled camp shows and interviews.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebooks and participation reports.,2026-08-21
+local-writer-todd-archer,outlet_profile,https://espnpressroom.com/bio/todd-archer/,free,metadata_and_summary,ESPN biography confirming Cowboys assignment.,2026-08-21
+local-writer-nick-harris,outlet_profile,https://www.star-telegram.com/profile/292227800/,paid,metadata_and_summary,Profile and current 2026 Cowboys bylines.,2026-08-21
+local-writer-calvin-watkins,outlet_landing,https://www.dallasnews.com/sports/cowboys/,paid,metadata_and_summary,Current Cowboys beat and camp coverage.,2026-08-21
+local-writer-clarence-hill,article_author,https://alldlls.com/author/clarencedlls/,mixed,metadata_and_summary,DLLS profile and current sourced Cowboys reporting.,2026-08-21
+local-writer-joseph-hoyt,article_author,https://alldlls.com/author/jhoyt/,mixed,metadata_and_summary,DLLS profile confirming Cowboys beat assignment.,2026-08-21
+local-writer-jon-machota,article_author,https://www.nytimes.com/athletic/author/jon-machota/,paid,manual_only,The Athletic author archive.,2026-08-21
+local-writer-saad-yousuf,article_author,https://www.nytimes.com/athletic/author/saad-yousuf/,paid,manual_only,The Athletic author archive; current camp work corroborated locally.,2026-08-21
+local-writer-jane-slater,outlet_profile,https://www.nfl.com/author/jane-slater,free,metadata_and_summary,NFL Network reporting archive.,2026-08-21
+local-writer-patrik-walker,article_author,https://www.dallascowboys.com/team/writers/patrik-walker,free,metadata_and_summary,Team staff writer page.,2026-08-21
+local-writer-bryan-broaddus,podcast,https://podcasts.apple.com/us/podcast/jeff-cavanaugh-trust-the-tape/id1573624543,free,manual_only,Current film and scouting show with Bryan Broaddus.,2026-08-21
+local-writer-david-moore,outlet_profile,https://www.dmagazine.com/writers/david-moore/,free,metadata_and_summary,Current StrongSide Cowboys archive and role biography.,2026-08-21
+local-writer-newy-scruggs,local_tv,https://www.nbcdfw.com/tag/dallas-cowboys/,free,metadata_and_summary,NBC 5 Cowboys interviews and local television coverage.,2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/dallas-cowboys,free,structured_data,Cap and contract reference.,2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/dal/2026.htm,free,structured_data,Season logs and snap counts.,2026-08-21

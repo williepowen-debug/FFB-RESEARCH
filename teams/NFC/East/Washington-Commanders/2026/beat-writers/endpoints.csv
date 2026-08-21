@@ -1,0 +1,17 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-washington-commanders,official_news,https://www.commanders.com/news/,free,metadata_and_summary,Official news and camp notebooks.,2026-08-21
+local-source-washington-commanders,official_roster,https://www.commanders.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-washington-commanders,official_media,https://www.commanders.com/video/press-conferences/,free,metadata_and_summary,Press conferences and interviews.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebooks and participation reports.,2026-08-21
+local-writer-john-keim,outlet_profile,https://espnpressroom.com/us/bios/john-keim/,free,metadata_and_summary,ESPN biography confirming assignment.,2026-08-21
+local-writer-tashan-reed,outlet_profile,https://www.washingtonpost.com/people/tashan-reed/,paid,metadata_and_summary,Profile and current August 2026 bylines.,2026-08-21
+local-writer-nicki-jhabvala,article_author,https://www.nytimes.com/athletic/author/nicki-jhabvala/,paid,manual_only,The Athletic author archive.,2026-08-21
+local-writer-jp-finlay,outlet_profile,https://www.nbcwashington.com/author/jp-finlay-nbc4-sports-reporter/,free,metadata_and_summary,NBC4 profile and current Commanders work.,2026-08-21
+local-writer-jp-finlay,podcast,https://www.nbcwashington.com/tag/all-ears-with-jp-finlay/,free,metadata_and_summary,Current camp interviews and analysis.,2026-08-21
+local-writer-ben-standig,independent_site,https://lastmanstandig.substack.com/,mixed,metadata_and_summary,Current independent reporting and camp archive.,2026-08-21
+local-writer-ben-standig,podcast,https://podcasts.apple.com/us/podcast/last-man-standig/id1760952448,free,metadata_and_summary,Frequent current camp reports and interviews.,2026-08-21
+local-writer-mark-bullock,independent_site,https://markbullock.substack.com/,mixed,manual_only,Independent film analysis.,2026-08-21
+local-writer-logan-paulsen,official_film,https://www.commanders.com/video/life-in-the-nfl-film-room,free,metadata_and_summary,Team-controlled film analysis.,2026-08-21
+local-writer-zach-selby,article_author,https://www.commanders.com/team/front-office-roster/zach-selby,free,metadata_and_summary,Team writer profile.,2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/washington-commanders,free,structured_data,Cap and contract reference.,2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/was/2026.htm,free,structured_data,Season logs and snap counts.,2026-08-21

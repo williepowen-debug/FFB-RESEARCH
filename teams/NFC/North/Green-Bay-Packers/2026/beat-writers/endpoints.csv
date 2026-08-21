@@ -1,0 +1,21 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-green-bay-packers,official_news,https://www.packers.com/news/,free,metadata_and_summary,Official news.,2026-08-21
+local-source-green-bay-packers,official_roster,https://www.packers.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Gamebooks.,2026-08-21
+local-writer-rob-demovsky,outlet_profile,https://espnpressroom.com/bio/rob-demovsky/,free,metadata_and_summary,ESPN biography.,2026-08-21
+local-writer-matt-schneidman,article_author,https://www.nytimes.com/athletic/author/matt-schneidman/,paid,manual_only,Current Athletic archive.,2026-08-21
+local-writer-tom-silverstein,podcast,https://podcasts.apple.com/us/podcast/packers-podcast/id518355845,mixed,metadata_and_summary,Current PackersNews show.,2026-08-21
+local-writer-ryan-wood,podcast,https://podcasts.apple.com/us/podcast/packers-podcast/id518355845,mixed,metadata_and_summary,Current camp reporting.,2026-08-21
+local-writer-pete-dougherty,podcast,https://podcasts.apple.com/us/podcast/packers-podcast/id518355845,mixed,metadata_and_summary,PackersNews analysis.,2026-08-21
+local-writer-dominique-yates,podcast,https://podcasts.apple.com/us/podcast/packers-podcast/id518355845,mixed,metadata_and_summary,Current Green 19 host and camp contributor.,2026-08-21
+local-writer-bill-huber,outlet_landing,https://www.si.com/nfl/packers/,free,metadata_and_summary,Packers reporting archive.,2026-08-21
+local-writer-andy-herman,podcast,https://www.packernet.com/,free,manual_only,Pack-A-Day feed and film work.,2026-08-21
+local-writer-justis-mosqueda,article_author,https://www.acmepackingcompany.com/authors/justis-mosqueda,free,metadata_and_summary,Current analysis and camp synthesis.,2026-08-21
+local-writer-dusty-evely,film_archive,https://www.acmepackingcompany.com/archives/analysis/2025/10/1,free,metadata_and_summary,Film and scheme archive.,2026-08-21
+local-writer-ross-uglem,podcast,https://www.packernet.com/,free,manual_only,Pack-A-Day and roster analysis.,2026-08-21
+local-writer-aaron-nagler,outlet_landing,https://cheeseheadtv.com/,mixed,metadata_and_summary,Credentialed camp work.,2026-08-21
+local-writer-mike-spofford,official_podcast,https://www.packers.com/audio/packers-unscripted,free,metadata_and_summary,Team podcast.,2026-08-21
+local-writer-wes-hodkiewicz,official_podcast,https://www.packers.com/audio/packers-unscripted,free,metadata_and_summary,Team podcast.,2026-08-21
+local-writer-larry-mccarren,official_radio,https://www.packers.com/video/radio-network,free,metadata_and_summary,Packers Radio Network role confirmation.,2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/green-bay-packers,free,structured_data,Cap reference.,2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/gnb/2026.htm,free,structured_data,Logs and snaps.,2026-08-21

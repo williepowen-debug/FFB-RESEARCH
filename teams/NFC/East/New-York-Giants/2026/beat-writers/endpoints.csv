@@ -1,0 +1,19 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-new-york-giants,official_news,https://www.giants.com/news/,free,metadata_and_summary,Official news and transactions.,2026-08-21
+local-source-new-york-giants,official_roster,https://www.giants.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-new-york-giants,official_media,https://www.giants.com/video/press-conferences/,free,metadata_and_summary,Press conferences and interviews.,2026-08-21
+local-source-new-york-giants,official_podcasts,https://www.giants.com/podcasts/2026_podcast,free,metadata_and_summary,Team-controlled daily camp analysis.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebooks and participation reports.,2026-08-21
+local-writer-jordan-raanan,outlet_profile,https://espnpressroom.com/us/bios/jordan-raanan/,free,metadata_and_summary,ESPN biography confirming assignment.,2026-08-21
+local-writer-dan-duggan,article_author,https://www.nytimes.com/athletic/author/dan-duggan/,paid,manual_only,The Athletic author archive.,2026-08-21
+local-writer-charlotte-carroll,article_author,https://www.nytimes.com/athletic/author/charlotte-carroll/,paid,manual_only,The Athletic author archive and current Giants beat work.,2026-08-21
+local-writer-art-stapleton,newsletter,https://profile.northjersey.com/newsletters/manage/,mixed,metadata_and_summary,All In on NY Giants daily newsletter.,2026-08-21
+local-writer-paul-schwartz,podcast,https://podcasts.apple.com/us/podcast/blue-rush-new-york-giants-podcast/id1484131113,free,metadata_and_summary,Current Giants reporting and analysis.,2026-08-21
+local-writer-ryan-dunleavy,outlet_landing,https://nypost.com/sports/giants/,mixed,metadata_and_summary,Current New York Post Giants coverage.,2026-08-21
+local-writer-pat-leonard,article_author,https://www.nydailynews.com/author/pat-leonard/,mixed,manual_only,Daily News author archive.,2026-08-21
+local-writer-bobby-skinner,podcast,https://podcasts.apple.com/us/podcast/giants-nation-show-giants-podcast/id1806946421,free,metadata_and_summary,Current film and camp-analysis show.,2026-08-21
+local-writer-connor-hughes,outlet_profile,https://sny.tv/talent,free,metadata_and_summary,SNY profile confirming Giants and Jets coverage.,2026-08-21
+local-writer-john-schmeelk,official_podcast,https://www.giants.com/podcasts/2026_podcast,free,metadata_and_summary,Team-controlled daily audio and camp coverage.,2026-08-21
+local-writer-eric-kennedy,independent_site,https://bigblueinteractive.com/,free,metadata_and_summary,Long-running Giants reports and attributed camp synthesis.,2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/new-york-giants,free,structured_data,Cap and contract reference.,2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/nyg/2026.htm,free,structured_data,Season logs and snap counts.,2026-08-21

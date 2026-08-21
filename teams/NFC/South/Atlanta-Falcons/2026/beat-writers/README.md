@@ -1,5 +1,7 @@
 # Atlanta Falcons source-monitoring guide
 
+Candidate discovery and omission-pass decisions are recorded in [candidates.csv](candidates.csv).
+
 This directory tracks the people, outlets, official records, analysis, and data sources used to monitor the 2026 Atlanta Falcons for performance and fantasy-football research: injuries, availability, practice participation, depth-chart movement, player usage, coaching and scheme, transactions, and contract context.
 
 ## Files

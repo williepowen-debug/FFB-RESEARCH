@@ -1,0 +1,20 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-minnesota-vikings,official_news,https://www.vikings.com/news/,free,metadata_and_summary,Official news.,2026-08-21
+local-source-minnesota-vikings,official_roster,https://www.vikings.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Gamebooks.,2026-08-21
+local-writer-kevin-seifert,official_roundtable,https://www.vikings.com/video/beat-writer-roundtable-how-will-the-vikings-quarterback-room-evolve-this-offseason,free,metadata_and_summary,Current role confirmation.,2026-08-21
+local-writer-alec-lewis,article_author,https://www.nytimes.com/athletic/author/alec-lewis/,paid,manual_only,Athletic archive.,2026-08-21
+local-writer-ben-goessling,outlet_profile,https://www.startribune.com/author/ben-goessling/6134708,paid,metadata_and_summary,Lead beat profile.,2026-08-21
+local-writer-andrew-krammer,podcast,https://podcasts.apple.com/us/podcast/access-vikings/id1032791356,mixed,metadata_and_summary,Current camp coverage.,2026-08-21
+local-writer-emily-leiker,podcast,https://podcasts.apple.com/us/podcast/access-vikings/id1032791356,mixed,metadata_and_summary,Current camp coverage.,2026-08-21
+local-writer-dane-mizutani,official_roundtable,https://www.vikings.com/video/beat-writer-roundtable-how-will-the-vikings-quarterback-room-evolve-this-offseason,free,metadata_and_summary,Current role confirmation.,2026-08-21
+local-writer-matthew-coller,independent_site,https://purpleinsider.com/,mixed,metadata_and_summary,Independent reporting.,2026-08-21
+local-writer-will-ragatz,outlet_landing,https://www.si.com/nfl/vikings/,free,metadata_and_summary,Current on-site camp reporting.,2026-08-21
+local-writer-luke-braun,podcast,https://podcasts.apple.com/us/podcast/locked-on-vikings-daily-podcast-on-the-minnesota-vikings/id1141155612,free,manual_only,Film and scheme analysis.,2026-08-21
+local-writer-tatum-everett,official_video,https://www.vikings.com/video/ven-videos,free,metadata_and_summary,Team interviews and roundtables.,2026-08-21
+local-writer-lindsey-young,official_news,https://www.vikings.com/news/,free,metadata_and_summary,Official position previews and features.,2026-08-21
+local-writer-rob-kleifield,official_news,https://www.vikings.com/news/training-camp,free,metadata_and_summary,Official camp observations.,2026-08-21
+local-writer-paul-allen,official_podcast,https://www.vikings.com/audio/,free,metadata_and_summary,Team radio and audio.,2026-08-21
+local-writer-pete-bercich,official_podcast,https://www.vikings.com/audio/,free,metadata_and_summary,Team analysis.,2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/minnesota-vikings,free,structured_data,Cap reference.,2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/min/2026.htm,free,structured_data,Logs and snaps.,2026-08-21

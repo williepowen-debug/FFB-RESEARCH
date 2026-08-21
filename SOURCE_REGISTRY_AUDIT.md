@@ -5,13 +5,22 @@ not merely to list familiar beat writers. It is to capture the smallest dependab
 that covers every fantasy-relevant information lane without confusing access, reporting, analysis,
 or team-controlled content.
 
-## Required outputs
+## Required outputs and phase boundary
 
-The published team directory contains `README.md`, `registry.md`, `sources.csv`, and
-`endpoints.csv`. During discovery, copy
-`templates/beat-writer-candidate-ledger.csv` to a temporary working file. The ledger is an audit
-tool, not a required published artifact, but every plausible candidate must receive a disposition
-before the registry is considered complete.
+The published team directory contains `README.md`, `registry.md`, `sources.csv`, `endpoints.csv`,
+and `candidates.csv`. Copy `templates/beat-writer-candidate-ledger.csv` to `candidates.csv` before
+research begins. The ledger is a durable audit artifact: every plausible candidate must receive a
+disposition, and the evidence must remain reviewable after the build.
+
+Complete three distinct phases. Do not draft the final registry during initial discovery:
+
+1. **Ecosystem discovery** — map outlets and candidates without deciding the final rotation.
+2. **Independent omission pass** — use fresh queries intended to find what phase one missed.
+3. **Construction and reconciliation** — disposition candidates, then write and cross-check every
+   published file against `candidates.csv`.
+
+Existing registries without `candidates.csv` are legacy. Add the durable ledger on their next
+material refresh; a new or materially refreshed registry is incomplete without it.
 
 Allowed dispositions are:
 
@@ -62,6 +71,20 @@ the source must still add information not reliably supplied by a stronger source
 6. **Record departures and replacements.** Preserve useful former-role context in `sources.csv`,
    but never present an old assignment as current.
 
+## Mandatory outlet checklist
+
+Disposition candidates from every applicable category, even when no source qualifies:
+
+- official team communications and NFL records;
+- ESPN NFL Nation and The Athletic;
+- largest and secondary local newspapers;
+- local television and sports radio;
+- independent subscription reporting;
+- credentialed specialist sites and podcasts;
+- film, scheme, analytics, and position-usage specialists;
+- contract, cap, and roster-mechanics coverage;
+- former beat writers and their verified replacements.
+
 ## Adversarial omission pass
 
 After drafting the registry, start a fresh search intended to disprove its completeness:
@@ -75,6 +98,9 @@ After drafting the registry, start a fresh search intended to disprove its compl
 
 This pass must be conducted after the initial registry exists. Repeating the original queries does
 not count.
+
+Record every omission-pass candidate in `candidates.csv`, including excluded and unverified names.
+Do not claim completeness until this pass and cross-file reconciliation are finished.
 
 ## Completion gates
 
@@ -91,9 +117,29 @@ reason. No important lane depends on an unverified candidate. Every included sou
 `sources.csv`, has at least one usable endpoint in `endpoints.csv`, and is represented consistently
 in `registry.md` and `writer_ids` when the source is a person.
 
+### Reconciliation gate
+
+- Every `include` candidate appears in `sources.csv` and has an endpoint.
+- Every included person appears in `writer_ids`.
+- Every `writer_id` resolves to a person in `sources.csv` and has an endpoint.
+- Every essential source is represented in `registry.md`.
+- Every candidate has evidence, a reason, and an ISO verification date.
+- No duplicate candidate or source ID silently represents the same entity.
+
 ## Closeout
 
 Run the adversarial pass once more after edits, then regenerate the catalog and execute the full
 repository validation gate in `TEAM_BUILD.md`. In the work summary, name any sources added by the
 omission pass and any lane explicitly left unavailable. Never claim that a registry contains every
 possible voice; claim that all defined lanes and plausible current candidates were audited.
+
+Report closeout evidence in this shape:
+
+```text
+Initial candidates:
+Omission-pass additions:
+Excluded candidates:
+Unverified candidates:
+Uncovered lanes:
+Cross-file reconciliation:
+```

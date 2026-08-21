@@ -56,6 +56,11 @@ REQUIRED_SECTIONS = {
     "weekly_matchup": ["Game environment", "Matchup analysis", "Fantasy decisions", "Open questions and next checks", "Sources"],
     "depth_chart": ["Offense", "Defense", "Special teams", "Recent changes", "Sources"],
 }
+CANDIDATE_HEADERS = [
+    "candidate_id", "candidate_name", "outlet", "entity_type", "discovery_phase",
+    "coverage_lanes", "current_assignment_evidence", "original_work_evidence",
+    "disposition", "priority", "reason", "source_id", "last_verified",
+]
 
 
 def load_json(path: Path, failures: list[str]) -> dict[str, Any]:
@@ -160,6 +165,93 @@ def validate_links(failures: list[str]) -> None:
                 continue
             if not resolved.exists():
                 failures.append(f"{path.relative_to(REPO_ROOT)}: broken relative link {raw_target}")
+
+
+def read_csv_rows(path: Path, failures: list[str]) -> tuple[list[str], list[dict[str, str]]]:
+    try:
+        with path.open(newline="", encoding="utf-8") as handle:
+            reader = csv.DictReader(handle)
+            return list(reader.fieldnames or []), list(reader)
+    except (OSError, csv.Error) as exc:
+        failures.append(f"{path.relative_to(REPO_ROOT)}: invalid CSV: {exc}")
+        return [], []
+
+
+def validate_source_registries(failures: list[str]) -> None:
+    """Reconcile source registry identities, endpoints, writer IDs, and v2 audit ledgers."""
+    for registry_path in sorted(REPO_ROOT.glob("teams/*/*/*/2026/beat-writers/registry.md")):
+        directory = registry_path.parent
+        relative = directory.relative_to(REPO_ROOT)
+        sources_path = directory / "sources.csv"
+        endpoints_path = directory / "endpoints.csv"
+        if not sources_path.is_file() or not endpoints_path.is_file():
+            failures.append(f"{relative}: populated registry requires sources.csv and endpoints.csv")
+            continue
+
+        _, source_rows = read_csv_rows(sources_path, failures)
+        _, endpoint_rows = read_csv_rows(endpoints_path, failures)
+        source_ids = [row.get("source_id", "") for row in source_rows]
+        duplicates = sorted(value for value, count in Counter(source_ids).items() if value and count > 1)
+        if duplicates:
+            failures.append(f"{relative}/sources.csv: duplicate source_ids {duplicates}")
+        known_sources = {row.get("source_id", ""): row for row in source_rows if row.get("source_id")}
+        endpoint_ids = {row.get("source_id", "") for row in endpoint_rows if row.get("source_id")}
+        unknown_endpoint_ids = sorted(endpoint_ids - set(known_sources))
+        if unknown_endpoint_ids:
+            failures.append(f"{relative}/endpoints.csv: unknown source_ids {unknown_endpoint_ids}")
+
+        candidates_path = directory / "candidates.csv"
+        if not candidates_path.is_file():
+            continue  # Legacy registry; required on its next material refresh.
+
+        missing_endpoints = sorted(set(known_sources) - endpoint_ids)
+        if missing_endpoints:
+            failures.append(f"{relative}: sources without endpoints {missing_endpoints}")
+
+        try:
+            metadata, _ = parse_front_matter(registry_path)
+        except FrontMatterError:
+            continue
+        for writer_id in (metadata or {}).get("writer_ids", []):
+            row = known_sources.get(writer_id)
+            if row is None:
+                failures.append(f"{relative}/registry.md: writer_id {writer_id!r} missing from sources.csv")
+            elif row.get("entity_type") != "person":
+                failures.append(f"{relative}/registry.md: writer_id {writer_id!r} is not a person")
+            if writer_id not in endpoint_ids:
+                failures.append(f"{relative}/registry.md: writer_id {writer_id!r} has no endpoint")
+
+        headers, candidate_rows = read_csv_rows(candidates_path, failures)
+        if headers != CANDIDATE_HEADERS:
+            failures.append(f"{relative}/candidates.csv: headers do not match audit template")
+        candidate_ids = [row.get("candidate_id", "") for row in candidate_rows]
+        duplicate_candidates = sorted(
+            value for value, count in Counter(candidate_ids).items() if value and count > 1
+        )
+        if duplicate_candidates:
+            failures.append(f"{relative}/candidates.csv: duplicate candidate_ids {duplicate_candidates}")
+        for index, row in enumerate(candidate_rows, start=2):
+            label = f"{relative}/candidates.csv:{index}"
+            if row.get("discovery_phase") not in {"initial", "omission_pass"}:
+                failures.append(f"{label}: invalid discovery_phase")
+            disposition = row.get("disposition")
+            if disposition not in {"include", "exclude", "unverified"}:
+                failures.append(f"{label}: invalid disposition")
+            for key in ("candidate_id", "candidate_name", "coverage_lanes", "reason", "last_verified"):
+                if not row.get(key):
+                    failures.append(f"{label}: {key} is required")
+            try:
+                date.fromisoformat(row.get("last_verified", ""))
+            except ValueError:
+                failures.append(f"{label}: last_verified is not an ISO date")
+            source_id = row.get("source_id", "")
+            if disposition == "include":
+                if not row.get("current_assignment_evidence") or not row.get("original_work_evidence"):
+                    failures.append(f"{label}: included candidate requires assignment and original-work evidence")
+                if source_id not in known_sources:
+                    failures.append(f"{label}: included source_id {source_id!r} missing from sources.csv")
+                elif source_id not in endpoint_ids:
+                    failures.append(f"{label}: included source_id {source_id!r} has no endpoint")
 
 
 def validate_supersession_references(
@@ -284,6 +376,7 @@ def main() -> int:
     validate_supersession_references(supersedes_by_id, paths_by_id, failures)
 
     validate_links(failures)
+    validate_source_registries(failures)
 
     catalog_path = REPO_ROOT / "catalog.jsonl"
     expected_catalog = render_catalog(REPO_ROOT)

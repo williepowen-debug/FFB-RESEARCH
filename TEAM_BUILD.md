@@ -7,9 +7,11 @@ Read `AGENTS.md`, `SOURCE_POLICY.md`, and `schemas/README.md` first. This guide 
 *how the pieces fit into a team folder*; the per-record templates in this directory and the
 JSON Schemas in `schemas/` govern the *shape of each record*.
 
-Before building or refreshing a `beat-writers/` directory, follow
+Before building or materially refreshing a `beat-writers/` directory, follow
 [`SOURCE_REGISTRY_AUDIT.md`](SOURCE_REGISTRY_AUDIT.md). A registry is incomplete until its
-coverage-lane matrix, candidate dispositions, and adversarial omission pass are complete.
+coverage-lane matrix, durable `candidates.csv`, candidate dispositions, independent adversarial
+omission pass, and cross-file reconciliation are complete. Legacy registries gain the durable
+ledger on their next material refresh.
 
 ## Tiers
 
