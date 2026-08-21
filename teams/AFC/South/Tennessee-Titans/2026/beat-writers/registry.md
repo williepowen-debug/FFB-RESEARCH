@@ -14,7 +14,7 @@ last_verified: 2026-08-21
 confidence: high
 source_ids: []
 supersedes: []
-writer_ids: ["local-writer-turron-davenport", "local-writer-nick-suss", "local-writer-paul-kuharsky", "local-writer-easton-freeze", "local-writer-jim-wyatt"]
+writer_ids: ["local-writer-turron-davenport", "local-writer-nick-suss", "local-writer-paul-kuharsky", "local-writer-teresa-walker", "local-writer-terry-mccormick", "local-writer-easton-freeze", "local-writer-jim-wyatt"]
 ---
 
 # Tennessee Titans 2026 Source Registry
@@ -36,6 +36,8 @@ See [sources.csv](sources.csv), [endpoints.csv](endpoints.csv), and [README.md](
 | Source | Outlet | Class | Primary value | Handling note |
 |---|---|---|---|---|
 | Easton Freeze | A to Z Sports | reporting | Practice, roster, scheme and local sourcing | Separate reporting from show opinion |
+| Teresa Walker | Associated Press | reporting | Independent wire coverage, injuries, games and organization | Broader regional remit; use dated Titans work |
+| Terry McCormick | Titan Insider | reporting | Long-tenured local beat, injuries, practice and roster | Separate sourced reporting from commentary |
 | Jim Wyatt | Titans | team analysis | Detailed camp observation, interviews and official context | Team employee; not independent confirmation |
 | Pro Football Reference | Sports Reference | data | Logs and snap counts | Secondary reference |
 
@@ -52,7 +54,8 @@ Established 2026-08-21. No repo-local outcome history has yet been scored.
 - Corrections or misses: none scored yet.
 - Current reliability assessment: unscored; tiers reflect verified roles, tenure and camp access.
 - Evidence for assessment: ESPN confirms Davenport's assignment; current 2026 Tennessean coverage
-  confirms Suss; Kuharsky and Freeze publish current credentialed camp work.
+  confirms Suss; Kuharsky and Freeze publish current credentialed camp work; current AP and Titan
+  Insider work confirms Walker and McCormick remain active on the team.
 
 ## Usage notes
 

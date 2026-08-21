@@ -14,7 +14,7 @@ last_verified: 2026-08-21
 confidence: high
 source_ids: []
 supersedes: []
-writer_ids: ["local-writer-michael-dirocco", "local-writer-demetrius-harvey", "local-writer-john-shipley", "local-writer-john-oehser"]
+writer_ids: ["local-writer-michael-dirocco", "local-writer-demetrius-harvey", "local-writer-juston-lewis", "local-writer-john-shipley", "local-writer-john-oehser"]
 ---
 
 # Jacksonville Jaguars 2026 Source Registry
@@ -29,6 +29,7 @@ See [sources.csv](sources.csv), [endpoints.csv](endpoints.csv), and [README.md](
 | NFL gamebooks and participation | NFL | official | Participation and game records | Preferred postgame record |
 | Michael DiRocco | ESPN NFL Nation | reporting | Daily beat, injuries, roster and organization | ESPN verifies assignment |
 | Demetrius Harvey | Florida Times-Union | reporting | Daily beat, practice, personnel and organization | Paywalled; summarize and attribute |
+| Juston Lewis | Florida Times-Union | reporting | Daily beat, practice, features and roster | Paywalled; summarize and attribute |
 | John Shipley | Jaguar Report / On SI | reporting | Detailed camp observation, roles and scheme | Corroborate projections and role conclusions |
 
 ## Valuable monitoring
@@ -50,8 +51,9 @@ Established 2026-08-21. No repo-local outcome history has yet been scored.
 - Confirmed early reports: none scored yet.
 - Corrections or misses: none scored yet.
 - Current reliability assessment: unscored; tiers reflect verified roles and current camp work.
-- Evidence for assessment: ESPN confirms DiRocco's assignment; current Times-Union coverage
-  confirms Harvey; current 2026 Jaguar Report and Jaguars camp coverage confirms Shipley.
+- Evidence for assessment: ESPN confirms DiRocco's assignment; current Times-Union profiles and
+  work confirm Harvey and Lewis; current 2026 Jaguar Report and Jaguars camp coverage confirms
+  Shipley.
 
 ## Usage notes
 

@@ -14,7 +14,7 @@ last_verified: 2026-08-21
 confidence: high
 source_ids: []
 supersedes: []
-writer_ids: ["local-writer-stephen-holder", "local-writer-joel-a-erickson", "local-writer-nathan-brown", "local-writer-kevin-bowen"]
+writer_ids: ["local-writer-stephen-holder", "local-writer-joel-a-erickson", "local-writer-nathan-brown", "local-writer-james-boyd", "local-writer-kevin-bowen"]
 ---
 
 # Indianapolis Colts 2026 Source Registry
@@ -30,6 +30,7 @@ See [sources.csv](sources.csv), [endpoints.csv](endpoints.csv), and [README.md](
 | Stephen Holder | ESPN NFL Nation | reporting | Daily beat, injuries, organization and roster | ESPN verifies assignment |
 | Joel A. Erickson | Indianapolis Star | reporting | Practice, scheme, personnel and roster | Separate reporting from analysis |
 | Nathan Brown | Indianapolis Star | reporting | Practice, injuries, quarterbacks and organization | Separate reporting from analysis |
+| James Boyd | The Athletic | reporting | Camp, injuries, roster construction and organization | Separate reporting from radio commentary |
 
 ## Valuable monitoring
 
@@ -51,7 +52,8 @@ Established 2026-08-21. No repo-local outcome history has yet been scored.
 - Corrections or misses: none scored yet.
 - Current reliability assessment: unscored; tiers reflect verified roles and recent camp access.
 - Evidence for assessment: ESPN confirms Holder's assignment; current 2026 IndyStar camp coverage
-  identifies Erickson and Brown as Colts insiders; Bowen is actively reporting from camp.
+  identifies Erickson and Brown as Colts insiders; current Athletic work confirms Boyd's role;
+  and Bowen is actively reporting from camp.
 
 ## Usage notes
 
