@@ -1,0 +1,15 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-las-vegas-raiders,official_news,https://www.raiders.com/news/,free,metadata_and_summary,Official news.,2026-08-21
+local-source-las-vegas-raiders,official_roster,https://www.raiders.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-las-vegas-raiders,official_injury_report,https://www.raiders.com/team/injury-report/,free,structured_monitoring,Official status.,2026-08-21
+local-source-las-vegas-raiders,official_transactions,https://www.raiders.com/team/transactions/,free,structured_monitoring,Official transactions.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook.,2026-08-21
+local-writer-ryan-mcfadden,outlet_profile,https://espnpressroom.com/bio/ryan-mcfadden/,free,metadata_and_summary,ESPN assignment biography.,2026-08-21
+local-writer-adam-hill,outlet_landing,https://www.reviewjournal.com/sports/raiders/,paid,metadata_and_summary,Review-Journal Raiders coverage.,2026-08-21
+local-writer-hondo-carpenter,outlet_profile,https://www.si.com/nfl/raiders/onsi/author/hondo-carpenter,free,metadata_and_summary,Raiders On SI author archive.,2026-08-21
+local-writer-vincent-bonsignore,outlet_landing,https://www.raidersbeat.com/,free,metadata_and_summary,Monitor attributed California Post and radio reporting.,2026-08-21
+local-writer-ed-graney,outlet_landing,https://www.reviewjournal.com/sports/raiders/,paid,metadata_and_summary,Review-Journal Raiders coverage.,2026-08-21
+local-writer-marcus-johnson,outlet_landing,https://www.youtube.com/@TapeDontLie,free,manual_retrieval,Tape Don't Lie film analysis.,2026-08-21
+local-writer-paul-gutierrez,outlet_landing,https://www.raiders.com/news/,free,metadata_and_summary,Raiders contributor coverage.,2026-08-21
+local-writer-levi-edwards,outlet_landing,https://www.raiders.com/news/,free,metadata_and_summary,Raiders team coverage.,2026-08-21
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/rai/2026.htm,free,structured_page,Season reference.,2026-08-21

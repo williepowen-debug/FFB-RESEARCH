@@ -1,0 +1,16 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-denver-broncos,official_news,https://www.denverbroncos.com/news/,free,metadata_and_summary,Official news.,2026-08-21
+local-source-denver-broncos,official_roster,https://www.denverbroncos.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-denver-broncos,official_injury_report,https://www.denverbroncos.com/team/injury-report/,free,structured_monitoring,Official status.,2026-08-21
+local-source-denver-broncos,official_transactions,https://www.denverbroncos.com/team/transactions/,free,structured_monitoring,Official transactions.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook.,2026-08-21
+local-writer-jeff-legwold,outlet_profile,https://espnpressroom.com/us/bios/jeff-legwold/,free,metadata_and_summary,ESPN assignment biography.,2026-08-21
+local-writer-nick-kosmider,outlet_landing,https://www.nytimes.com/athletic/nfl/team/broncos/,paid,metadata_and_summary,Athletic Broncos coverage.,2026-08-21
+local-writer-parker-gabriel,outlet_landing,https://www.denverpost.com/broncos/,paid,metadata_and_summary,Denver Post Broncos coverage.,2026-08-21
+local-writer-mike-klis,outlet_landing,https://www.9news.com/broncos,free,metadata_and_summary,9NEWS Broncos coverage.,2026-08-21
+local-writer-zac-stevens,outlet_landing,https://thednvr.com/category/broncos/,paid,metadata_and_summary,DNVR Broncos coverage.,2026-08-21
+local-writer-troy-renck,outlet_landing,https://www.denverpost.com/broncos/,paid,metadata_and_summary,Denver Post Broncos coverage.,2026-08-21
+local-writer-chris-tomasson,outlet_landing,https://denvergazette.com/sports/broncos/,paid,metadata_and_summary,Denver Gazette Broncos coverage.,2026-08-21
+local-writer-ryan-edwards,outlet_landing,https://koacolorado.iheart.com/,free,metadata_and_summary,KOA Broncos coverage and shows.,2026-08-21
+local-writer-aric-dilalla,outlet_landing,https://www.denverbroncos.com/news/,free,metadata_and_summary,Broncos team coverage.,2026-08-21
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/den/2026.htm,free,structured_page,Season reference.,2026-08-21
