@@ -7,6 +7,7 @@ This directory tracks official records and independent reporting used to monitor
 - [`registry.md`](registry.md): schema-validated editorial registry.
 - [`sources.csv`](sources.csv): normalized source identities and roles.
 - [`endpoints.csv`](endpoints.csv): monitoring pages and access notes.
+- [`candidates.csv`](candidates.csv): durable discovery and omission-pass audit trail.
 
 ## Signal hierarchy
 
@@ -22,4 +23,4 @@ Monitor Jalen Hurts' designed rushing (`phi-off-001`), the post-A.J. Brown targe
 (`phi-off-002`, `phi-off-003`), Saquon Barkley's high-value touches (`phi-off-004`), and the
 first-unit safety and edge rotations (`phi-def-002`, `phi-def-005`).
 
-Last verified: 2026-08-20.
+Last verified: 2026-08-21.

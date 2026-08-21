@@ -1,0 +1,19 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-tampa-bay-buccaneers,official_news,https://www.buccaneers.com/news/,free,metadata_and_summary,"Official news and team reporting.",2026-08-21
+local-source-tampa-bay-buccaneers,training_camp,https://www.buccaneers.com/TrainingCamp/,free,metadata_and_summary,"Official camp reports and press conferences.",2026-08-21
+local-source-nfl-gamebooks,official_data,https://www.nfl.com/scores/,free,manual_only,"Open a game and retrieve the official gamebook.",2026-08-21
+local-writer-jenna-laine,article_author,https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers,free,metadata_and_summary,"ESPN Bucs hub and current bylines.",2026-08-21
+local-writer-rick-stroud,article_author,https://www.tampabay.com/sports/bucs/,paywall,manual_only,"Tampa Bay Times Bucs desk; verify byline.",2026-08-21
+local-writer-greg-auman,social,https://x.com/gregauman,free,manual_only,"Current NFC South reporting and links to original work.",2026-08-21
+local-writer-scott-reynolds,article_author,https://www.pewterreport.com/author/pewterreportsr/,free,metadata_and_summary,"Current reporting and analysis archive.",2026-08-21
+local-writer-matt-matera,article_author,https://www.pewterreport.com/author/mattmatera/,free,metadata_and_summary,"Current Pewter Report bylines.",2026-08-21
+local-writer-bailey-adams,article_author,https://www.pewterreport.com/bucs-ota-insider-6-11-physical-bucky-irving/,free,metadata_and_summary,"Verified firsthand offseason-practice byline; navigate to newer work from the author link.",2026-08-21
+local-writer-adam-slivon,article_author,https://www.pewterreport.com/bucs-inside-defensive-line-2026-slivons-slant/,free,metadata_and_summary,"Verified 2026 position-room byline.",2026-08-21
+local-writer-joshua-queipo,article_author,https://www.pewterreport.com/tag/baker-mayfield/,free,metadata_and_summary,"Verified current film and salary-cap bylines in the topic archive.",2026-08-21
+local-writer-river-wells,article_author,https://www.si.com/nfl/buccaneers/onsi/author/river-wells,free,metadata_and_summary,"Current Bucs work including firsthand camp observations.",2026-08-21
+local-writer-ira-kaufman,article_author,https://www.joebucsfan.com/category/ira-kaufman-columns/,free,manual_only,"Kaufman's columns and reporting; avoid unrelated site aggregation.",2026-08-21
+local-writer-scott-smith,article_author,https://www.buccaneers.com/news/,free,metadata_and_summary,"Official team-site reporting; verify byline.",2026-08-21
+local-writer-casey-phillips,video,https://www.buccaneers.com/video/,free,metadata_and_summary,"Official interviews and camp reports.",2026-08-21
+local-writer-tony-castricone,podcast,https://www.buccaneers.com/podcast/,free,metadata_and_summary,"Official radio and podcast appearances.",2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/tam/2026.htm,free,structured_data,"Roster, game logs, and unofficial snap counts.",2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/tampa-bay-buccaneers,free,structured_data,"Cap sheet and contract mechanics.",2026-08-21

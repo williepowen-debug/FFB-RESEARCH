@@ -123,6 +123,10 @@ Before ending a session:
 - Do not manufacture certainty where sourcing is thin. Record hypotheses and review triggers.
 - Treat validation failures as design feedback. Fix records, schemas, templates, or scripts
   deliberately; never weaken validation just to pass.
+- For source registries, enforce a hard phase boundary: ecosystem discovery, then a fresh
+  adversarial omission pass, then construction. Do not claim completeness before durable
+  `candidates.csv` evidence is reconciled against `sources.csv`, `endpoints.csv`, `registry.md`,
+  and `writer_ids`.
 
 ## Validation gate
 

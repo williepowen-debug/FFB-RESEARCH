@@ -1,0 +1,19 @@
+source_id,entity_type,name,outlet,current_role,source_class,priority,status,access,specialties,handling_note,former_role,ended_on,replacement_if_known,last_verified
+local-source-minnesota-vikings,organization,Minnesota Vikings communications,Minnesota Vikings,Official communications,official,essential,active,free,"roster; injuries; transactions; conferences","Team analysis is not independent.",,,,2026-08-21
+local-source-nfl-gamebooks,organization,NFL gamebooks and participation,NFL,Official records,official,essential,active,free,"participation; statistics; play-by-play","Preferred postgame record.",,,,2026-08-21
+local-writer-kevin-seifert,person,Kevin Seifert,ESPN NFL Nation,Vikings NFL Nation reporter,reporting,essential,active,mixed,"daily beat; QB reps; injuries; organization","Current team roundtable verifies role.",,,,2026-08-21
+local-writer-alec-lewis,person,Alec Lewis,The Athletic,Vikings reporter,reporting,essential,active,paid,"camp; scheme; roster; features","Paywalled; summarize and attribute.",,,,2026-08-21
+local-writer-ben-goessling,person,Ben Goessling,Minnesota Star Tribune,Lead Vikings reporter,reporting,essential,active,paid,"organization; contracts; camp; roster","Outlet profile verifies lead role.",,,,2026-08-21
+local-writer-andrew-krammer,person,Andrew Krammer,Minnesota Star Tribune,Vikings reporter,reporting,essential,active,paid,"camp; line play; roles; podcast","Current 2026 camp bylines verify role.",,,,2026-08-21
+local-writer-emily-leiker,person,Emily Leiker,Minnesota Star Tribune,Vikings beat reporter,reporting,essential,active,paid,"camp; roles; features; roster","Current team roundtable verifies role.",,,,2026-08-21
+local-writer-dane-mizutani,person,Dane Mizutani,St. Paul Pioneer Press,Vikings reporter,reporting,essential,active,paid,"daily beat; camp; injuries; roster","Current team roundtable verifies role.",,,,2026-08-21
+local-writer-matthew-coller,person,Matthew Coller,Purple Insider,Independent Vikings reporter,reporting,essential,active,mixed,"camp; QB analysis; organization; podcast","Independent subscription work.",,,,2026-08-21
+local-writer-will-ragatz,person,Will Ragatz,Independent / Sports Illustrated,Vikings reporter,reporting,valuable,active,mixed,"daily camp; role battles; roster; game analysis","Current 2026 on-site camp recaps verify original reporting; confirm outlet on citation.",,,,2026-08-21
+local-writer-luke-braun,person,Luke Braun,Independent,Vikings film analyst,film_analysis,valuable,active,mixed,"All-22; scheme; QB and line play","Evaluation source; establish news independently.",,,,2026-08-21
+local-writer-tatum-everett,person,Tatum Everett,Minnesota Vikings,Host and reporter,team_analysis,valuable,active,free,"interviews; roundtables; camp","Team employee.",,,,2026-08-21
+local-writer-lindsey-young,person,Lindsey Young,Minnesota Vikings,Writer and editor,team_analysis,valuable,active,free,"position previews; interviews; roster context","Team employee; not independent.",,,,2026-08-21
+local-writer-rob-kleifield,person,Rob Kleifield,Minnesota Vikings,Writer and editor,team_analysis,valuable,active,free,"camp observations; roster; interviews","Team employee; not independent.",,,,2026-08-21
+local-writer-paul-allen,person,Paul Allen,KFAN / Vikings Radio,Radio voice,team_analysis,valuable,active,free,"interviews; local radio; team context","Team broadcast voice.",,,,2026-08-21
+local-writer-pete-bercich,person,Pete Bercich,Vikings Radio,Analyst,film_analysis,valuable,active,free,"film; defense; personnel","Team broadcast analyst.",,,,2026-08-21
+local-source-over-the-cap,organization,Over the Cap,Over the Cap,Contract reference,contract_data,valuable,active,free,"contracts; cap","Third-party interpretation.",,,,2026-08-21
+local-source-pro-football-reference,organization,Pro Football Reference,Sports Reference,Statistical reference,data,valuable,active,free,"logs; snaps","Secondary reference.",,,,2026-08-21

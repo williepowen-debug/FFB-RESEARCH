@@ -6,6 +6,13 @@ local-source-philadelphia-eagles,official_media,https://media.philadelphiaeagles
 local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook and participation report.,2026-08-20
 local-writer-tim-mcmanus,outlet_profile,https://espnpressroom.com/us/bios/tim-mcmanus/,free,metadata_and_summary,ESPN biography confirming assignment.,2026-08-20
 local-writer-olivia-reiner,outlet_profile,https://www.inquirer.com/author/reiner_olivia/,mixed,metadata_and_summary,Inquirer profile and current coverage.,2026-08-20
+local-writer-jeff-neiburg,outlet_profile,https://www.inquirer.com/author/neiburg_jeff/,mixed,metadata_and_summary,Inquirer profile and current coverage.,2026-08-21
+local-writer-reuben-frank,outlet_landing,https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/,free,metadata_and_summary,Daily reporting and Eagle Eye podcast.,2026-08-21
+local-writer-eliot-shorr-parks,radio,https://www.audacy.com/94wip/sports/eagles,free,manual_only,Credentialed camp reporting and local radio.,2026-08-21
+local-writer-brandon-lee-gowton,article_author,https://www.bleedinggreennation.com/authors/brandon-lee-gowton,free,metadata_and_summary,Camp reports and team analysis.,2026-08-21
+local-writer-john-mcmullen,article_author,https://www.si.com/nfl/eagles/author/john-mcmullen,free,metadata_and_summary,Current Eagles archive.,2026-08-21
+local-writer-zach-berman,independent_site,https://allphly.com/,paid,manual_only,PHLY reporting and podcast.,2026-08-21
 local-source-philadelphia-inquirer-eagles,outlet_landing,https://www.inquirer.com/eagles/,paid,metadata_and_summary,Eagles reporting landing page.,2026-08-20
 local-writer-dave-zangaro,outlet_landing,https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/,free,metadata_and_summary,NBC Sports Philadelphia Eagles coverage.,2026-08-20
 local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/phi/2026.htm,free,structured_page,Season reference; automation may be rate-limited.,2026-08-20
+local-source-over-the-cap,contract_data,https://overthecap.com/team/philadelphia-eagles,free,structured_data,Cap and contracts.,2026-08-21

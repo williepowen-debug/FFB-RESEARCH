@@ -8,5 +8,11 @@ local-writer-dave-birkett,outlet_landing,https://www.freep.com/sports/lions/,pai
 local-writer-colton-pouncy,outlet_landing,https://www.nytimes.com/athletic/nfl/team/lions/,paid,metadata_and_summary,Athletic Lions coverage.,2026-08-20
 local-writer-justin-rogers,outlet_landing,https://www.detroitfootball.net/,mixed,metadata_and_summary,Independent Lions reporting.,2026-08-20
 local-writer-benjamin-raven,outlet_landing,https://www.mlive.com/lions/,mixed,metadata_and_summary,MLive Lions coverage.,2026-08-20
+local-writer-jeremy-reisman,article_author,https://www.prideofdetroit.com/authors/jeremy-reisman,free,metadata_and_summary,Credentialed camp work and analysis.,2026-08-21
+local-writer-erik-schlitt,article_author,https://www.prideofdetroit.com/authors/erik-schlitt,free,metadata_and_summary,Position previews and roster analysis.,2026-08-21
+local-writer-jeff-risdon,article_author,https://lionswire.usatoday.com/author/jeffrisdon/,free,metadata_and_summary,Film and roster analysis.,2026-08-21
+local-writer-tim-twentyman,article_author,https://www.detroitlions.com/author/tim-twentyman,free,metadata_and_summary,Official senior-writer archive.,2026-08-21
+local-writer-brad-galli,local_tv,https://www.wxyz.com/sports,free,metadata_and_summary,Local television reporting and interviews.,2026-08-21
 local-source-lions-collective,podcast_landing,https://lions-collective-v2.simplecast.com/,free,metadata_only,Episode discovery.,2026-08-20
 local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/det/2026.htm,free,structured_page,Season reference.,2026-08-20
+local-source-over-the-cap,contract_data,https://overthecap.com/team/detroit-lions,free,structured_data,Cap and contracts.,2026-08-21

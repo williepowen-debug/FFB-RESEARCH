@@ -1,0 +1,15 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-arizona-cardinals,official_news,https://www.azcardinals.com/news/,free,metadata_and_summary,"Official news and roster moves.",2026-08-21
+local-source-nfl-gamebooks,official_data,https://www.nfl.com/scores/,free,manual_only,"Retrieve each game's official book.",2026-08-21
+local-writer-josh-weinfuss,article_author,https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals,free,metadata_and_summary,"ESPN Cardinals hub.",2026-08-21
+local-writer-theo-mackie,article_author,https://www.azcentral.com/sports/cardinals/,paywall,manual_only,"Arizona Republic beat; verify byline.",2026-08-21
+local-writer-tyler-drake,article_author,https://arizonasports.com/category/nfl/arizona-cardinals/,free,metadata_and_summary,"Arizona Sports Cardinals desk.",2026-08-21
+local-writer-lauren-koval,podcast,https://arizonasports.com/shows/cardinals-corner,free,metadata_and_summary,"Weekly Cardinals-specific discussion with Tyler Drake.",2026-08-21
+local-writer-johnny-venerable,podcast,https://phnx-arizona-cardinals-podcast.simplecast.com/,free,manual_only,"Daily PHNX show and reporting.",2026-08-21
+local-writer-bo-brack,podcast,https://phnx-arizona-cardinals-podcast.simplecast.com/,free,manual_only,"Daily PHNX show and reporting.",2026-08-21
+local-writer-john-gambadoro,social,https://x.com/Gambo987,free,manual_only,"Cardinals-specific breaking reports.",2026-08-21
+local-writer-darren-urban,article_author,https://www.azcardinals.com/author/darren-urban-word-from-the-birds,free,metadata_and_summary,"Official author archive.",2026-08-21
+local-writer-zach-gershman,article_author,https://www.azcardinals.com/news/,free,metadata_and_summary,"Official bylines; verify author.",2026-08-21
+local-writer-paul-calvisi,podcast,https://www.azcardinals.com/podcasts/big-red-rage/,free,metadata_and_summary,"Official interviews and analysis.",2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/crd/2026.htm,free,structured_data,"Roster, logs, unofficial snaps.",2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/arizona-cardinals,free,structured_data,"Cap and contracts.",2026-08-21

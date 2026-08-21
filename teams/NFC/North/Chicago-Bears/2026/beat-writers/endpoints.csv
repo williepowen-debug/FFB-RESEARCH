@@ -1,0 +1,20 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-chicago-bears,official_news,https://www.chicagobears.com/news/,free,metadata_and_summary,Official news and camp reports.,2026-08-21
+local-source-chicago-bears,official_roster,https://www.chicagobears.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Gamebooks and participation.,2026-08-21
+local-writer-courtney-cronin,outlet_profile,https://espnpressroom.com/bio/courtney-cronin/,free,metadata_and_summary,ESPN assignment biography.,2026-08-21
+local-writer-kevin-fishbain,article_author,https://www.nytimes.com/athletic/author/kevin-fishbain/,paid,manual_only,Athletic archive.,2026-08-21
+local-writer-adam-jahns,podcast,https://podcasts.apple.com/us/podcast/hoge-jahns-a-show-about-the-chicago-bears/id1027584309,free,metadata_and_summary,Current camp reporting and analysis.,2026-08-21
+local-writer-brad-biggs,outlet_landing,https://www.chicagotribune.com/sports/bears/,paid,metadata_and_summary,Tribune Bears coverage.,2026-08-21
+local-writer-dan-wiederer,outlet_landing,https://www.chicagotribune.com/sports/bears/,paid,metadata_and_summary,Tribune Bears coverage.,2026-08-21
+local-writer-patrick-finley,outlet_profile,https://chicago.suntimes.com/authors/patrick-finley,free,metadata_and_summary,Current Bears profile and bylines.,2026-08-21
+local-writer-jason-lieser,outlet_profile,https://chicago.suntimes.com/authors/jason-lieser,free,metadata_and_summary,Current Bears profile and bylines.,2026-08-21
+local-writer-adam-hoge,podcast,https://podcasts.apple.com/us/podcast/hoge-jahns-a-show-about-the-chicago-bears/id1027584309,free,metadata_and_summary,CHGO show and camp coverage.,2026-08-21
+local-writer-nicholas-moreano,podcast,https://podcasts.apple.com/us/podcast/the-nicholas-moreano-show/id1803424325,free,metadata_and_summary,Credentialed reporting and film reviews.,2026-08-21
+local-writer-mark-grote,local_radio,https://www.audacy.com/670thescore/sports/chicago-bears,free,metadata_and_summary,Local radio Bears coverage.,2026-08-21
+local-writer-sean-hammond,outlet_landing,https://www.dailyherald.com/sports/chicago-bears/,mixed,metadata_and_summary,Daily Herald camp and Bears coverage.,2026-08-21
+local-writer-larry-mayer,article_author,https://www.chicagobears.com/news/,free,metadata_and_summary,Official camp reports.,2026-08-21
+local-writer-jeff-joniak,official_podcast,https://www.chicagobears.com/audio/bears-etc,free,metadata_and_summary,Team audio and interviews.,2026-08-21
+local-writer-tom-thayer,official_podcast,https://www.chicagobears.com/audio/bears-weekly,free,metadata_and_summary,Team film and camp analysis.,2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/chicago-bears,free,structured_data,Cap reference.,2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/chi/2026.htm,free,structured_data,Logs and snap counts.,2026-08-21

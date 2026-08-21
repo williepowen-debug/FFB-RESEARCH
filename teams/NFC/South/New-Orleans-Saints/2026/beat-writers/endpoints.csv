@@ -1,0 +1,19 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-new-orleans-saints,official_news,https://www.neworleanssaints.com/news/,free,metadata_and_summary,"Official news and camp reports.",2026-08-21
+local-source-new-orleans-saints,media,https://www.neworleanssaints.com/media/,free,metadata_and_summary,"Media guides and official documents.",2026-08-21
+local-source-nfl-gamebooks,official_data,https://www.nfl.com/scores/,free,manual_only,"Open a game and retrieve the official gamebook.",2026-08-21
+local-writer-katherine-terrell,article_author,https://www.espn.com/blog/new-orleans-saints,free,metadata_and_summary,"ESPN Saints archive and current bylines.",2026-08-21
+local-writer-nick-underhill,article_author,https://neworleans.football/author/NickUnderhill,paywall,manual_only,"NOF reporting and film archive.",2026-08-21
+local-writer-mike-triplett,article_author,https://neworleans.football/author/MikeTriplett,paywall,manual_only,"NOF author archive.",2026-08-21
+local-writer-john-hendrix,article_author,https://neworleans.football/,paywall,manual_only,"Current NOF collaborative and individual work.",2026-08-21
+local-writer-matthew-paras,article_author,https://www.nola.com/sports/saints/,paywall,manual_only,"NOLA.com Saints desk; verify byline.",2026-08-21
+local-writer-luke-johnson,article_author,https://www.nola.com/sports/saints/,paywall,manual_only,"Current Saints bylines and Saints Insider appearances.",2026-08-21
+local-writer-rod-walker,article_author,https://www.nola.com/sports/rod_walker/,paywall,manual_only,"NOLA.com column archive.",2026-08-21
+local-writer-jeff-duncan,article_author,https://www.nola.com/sports/jeff_duncan/,paywall,manual_only,"Camp columns, enterprise, and original organizational reporting.",2026-08-21
+local-writer-ross-jackson,podcast,https://lockedonpodcasts.com/podcasts/locked-on-saints/,free,manual_only,"Daily Saints audio and analysis.",2026-08-21
+local-writer-james-skrmetta,video,https://www.youtube.com/@JamesSkrmetta,free,manual_only,"Saints-specific film and scheme analysis.",2026-08-21
+local-writer-jeff-nowak,article_author,https://www.audacy.com/wwl/local-sports/saints,free,metadata_and_summary,"WWL Saints reporting and radio updates.",2026-08-21
+local-writer-deuce-mcallister,radio,https://www.audacy.com/wwl/local-sports/saints,free,manual_only,"WWL analysis, interviews, and game broadcasts.",2026-08-21
+local-writer-john-deshazier,article_author,https://www.neworleanssaints.com/news/,free,metadata_and_summary,"Team-site bylines and analysis.",2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/nor/2026.htm,free,structured_data,"Roster, game logs, and unofficial snap counts.",2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/new-orleans-saints,free,structured_data,"Cap sheet and contract mechanics.",2026-08-21

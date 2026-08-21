@@ -9,17 +9,17 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-20
-last_verified: 2026-08-20
+valid_as_of: 2026-08-21
+last_verified: 2026-08-21
 confidence: high
 source_ids: []
 supersedes: []
-writer_ids: ["local-writer-eric-woodyard", "local-writer-dave-birkett", "local-writer-colton-pouncy", "local-writer-justin-rogers", "local-writer-benjamin-raven"]
+writer_ids: ["local-writer-eric-woodyard", "local-writer-dave-birkett", "local-writer-colton-pouncy", "local-writer-justin-rogers", "local-writer-benjamin-raven", "local-writer-jeremy-reisman", "local-writer-erik-schlitt", "local-writer-jeff-risdon", "local-writer-tim-twentyman", "local-writer-brad-galli"]
 ---
 
 # Detroit Lions 2026 Source Registry
 
-See [sources.csv](sources.csv), [endpoints.csv](endpoints.csv), and [README.md](README.md).
+See [sources.csv](sources.csv), [endpoints.csv](endpoints.csv), [candidates.csv](candidates.csv), and [README.md](README.md).
 
 ## Essential monitoring
 
@@ -38,7 +38,17 @@ See [sources.csv](sources.csv), [endpoints.csv](endpoints.csv), and [README.md](
 | Source | Outlet | Class | Primary value | Handling note |
 |---|---|---|---|---|
 | Lions Collective | Independent collective | analysis | Cross-reporter discussion and context | Attribute speaker and date episode |
+| Jeremy Reisman / Erik Schlitt | Pride of Detroit | team analysis | Credentialed camp and position usage | Shared outlet is not independent corroboration |
+| Jeff Risdon | Lions Wire | film analysis | Line play, roster evaluation and film | Separate original analysis from aggregation |
+| Tim Twentyman | Detroit Lions | team analysis | Official camp notebooks and interviews | Team employee; not independent |
+| Brad Galli | WXYZ-TV | reporting | Local television interviews and team access | Multi-sport remit |
+| Over the Cap | Over the Cap | contract data | Contracts and roster mechanics | Third-party interpretation |
 | Pro Football Reference | Sports Reference | data | Logs and snap counts | Secondary reference |
+
+## Coverage audit
+
+All required lanes are covered. The reopened omission pass added Reisman, Schlitt, Risdon,
+Twentyman, Galli, and Over the Cap.
 
 ## Reliability history
 

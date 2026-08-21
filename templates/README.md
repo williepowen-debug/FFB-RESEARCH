@@ -11,7 +11,7 @@ Copy the closest template before adding a new record:
 - `player-profile.md`
 - `coaching-profile.md`
 - `beat-writer-registry.md`
-- `beat-writer-candidate-ledger.csv`
+- `beat-writer-candidate-ledger.csv` — copy to a team registry as durable `candidates.csv`
 - `injury-update.md`
 - `weekly-matchup.md`
 - `depth-chart.md`

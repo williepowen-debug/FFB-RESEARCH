@@ -1,1 +1,1 @@
-candidate_name,outlet,entity_type,coverage_lanes,current_assignment_evidence,original_work_evidence,disposition,priority,reason,last_verified
+candidate_id,candidate_name,outlet,entity_type,discovery_phase,coverage_lanes,current_assignment_evidence,original_work_evidence,disposition,priority,reason,source_id,last_verified

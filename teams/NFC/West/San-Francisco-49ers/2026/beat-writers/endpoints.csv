@@ -1,0 +1,19 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-san-francisco-49ers,official_news,https://www.49ers.com/news/,free,metadata_and_summary,"Official news.",2026-08-21
+local-source-nfl-gamebooks,official_data,https://www.nfl.com/scores/,free,manual_only,"Official gamebooks.",2026-08-21
+local-writer-nick-wagoner,article_author,https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers,free,metadata_and_summary,"ESPN hub.",2026-08-21
+local-writer-matt-barrows,article_author,https://www.nytimes.com/athletic/author/matt-barrows/,paywall,manual_only,"Athletic archive.",2026-08-21
+local-writer-eric-branch,article_author,https://www.sfchronicle.com/author/eric-branch/,paywall,manual_only,"Chronicle archive.",2026-08-21
+local-writer-noah-furtado,article_author,https://www.sfchronicle.com/author/noah-furtado/,paywall,manual_only,"Current football/camp work.",2026-08-21
+local-writer-cam-inman,article_author,https://www.mercurynews.com/author/cam-inman/,paywall,manual_only,"BANG archive.",2026-08-21
+local-writer-chris-biderman,article_author,https://www.sacbee.com/profile/221019610/,paywall,manual_only,"Sacramento Bee archive and current 49ers camp reporting.",2026-08-21
+local-writer-matt-maiocco,article_author,https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/,free,metadata_and_summary,"NBC 49ers feed.",2026-08-21
+local-writer-jennifer-lee-chan,podcast,https://podcasts.apple.com/us/podcast/49ers-talk-a-san-francisco-49ers-podcast/id1153457233,free,manual_only,"Reporting and interviews.",2026-08-21
+local-writer-david-lombardi,article_author,https://sfstandard.com/author/david-lombardi/,free,metadata_and_summary,"Current Standard archive.",2026-08-21
+local-writer-tim-kawakami,article_author,https://sfstandard.com/sports/,free,metadata_and_summary,"Sports reporting and columns.",2026-08-21
+local-writer-grant-cohn,podcast,https://podcasts.apple.com/us/podcast/the-cohn-zohn/id1492374029,free,manual_only,"Daily camp observations and opinion.",2026-08-21
+local-writer-john-chapman,podcast,https://www.49ersrushroadtrip.com/49ers-rush-podcast,free,manual_only,"Film-based analysis.",2026-08-21
+local-writer-brooke-evans,article_author,https://www.49ers.com/news/,free,metadata_and_summary,"Official bylines.",2026-08-21
+local-writer-aubrie-tolliver,article_author,https://www.49ers.com/news/,free,metadata_and_summary,"Official bylines and recurring 2026 camp observations.",2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/sfo/2026.htm,free,structured_data,"Stats and snaps.",2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/san-francisco-49ers,free,structured_data,"Cap and contracts.",2026-08-21

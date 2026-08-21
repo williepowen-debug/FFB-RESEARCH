@@ -1,0 +1,16 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-carolina-panthers,official_news,https://www.panthers.com/news/,free,metadata_and_summary,"Official news and practice notebooks.",2026-08-21
+local-source-carolina-panthers,official_roster,https://www.panthers.com/team/players-roster/,free,metadata_and_summary,"Current club roster.",2026-08-21
+local-source-nfl-gamebooks,official_data,https://www.nfl.com/scores/,free,manual_only,"Open the game and retrieve its official gamebook.",2026-08-21
+local-writer-mike-kaye,article_author,https://www.espn.com/nfl/team/_/name/car/carolina-panthers,free,metadata_and_summary,"ESPN Panthers hub; Kaye became the beat reporter in August 2026.",2026-08-21
+local-writer-joe-person,article_author,https://www.nytimes.com/athletic/author/joe-person/,paywall,manual_only,"The Athletic author archive.",2026-08-21
+local-writer-alex-zietlow,article_author,https://www.charlotteobserver.com/profile/218645475,paywall,manual_only,"Observer author profile and current work.",2026-08-21
+local-writer-scott-fowler,article_author,https://www.charlotteobserver.com/sports/spt-columns-blogs/scott-fowler/,paywall,manual_only,"Current columns and reported features.",2026-08-21
+local-writer-sheena-quick,social,https://x.com/Sheena_Marie3,free,manual_only,"Credentialed observations and links to original work.",2026-08-21
+local-writer-vashti-hurt,article_author,https://carolinablitz.com/author/vashticarolinablitz-com/,free,metadata_and_summary,"Credentialed Panthers reporting, interviews, and press-conference video.",2026-08-21
+local-writer-darin-gantt,article_author,https://www.panthers.com/team/front-office-roster/darin-gantt,free,metadata_and_summary,"Team reporter profile and articles.",2026-08-21
+local-writer-kassidy-hill,article_author,https://www.panthers.com/news/kassidy-hill,free,metadata_and_summary,"Team reporting archive.",2026-08-21
+local-writer-john-ellis,social,https://x.com/1PantherPlace,free,manual_only,"Film and scheme analysis; follow links to full work.",2026-08-21
+local-writer-julian-council,podcast,https://podcasts.apple.com/us/podcast/locked-on-panthers-daily-podcast-on-the-carolina-panthers/id1150966073,free,manual_only,"Daily Panthers analysis and roster discussion.",2026-08-21
+local-source-pro-football-reference,data,https://www.pro-football-reference.com/teams/car/2026.htm,free,structured_data,"Roster, game logs, and unofficial snap counts.",2026-08-21
+local-source-over-the-cap,contract_data,https://overthecap.com/team/carolina-panthers,free,structured_data,"Cap sheet and contract mechanics.",2026-08-21

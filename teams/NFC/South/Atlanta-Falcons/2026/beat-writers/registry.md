@@ -19,6 +19,8 @@ writer_ids: ["local-writer-will-mcfadden", "local-writer-kelsey-conway", "local-
 
 # Atlanta Falcons 2026 Source Registry
 
+Candidate discovery and omission-pass decisions are recorded in [candidates.csv](candidates.csv).
+
 This registry prioritizes sources that can establish or explain changes in player availability, role, usage, coaching, scheme, and roster construction for the 2026 Atlanta Falcons. Priority describes monitoring frequency; source class describes function. See [sources.csv](sources.csv) for normalized records, [endpoints.csv](endpoints.csv) for links, and the [monitoring guide](README.md) for the operating workflow.
 
 The 2026 Falcons beat had material turnover: D. Orlando Ledbetter retired from the AJC after roughly two decades on the beat (March 2026) and Daniel Flick took the AJC beat (May 2026); Marc Raimondi is ESPN's Falcons NFL Nation reporter after Michael Rothstein moved to enterprise work. Weight current-role sources accordingly.
