@@ -1,0 +1,8 @@
+source_id,entity_type,name,outlet,current_role,source_class,priority,status,access,specialties,handling_note,former_role,ended_on,replacement_if_known,last_verified
+local-source-indianapolis-colts,organization,Indianapolis Colts communications,Indianapolis Colts,Official team communications,official,essential,active,free,"roster; injuries; transactions; depth chart; conferences","Team analysis is not independent.",,,,2026-08-21
+local-source-nfl-gamebooks,organization,NFL gamebooks and participation records,NFL,Official game records,official,essential,active,free,"participation; starters; statistics; play-by-play","Use postgame source of record.",,,,2026-08-21
+local-writer-stephen-holder,person,Stephen Holder,ESPN NFL Nation,Indianapolis Colts NFL Nation reporter,reporting,essential,active,mixed,"daily beat; injuries; roster; organization","Record retrieval date for updated pieces.",,,,2026-08-21
+local-writer-joel-a-erickson,person,Joel A. Erickson,Indianapolis Star,Colts insider,reporting,essential,active,paid,"practice; scheme; personnel; roster","Summarize paywalled work and attribute.",,,,2026-08-21
+local-writer-nathan-brown,person,Nathan Brown,Indianapolis Star,Colts insider,reporting,essential,active,paid,"practice; injuries; quarterbacks; organization","Summarize paywalled work and attribute.",,,,2026-08-21
+local-writer-kevin-bowen,person,Kevin Bowen,93.5/107.5 The Fan,Colts reporter and radio host,reporting,valuable,active,free,"camp; roster; local context; interviews","Separate reporting from radio opinion.",,,,2026-08-21
+local-source-pro-football-reference,organization,Pro Football Reference,Sports Reference,Statistical reference,data,valuable,active,free,"game logs; snap counts; history","Secondary reference.",,,,2026-08-21

@@ -1,0 +1,11 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-jacksonville-jaguars,official_news,https://www.jaguars.com/news/,free,metadata_and_summary,Official news.,2026-08-21
+local-source-jacksonville-jaguars,official_roster,https://www.jaguars.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-jacksonville-jaguars,official_injury_report,https://www.jaguars.com/team/injury-report/,free,structured_monitoring,Official status.,2026-08-21
+local-source-jacksonville-jaguars,official_transactions,https://www.jaguars.com/team/transactions/,free,structured_monitoring,Official transactions.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook.,2026-08-21
+local-writer-michael-dirocco,outlet_profile,https://espnpressroom.com/bio/michael-dirocco/,free,metadata_and_summary,ESPN assignment biography.,2026-08-21
+local-writer-demetrius-harvey,outlet_landing,https://www.jacksonville.com/sports/jaguars/,paid,metadata_and_summary,Times-Union Jaguars coverage.,2026-08-21
+local-writer-john-shipley,outlet_profile,https://www.si.com/nfl/jaguars/onsi/author/john-shipley,free,metadata_and_summary,Jaguar Report author archive.,2026-08-21
+local-writer-john-oehser,outlet_landing,https://www.jaguars.com/news/,free,metadata_and_summary,Jaguars Media coverage.,2026-08-21
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/jax/2026.htm,free,structured_page,Season reference.,2026-08-21
