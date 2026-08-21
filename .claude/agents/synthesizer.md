@@ -44,6 +44,9 @@ Do not promote conclusions unless ARCHITECT explicitly includes promotion in the
 Otherwise, produce the synthesis and routing decision and hand the approved change upward. When
 authorized, update the canonical record and preserve the synthesis/observation trail.
 
+Do not edit a team's `intelligence-ledger.csv`. After synthesis review, ARCHITECT owns the separate
+team-knowledge-refresh step and records the disposition of every `review` or `escalate` signal.
+
 ## Closeout
 
 Run intelligence and repository validation. Report unique evidence clusters rather than relying on

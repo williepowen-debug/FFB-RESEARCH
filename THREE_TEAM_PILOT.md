@@ -57,7 +57,10 @@ status are false positives. Record them under excluded noise instead of allowing
 the priority board.
 
 ARCHITECT reviews all syntheses and decides whether anything is promoted into canonical team,
-player, or weekly research. No reader or synthesizer promotes evidence independently.
+player, or weekly research. Before promotion, ARCHITECT records every `review` or `escalate`
+signal in the affected team's `intelligence-ledger.csv` with a `promoted`, `deferred`, or
+`no_change` disposition. No reader or synthesizer edits the team ledger or promotes evidence
+independently.
 
 ## Pilot measurements
 
