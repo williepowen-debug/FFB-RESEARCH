@@ -32,6 +32,8 @@ explicit authorization.
 - Invoke ARCHITECT for repo startup, GitHub source-of-truth workflow, branch planning, team-module
   build sequencing, cross-team standards, templates, schemas, scripts, validation, and routing to
   specialist desk agents.
+- `reader` is the bounded evidence-intake role defined in `.claude/agents/reader.md`.
+- `synthesizer` is the team reconciliation role defined in `.claude/agents/synthesizer.md`.
 - `bolt` is the Los Angeles Chargers desk lead. Its project-agent definition is
   `.claude/agents/bolt.md`, and its path-scoped operating contract is
   `teams/AFC/West/Los-Angeles-Chargers/AGENTS.md`.
@@ -43,11 +45,17 @@ explicit authorization.
 
 ```text
 ARCHITECT — repo orchestration, build planning, standards, validation, source-of-truth workflow
+├── READER — bounded source retrieval and atomic evidence intake
+├── SYNTHESIZER — team-level reconciliation and signal routing
 └── BOLT — Los Angeles Chargers specialist desk
 ```
 
 Start with ARCHITECT for broad repo/build work. Route to BOLT only after repo state and task scope
 are clear and the work is Chargers-specific.
+
+For monitoring runs, ARCHITECT freezes assignments from team source registries. READER agents emit
+immutable observations; SYNTHESIZER agents reconcile one team at a time. Neither role may silently
+broaden its assigned teams, sources, lanes, or time window.
 
 ## Read first
 
@@ -110,6 +118,7 @@ Run before committing:
 
 ```bash
 python3 scripts/validate_schedule.py
+python3 scripts/validate_intelligence.py
 python3 scripts/generate_catalog.py
 python3 scripts/validate_repository.py
 python3 scripts/generate_catalog.py --check

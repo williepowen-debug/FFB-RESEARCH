@@ -209,6 +209,7 @@ Run the relevant checks before committing or handing off substantive repo change
 
 ```bash
 python3 scripts/validate_schedule.py
+python3 scripts/validate_intelligence.py
 python3 scripts/generate_catalog.py
 python3 scripts/validate_repository.py
 python3 scripts/generate_catalog.py --check

@@ -20,6 +20,7 @@ Allowed characters are lowercase letters, digits, and hyphens. Use three-digit s
 | Coaching profile | `cp` | `cp-2026-mia-head-coach-001` |
 | Beat-writer registry | `bw` | `bw-2026-mia-registry-001` |
 | Injury update | `iu` | `iu-2026-mia-player-slug-001` |
+| Team intelligence synthesis | `ti` | `ti-2026-mia-20260821-001` |
 | League format | `lf` | `lf-2026-gridiron-gurus-only-001` |
 | Weekly matchup | `wm` | `wm-2026-w01-ne-sea-001` |
 | Depth chart | `dc` | `dc-2026-mia-w01-001` |

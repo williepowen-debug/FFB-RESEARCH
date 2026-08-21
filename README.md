@@ -31,6 +31,7 @@ weekly/<season>/            Injuries, matchups, waivers, rankings, and weekly de
 league/teams.csv            Canonical team names, abbreviations, venues, time zones, and paths
 league/schedule/2026.csv    Canonical 2026 regular-season schedule
 league/                     League-wide data, methodology, transactions, and formats
+intelligence/               Reader intake, team synthesis, and priority routing
 templates/                  Standard research and decision templates
 schemas/                    Record schemas, controlled values, and ID conventions
 catalog.jsonl               Generated index of structured research records
@@ -69,3 +70,7 @@ python scripts/validate_repository.py
 ```
 
 See `AGENTS.md`, `schemas/README.md`, `league/methodology/README.md`, and `SOURCE_POLICY.md` before adding research.
+
+Source-monitoring agents follow [the reader and synthesis pipeline](INTELLIGENCE_PIPELINE.md):
+collect atomic observations, reconcile them by team, and promote only material signals into the
+durable or weekly research layers.

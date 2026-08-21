@@ -40,6 +40,9 @@ domains, prefer routing to the appropriate desk agent when one exists.
 ARCHITECT
 ├── Team desk agents
 │   └── BOLT — Los Angeles Chargers desk lead
+├── Intelligence pipeline
+│   ├── READER — bounded evidence intake
+│   └── SYNTHESIZER — team reconciliation and routing
 ├── League/module work
 │   ├── schedule
 │   ├── scoring formats
@@ -127,6 +130,9 @@ Before ending a session:
   adversarial omission pass, then construction. Do not claim completeness before durable
   `candidates.csv` evidence is reconciled against `sources.csv`, `endpoints.csv`, `registry.md`,
   and `writer_ids`.
+- For monitoring runs, freeze assignments before collection. Readers emit observations only;
+  synthesizers reconcile provenance and route `log`, `review`, or `escalate` signals. Require
+  `INTELLIGENCE_PIPELINE.md` and `scripts/validate_intelligence.py` at both handoffs.
 
 ## Validation gate
 
@@ -134,6 +140,7 @@ For substantive repo changes, run the relevant subset and report exactly what pa
 
 ```bash
 python3 scripts/validate_schedule.py
+python3 scripts/validate_intelligence.py
 python3 scripts/generate_catalog.py
 python3 scripts/validate_repository.py
 python3 scripts/generate_catalog.py --check

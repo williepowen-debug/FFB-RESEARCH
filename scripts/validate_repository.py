@@ -14,6 +14,7 @@ from typing import Any
 from urllib.parse import unquote
 
 if __package__:
+    from .validate_intelligence import validate_intelligence
     from .record_utils import (
         REPO_ROOT,
         FrontMatterError,
@@ -24,6 +25,7 @@ if __package__:
         render_catalog,
     )
 else:
+    from validate_intelligence import validate_intelligence
     from record_utils import (
         REPO_ROOT,
         FrontMatterError,
@@ -46,6 +48,7 @@ TYPE_CHECKS = {
     "string": str,
 }
 REQUIRED_SECTIONS = {
+    "team_intelligence": ["Executive signal", "Reconciled evidence", "Hypothesis impact", "Routing decisions", "Conflicts and uncertainty", "Sources"],
     "research_finding": ["Finding", "Fantasy implication", "Evidence", "Sources", "Assessment"],
     "team_overview": ["Fantasy-relevant snapshot", "Offensive identity", "Defensive matchup profile", "Coaching and scheme", "Sources"],
     "player_profile": ["Durable player profile", "Current situation", "Fantasy assessment", "Sources"],
@@ -377,6 +380,7 @@ def main() -> int:
 
     validate_links(failures)
     validate_source_registries(failures)
+    failures.extend(validate_intelligence(REPO_ROOT))
 
     catalog_path = REPO_ROOT / "catalog.jsonl"
     expected_catalog = render_catalog(REPO_ROOT)

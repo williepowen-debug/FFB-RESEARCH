@@ -9,6 +9,7 @@
     "player_profile",
     "research_finding",
     "team_overview",
+    "team_intelligence",
     "weekly_matchup"
   ],
   "statuses": ["draft", "active", "superseded", "invalidated"],
