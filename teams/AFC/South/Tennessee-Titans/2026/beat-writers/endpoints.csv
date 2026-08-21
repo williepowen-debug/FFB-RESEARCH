@@ -7,6 +7,8 @@ local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free
 local-writer-turron-davenport,outlet_profile,https://espnpressroom.com/bio/turron-davenport/,free,metadata_and_summary,ESPN assignment biography.,2026-08-21
 local-writer-nick-suss,outlet_landing,https://www.tennessean.com/sports/titans/,paid,metadata_and_summary,Tennessean Titans coverage.,2026-08-21
 local-writer-paul-kuharsky,outlet_profile,https://www.paulkuharsky.com/,paid,metadata_and_summary,Independent Titans coverage.,2026-08-21
+local-writer-teresa-walker,outlet_profile,https://apnews.com/author/teresa-m-walker,free,metadata_and_summary,Associated Press author archive.,2026-08-21
+local-writer-terry-mccormick,outlet_landing,https://www.titaninsider.com/,mixed,metadata_and_summary,Titan Insider coverage.,2026-08-21
 local-writer-easton-freeze,outlet_profile,https://atozsports.com/author/easton-freeze,free,metadata_and_summary,A to Z Sports author archive.,2026-08-21
 local-writer-jim-wyatt,outlet_landing,https://www.tennesseetitans.com/news/,free,metadata_and_summary,Titans senior writer coverage.,2026-08-21
 local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/oti/2026.htm,free,structured_page,Season reference.,2026-08-21
