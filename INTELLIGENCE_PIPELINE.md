@@ -8,6 +8,7 @@ priority board or update durable research.
 source registries
   -> immutable reader batches
   -> team synthesis snapshots
+  -> team intelligence ledgers
   -> league priority board
   -> existing team, player, and weekly records
 ```
@@ -133,6 +134,26 @@ priority_score = fantasy_impact * evidence_confidence * novelty * time_sensitivi
 Use ordinal values only as a sorting aid; the documented `escalation_level`, evidence, and next
 action remain authoritative. Repeated commentary and unchanged status do not belong on the board.
 
+## Team knowledge refresh
+
+After ARCHITECT reviews a synthesis, every `review` or `escalate` signal receives a team-local
+disposition in `<team>/<season>/intelligence-ledger.csv`. Copy
+[templates/team-intelligence-ledger.csv](templates/team-intelligence-ledger.csv) when a team first
+needs one. This is the filtered bridge between dated intelligence and the team's evolving research
+baseline; readers and synthesizers do not edit it.
+
+Each ledger row preserves the synthesis record, observation IDs, affected team record, evidence
+effect, next review trigger, and one disposition:
+
+- `promoted`: ARCHITECT updated the named canonical team, player, or weekly record;
+- `deferred`: material evidence is preserved, but the promotion threshold is not yet met;
+- `no_change`: the evidence was checked against the named baseline and does not change it.
+
+Use `open` for a deferred item still awaiting its trigger, `resolved` after promotion or a completed
+no-change review, and `superseded` when a later ledger row replaces its decision. Do not copy raw
+observations or article summaries into canonical findings. The ledger summarizes why evidence was
+or was not promoted and points back to the immutable provenance chain.
+
 ## Promotion rules
 
 - Injury or designation changes -> `weekly/<season>/week-<NN>/` injury/matchup records when a week
@@ -152,8 +173,10 @@ underlying observation or synthesis snapshot.
 3. Validate intake with `python3 scripts/validate_intelligence.py`.
 4. Synthesize by team and date.
 5. Validate again, including synthesis and priority references.
-6. Promote approved changes to existing records.
-7. Run the standard repository validation gate.
+6. ARCHITECT records each `review` and `escalate` disposition in the affected team's intelligence
+   ledger.
+7. Promote approved changes to existing records.
+8. Run the standard repository validation gate.
 
 Pilot the system on one dense ecosystem, one subscription-heavy ecosystem, and one thinner or
 team-controlled ecosystem before scheduling all 32 teams. Use

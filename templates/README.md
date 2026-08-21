@@ -16,6 +16,7 @@ Copy the closest template before adding a new record:
 - `reader-assignment.csv` — bounded source, team, lane, and retrieval-window assignment
 - `reader-run-report.csv` — manual source-access, coverage, and reader-effort report
 - `team-intelligence.md` — dated team-level reconciliation and routing record
+- `team-intelligence-ledger.csv` — team-local ARCH disposition log for review/escalate signals
 - `intelligence-priority-board.csv` — league-level review and escalation queue
 - `pilot-retrospective.csv` — cross-team pilot quality and workload review
 - `injury-update.md`
