@@ -7,6 +7,10 @@ Read `AGENTS.md`, `SOURCE_POLICY.md`, and `schemas/README.md` first. This guide 
 *how the pieces fit into a team folder*; the per-record templates in this directory and the
 JSON Schemas in `schemas/` govern the *shape of each record*.
 
+Before building or refreshing a `beat-writers/` directory, follow
+[`SOURCE_REGISTRY_AUDIT.md`](SOURCE_REGISTRY_AUDIT.md). A registry is incomplete until its
+coverage-lane matrix, candidate dispositions, and adversarial omission pass are complete.
+
 ## Tiers
 
 A team is built to one of two depths. Pick the tier before you start and note it in the
