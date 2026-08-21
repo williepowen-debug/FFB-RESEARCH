@@ -1,0 +1,11 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-indianapolis-colts,official_news,https://www.colts.com/news/,free,metadata_and_summary,Official news.,2026-08-21
+local-source-indianapolis-colts,official_roster,https://www.colts.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-indianapolis-colts,official_injury_report,https://www.colts.com/team/injury-report/,free,structured_monitoring,Official status.,2026-08-21
+local-source-indianapolis-colts,official_transactions,https://www.colts.com/team/transactions/,free,structured_monitoring,Official transactions.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook.,2026-08-21
+local-writer-stephen-holder,outlet_profile,https://espnpressroom.com/bio/stephen-holder/,free,metadata_and_summary,ESPN assignment biography.,2026-08-21
+local-writer-joel-a-erickson,outlet_landing,https://www.indystar.com/sports/colts/,paid,metadata_and_summary,IndyStar Colts coverage.,2026-08-21
+local-writer-nathan-brown,outlet_landing,https://www.indystar.com/sports/colts/,paid,metadata_and_summary,IndyStar Colts coverage.,2026-08-21
+local-writer-kevin-bowen,outlet_profile,https://1075thefan.com/kevin-bowen/,free,metadata_and_summary,Colts coverage and show archive.,2026-08-21
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/clt/2026.htm,free,structured_page,Season reference.,2026-08-21
