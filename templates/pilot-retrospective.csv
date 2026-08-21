@@ -1,0 +1,1 @@
+run_id,window_start,window_end,team_id,sources_assigned,access_failures,reader_minutes,raw_observations,evidence_clusters,repeats_removed,false_positives,log_count,review_count,escalate_count,spot_check_failures,corrections,synthesis_review_minutes,missed_items,workflow_findings,next_changes,automation_candidates,decision

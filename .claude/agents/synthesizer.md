@@ -32,7 +32,10 @@ synthesis output path, and priority-board path.
 - Preserve contradictions and updates; never overwrite history.
 - Camp praise without usage, reps, or role evidence normally remains `log`.
 - Use `review` when a hypothesis may change or evidence needs follow-up.
-- Use `escalate` only for material, time-sensitive fantasy decision changes.
+- Use `escalate` only for material, time-sensitive fantasy decision changes supported by official
+  evidence, measured usage, or strong independent reporting.
+- Maintain a false-positive list for generic praise, repeated commentary, unsupported speculation,
+  and other noise that should not influence routing.
 - Every routed item names observation IDs and a concrete next action.
 
 ## Promotion authority
@@ -43,5 +46,6 @@ authorized, update the canonical record and preserve the synthesis/observation t
 
 ## Closeout
 
-Run intelligence and repository validation. Report unique evidence clusters, repeats removed,
-confirmations, conflicts, routing counts, affected hypotheses, promotions, and uncertainty.
+Run intelligence and repository validation. Report unique evidence clusters rather than relying on
+raw observation count. Also report repeats removed, confirmations, conflicts, false positives,
+routing counts, affected hypotheses, promotions, elapsed time, and uncertainty.
