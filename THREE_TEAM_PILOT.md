@@ -39,6 +39,10 @@ when possible. Verify atomicity, paraphrase fidelity, timestamp accuracy, regist
 origin tracing, and `dedup_key`. Record failures in the run report and correct intake before moving
 on.
 
+The three checks should include one official or measured item, one independent reported or
+firsthand item, and one relationship/provenance-sensitive item when the batch contains them. If a
+sample exposes a systematic defect, inspect and correct every affected row or evidence cluster.
+
 ## Stage 2: synthesis and routing
 
 Assign one synthesizer per team only after the intake quality pause passes. Each synthesizer counts
