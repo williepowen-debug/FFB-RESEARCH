@@ -1,0 +1,12 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-pittsburgh-steelers,official_news,https://www.steelers.com/news/,free,metadata_and_summary,Official news.,2026-08-21
+local-source-pittsburgh-steelers,official_roster,https://www.steelers.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-pittsburgh-steelers,official_injury_report,https://www.steelers.com/team/injury-report/,free,structured_monitoring,Official practice participation and game status.,2026-08-21
+local-source-pittsburgh-steelers,official_transactions,https://www.steelers.com/team/transactions/,free,structured_monitoring,Official transactions.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook.,2026-08-21
+local-writer-brooke-pryor,outlet_profile,https://espnpressroom.com/us/bios/brooke-pryor/,free,metadata_and_summary,ESPN assignment biography.,2026-08-21
+local-writer-mike-defabo,outlet_landing,https://www.nytimes.com/athletic/nfl/team/steelers/,paid,metadata_and_summary,Athletic Steelers coverage.,2026-08-21
+local-writer-ray-fittipaldo,outlet_landing,https://www.post-gazette.com/sports/steelers,paid,metadata_and_summary,Post-Gazette Steelers coverage.,2026-08-21
+local-writer-chris-adamski,outlet_landing,https://triblive.com/sports/steelers/,free,metadata_and_summary,TribLive Steelers coverage.,2026-08-21
+local-writer-nick-farabaugh,outlet_landing,https://www.pennlive.com/steelers/,mixed,metadata_and_summary,PennLive Steelers coverage.,2026-08-21
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/pit/2026.htm,free,structured_page,Season reference.,2026-08-21

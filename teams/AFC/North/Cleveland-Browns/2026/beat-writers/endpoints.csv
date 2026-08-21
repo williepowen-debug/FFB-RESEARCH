@@ -1,0 +1,10 @@
+source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
+local-source-cleveland-browns,official_news,https://www.clevelandbrowns.com/news/,free,metadata_and_summary,Official news.,2026-08-21
+local-source-cleveland-browns,official_roster,https://www.clevelandbrowns.com/team/players-roster/,free,structured_page,Current roster.,2026-08-21
+local-source-cleveland-browns,official_injury_report,https://www.clevelandbrowns.com/team/injury-report/,free,structured_monitoring,Official status.,2026-08-21
+local-source-cleveland-browns,official_transactions,https://www.clevelandbrowns.com/news/transactions,free,structured_monitoring,Official transaction archive.,2026-08-21
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve gamebook.,2026-08-21
+local-writer-daniel-oyefusi,outlet_profile,https://espnpressroom.com/us/bios/daniel-oyefusi/,free,metadata_and_summary,ESPN assignment biography.,2026-08-21
+local-writer-mary-kay-cabot,outlet_landing,https://www.cleveland.com/browns/,paid,metadata_and_summary,cleveland.com Browns coverage.,2026-08-21
+local-writer-ashley-bastock,outlet_profile,https://www.ashleybastock.com/,free,metadata_and_summary,Current role and work profile.,2026-08-21
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/cle/2026.htm,free,structured_page,Season reference.,2026-08-21
