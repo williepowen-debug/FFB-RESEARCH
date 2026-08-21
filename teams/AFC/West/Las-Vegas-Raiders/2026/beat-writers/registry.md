@@ -14,7 +14,7 @@ last_verified: 2026-08-21
 confidence: high
 source_ids: []
 supersedes: []
-writer_ids: ["local-writer-ryan-mcfadden", "local-writer-adam-hill", "local-writer-hondo-carpenter", "local-writer-vincent-bonsignore", "local-writer-ed-graney", "local-writer-marcus-johnson", "local-writer-paul-gutierrez", "local-writer-levi-edwards"]
+writer_ids: ["local-writer-ryan-mcfadden", "local-writer-adam-hill", "local-writer-hondo-carpenter", "local-writer-vincent-bonsignore", "local-writer-ed-graney", "local-writer-marcus-johnson", "local-writer-moe-moton", "local-writer-paul-gutierrez", "local-writer-levi-edwards", "local-writer-eric-allen"]
 ---
 
 # Las Vegas Raiders 2026 Source Registry
@@ -38,8 +38,10 @@ See [sources.csv](sources.csv), [endpoints.csv](endpoints.csv), and [README.md](
 | Vincent Bonsignore | California Post / Raider Nation Radio | reporting | Organization sourcing and roster context | No longer primary beat; separate reporting from radio opinion |
 | Ed Graney | Las Vegas Review-Journal | reporting | Camp columns, organization and local context | Separate sourced reporting from opinion |
 | Marcus Johnson | Tape Don't Lie | film analysis | Scheme, line play, coverage and role review | Analysis source; establish facts independently |
+| Moe Moton | Bleacher Report | analysis | Raiders-focused roster construction and measured franchise context | Not a daily beat reporter; verify news independently |
 | Paul Gutierrez | Las Vegas Raiders | team analysis | Column analysis, owner access and organizational context | Team contributor; not independent confirmation |
 | Levi Edwards | Las Vegas Raiders | team analysis | Camp notebooks, interviews and official context | Team employee; not independent confirmation |
+| Eric Allen | Las Vegas Raiders | team analysis | Official film breakdowns of player traits and weekly performance | Team employee; use as analysis rather than independent confirmation |
 | Pro Football Reference | Sports Reference | data | Logs and snap counts | Secondary reference |
 
 ## Reliability history

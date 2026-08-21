@@ -9,5 +9,8 @@ local-writer-jesse-newell,outlet_landing,https://www.nytimes.com/athletic/nfl/te
 local-writer-pete-sweeney,outlet_profile,https://www.kansascity.com/profile/311850311/,paid,metadata_and_summary,Kansas City Star author page.,2026-08-21
 local-writer-matt-derrick,outlet_landing,https://chiefsdigest.com/,mixed,metadata_and_summary,Chiefs Digest coverage.,2026-08-21
 local-writer-harold-kuntz,outlet_landing,https://fox4kc.com/sports/chiefs/,free,metadata_and_summary,FOX4 Chiefs coverage.,2026-08-21
+local-writer-kent-swanson,outlet_profile,https://www.kcsn.com/about,mixed,metadata_and_summary,KCSN staff and current coverage.,2026-08-21
+local-writer-matt-lane,outlet_landing,https://www.kcsn.com/,mixed,manual_retrieval,KCSN film and roster analysis.,2026-08-21
+local-writer-craig-stout,outlet_landing,https://www.kcsn.com/,mixed,manual_retrieval,KCSN film and roster analysis.,2026-08-21
 local-writer-matt-mcmullen,outlet_landing,https://www.chiefs.com/news/trainingcamp,free,metadata_and_summary,Chiefs team camp coverage.,2026-08-21
 local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/kan/2026.htm,free,structured_page,Season reference.,2026-08-21

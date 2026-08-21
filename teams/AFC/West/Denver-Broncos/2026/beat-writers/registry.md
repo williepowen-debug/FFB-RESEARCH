@@ -14,7 +14,7 @@ last_verified: 2026-08-21
 confidence: high
 source_ids: []
 supersedes: []
-writer_ids: ["local-writer-jeff-legwold", "local-writer-nick-kosmider", "local-writer-parker-gabriel", "local-writer-mike-klis", "local-writer-zac-stevens", "local-writer-troy-renck", "local-writer-chris-tomasson", "local-writer-ryan-edwards", "local-writer-aric-dilalla"]
+writer_ids: ["local-writer-jeff-legwold", "local-writer-nick-kosmider", "local-writer-parker-gabriel", "local-writer-mike-klis", "local-writer-zac-stevens", "local-writer-troy-renck", "local-writer-chris-tomasson", "local-writer-ryan-edwards", "local-writer-cody-roark", "local-writer-andrew-mason", "local-writer-cecil-lammey", "local-writer-aric-dilalla"]
 ---
 
 # Denver Broncos 2026 Source Registry
@@ -40,6 +40,9 @@ See [sources.csv](sources.csv), [endpoints.csv](endpoints.csv), and [README.md](
 | Troy Renck | The Denver Post | reporting | Column reporting, organization and veteran context | Separate sourced reporting from opinion |
 | Chris Tomasson | Denver Gazette | reporting | Transactions, contracts, injuries and practice | Corroborate organization-level claims |
 | Ryan Edwards | KOA Colorado | reporting | Camp observation, interviews and local radio context | Separate observation from radio opinion |
+| Cody Roark | Mile High Sports / Locked On Broncos | reporting | Credentialed daily practice and game coverage with role-focused analysis | Separate firsthand reporting from podcast projection |
+| Andrew Mason | Denver Sports | analysis | Daily camp context, roster history and role interpretation | Analysis source; establish transactions and injuries independently |
+| Cecil Lammey | Denver Sports | analysis | Skill-position usage, camp observations and fantasy-facing role analysis | Separate observation from projection |
 | Aric DiLalla | Denver Broncos | team analysis | Camp observations, interviews and official context | Team employee; not independent confirmation |
 | Pro Football Reference | Sports Reference | data | Logs and snap counts | Secondary reference |
 
@@ -56,7 +59,8 @@ Established 2026-08-21. No repo-local outcome history has yet been scored.
 - Corrections or misses: none scored yet.
 - Current reliability assessment: unscored; tiers reflect current assignments and 2026 camp work.
 - Evidence for assessment: ESPN confirms Legwold; current 2026 coverage confirms Kosmider,
-  Gabriel, Klis, Stevens, Renck, Tomasson and Edwards remain active around Broncos practices.
+  Gabriel, Klis, Stevens, Renck, Tomasson, Edwards and Roark remain active around Broncos
+  practices; Mason and Lammey publish daily Broncos analysis.
 
 ## Usage notes
 

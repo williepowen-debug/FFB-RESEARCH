@@ -14,7 +14,7 @@ last_verified: 2026-08-21
 confidence: high
 source_ids: []
 supersedes: []
-writer_ids: ["local-writer-adam-teicher", "local-writer-jesse-newell", "local-writer-pete-sweeney", "local-writer-matt-derrick", "local-writer-harold-kuntz", "local-writer-matt-mcmullen"]
+writer_ids: ["local-writer-adam-teicher", "local-writer-jesse-newell", "local-writer-pete-sweeney", "local-writer-matt-derrick", "local-writer-harold-kuntz", "local-writer-kent-swanson", "local-writer-matt-lane", "local-writer-craig-stout", "local-writer-matt-mcmullen"]
 ---
 
 # Kansas City Chiefs 2026 Source Registry
@@ -37,6 +37,9 @@ See [sources.csv](sources.csv), [endpoints.csv](endpoints.csv), and [README.md](
 |---|---|---|---|---|
 | Matt Derrick | Chiefs Digest | reporting | Long-running camp coverage, transactions and roster depth | Separate reporting from radio analysis |
 | Harold Kuntz | FOX4 Kansas City | reporting | Local television reporting, camp and breaking news | Distinguish reported facts from studio analysis |
+| Kent Swanson | KC Sports Network | analysis | Roster construction, draft context and recurring Chiefs analysis | Separate sourced information from show opinion |
+| Matt Lane | KC Sports Network | film analysis | Offensive film, player traits and scheme fits | Analysis source; establish facts independently |
+| Craig Stout | KC Sports Network | film analysis | Defensive film, personnel packages and scheme | Analysis source; establish facts independently |
 | Matt McMullen | Kansas City Chiefs | team analysis | Daily camp observations, interviews and official context | Team employee; not independent confirmation |
 | Pro Football Reference | Sports Reference | data | Logs and snap counts | Secondary reference |
 
@@ -53,7 +56,8 @@ Established 2026-08-21. No repo-local outcome history has yet been scored.
 - Corrections or misses: none scored yet.
 - Current reliability assessment: unscored; tiers reflect current assignments and 2026 camp work.
 - Evidence for assessment: current ESPN coverage confirms Teicher; current Athletic, Star and
-  Chiefs Digest and FOX4 work confirms Newell, Sweeney, Derrick and Kuntz remain active.
+  Chiefs Digest and FOX4 work confirms Newell, Sweeney, Derrick and Kuntz remain active; KCSN's
+  current work confirms Swanson, Lane and Stout provide differentiated roster and film analysis.
 
 ## Usage notes
 
