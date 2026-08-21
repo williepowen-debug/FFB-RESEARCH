@@ -10,7 +10,17 @@ python scripts/validate_repository.py
 python scripts/generate_catalog.py --check
 ```
 
-The repository validator checks front matter, JSON Schemas, controlled values, immutable record-ID format, duplicate IDs, team references, supersession references, required sections, relative links, and catalog drift. `catalog.jsonl` is generated from Markdown metadata and must not be edited manually.
+The repository validator checks front matter, JSON Schemas, controlled values, immutable record-ID format, duplicate IDs, team references, supersession references, required sections, relative links, source registries, intelligence-pipeline provenance, and catalog drift. `catalog.jsonl` is generated from Markdown metadata and must not be edited manually.
+
+## Validate reader and synthesis intelligence
+
+```bash
+python3 scripts/validate_intelligence.py
+```
+
+This checks immutable reader batches, controlled evidence classifications, registered source IDs,
+timestamps, observation relationships, synthesis references, and priority-board provenance. It is
+also called by the full repository validator.
 
 ## Validate schedule data
 

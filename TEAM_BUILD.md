@@ -154,6 +154,10 @@ analysis. Record publication and verification dates. Separate reported facts fro
 from fantasy implications. Where 2026 evidence is thin, state a hypothesis with low confidence
 and a `review_trigger` — do not manufacture certainty.
 
+Once a team's source registry is active, recurring monitoring follows
+[`INTELLIGENCE_PIPELINE.md`](INTELLIGENCE_PIPELINE.md). Reader observations are intake artifacts,
+not direct edits to team findings. A team synthesis must reconcile and route them before promotion.
+
 ## Validation gate
 
 A team module is not done until this passes clean:

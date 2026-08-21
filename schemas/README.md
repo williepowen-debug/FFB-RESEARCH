@@ -25,6 +25,8 @@ All record types use the same core fields:
 
 Some record types extend the envelope: `league_format` adds `fantasy_formats`,
 `platform`, `league_size`, `draft_slot`, and `draft_date`.
+`team_intelligence` adds `observation_ids` and `run_ids` so every synthesis remains traceable to
+immutable reader batches.
 
 Templates are valid drafts: IDs and dates may remain `null`. Before a record becomes `active`, it must have a stable `record_id`, `valid_as_of`, and `last_verified`.
 

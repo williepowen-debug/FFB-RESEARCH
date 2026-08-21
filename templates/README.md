@@ -12,6 +12,10 @@ Copy the closest template before adding a new record:
 - `coaching-profile.md`
 - `beat-writer-registry.md`
 - `beat-writer-candidate-ledger.csv` — copy to a team registry as durable `candidates.csv`
+- `reader-observations.csv` — immutable per-reader intake batch
+- `reader-assignment.csv` — bounded source, team, lane, and retrieval-window assignment
+- `team-intelligence.md` — dated team-level reconciliation and routing record
+- `intelligence-priority-board.csv` — league-level review and escalation queue
 - `injury-update.md`
 - `weekly-matchup.md`
 - `depth-chart.md`
