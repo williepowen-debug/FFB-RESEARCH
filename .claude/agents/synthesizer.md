@@ -23,6 +23,8 @@ synthesis output path, and priority-board path.
    `templates/team-intelligence.md`, and `templates/intelligence-priority-board.csv`.
 2. Validate intake with `python3 scripts/validate_intelligence.py`.
 3. Read every assigned observation and each existing record it may affect.
+4. Read the team's open `intelligence-ledger.csv` rows and report whether their review triggers
+   occurred; ARCHITECT retains authority to resolve, promote, or supersede them.
 
 ## Reconciliation rules
 

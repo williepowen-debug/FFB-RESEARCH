@@ -33,6 +33,9 @@ broadening scope.
 - Use the supporting page as `source_url` and find the earliest known `origin_url`.
 - Paraphrase briefly in original language. Never copy full articles or paid text.
 - Preserve publication and retrieval timestamps with timezone.
+- Use the exact supporting item's publication timestamp. For live blogs, prefer the individual
+  update timestamp; if only a page-level timestamp exists, note that limitation. Never use a
+  modification timestamp as `published_at`.
 - Use relationships for confirmations, conflicts, updates, and repeats.
 - Give equivalent claims the same stable `dedup_key` even when wording differs.
 - `confidence` measures fidelity to the source, not fantasy conviction.
@@ -47,3 +50,6 @@ Run `python3 scripts/validate_intelligence.py`. Complete
 `templates/reader-run-report.csv` with rows emitted, source access outcomes, likely duplicate
 clusters, conflicts, elapsed time, and time-sensitive items requiring synthesis. Record every
 assigned source as checked, inaccessible, no new material, or failed endpoint.
+
+Use only these exact access values: `checked`, `no_new_material`, `inaccessible`, and
+`failed_endpoint`. Put all nuance in `notes`.

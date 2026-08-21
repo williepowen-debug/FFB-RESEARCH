@@ -87,6 +87,12 @@ validated by `scripts/validate_intelligence.py`.
   a fantasy conclusion.
 - `time_sensitivity` and `fantasy_impact`: reader triage inputs, subject to synthesis review.
 
+`published_at` is the timestamp attached to the exact supporting item. For a live blog, use the
+individual update timestamp when it is exposed; when only a page-level timestamp is available, use
+it and say so in `notes`. Never substitute `dateModified` for publication time. `retrieved_at` is
+the actual retrieval time. The supporting item's publication time, not retrieval time, must fall
+inside the frozen assignment window.
+
 ## Deduplication and corroboration
 
 The synthesizer groups first by `dedup_key`, then inspects `origin_url`, quoted speaker, event time,
@@ -156,6 +162,12 @@ no-change review, and `superseded` when a later ledger row replaces its decision
 observations or article summaries into canonical findings. The ledger summarizes why evidence was
 or was not promoted and points back to the immutable provenance chain.
 
+At the start of each later team synthesis, ARCHITECT reviews that team's open ledger rows. When a
+trigger has occurred, the row must become `promoted`/`resolved` or `no_change`/`resolved`, or a new
+row must supersede it. Resolved rows record `resolved_date` and `resolution_synthesis_id`; a
+replacement records `supersedes_ledger_id`, and the replaced row becomes `superseded`. If the
+trigger has not occurred, the item remains `deferred`/`open` without duplicating the same target.
+
 ## Promotion rules
 
 - Injury or designation changes -> `weekly/<season>/week-<NN>/` injury/matchup records when a week
@@ -179,6 +191,11 @@ underlying observation or synthesis snapshot.
    ledger.
 7. Promote approved changes to existing records.
 8. Run the standard repository validation gate.
+
+A run is complete only when assignments have one approved access outcome per source, observation
+caps and windows are respected, spot checks are recorded, syntheses account for their observations,
+all `review`/`escalate` signals have ledger dispositions, triggered prior ledger entries are closed
+or superseded, and the run handoff or retrospective is complete.
 
 Pilot the system on one dense ecosystem, one subscription-heavy ecosystem, and one thinner or
 team-controlled ecosystem before scheduling all 32 teams. Use

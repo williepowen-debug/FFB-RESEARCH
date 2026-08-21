@@ -18,9 +18,10 @@ The repository validator checks front matter, JSON Schemas, controlled values, i
 python3 scripts/validate_intelligence.py
 ```
 
-This checks immutable reader batches, controlled evidence classifications, registered source IDs,
-timestamps, observation relationships, synthesis references, and priority-board provenance. It is
-also called by the full repository validator.
+This checks immutable reader batches, frozen publication windows, registered source IDs, exact
+run-report access outcomes and coverage, observation relationships, synthesis and priority-board
+provenance, and team-ledger lifecycle/reference integrity. It is also called by the full repository
+validator.
 
 ## Validate schedule data
 
