@@ -148,4 +148,3 @@ was treated as proof of a regular-season performance or role change.
 
 - Kassidy Hill, Carolina Panthers — [Rapid Reactions: Panthers beat the Jaguars 34-17 as starters shine](https://www.panthers.com/news/rapid-reactions-panthers-beat-the-jaguars-34-17-as-starters-shine) — published 2026-08-21T22:33:00-04:00; retrieved 2026-08-22T20:05:00-04:00; observations `obs-2026-car-20260822t232931z-001` through `obs-2026-car-20260822t232931z-010`.
 - Darin Gantt, Carolina Panthers — [It's been a long road back for Pat Jones, who celebrated with a sack in his first game](https://www.panthers.com/news/it-s-been-a-long-road-back-for-pat-jones-who-celebrated-with-a-sack-in-his-first-game-back-surgery-jaelan-phillips) — published 2026-08-21T23:56:00-04:00; retrieved 2026-08-22T20:08:00-04:00; observation `obs-2026-car-20260822t232931z-011`.
-
