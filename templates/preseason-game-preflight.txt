@@ -1,0 +1,50 @@
+# Preseason Game Preflight
+
+Use this checklist before freezing a preseason game reader assignment. Save the completed copy in
+the run directory as `preflight.md`.
+
+## Run Scope
+
+- Run ID:
+- Game:
+- Teams:
+- Season:
+- Planned pass: `immediate` / `completion`
+- Planned retrieval window:
+- Assignment owner:
+
+## Source Readiness
+
+| Check | Status | Evidence or link | Notes |
+|---|---|---|---|
+| Official team recap is timestamped and inside window | `ready` / `not_ready` / `not_applicable` |  |  |
+| Official inactive or held-out-starter list is available | `ready` / `not_ready` / `not_applicable` |  |  |
+| NFL game center or official gamebook is available | `ready` / `not_ready` / `not_applicable` |  |  |
+| Participation, snap, route, carry, or target data is available | `ready` / `not_ready` / `not_applicable` |  |  |
+| Independent postgame notebook or beat report is timestamped | `ready` / `not_ready` / `not_applicable` |  |  |
+| Film or charting source is available for role/pressure questions | `ready` / `not_ready` / `not_applicable` |  |  |
+
+## Open Ledger Triggers
+
+| Team | Ledger ID | Trigger | Ready now? | Assignment impact |
+|---|---|---|---|---|
+|  |  |  | `yes` / `no` |  |
+
+## Pass Decision
+
+- Proceed / wait:
+- Reason:
+- Observation cap:
+- Sources to include:
+- Sources to exclude:
+- Questions explicitly in scope:
+- Questions explicitly out of scope:
+
+## Timing Rules
+
+- Immediate pass: run only for availability, held-out starters, injuries, official usage shocks,
+  and clear time-sensitive changes.
+- Completion pass: run after official gamebook, participation data, snap or route data, and
+  independent postgame reporting have had time to settle.
+- If role evidence is unavailable, record the source-access gap and do not assign a full role
+  synthesis unless the gap itself is material.
