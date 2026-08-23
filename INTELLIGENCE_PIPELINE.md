@@ -35,6 +35,7 @@ Reader output is date- and run-scoped so concurrent readers do not append to the
 ```text
 intelligence/<season>/
 ├── runs/<run-id>/<reader-id>/observations.csv
+├── runs/<run-id>/preflight.md
 ├── syntheses/<YYYY-MM-DD>/<team-abbr>.md
 └── priority/<YYYY-MM-DD>/priority-board.csv
 ```
@@ -64,6 +65,12 @@ may contain zero observations: `no meaningful update` is a valid result when the
 which sources were checked and what could not be accessed. Pilot assignments should normally cap
 output at 20 observations per team, with 10–20 as a useful target when the window contains real
 news. The cap is a noise control, not a quota; never manufacture rows to reach it.
+
+For preseason game work, use [PRESEASON_GAME_RUNBOOK.md](PRESEASON_GAME_RUNBOOK.md). Preseason
+assignments require a completed `preflight.md` in the run directory before assignments are frozen.
+The preflight decides whether the run is an immediate triage pass, a 24–48 hour completion pass,
+or a wait for gamebooks, participation, snap, route, or independent postgame evidence. Put the pass
+type in assignment `notes`.
 
 ## Observation contract
 
@@ -168,6 +175,11 @@ row must supersede it. Resolved rows record `resolved_date` and `resolution_synt
 replacement records `supersedes_ledger_id`, and the replaced row becomes `superseded`. If the
 trigger has not occurred, the item remains `deferred`/`open` without duplicating the same target.
 
+For preseason completion passes, the ledger review happens before source assignment. ARCHITECT
+builds the source list around open triggers first, then adds game-level sources only when they can
+resolve or falsify those triggers. This keeps completion runs from rereading every team from
+scratch.
+
 ## Promotion rules
 
 - Injury or designation changes -> `weekly/<season>/week-<NN>/` injury/matchup records when a week
@@ -182,15 +194,17 @@ underlying observation or synthesis snapshot.
 
 ## Run sequence
 
-1. Freeze reader assignments, source IDs, lanes, and retrieval window.
-2. Readers write separate immutable batches.
-3. Validate intake with `python3 scripts/validate_intelligence.py`.
-4. Synthesize by team and date.
-5. Validate again, including synthesis and priority references.
-6. ARCHITECT records each `review` and `escalate` disposition in the affected team's intelligence
+1. For preseason games, complete `preflight.md` and decide immediate pass, completion pass, or wait.
+2. Review open team ledgers that fall inside the run scope.
+3. Freeze reader assignments, source IDs, lanes, and retrieval window.
+4. Readers write separate immutable batches.
+5. Validate intake with `python3 scripts/validate_intelligence.py`.
+6. Synthesize by team and date.
+7. Validate again, including synthesis and priority references.
+8. ARCHITECT records each `review` and `escalate` disposition in the affected team's intelligence
    ledger.
-7. Promote approved changes to existing records.
-8. Run the standard repository validation gate.
+9. Promote approved changes to existing records.
+10. Run the standard repository validation gate.
 
 A run is complete only when assignments have one approved access outcome per source, observation
 caps and windows are respected, spot checks are recorded, syntheses account for their observations,
