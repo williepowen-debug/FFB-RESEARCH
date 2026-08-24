@@ -22,9 +22,9 @@ reader batches before starting Week 3.
 | Panthers at Jaguars | Fri Aug 21, 7:30 PM ET | `20260822T232931Z` CAR/JAX | processed with source gaps | CAR has three open review rows; JAX had zero compliant observations and needs completion if source freshness improves. |
 | Packers at Broncos | Fri Aug 21, 9:00 PM ET | `20260822T232931Z` GB/DEN | processed with source gaps | DEN has three open review rows; GB had zero compliant observations and needs completion if source freshness improves. |
 | Commanders at Lions | Sat Aug 22, 12:00 PM ET | `20260822T232931Z` WAS/DET | processed with deferred rows | WAS and DET each have one open defensive review row. |
-| Bills at Browns | Sat Aug 22, 1:00 PM ET | none found | not processed | Create immediate/completion pass if evidence is available. |
-| Falcons at Colts | Sat Aug 22, 1:00 PM ET | none found | not processed | Create immediate/completion pass if evidence is available. |
-| Ravens at Vikings | Sat Aug 22, 1:00 PM ET | MIN Jefferson-specific intake only; no game synthesis | not processed as game | Create game pass only if role/availability evidence affects Vikings/Ravens hypotheses. |
+| Bills at Browns | Sat Aug 22, 1:00 PM ET | `20260824T022813Z` BUF/CLE | processed | Reserve-context log; Cleveland starter decision remains an official-announcement trigger. |
+| Falcons at Colts | Sat Aug 22, 1:00 PM ET | `20260824T022813Z` ATL/IND | processed | Both teams rested starters; no canonical role promotion. |
+| Ravens at Vikings | Sat Aug 22, 1:00 PM ET | `20260824T022813Z` BAL/MIN | processed with MIN source gap | Baltimore log-only reserve evidence; retry Minnesota only if a compliant postgame source appears. |
 | Saints at Rams | Sat Aug 22, 4:00 PM ET | `20260822T232931Z` NO/LAR | processed with deferred rows | NO older rows remain open; LAR had log-only reserve evidence. |
 | Giants at Dolphins | Sat Aug 22, 4:00 PM ET | none found | not processed | Create immediate/completion pass if evidence is available. |
 | Bears at Bengals | Sat Aug 22, 7:00 PM ET | none found | not processed | Create immediate/completion pass if evidence is available. |
@@ -42,6 +42,8 @@ reader batches before starting Week 3.
   coverage.
 - `20260822T232931Z`: four-game pilot for NO/LAR, GB/DEN, WAS/DET, and CAR/JAX.
 - `20260823T034234Z`: SEA/TEN preflight only; assignments intentionally not frozen.
+- `20260824T022813Z`: immediate pass for BUF/CLE, ATL/IND, and BAL/MIN; SEA/TEN remained live at
+  assignment freeze and stayed queued.
 
 ## Immediate Gaps
 
