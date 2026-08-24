@@ -2,7 +2,9 @@
 
 This queue is the current ledger-first starting point for the next preseason completion pass. It is
 derived from open `intelligence-ledger.csv` rows and source-access gaps in the latest preseason
-game pilot.
+game pilot. The 15 open ledger rows were checked for trigger readiness on 2026-08-24; none was
+ready for closure. See `intelligence/2026/open-ledger-readiness-audit-2026-08-24.md` for the
+team-by-team evidence and resume criteria.
 
 ## Highest Priority
 
