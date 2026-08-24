@@ -1,7 +1,7 @@
 # 2026 Preseason Week 2 Coverage Audit
 
 This audit compares the official 2026 preseason Week 2 schedule against completed FFB intelligence
-runs. It is current as of the SEA/TEN preflight run on 2026-08-23 UTC. Use it to choose the next
+runs. It is current as of the Saturday B run on 2026-08-24 UTC. Use it to choose the next
 reader batches before starting Week 3.
 
 ## Schedule Source
@@ -26,9 +26,9 @@ reader batches before starting Week 3.
 | Falcons at Colts | Sat Aug 22, 1:00 PM ET | `20260824T022813Z` ATL/IND | processed | Both teams rested starters; no canonical role promotion. |
 | Ravens at Vikings | Sat Aug 22, 1:00 PM ET | `20260824T022813Z` BAL/MIN | processed with MIN source gap | Baltimore log-only reserve evidence; retry Minnesota only if a compliant postgame source appears. |
 | Saints at Rams | Sat Aug 22, 4:00 PM ET | `20260822T232931Z` NO/LAR | processed with deferred rows | NO older rows remain open; LAR had log-only reserve evidence. |
-| Giants at Dolphins | Sat Aug 22, 4:00 PM ET | none found | not processed | Create immediate/completion pass if evidence is available. |
-| Bears at Bengals | Sat Aug 22, 7:00 PM ET | none found | not processed | Create immediate/completion pass if evidence is available. |
-| Eagles at Patriots | Sat Aug 22, 7:00 PM ET | none found | not processed | Create immediate/completion pass if evidence is available. |
+| Giants at Dolphins | Sat Aug 22, 4:00 PM ET | `20260824T023547Z` NYG/MIA | processed with MIA source gap | NYG log-only bounded usage; retry Miami only if compliant postgame participation appears. |
+| Bears at Bengals | Sat Aug 22, 7:00 PM ET | `20260824T023547Z` CHI/CIN | processed with CIN source gap | CHI one-drive log; retry Cincinnati only if compliant postgame participation appears. |
+| Eagles at Patriots | Sat Aug 22, 7:00 PM ET | `20260824T023547Z` PHI/NE | processed | PHI injury follow-up requires a diagnosis; NE starters rested. |
 | Chiefs at Buccaneers | Sat Aug 22, 7:30 PM ET | none found | not processed | Create immediate/completion pass if evidence is available. |
 | Cowboys at Cardinals | Sat Aug 22, 10:00 PM ET | ARI pregame/follow-up only; no Cowboys/Cardinals game synthesis | not processed as game | Create completion pass if Cardinals availability or Cowboys role evidence is available. |
 | Seahawks at Titans | Sun Aug 23, 8:00 PM ET | `20260823T034234Z` preflight only | not yet played at preflight | Freeze assignments after postgame evidence exists. |
@@ -44,6 +44,8 @@ reader batches before starting Week 3.
 - `20260823T034234Z`: SEA/TEN preflight only; assignments intentionally not frozen.
 - `20260824T022813Z`: immediate pass for BUF/CLE, ATL/IND, and BAL/MIN; SEA/TEN remained live at
   assignment freeze and stayed queued.
+- `20260824T023547Z`: immediate pass for NYG/MIA, CHI/CIN, and PHI/NE; Miami and Cincinnati had
+  valid zero-observation source gaps.
 
 ## Immediate Gaps
 
@@ -51,21 +53,16 @@ Highest-priority uncovered completed games:
 
 1. Raiders at Texans
 2. Jets at Steelers
-3. Bills at Browns
-4. Falcons at Colts
-5. Ravens at Vikings
-6. Giants at Dolphins
-7. Bears at Bengals
-8. Eagles at Patriots
-9. Chiefs at Buccaneers
-10. Cowboys at Cardinals
+3. Chiefs at Buccaneers
+4. Cowboys at Cardinals
+5. Seahawks at Titans
 
 Partial coverage gaps:
 
 1. Chargers side of 49ers at Chargers.
 2. Cardinals game-side evidence from Cowboys at Cardinals, separate from earlier ARI availability
    monitoring.
-3. Vikings/Ravens game-side evidence, separate from the Jefferson-specific Vikings intake.
+3. Miami and Cincinnati postgame team-side participation, if compliant sources appear.
 
 ## Recommended Next Batch
 
@@ -73,9 +70,8 @@ Do not attempt all gaps in one run. Use the preseason runbook and batch by fanta
 source availability:
 
 1. **Open-ledger completion batch:** DEN, CAR, WAS, DET, GB, JAX, NO, ARI, SF.
-2. **Uncovered Saturday batch A:** Bills/Browns, Falcons/Colts, Ravens/Vikings.
-3. **Uncovered Saturday batch B:** Giants/Dolphins, Bears/Bengals, Eagles/Patriots,
-   Chiefs/Buccaneers, Cowboys/Cardinals.
+2. **Completed Saturday batch A:** Bills/Browns, Falcons/Colts, Ravens/Vikings.
+3. **Remaining Saturday batch:** Chiefs/Buccaneers and Cowboys/Cardinals.
 4. **Thursday/Friday uncovered batch:** Raiders/Texans, Jets/Steelers, and Chargers side of
    49ers/Chargers.
 5. **SEA/TEN immediate pass:** run only after official or timestamped postgame evidence exists.
