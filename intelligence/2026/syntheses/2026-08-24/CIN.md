@@ -11,51 +11,52 @@ status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-24
 last_verified: 2026-08-24
-confidence: low
-source_ids: []
+confidence: high
+source_ids: ["local-source-cincinnati-bengals"]
 supersedes: []
-observation_ids: []
-run_ids: ["20260824T023547Z"]
+observation_ids: ["obs-2026-cin-20260824t161140z-001", "obs-2026-cin-20260824t161140z-002", "obs-2026-cin-20260824t161140z-003"]
+run_ids: ["20260824T023547Z", "20260824T161140Z"]
 ---
 
 # Cincinnati Bengals intelligence synthesis — 2026-08-24
 
 ## Executive signal
 
-No compliant material Cincinnati observation was available from the assigned official source.
+The Cincinnati source gap is repaired. A timestamped official recap confirms backup-quarterback
+allocation and bounded reserve-receiver production, but it does not change a fantasy role.
 
 ## Reconciled evidence
 
-Chicago's recap supplied opponent context, while Cincinnati's registered source exposed pregame
-and joint-practice material but no fresh postgame item inside the window.
+Josh Johnson played the first half and Sean Clifford the second. Colbie Young and Dohnte Meyers
+produced in that reserve context. The evidence lacks routes, first-team participation, and a stable
+depth decision, so it remains descriptive rather than promotable.
 
 ## Hypothesis impact
 
-No change. Cincinnati's open offense and defense questions retain their named participation and
-regular-season triggers.
+No change. The observations close the collection gap, not any active offense or defense question.
 
 ## Routing decisions
 
 | Level | Signal | Observation IDs | Next action |
 |---|---|---|---|
-| log | Source-access gap; no material compliant observation. |  | Retry only if official participation or a timestamped notebook appears. |
+| log | Backup-quarterback allocation and reserve receiving. | `obs-2026-cin-20260824t161140z-001`; `-002`; `-003` | Retain in intelligence; require measured first-unit participation before promotion. |
 
 ## Conflicts and uncertainty
 
-Joe Burrow's nonparticipation and reserve results were not supported by Cincinnati-side postgame
-provenance in this assignment.
+The recap does not supply route denominators or establish Young or Meyers in a regular-season role.
 
 ## Excluded noise
 
-Opponent framing, pregame projections, and joint-practice reports.
+Opponent framing, pregame projections, joint-practice reports, and depth-chart inference from
+reserve production.
 
 ## Run metrics
 
-- Raw observations: 0
-- Unique evidence clusters: 0
+- Raw observations: 3
+- Unique evidence clusters: 3
 - Repeats removed: 0
-- Synthesis elapsed time: 3 minutes
+- Synthesis elapsed time: 4 minutes
 
 ## Sources
 
-- Cincinnati Bengals official surfaces checked 2026-08-24; no compliant in-window item emitted.
+- Cincinnati Bengals, "Bengals Tame Bears 27-9," published 2026-08-22 at 10:14 PM ET.
