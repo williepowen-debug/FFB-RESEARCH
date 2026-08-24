@@ -58,4 +58,3 @@ Individual reserve stock-up framing was excluded from stable role conclusions.
 ## Sources
 
 - Baltimore Ravens official postgame coverage, published 2026-08-22 and retrieved 2026-08-24.
-

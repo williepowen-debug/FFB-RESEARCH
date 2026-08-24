@@ -57,4 +57,3 @@ Final score and unverified live-game reactions.
 ## Sources
 
 - Minnesota Vikings official game surface checked 2026-08-24; no compliant in-window item emitted.
-

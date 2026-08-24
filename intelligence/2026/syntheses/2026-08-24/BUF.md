@@ -58,4 +58,3 @@ The 31-7 score and generic praise were excluded.
 ## Sources
 
 - Buffalo Bills official postgame coverage, published 2026-08-22 and retrieved 2026-08-24.
-

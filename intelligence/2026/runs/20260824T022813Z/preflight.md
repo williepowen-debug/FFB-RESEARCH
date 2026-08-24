@@ -40,4 +40,3 @@
 - SEA/TEN remains queued for a separate postgame pass after a final recap and injury update exist.
 - Saturday-game reserve production routes to `log` unless it changes an existing availability or
   roster decision.
-

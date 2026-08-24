@@ -58,4 +58,3 @@ Kicking results and reserve box-score leaders were excluded as nonmaterial.
 ## Sources
 
 - Indianapolis Colts official postgame coverage, published 2026-08-22 and 2026-08-23.
-

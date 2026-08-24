@@ -59,4 +59,3 @@ Crowd reaction and postgame commentary were excluded from the football decision.
 ## Sources
 
 - Cleveland Browns official recap, published 2026-08-22 and retrieved 2026-08-24.
-

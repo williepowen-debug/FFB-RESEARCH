@@ -58,4 +58,3 @@ The 34-6 score and isolated reserve production were not promoted.
 ## Sources
 
 - Atlanta Falcons official recap, published 2026-08-22 and retrieved 2026-08-24.
-
