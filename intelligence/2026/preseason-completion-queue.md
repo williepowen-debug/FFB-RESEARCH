@@ -20,7 +20,7 @@ team-by-team evidence and resume criteria.
 | Team | Reason | Required evidence | Source of queue item |
 |---|---|---|---|
 | GB | Zero compliant observations in the Week 2 pilot because official listing and gamebook/participation evidence were not fresh. | Timestamped official recap, gamebook, participation data, and route/backfield/pressure/defensive-alignment charting. | `intelligence/2026/syntheses/2026-08-22/GB.md` |
-| JAX | Zero compliant observations in the Week 2 pilot because sources were stale or lacked verifiable in-window metadata. | Timestamped recap, participation report, or film-based snap split; Hunter offensive usage, backfield allocation, tight-end packages, defensive front, and linebacker role evidence. | `intelligence/2026/syntheses/2026-08-22/JAX.md` |
+| JAX | Source gap repaired on 2026-08-24; official recap established that primary starters were held out, so active role questions remain untested. | First-unit participation or film-based snap split; Hunter offensive usage, backfield allocation, tight-end packages, defensive front, and linebacker role evidence. | `intelligence/2026/syntheses/2026-08-24/JAX.md` |
 
 ## Older Open Preseason Rows
 
@@ -37,6 +37,7 @@ Use `PRESEASON_GAME_RUNBOOK.md` before starting the next pass:
 1. Copy `templates/preseason-game-preflight.txt` into the new run directory as `preflight.md`.
 2. Check whether the highest-priority teams have the required evidence available.
 3. Freeze assignments around ready ledger triggers first.
-4. Include `GB` and `JAX` only if source freshness or gamebook/participation data is now available.
+4. Include `GB` only if source freshness or gamebook/participation data is now available; JAX's
+   postgame source gap is repaired and now requires first-unit evidence.
 5. Leave rows open when the named trigger has not occurred; do not duplicate a target already open
    in a team ledger.

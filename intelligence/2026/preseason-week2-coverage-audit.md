@@ -1,7 +1,7 @@
 # 2026 Preseason Week 2 Coverage Audit
 
 This audit compares the official 2026 preseason Week 2 schedule against completed FFB intelligence
-runs. It is current through the three-game coverage-completion run on 2026-08-24 UTC. Use it to
+runs. It is current through the nine-team source-gap recovery on 2026-08-24 UTC. Use it to
 choose evidence-recovery and open-ledger batches before starting Week 3.
 
 ## Schedule Source
@@ -19,7 +19,7 @@ choose evidence-recovery and open-ledger batches before starting Week 3.
 | Raiders at Texans | Thu Aug 20, 8:00 PM ET | `20260824T151559Z` LV/HOU | processed with HOU source gap | LV bounded rushing and quarterback allocation logged; retry Houston only if compliant participation appears. |
 | 49ers at Chargers | Thu Aug 20, 10:00 PM ET | `20260821T191126Z` SF synthesis only | partially processed | Decide whether LAC side needs BOLT-scoped pass; SF has open Stribling follow-up. |
 | Jets at Steelers | Fri Aug 21, 7:00 PM ET | `20260824T151559Z` NYJ/PIT | processed with NYJ source gap | PIT reserve and held-out-starter context logged; retry the Jets only if compliant participation appears. |
-| Panthers at Jaguars | Fri Aug 21, 7:30 PM ET | `20260822T232931Z` CAR/JAX | processed with source gaps | CAR has three open review rows; JAX had zero compliant observations and needs completion if source freshness improves. |
+| Panthers at Jaguars | Fri Aug 21, 7:30 PM ET | `20260822T232931Z` CAR/JAX; `20260824T161140Z` JAX recovery | processed; JAX source gap repaired | CAR has three open review rows; JAX official held-out and reserve context is logged with no promotion. |
 | Packers at Broncos | Fri Aug 21, 9:00 PM ET | `20260822T232931Z` GB/DEN | processed with source gaps | DEN has three open review rows; GB had zero compliant observations and needs completion if source freshness improves. |
 | Commanders at Lions | Sat Aug 22, 12:00 PM ET | `20260822T232931Z` WAS/DET | processed with deferred rows | WAS and DET each have one open defensive review row. |
 | Bills at Browns | Sat Aug 22, 1:00 PM ET | `20260824T022813Z` BUF/CLE | processed | Reserve-context log; Cleveland starter decision remains an official-announcement trigger. |
@@ -27,7 +27,7 @@ choose evidence-recovery and open-ledger batches before starting Week 3.
 | Ravens at Vikings | Sat Aug 22, 1:00 PM ET | `20260824T022813Z` BAL/MIN | processed with MIN source gap | Baltimore log-only reserve evidence; retry Minnesota only if a compliant postgame source appears. |
 | Saints at Rams | Sat Aug 22, 4:00 PM ET | `20260822T232931Z` NO/LAR | processed with deferred rows | NO older rows remain open; LAR had log-only reserve evidence. |
 | Giants at Dolphins | Sat Aug 22, 4:00 PM ET | `20260824T023547Z` NYG/MIA | processed with MIA source gap | NYG log-only bounded usage; retry Miami only if compliant postgame participation appears. |
-| Bears at Bengals | Sat Aug 22, 7:00 PM ET | `20260824T023547Z` CHI/CIN | processed with CIN source gap | CHI one-drive log; retry Cincinnati only if compliant postgame participation appears. |
+| Bears at Bengals | Sat Aug 22, 7:00 PM ET | `20260824T023547Z` CHI/CIN; `20260824T161140Z` CIN recovery | processed; CIN source gap repaired | CHI one-drive log; Cincinnati backup-QB and reserve-receiver context logged without promotion. |
 | Eagles at Patriots | Sat Aug 22, 7:00 PM ET | `20260824T023547Z` PHI/NE | processed | PHI injury follow-up requires a diagnosis; NE starters rested. |
 | Chiefs at Buccaneers | Sat Aug 22, 7:30 PM ET | `20260824T024317Z` KC/TB | processed | Starter exposure and depth evidence logged; no canonical promotion. |
 | Cowboys at Cardinals | Sat Aug 22, 10:00 PM ET | `20260824T024317Z` DAL/ARI | processed with ARI source gap | Dallas log-only depth evidence; retry Arizona if compliant participation appears. |
@@ -51,6 +51,9 @@ choose evidence-recovery and open-ledger batches before starting Week 3.
 - `20260824T151559Z`: completion pass for LV/HOU, NYJ/PIT, and SEA/TEN. Las Vegas, Pittsburgh, and
   Tennessee produced bounded official observations; Houston and the Jets had valid zero-observation
   source gaps, while Seattle was limited to the final league record.
+- `20260824T161140Z`: source-gap recovery for GB, JAX, HOU, NYJ, MIN, MIA, CIN, SEA, and ARI.
+  Timestamped official recaps repaired JAX and CIN; the other seven produced documented
+  zero-observation outcomes after official and league-record retries.
 
 ## Immediate Gaps
 
@@ -59,8 +62,9 @@ No Week 2 game remains wholly unprocessed.
 Remaining partial coverage gaps:
 
 1. Chargers side of 49ers at Chargers.
-2. Houston, Jets, Seattle, Arizona, Miami, Cincinnati, Minnesota, Green Bay, and Jacksonville
-   team-side participation or timestamped postgame evidence, if compliant sources appear.
+2. Houston, Jets, Seattle, Arizona, Miami, Minnesota, and Green Bay team-side participation or
+   timestamped postgame evidence, if compliant sources appear. Jacksonville and Cincinnati are
+   recovered; neither produced a promotable role signal.
 
 ## Recommended Next Batch
 
@@ -70,8 +74,8 @@ source availability:
 1. **Open-ledger completion batch:** DEN, CAR, WAS, DET, GB, JAX, NO, ARI, SF.
 2. **Completed Saturday batch A:** Bills/Browns, Falcons/Colts, Ravens/Vikings.
 3. **Completed remaining Saturday batch:** Chiefs/Buccaneers and Cowboys/Cardinals.
-4. **Source-gap recovery:** HOU, NYJ, SEA, ARI, MIA, CIN, MIN, GB, and JAX only when compliant
-   participation or timestamped postgame evidence exists.
+4. **Source-gap recovery:** JAX and CIN are complete. Retry HOU, NYJ, SEA, ARI, MIA, MIN, and GB
+   only when compliant participation or timestamped postgame evidence exists.
 5. **Chargers completion:** route the Chargers side of 49ers/Chargers through BOLT after ARCHITECT
    freezes the scope.
 
