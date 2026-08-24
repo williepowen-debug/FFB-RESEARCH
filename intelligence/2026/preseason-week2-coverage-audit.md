@@ -1,8 +1,8 @@
 # 2026 Preseason Week 2 Coverage Audit
 
 This audit compares the official 2026 preseason Week 2 schedule against completed FFB intelligence
-runs. It is current as of the remaining Saturday run on 2026-08-24 UTC. Use it to choose the next
-reader batches before starting Week 3.
+runs. It is current through the three-game coverage-completion run on 2026-08-24 UTC. Use it to
+choose evidence-recovery and open-ledger batches before starting Week 3.
 
 ## Schedule Source
 
@@ -16,9 +16,9 @@ reader batches before starting Week 3.
 
 | Game | Kickoff | Repo coverage | Status | Next action |
 |---|---:|---|---|---|
-| Raiders at Texans | Thu Aug 20, 8:00 PM ET | none found | not processed | Create immediate/completion pass if postgame evidence is now available. |
+| Raiders at Texans | Thu Aug 20, 8:00 PM ET | `20260824T151559Z` LV/HOU | processed with HOU source gap | LV bounded rushing and quarterback allocation logged; retry Houston only if compliant participation appears. |
 | 49ers at Chargers | Thu Aug 20, 10:00 PM ET | `20260821T191126Z` SF synthesis only | partially processed | Decide whether LAC side needs BOLT-scoped pass; SF has open Stribling follow-up. |
-| Jets at Steelers | Fri Aug 21, 7:00 PM ET | none found | not processed | Create immediate/completion pass if evidence is available. |
+| Jets at Steelers | Fri Aug 21, 7:00 PM ET | `20260824T151559Z` NYJ/PIT | processed with NYJ source gap | PIT reserve and held-out-starter context logged; retry the Jets only if compliant participation appears. |
 | Panthers at Jaguars | Fri Aug 21, 7:30 PM ET | `20260822T232931Z` CAR/JAX | processed with source gaps | CAR has three open review rows; JAX had zero compliant observations and needs completion if source freshness improves. |
 | Packers at Broncos | Fri Aug 21, 9:00 PM ET | `20260822T232931Z` GB/DEN | processed with source gaps | DEN has three open review rows; GB had zero compliant observations and needs completion if source freshness improves. |
 | Commanders at Lions | Sat Aug 22, 12:00 PM ET | `20260822T232931Z` WAS/DET | processed with deferred rows | WAS and DET each have one open defensive review row. |
@@ -31,7 +31,7 @@ reader batches before starting Week 3.
 | Eagles at Patriots | Sat Aug 22, 7:00 PM ET | `20260824T023547Z` PHI/NE | processed | PHI injury follow-up requires a diagnosis; NE starters rested. |
 | Chiefs at Buccaneers | Sat Aug 22, 7:30 PM ET | `20260824T024317Z` KC/TB | processed | Starter exposure and depth evidence logged; no canonical promotion. |
 | Cowboys at Cardinals | Sat Aug 22, 10:00 PM ET | `20260824T024317Z` DAL/ARI | processed with ARI source gap | Dallas log-only depth evidence; retry Arizona if compliant participation appears. |
-| Seahawks at Titans | Sun Aug 23, 8:00 PM ET | `20260823T034234Z` and `20260824T024317Z` preflights only | live at latest freeze | Freeze assignments after final postgame evidence exists. |
+| Seahawks at Titans | Sun Aug 23, 8:00 PM ET | `20260824T151559Z` SEA/TEN | processed with SEA source gap | TEN first-team deployment logged; Seattle result bounded to the final league record pending team-side participation. |
 
 ## Processed Runs
 
@@ -48,19 +48,19 @@ reader batches before starting Week 3.
   valid zero-observation source gaps.
 - `20260824T024317Z`: immediate pass for KC/TB and DAL/ARI; SEA/TEN remained live and Arizona had a
   valid zero-observation source gap.
+- `20260824T151559Z`: completion pass for LV/HOU, NYJ/PIT, and SEA/TEN. Las Vegas, Pittsburgh, and
+  Tennessee produced bounded official observations; Houston and the Jets had valid zero-observation
+  source gaps, while Seattle was limited to the final league record.
 
 ## Immediate Gaps
 
-Highest-priority uncovered completed games:
+No Week 2 game remains wholly unprocessed.
 
-1. Raiders at Texans
-2. Jets at Steelers
-3. Seahawks at Titans
-
-Partial coverage gaps:
+Remaining partial coverage gaps:
 
 1. Chargers side of 49ers at Chargers.
-2. Arizona, Miami, and Cincinnati postgame team-side participation, if compliant sources appear.
+2. Houston, Jets, Seattle, Arizona, Miami, Cincinnati, Minnesota, Green Bay, and Jacksonville
+   team-side participation or timestamped postgame evidence, if compliant sources appear.
 
 ## Recommended Next Batch
 
@@ -70,9 +70,10 @@ source availability:
 1. **Open-ledger completion batch:** DEN, CAR, WAS, DET, GB, JAX, NO, ARI, SF.
 2. **Completed Saturday batch A:** Bills/Browns, Falcons/Colts, Ravens/Vikings.
 3. **Completed remaining Saturday batch:** Chiefs/Buccaneers and Cowboys/Cardinals.
-4. **Thursday/Friday uncovered batch:** Raiders/Texans, Jets/Steelers, and Chargers side of
-   49ers/Chargers.
-5. **SEA/TEN immediate pass:** run only after official or timestamped postgame evidence exists.
+4. **Source-gap recovery:** HOU, NYJ, SEA, ARI, MIA, CIN, MIN, GB, and JAX only when compliant
+   participation or timestamped postgame evidence exists.
+5. **Chargers completion:** route the Chargers side of 49ers/Chargers through BOLT after ARCHITECT
+   freezes the scope.
 
 For every new batch, start with `templates/preseason-game-preflight.txt`, freeze assignments only
 when evidence is ready, and preserve zero-observation outcomes when source freshness is the real
