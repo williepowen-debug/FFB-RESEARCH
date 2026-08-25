@@ -41,6 +41,9 @@ no interrupted Git operation
 
 If fetching or pulling fails because GitHub is unavailable, report that source-of-truth sync is
 unverified. Local inspection may continue, but do not claim a complete boot or start publication.
+Treat discovery, synchronization, and branch creation as separate gates: each gate must succeed
+before running the next. Do not place failure-sensitive boot commands in a sequence that continues
+after a failed fetch, pull, or verification.
 
 ### Agent boot-up
 
@@ -92,6 +95,23 @@ At the start of every Codex/LLM session in this repo, establish context in phase
     tooling is relevant, or the task changes schemas, validators, scripts, or generated files.
 11. Preserve unrelated local changes. Completed validated tasks use standing Publish Closeout
     authorization unless the user opts out or limits publication.
+
+### Recovery boot mode
+
+An intentional unfinished feature branch is not a normal source-of-truth boot and should not be
+silently abandoned. When the previous closeout left recoverable work:
+
+1. Confirm the current changes and branch belong to the task the user wants to resume.
+2. Read the previous closeout handoff and inspect `git status -sb`, `git diff --stat`, the branch
+   upstream, any associated PR, and `git worktree list`.
+3. Fetch remote references with `git fetch origin --prune` without switching branches.
+4. Compare the feature branch's base with current `origin/main`, but do not automatically merge,
+   rebase, reset, stash, commit, or discard work.
+5. Resume only when ownership, scope, and the next validation step are clear. Otherwise report the
+   branch and preserve it for deliberate handoff or cleanup.
+
+Recovery mode must state that the checkout is not on synchronized `main`; it may continue the
+verified unfinished task, but it may not claim a clean source-of-truth boot.
 
 ### Agent boot report
 
@@ -179,6 +199,9 @@ Use two closeout tiers:
 Use Standard Closeout whenever a session ends, including when work is incomplete, needs review,
 has failed validation, or is not approved for publication yet.
 
+For a read-only session that leaves synchronized `main` unchanged, use Standard Closeout and mark
+publication `not applicable (read-only; no changes)`.
+
 Before stopping work, ARCHITECT should:
 
 1. Review the worktree with `git status -sb`.
@@ -237,8 +260,9 @@ git commit -m "<clear commit message>"
 git push -u origin <feature-branch>
 ```
 
-Then open a PR from `<feature-branch>` into `main`, verify checks/review expectations, and merge
-the PR into `main` when approved.
+Then open a PR from `<feature-branch>` into `main`, verify required checks and repository rules,
+and merge the PR under standing authorization unless the user opted out or a pause condition
+applies.
 
 ### Post-merge hygiene
 
@@ -254,17 +278,38 @@ task branch absent remotely
 temporary task artifacts absent
 ```
 
-After the PR is merged:
+After the PR is merged, treat each group below as a gate. Stop immediately if PR verification,
+switching, pulling, or commit equality fails; do not continue into branch deletion.
 
 ```bash
 gh pr view <pr-number> --json state,mergedAt,mergeCommit
 git switch main
 git pull --ff-only
-git branch -d <feature-branch>
 git fetch origin --prune
 git status -sb
 git rev-parse HEAD
 git rev-parse origin/main
+git worktree list
+```
+
+Require `state: MERGED`, a non-null merge commit, a clean `main`, and identical `HEAD` and
+`origin/main` commits. Then classify the local task branch before deleting it:
+
+```bash
+git merge-base --is-ancestor <feature-branch> main
+```
+
+- Exit `0`: the branch tip is an ancestor of `main`; delete it with
+  `git branch -d <feature-branch>`.
+- Nonzero exit: do not delete yet. This may be a squash merge; run
+  `git cherry main <feature-branch>`.
+- If every `git cherry` line is marked `-`, or it emits no unique commit, the patch is represented
+  in `main` and `git branch -D <feature-branch>` is allowed.
+- If any line is marked `+`, preserve the branch and report the unique commit as a pause condition.
+
+After safe local deletion, verify cleanup:
+
+```bash
 git branch --list <feature-branch>
 git branch -r --list origin/<feature-branch>
 git worktree list
@@ -282,18 +327,6 @@ The two `rev-parse` commands must report the same commit. GitHub is configured t
 branches automatically; `git fetch origin --prune` removes the corresponding local tracking
 reference. If the remote task branch still exists, verify the PR is merged before deleting that
 specific branch with `git push origin --delete <feature-branch>`.
-
-GitHub squash merges do not make the original branch tip an ancestor of `main`, so
-`git branch -d <feature-branch>` can fail even when the patch was merged. Do not force-delete based
-on age or branch name. First confirm the associated PR is merged, then run:
-
-```bash
-git cherry main <feature-branch>
-```
-
-Only when every listed commit is marked `-` (patch-equivalent in `main`), or the command emits no
-unique commit, may ARCHITECT use `git branch -D <feature-branch>`. A `+` line is a pause condition:
-preserve the branch and report the unique commit.
 
 Inspect temporary files or task-specific worktrees created during the task and remove only those
 whose contents are confirmed disposable. Never broaden per-task closeout into deletion of other
@@ -362,7 +395,9 @@ git diff --stat
 
 If work is complete and validated, either ask the agent to commit/push/PR or do it manually. If
 work is intentionally unfinished, leave a note in the conversation or issue describing the branch,
-what changed, and what should happen next.
+what changed, and what should happen next. A human Publish Closeout follows the same PR
+verification, synchronized-main check, branch classification, and post-merge invariant above; do
+not delete a squash-merged branch merely because its upstream was deleted.
 
 ## Interrupted or recovery closeout
 
@@ -371,7 +406,8 @@ If the session is interrupted, validation fails, or the repo is not in a publish
 1. Do not merge to `main`.
 2. Leave changes on the feature branch.
 3. Report the exact branch, changed files, validation failures, and next recommended command.
-4. On the next session, boot up normally, inspect the branch, and continue or clean up deliberately.
+4. On the next session, use Recovery boot mode to verify the branch and continue or clean up
+   deliberately.
 
 ## If a machine is out of date
 
@@ -379,10 +415,17 @@ Use this safe update path:
 
 ```bash
 cd /home/willi/FFB-RESEARCH
+git rev-parse --show-toplevel
 git status -sb
+git branch --show-current
+git worktree list
+git fetch origin --prune
 git switch main
 git pull --ff-only
+git status -sb
+git rev-parse HEAD
+git rev-parse origin/main
 ```
 
-If `git pull --ff-only` fails, the local branch has diverged or has local work. Stop and inspect
-before merging, rebasing, or overwriting anything.
+Each step is a gate. If inspection finds unfinished work, or if fetch, switch, pull, or commit
+equality fails, stop and inspect before merging, rebasing, overwriting, or deleting anything.

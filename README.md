@@ -8,13 +8,22 @@ Use `BOOTSTRAP.md` when starting work on a laptop, desktop, or agent session. Th
 
 ```bash
 cd /home/willi/FFB-RESEARCH
+git rev-parse --show-toplevel
+git status -sb
+git branch --show-current
+git worktree list
+git fetch origin --prune
 git switch main
 git pull --ff-only
 git status -sb
+git rev-parse HEAD
+git rev-parse origin/main
 ```
 
 Treat GitHub `main` as the source of truth. Start feature work from an up-to-date `main`, merge
-completed work back to `main` through GitHub, then pull `main` on each machine.
+completed work back to `main` through GitHub, then pull `main` on each machine. Treat each startup
+stage as a gate: inspect before changing state, and stop if synchronization or commit equality
+fails. See `BOOTSTRAP.md` for recovery mode and the full post-merge cleanup invariant.
 
 ## Structure
 
