@@ -21,14 +21,17 @@ git rev-parse origin/main
 The two commit IDs must match. Re-read instructions changed by the pull, classify the task, and
 create a collision-free feature branch only for substantive changes; read-only inspection remains
 on `main`. Network failure, divergence, interrupted Git operations, detached `HEAD`, or ambiguous
-unfinished work is a boot pause condition. Run Standard Closeout before stopping. This
+unfinished work is a boot pause condition. Use the Recovery boot mode in `BOOTSTRAP.md` only after
+verifying ownership and scope of intentional unfinished work. Treat boot and post-merge commands
+as gates that stop on failure. Run Standard Closeout before stopping. This
 repository carries standing authorization for Publish Closeout after an in-scope task is complete
 and validated: commit the intended files, push the feature branch, open a non-draft pull request,
 merge it to `main` after required checks pass, delete the merged feature branch locally and
 remotely, prune stale tracking references, then prove local `main` is clean and matches
 `origin/main`. Publish Closeout is incomplete until the task branch is absent on both sides. Follow
-the squash-merge verification and post-merge invariant in `BOOTSTRAP.md`; never force-delete a
-branch without confirming its PR and patch are represented in `main`. The user may opt out or limit
+the ancestor-or-patch-equivalence classification and post-merge invariant in `BOOTSTRAP.md`; never
+run branch deletion after failed PR or synchronization verification, and never force-delete a
+branch without confirming its patch is represented in `main`. The user may opt out or limit
 publication for any task.
 
 Before stopping, inspect status and diff, run the relevant validation gate, and report branch/repo

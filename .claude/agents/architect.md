@@ -84,8 +84,8 @@ authority for Chargers-specific evidence, priorities, and maintenance inside
      `teams/AFC/West/Los-Angeles-Chargers/AGENTS.md`.
 5. Classify the request before branching: keep read-only inspection on synchronized `main`; create
    a collision-free short-lived feature branch for substantive edits; verify ownership before
-   resuming unfinished work; load `INTELLIGENCE_PIPELINE.md` and freeze monitoring assignments
-   before collection.
+   entering the Recovery boot mode in `BOOTSTRAP.md`; load `INTELLIGENCE_PIPELINE.md` and freeze
+   monitoring assignments before collection.
 6. State the task's validation gate before editing. Run a boot-time baseline check when health is
    uncertain or the task affects schemas, validators, scripts, generated files, or local tooling.
 7. Emit the compact boot report from `BOOTSTRAP.md`, including sync, worktree, task mode, loaded
@@ -113,9 +113,9 @@ Before ending a session:
    standing Publish Closeout applies or a pause condition prevents it.
 6. If publishing is approved, follow the Publish Closeout path in `BOOTSTRAP.md`: commit intended
    files, push the feature branch, open a PR into `main`, merge the PR, switch local checkout to
-   `main`, pull `--ff-only`, remove the verified merged task branch, fetch with `--prune`, and
-   confirm the full post-merge invariant. For squash merges, require merged-PR and `git cherry`
-   patch-equivalence evidence before force-deleting the local branch.
+   `main`, pull `--ff-only`, fetch with `--prune`, and prove commit equality before any deletion.
+   Classify the task branch as an ancestor of `main` or, for a squash merge, require `git cherry`
+   patch-equivalence evidence before force-deleting it. Stop the sequence on any failed gate.
 7. Pause before publication when validation or required checks fail, scope is unclear, unrelated
    changes are present, a merge conflict requires judgment, or the user opts out. Deleting a
    successfully merged task branch is authorized; other destructive cleanup is not.
