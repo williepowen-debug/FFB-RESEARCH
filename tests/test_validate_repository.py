@@ -101,5 +101,47 @@ class SourceRegistryValidationTests(unittest.TestCase):
         self.assertTrue(any("not an ISO date" in failure for failure in failures))
 
 
+class TeamTrackingCsvValidationTests(unittest.TestCase):
+    def test_rejects_extra_columns_and_shifted_controlled_values(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            directory = root / "teams/AFC/North/Test-Team/2026/offense"
+            directory.mkdir(parents=True)
+            (directory / "hypotheses.csv").write_text(
+                ",".join(validate_repository.HYPOTHESIS_HEADERS) + "\n"
+                "test-q01,1,unit,Multiple, unquoted concepts,support,challenge,medium,general,Week 1,open,2026-08-25\n",
+                encoding="utf-8",
+            )
+            failures: list[str] = []
+            with patch.object(validate_repository, "REPO_ROOT", root):
+                validate_repository.validate_team_tracking_csvs(failures)
+
+        self.assertTrue(any("more values than headers" in failure for failure in failures))
+        self.assertTrue(any("invalid status" in failure for failure in failures))
+
+    def test_accepts_well_formed_tracking_rows(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            hypothesis_directory = root / "teams/AFC/North/Test-Team/2026/offense"
+            priority_directory = root / "teams/AFC/North/Test-Team/2026/preseason"
+            hypothesis_directory.mkdir(parents=True)
+            priority_directory.mkdir(parents=True)
+            (hypothesis_directory / "hypotheses.csv").write_text(
+                ",".join(validate_repository.HYPOTHESIS_HEADERS) + "\n"
+                'test-q01,1,unit,"Multiple, disguised concepts",support,challenge,medium,general,Week 1,open,2026-08-25\n',
+                encoding="utf-8",
+            )
+            (priority_directory / "priority-status.csv").write_text(
+                ",".join(validate_repository.PRESEASON_PRIORITY_HEADERS) + "\n"
+                "1,Unit,Current answer,partially_resolved,medium,evidence-1,Week 1,2026-08-25\n",
+                encoding="utf-8",
+            )
+            failures: list[str] = []
+            with patch.object(validate_repository, "REPO_ROOT", root):
+                validate_repository.validate_team_tracking_csvs(failures)
+
+        self.assertEqual(failures, [])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -2,16 +2,19 @@
 
 This queue is the current ledger-first starting point for the next preseason completion pass. It is
 derived from open `intelligence-ledger.csv` rows and source-access gaps in the latest preseason
-game pilot. The 15 open ledger rows were checked for trigger readiness on 2026-08-24; none was
-ready for closure. See `intelligence/2026/open-ledger-readiness-audit-2026-08-24.md` for the
-team-by-team evidence and resume criteria.
+game pilot. The 15 rows from the August 24 audit were rechecked on August 25. Carolina's Waller
+first-practice checkpoint was resolved as `no_change` and replaced by a narrower usage review, so
+the total remains 15 open rows. See
+`intelligence/2026/preseason-to-week-1-transition-audit-2026-08-25.md` for the phase-boundary
+classification and `intelligence/2026/open-ledger-readiness-audit-2026-08-24.md` for the original
+team-by-team evidence.
 
 ## Highest Priority
 
 | Team | Reason | Required evidence | Source of queue item |
 |---|---|---|---|
 | DEN | Three open Week 2 review signals: Bo Nix mobility/availability, Jaylen Waddle target role, and RJ Harvey backfield package pressure. | Next practice and game availability; first-team routes, targets, alignments, first-read charting; early-down, passing-down, two-minute, and goal-line backfield usage. | `teams/AFC/West/Denver-Broncos/2026/intelligence-ledger.csv` |
-| CAR | Three open Week 2 review signals: Brooks/Hubbard backfield, McMillan receiving role, and Waller ramp-up. | Healthy-backfield opening drive, inside-5 work, routes, two-minute snaps; first-unit routes and target order with Coker/Legette; Waller practice and final roster status. | `teams/NFC/South/Carolina-Panthers/2026/intelligence-ledger.csv` |
+| CAR | Three open reviews: Brooks/Hubbard backfield, McMillan receiving role, and Waller's post-first-practice usage. | Healthy-backfield opening drive, inside-5 work, routes, two-minute snaps; first-unit routes and target order with Coker/Legette; measured August 26 joint-practice or Week 1 routes, targets, red-zone usage, and third-down work for Waller. | `teams/NFC/South/Carolina-Panthers/2026/intelligence-ledger.csv` |
 | WAS | Open pressure-front review from short-sample preseason defensive production. | Gamebook or film pressure chart; first-team edge snaps; four-man-versus-blitz results. | `teams/NFC/East/Washington-Commanders/2026/intelligence-ledger.csv` |
 | DET | Open complementary-edge review after Wonnum/Moore splash plays. | Edge snaps, third-down rush packages, alignments, and pressures alongside Hutchinson. | `teams/NFC/North/Detroit-Lions/2026/intelligence-ledger.csv` |
 
