@@ -17,7 +17,11 @@ Create a feature branch for substantive changes. Run Standard Closeout before st
 repository carries standing authorization for Publish Closeout after an in-scope task is complete
 and validated: commit the intended files, push the feature branch, open a non-draft pull request,
 merge it to `main` after required checks pass, delete the merged feature branch locally and
-remotely, then resynchronize local `main`. The user may opt out or limit publication for any task.
+remotely, prune stale tracking references, then prove local `main` is clean and matches
+`origin/main`. Publish Closeout is incomplete until the task branch is absent on both sides. Follow
+the squash-merge verification and post-merge invariant in `BOOTSTRAP.md`; never force-delete a
+branch without confirming its PR and patch are represented in `main`. The user may opt out or limit
+publication for any task.
 
 Before stopping, inspect status and diff, run the relevant validation gate, and report branch/repo
 state. Pause instead of publishing when validation or required GitHub checks fail, the intended

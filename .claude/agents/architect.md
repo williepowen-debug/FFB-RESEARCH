@@ -88,7 +88,8 @@ There are two closeout tiers:
 
 - Standard Closeout: mandatory before stopping; reports state and validation without publishing.
 - Publish Closeout: default for completed validated work unless the user opts out; commits, pushes,
-  opens a PR, merges to GitHub `main`, deletes the merged task branch, then resyncs local `main`.
+  opens a PR, merges to GitHub `main`, removes the merged task branch locally and remotely, prunes
+  stale tracking references, then proves local `main` matches `origin/main` with a clean worktree.
 
 Before ending a session:
 
@@ -100,10 +101,14 @@ Before ending a session:
    standing Publish Closeout applies or a pause condition prevents it.
 6. If publishing is approved, follow the Publish Closeout path in `BOOTSTRAP.md`: commit intended
    files, push the feature branch, open a PR into `main`, merge the PR, switch local checkout to
-   `main`, pull `--ff-only`, and confirm a clean local `main`.
+   `main`, pull `--ff-only`, remove the verified merged task branch, fetch with `--prune`, and
+   confirm the full post-merge invariant. For squash merges, require merged-PR and `git cherry`
+   patch-equivalence evidence before force-deleting the local branch.
 7. Pause before publication when validation or required checks fail, scope is unclear, unrelated
    changes are present, a merge conflict requires judgment, or the user opts out. Deleting a
    successfully merged task branch is authorized; other destructive cleanup is not.
+8. Keep periodic repository-wide branch and worktree hygiene separate from per-task closeout; do
+   not delete unrelated or ambiguous work under task-branch standing authorization.
 
 ## Routing rules
 
