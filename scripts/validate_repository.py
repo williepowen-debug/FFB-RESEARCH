@@ -64,6 +64,15 @@ CANDIDATE_HEADERS = [
     "coverage_lanes", "current_assignment_evidence", "original_work_evidence",
     "disposition", "priority", "reason", "source_id", "last_verified",
 ]
+HYPOTHESIS_HEADERS = [
+    "question_id", "priority_id", "entity_or_unit", "preseason_hypothesis",
+    "confirming_evidence", "disconfirming_evidence", "baseline_confidence",
+    "fantasy_formats", "review_trigger", "status", "last_updated",
+]
+PRESEASON_PRIORITY_HEADERS = [
+    "priority_id", "subject", "current_answer", "status", "confidence",
+    "latest_evidence_ids", "next_test", "last_updated",
+]
 
 
 def load_json(path: Path, failures: list[str]) -> dict[str, Any]:
@@ -257,6 +266,51 @@ def validate_source_registries(failures: list[str]) -> None:
                     failures.append(f"{label}: included source_id {source_id!r} has no endpoint")
 
 
+def validate_team_tracking_csvs(failures: list[str]) -> None:
+    """Validate team hypothesis and preseason-priority CSV shape and controlled fields."""
+    specifications = (
+        (
+            "teams/*/*/*/2026/*/hypotheses.csv",
+            HYPOTHESIS_HEADERS,
+            set(HYPOTHESIS_HEADERS),
+            {
+                "baseline_confidence": {"low", "medium", "high"},
+                "status": {"open", "active", "resolved", "invalidated", "superseded", "closed"},
+            },
+        ),
+        (
+            "teams/*/*/*/2026/preseason/priority-status.csv",
+            PRESEASON_PRIORITY_HEADERS,
+            set(PRESEASON_PRIORITY_HEADERS) - {"latest_evidence_ids"},
+            {
+                "confidence": {"low", "medium", "high"},
+                "status": {"open", "partially_resolved", "resolved", "superseded"},
+            },
+        ),
+    )
+    for pattern, expected_headers, required_fields, controlled_fields in specifications:
+        for path in sorted(REPO_ROOT.glob(pattern)):
+            relative = path.relative_to(REPO_ROOT)
+            headers, rows = read_csv_rows(path, failures)
+            if headers != expected_headers:
+                failures.append(f"{relative}: headers do not match tracking template")
+                continue
+            for index, row in enumerate(rows, start=2):
+                label = f"{relative}:{index}"
+                if row.get(None):
+                    failures.append(f"{label}: row has more values than headers (quote fields containing commas)")
+                for key in required_fields:
+                    if not row.get(key):
+                        failures.append(f"{label}: {key} is required")
+                for key, allowed in controlled_fields.items():
+                    if row.get(key) not in allowed:
+                        failures.append(f"{label}: invalid {key} {row.get(key)!r}")
+                try:
+                    date.fromisoformat(row.get("last_updated", ""))
+                except ValueError:
+                    failures.append(f"{label}: last_updated is not an ISO date")
+
+
 def validate_supersession_references(
     supersedes_by_id: dict[str, list[str]],
     paths_by_id: dict[str, Path],
@@ -380,6 +434,7 @@ def main() -> int:
 
     validate_links(failures)
     validate_source_registries(failures)
+    validate_team_tracking_csvs(failures)
     failures.extend(validate_intelligence(REPO_ROOT))
 
     catalog_path = REPO_ROOT / "catalog.jsonl"
