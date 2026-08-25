@@ -13,46 +13,112 @@ From a shell:
 
 ```bash
 cd /home/willi/FFB-RESEARCH
+git rev-parse --show-toplevel
+git status -sb
+git branch --show-current
+git worktree list
+git fetch origin --prune
 git switch main
 git pull --ff-only
 git status -sb
+git rev-parse HEAD
+git rev-parse origin/main
 ```
 
-Expected clean state:
+Inspect before switching or pulling. If the initial status shows modified or untracked files, an
+interrupted merge/rebase, detached `HEAD`, or unfinished feature work, preserve it and decide how
+to resume or hand it off. Do not automatically stash, commit, reset, or delete it.
+
+Expected source-of-truth invariant after synchronization:
 
 ```text
+repository root = /home/willi/FFB-RESEARCH
+current branch = main
 ## main...origin/main
+HEAD = origin/main
+no interrupted Git operation
 ```
 
-If `git status -sb` shows modified files, stop and decide whether that local work should be
-committed, stashed, or intentionally kept before pulling or switching branches.
+If fetching or pulling fails because GitHub is unavailable, report that source-of-truth sync is
+unverified. Local inspection may continue, but do not claim a complete boot or start publication.
 
 ### Agent boot-up
 
-At the start of every Codex/LLM session in this repo, establish context in this order:
+At the start of every Codex/LLM session in this repo, establish context in phases.
 
-1. Confirm the working directory is `/home/willi/FFB-RESEARCH`.
-2. Read `BOOTSTRAP.md`, `AGENTS.md`, `README.md`, and `SOURCE_POLICY.md`.
-3. Confirm the branch and cleanliness with `git status -sb`.
-4. If the user wants source-of-truth work, switch to `main` and run `git pull --ff-only`.
-5. Create a feature branch before substantive edits unless the user explicitly wants direct `main`
-   inspection only.
-6. Identify the task domain and read the relevant guide:
+#### Phase 1: discover state without changing it
+
+1. Confirm the repository root with `git rev-parse --show-toplevel` rather than relying only on the
+   shell path.
+2. Read the local `AGENTS.md` and `BOOTSTRAP.md` for initial safety rules.
+3. Inspect `git status -sb`, `git branch --show-current`, and `git worktree list` before switching,
+   pulling, or creating a branch.
+4. Pause and preserve state when there is unrelated work, an interrupted Git operation, detached
+   `HEAD`, an unfinished feature branch, or another worktree occupying the intended branch.
+
+#### Phase 2: synchronize source of truth
+
+5. When the checkout is safe, run `git fetch origin --prune`, switch to `main`, and pull with
+   `--ff-only`.
+6. Confirm a clean `git status -sb` and prove `git rev-parse HEAD` equals
+   `git rev-parse origin/main`. A network failure or divergence is a pause condition, not a reason
+   to merge, rebase, reset, or claim synchronization.
+
+#### Phase 3: load current instructions and scope the task
+
+7. Re-read any operating document changed by the pull, then read `README.md`, `SOURCE_POLICY.md`,
+   and the relevant guide:
    - whole-team buildout: `TEAM_BUILD.md`;
    - record creation or edits: `schemas/README.md` and the nearest template in `templates/`;
    - schedule work: `league/schedule/README.md`;
    - script/catalog work: `scripts/README.md`;
    - Chargers work: ARCHITECT scopes first, then BOLT uses `.claude/agents/bolt.md` and
      `teams/AFC/West/Los-Angeles-Chargers/AGENTS.md`.
-7. Preserve unrelated local changes. Completed validated tasks use the standing Publish Closeout
-   authorization unless the user opts out or limits publication.
+8. Classify the task before branching:
+   - read-only inspection remains on clean, synchronized `main`;
+   - substantive edits use a short-lived feature branch;
+   - unfinished in-scope work resumes only after its branch and ownership are verified;
+   - monitoring work loads `INTELLIGENCE_PIPELINE.md` and freezes assignments before collection.
+9. Before creating a feature branch, confirm its proposed name is absent locally and remotely:
+
+   ```bash
+   git branch --list agent/<short-topic>
+   git branch -r --list origin/agent/<short-topic>
+   git switch -c agent/<short-topic>
+   ```
+
+10. State the relevant validation gate before editing. Protected `main` does not require a full
+    validation run at every boot; run a baseline check when repository health is in doubt, local
+    tooling is relevant, or the task changes schemas, validators, scripts, or generated files.
+11. Preserve unrelated local changes. Completed validated tasks use standing Publish Closeout
+    authorization unless the user opts out or limits publication.
+
+### Agent boot report
+
+Use this compact report after startup:
+
+```text
+Role:
+Repository root:
+Branch:
+GitHub sync:
+Worktree:
+Interrupted operations:
+Other worktrees:
+Task mode:
+Feature branch:
+Guides loaded:
+Validation gate:
+Risks / pause condition:
+```
 
 Suggested user prompt:
 
 ```text
 Work in /home/willi/FFB-RESEARCH as ARCHITECT, the repo orchestration/build agent.
 Use GitHub main as the source of truth. Run the boot-up process from BOOTSTRAP.md:
-switch to main, pull --ff-only, confirm status, then create a feature branch for this task.
+inspect state before changing it, fetch --prune, switch to main, pull --ff-only, prove local main
+matches origin/main, then create a collision-free feature branch only if the task requires edits.
 Read AGENTS.md before editing. Route Chargers-specific research to BOLT only after repo state
 and scope are clear. Use Standard Closeout when stopping. After successful validation, use the
 standing Publish Closeout workflow unless I explicitly opt out or limit publication.
@@ -70,8 +136,12 @@ Treat GitHub `main` as the source of truth.
 Normal new-work flow:
 
 ```bash
+git status -sb
+git fetch origin --prune
 git switch main
 git pull --ff-only
+git branch --list agent/<short-topic>
+git branch -r --list origin/agent/<short-topic>
 git switch -c agent/<short-topic>
 ```
 

@@ -66,19 +66,31 @@ authority for Chargers-specific evidence, priorities, and maintenance inside
 
 ## Boot-up process
 
-1. Confirm the working directory is the repository root.
-2. Read `BOOTSTRAP.md`, root `AGENTS.md`, `README.md`, and `SOURCE_POLICY.md`.
-3. Inspect `git status -sb`.
-4. If the user wants source-of-truth work, switch to `main`, pull with `--ff-only`, and create a
-   feature branch before substantive edits.
-5. Identify the task domain and read the relevant guide:
+1. Confirm the repository root with `git rev-parse --show-toplevel` and read the local
+   `BOOTSTRAP.md` and root `AGENTS.md` for initial safety rules.
+2. Before changing Git state, inspect `git status -sb`, `git branch --show-current`, and
+   `git worktree list`. Preserve and report unrelated work, interrupted operations, detached
+   `HEAD`, unfinished feature work, or branch ownership conflicts.
+3. When safe, fetch with `--prune`, switch to `main`, pull with `--ff-only`, and prove local `HEAD`
+   equals `origin/main`. Network failure or divergence is a pause condition; do not silently merge,
+   rebase, reset, or claim synchronization.
+4. Re-read operating instructions changed by the pull, then read `README.md`, `SOURCE_POLICY.md`,
+   and the relevant task guide:
    - whole-team build: `TEAM_BUILD.md`;
    - records/schemas: `schemas/README.md` and the nearest `templates/` file;
    - schedule: `league/schedule/README.md`;
    - scripts/catalog: `scripts/README.md`;
    - Chargers: `.claude/agents/bolt.md` and
      `teams/AFC/West/Los-Angeles-Chargers/AGENTS.md`.
-6. Preserve unrelated local changes. Completed validated work uses the repository's standing
+5. Classify the request before branching: keep read-only inspection on synchronized `main`; create
+   a collision-free short-lived feature branch for substantive edits; verify ownership before
+   resuming unfinished work; load `INTELLIGENCE_PIPELINE.md` and freeze monitoring assignments
+   before collection.
+6. State the task's validation gate before editing. Run a boot-time baseline check when health is
+   uncertain or the task affects schemas, validators, scripts, generated files, or local tooling.
+7. Emit the compact boot report from `BOOTSTRAP.md`, including sync, worktree, task mode, loaded
+   guides, validation gate, and any pause condition.
+8. Preserve unrelated local changes. Completed validated work uses the repository's standing
    Publish Closeout authorization unless the user opts out or a pause condition applies. Never
    modify authentication under standing authorization.
 

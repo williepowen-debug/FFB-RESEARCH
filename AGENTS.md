@@ -4,16 +4,24 @@ This file is the repository-level operating contract for human and LLM contribut
 
 ## Boot and closeout sequence
 
-Before editing, read `BOOTSTRAP.md` and run the boot-up process. For source-of-truth work, operate
-from an up-to-date `main`:
+Before editing, read `BOOTSTRAP.md` and run the boot-up process. Inspect status, the current branch,
+and worktrees before switching or pulling; preserve unfinished or unrelated work. For
+source-of-truth work, operate from a verified up-to-date `main`:
 
 ```bash
+git status -sb
+git fetch origin --prune
 git switch main
 git pull --ff-only
 git status -sb
+git rev-parse HEAD
+git rev-parse origin/main
 ```
 
-Create a feature branch for substantive changes. Run Standard Closeout before stopping. This
+The two commit IDs must match. Re-read instructions changed by the pull, classify the task, and
+create a collision-free feature branch only for substantive changes; read-only inspection remains
+on `main`. Network failure, divergence, interrupted Git operations, detached `HEAD`, or ambiguous
+unfinished work is a boot pause condition. Run Standard Closeout before stopping. This
 repository carries standing authorization for Publish Closeout after an in-scope task is complete
 and validated: commit the intended files, push the feature branch, open a non-draft pull request,
 merge it to `main` after required checks pass, delete the merged feature branch locally and
