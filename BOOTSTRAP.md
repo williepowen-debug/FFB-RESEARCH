@@ -101,8 +101,8 @@ Use two closeout tiers:
 - **Standard Closeout** — always run before stopping. It reports status, validation, and next
   action, but does not publish.
 - **Publish Closeout** — the default for completed validated work unless the user opts out. It
-  commits, pushes, opens a PR, merges to `main`, deletes the merged task branch, and resyncs local
-  `main`.
+  commits, pushes, opens a PR, merges to `main`, removes the merged task branch locally and
+  remotely, prunes stale tracking references, and proves local `main` matches GitHub `main`.
 
 ## Standard Closeout
 
@@ -158,7 +158,7 @@ Before publishing:
 
 ### Publish sequence
 
-After approval:
+After the publish prerequisites are satisfied:
 
 ```bash
 git status -sb
@@ -170,22 +170,64 @@ git push -u origin <feature-branch>
 Then open a PR from `<feature-branch>` into `main`, verify checks/review expectations, and merge
 the PR into `main` when approved.
 
-Delete the remote feature branch as part of the successful merge, then delete the local feature
-branch after switching away from it. Do not delete an unmerged branch under standing authorization.
+### Post-merge hygiene
+
+Publication is not complete when the PR merges. ARCHITECT must return the checkout to this
+post-merge invariant:
+
+```text
+current branch = main
+local main = origin/main
+worktree = clean
+task branch absent locally
+task branch absent remotely
+temporary task artifacts absent
+```
 
 After the PR is merged:
 
 ```bash
+gh pr view <pr-number> --json state,mergedAt,mergeCommit
 git switch main
 git pull --ff-only
+git branch -d <feature-branch>
+git fetch origin --prune
 git status -sb
+git rev-parse HEAD
+git rev-parse origin/main
+git branch --list <feature-branch>
+git branch -r --list origin/<feature-branch>
+git worktree list
 ```
 
-Expected final local state:
+Expected status and branch results:
 
 ```text
 ## main...origin/main
+<no local task-branch match>
+<no remote task-branch match>
 ```
+
+The two `rev-parse` commands must report the same commit. GitHub is configured to delete merged PR
+branches automatically; `git fetch origin --prune` removes the corresponding local tracking
+reference. If the remote task branch still exists, verify the PR is merged before deleting that
+specific branch with `git push origin --delete <feature-branch>`.
+
+GitHub squash merges do not make the original branch tip an ancestor of `main`, so
+`git branch -d <feature-branch>` can fail even when the patch was merged. Do not force-delete based
+on age or branch name. First confirm the associated PR is merged, then run:
+
+```bash
+git cherry main <feature-branch>
+```
+
+Only when every listed commit is marked `-` (patch-equivalent in `main`), or the command emits no
+unique commit, may ARCHITECT use `git branch -D <feature-branch>`. A `+` line is a pause condition:
+preserve the branch and report the unique commit.
+
+Inspect temporary files or task-specific worktrees created during the task and remove only those
+whose contents are confirmed disposable. Never broaden per-task closeout into deletion of other
+agents' branches or worktrees.
 
 If the merge happens outside the agent session, the next session should start with the normal
 boot-up process so the local machine pulls the new source-of-truth state.
@@ -197,11 +239,25 @@ Use this compact handoff shape:
 ```text
 Published:
 PR:
-Merged to main:
-Local main synced:
+Merged commit:
 Validation:
+Local main synced:
+Task branch deleted locally:
+Task branch deleted remotely:
+Remote references pruned:
+Worktree clean:
+Remaining branches / worktrees:
 Follow-up:
 ```
+
+## Periodic repository hygiene
+
+Keep repository-wide cleanup separate from per-task Publish Closeout. A periodic audit may list
+merged remote branches, local branches whose upstream is gone, open PRs, and attached worktrees.
+Before deleting anything, reconcile each branch with GitHub PR state and `main`; use patch
+equivalence for squash-merged branches. Deleting successfully merged branches is covered by
+standing authorization. Abandoned, unmerged, ambiguous, or unrelated branches and worktrees
+require explicit user direction.
 
 ## Validation gates
 
