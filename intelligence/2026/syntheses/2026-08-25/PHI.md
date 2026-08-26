@@ -4,7 +4,7 @@ record_id: ti-2026-phi-20260825-001
 record_type: team_intelligence
 title: "Philadelphia Eagles intelligence synthesis — 2026-08-25"
 team_ids: ["PHI"]
-player_ids: []
+player_ids: ["local-player-makai-lemon-2026"]
 season: 2026
 week: null
 status: active
