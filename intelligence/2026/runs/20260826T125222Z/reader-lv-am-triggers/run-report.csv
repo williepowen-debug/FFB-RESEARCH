@@ -1,0 +1,3 @@
+run_id,reader_id,team_id,window_start,window_end,observation_cap,elapsed_minutes,source_id,access_outcome,items_inspected,observations_emitted,duplicate_clusters,conflicts,time_sensitive_items,meaningful_overflow,no_meaningful_update,spot_check_observation_ids,spot_check_failures,corrections,notes
+20260826T125222Z,reader-lv-am-triggers,LV,2026-08-26T02:05:19Z,2026-08-26T12:52:22Z,10,4,local-source-las-vegas-raiders,no_new_material,1,0,0,0,0,0,true,,0,,"No morning official Jeanty practice or status update was published."
+20260826T125222Z,reader-lv-am-triggers,LV,2026-08-26T02:05:19Z,2026-08-26T12:52:22Z,10,2,local-writer-ryan-mcfadden,no_new_material,0,0,0,0,0,0,true,,0,,"No attributable in-window item was found."

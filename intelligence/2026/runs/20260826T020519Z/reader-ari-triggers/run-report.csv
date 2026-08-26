@@ -1,0 +1,4 @@
+run_id,reader_id,team_id,window_start,window_end,observation_cap,elapsed_minutes,source_id,access_outcome,items_inspected,observations_emitted,duplicate_clusters,conflicts,time_sensitive_items,meaningful_overflow,no_meaningful_update,spot_check_observation_ids,spot_check_failures,corrections,notes
+20260826T020519Z,reader-ari-triggers,ARI,2026-08-26T01:19:02Z,2026-08-26T02:05:19Z,10,4,local-source-arizona-cardinals,no_new_material,1,0,0,0,0,0,true,,0,,"The official news surface exposed no in-window Love or Sweat follow-up."
+20260826T020519Z,reader-ari-triggers,ARI,2026-08-26T01:19:02Z,2026-08-26T02:05:19Z,10,2,local-writer-josh-weinfuss,no_new_material,0,0,0,0,0,0,true,,0,,"No attributable in-window item was found."
+20260826T020519Z,reader-ari-triggers,ARI,2026-08-26T01:19:02Z,2026-08-26T02:05:19Z,10,2,local-writer-darren-urban,no_new_material,0,0,0,0,0,0,true,,0,,"No attributable in-window item was found."
