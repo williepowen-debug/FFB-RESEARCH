@@ -9,10 +9,10 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-08-25
+last_verified: 2026-08-25
 confidence: medium
-source_ids: []
+source_ids: ["local-source-san-francisco-49ers"]
 supersedes: []
 ---
 
@@ -24,13 +24,13 @@ supersedes: []
 - Area: route hierarchy, target quality, and contingency value
 - Season/week: 2026 preseason baseline
 - Status: active
-- Last verified: 2026-08-17
+- Last verified: 2026-08-25
 
 ## Finding
 
 Facts: San Francisco signed Mike Evans to a three-year deal on March 12, signed Christian Kirk on March 18, signed Deebo Samuel Sr. on August 1, and drafted De'Zhaun Stribling 33rd overall. NFL.com lists Jauan Jennings, Kendrick Bourne, and Skyy Moore as offseason departures. The official roster lists Ricky Pearsall on reserve/injured and Brandon Aiyuk on reserve/left squad. The August 12 unofficial depth chart lists Evans, Demarcus Robinson, Samuel, Kirk, and Stribling among the top receiver lines.
 
-Inference: the old target-tree shortcut no longer works. Evans is the clearest touchdown and perimeter-volume addition. Samuel's return adds hybrid usage. Kirk's value depends on slot/inside route concentration. Stribling is the developmental upside bet who can rise quickly if injured or absent veterans do not return.
+Inference: the old target-tree shortcut no longer works. Evans is the clearest touchdown and perimeter-volume addition. Samuel's return adds hybrid usage. Kirk's value depends on slot/inside route concentration. Stribling is the developmental upside bet who can rise quickly if injured or absent veterans do not return. Evans missed the August 25 practice with groin tightness and was expected back the following week. That stated short-term outlook preserves him as the safest projection, but his next participation is now the immediate availability checkpoint.
 
 ## Fantasy implication
 
@@ -43,6 +43,8 @@ Evans is the safest 2026 receiver projection because his contract, profile, and 
 - The official draft class page identifies Stribling as pick 33.
 - The official roster places Pearsall on reserve/injured and Aiyuk on reserve/left squad.
 - The August 12 unofficial depth chart shows a crowded, unsettled receiver order.
+- The official August 25 camp report says Evans missed practice with groin tightness and was
+  expected back the following week.
 
 ## Sources
 
@@ -52,6 +54,7 @@ Evans is the safest 2026 receiver projection because his contract, profile, and 
 - San Francisco 49ers - [Player roster](https://www.49ers.com/team/players-roster/) - verified 2026-08-17.
 - San Francisco 49ers - [Depth chart](https://www.49ers.com/team/depth-chart) - last updated 2026-08-12, verified 2026-08-17.
 - NFL.com - [2026 NFL roster changes: Offseason player departures for every team](https://www.nfl.com/news/2026-nfl-free-agency-free-agents-notable-departures-for-all-32-teams) - published 2026-06-01, updated 2026-07-17.
+- San Francisco 49ers - [Day 17 of 2026 Training Camp](https://www.49ers.com/news/day-17-of-2026-training-camp-53-man-cut-is-near-as-49ers-gear-up-for-final-preseason-game) - published 2026-08-25.
 
 ## Assessment
 
@@ -59,4 +62,4 @@ Evans is the safest 2026 receiver projection because his contract, profile, and 
 - Reason: The roster reset is well sourced, but final target shares require preseason and Week 1 route evidence.
 - Fact/inference boundary: Signings, roster status, departures, and depth chart are facts. Fantasy ordering is an inference.
 - What would invalidate this: Aiyuk returning to full participation, Pearsall returning sooner than expected, or Stribling/Kirk/Samuel losing first-team routes.
-- Next review: Final cuts, Week 1 depth chart, and first two regular-season route reports.
+- Next review: Evans' next practice participation, final cuts, Week 1 depth chart, and first two regular-season route reports.

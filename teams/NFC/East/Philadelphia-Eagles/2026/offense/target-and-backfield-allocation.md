@@ -9,10 +9,10 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-08-24
+last_verified: 2026-08-25
 confidence: medium
-source_ids: []
+source_ids: ["local-source-philadelphia-eagles"]
 supersedes: []
 ---
 
@@ -24,11 +24,11 @@ supersedes: []
 - Area: receiver, tight end, and running back usage
 - Season/week: 2026 preseason baseline
 - Status: active
-- Last verified: 2026-08-17
+- Last verified: 2026-08-25
 
 ## Finding
 
-A.J. Brown's June 1 trade creates a major target vacancy, but Philadelphia did not replace him with one clean one-for-one player. The Eagles drafted Makai Lemon in Round 1, traded for Dontayvion Wicks, signed Hollywood Brown and Elijah Moore, retained Dallas Goedert and Grant Calcaterra, and drafted Eli Stowers in Round 2. The August unofficial depth chart lists DeVonta Smith, Lemon, and Wicks as first-team receivers, with Hollywood Brown and Elijah Moore directly behind.
+A.J. Brown's June 1 trade creates a major target vacancy, but Philadelphia did not replace him with one clean one-for-one player. The Eagles drafted Makai Lemon in Round 1, traded for Dontayvion Wicks, signed Hollywood Brown and Elijah Moore, retained Dallas Goedert and Grant Calcaterra, and drafted Eli Stowers in Round 2. The August unofficial depth chart lists DeVonta Smith, Lemon, and Wicks as first-team receivers, with Hollywood Brown and Elijah Moore directly behind. Lemon returned to full practice participation on August 24 for the first time since August 3 and took part in all team drills. That clears an availability checkpoint but does not establish a full starter route rate.
 
 Saquon Barkley remains the clear lead back. The team's running back preview described him as the primary back entering camp, while Tank Bigsby, Will Shipley, Dameon Pierce, Carson Steele, and later Ja'Quinden Jackson form the depth and package competition. The key fantasy issue is not Barkley losing the job; it is whether Mannion and Kuper alter his receiving usage, short-yardage packages, or rest plan.
 
@@ -46,6 +46,8 @@ Saquon Barkley remains the clear lead back. The team's running back preview desc
 - The free-agency and transactions trackers list Hollywood Brown, Elijah Moore, Dontayvion Wicks, Johnny Mundt, Stone Smartt, Grant Calcaterra, and Dallas Goedert as 2026 additions or retentions.
 - The draft record shows Lemon selected 20th overall and Stowers 54th overall.
 - The official August depth chart lists Smith, Lemon, and Wicks as first-team receivers, Goedert as first-team tight end, Barkley as first-team running back, and Hurts as first-team quarterback.
+- The August 24 practice notebook lists Lemon as a full participant in all team drills for the
+  first time since August 3.
 - The July 8 wide receiver preview said only Smith and Darius Cooper were on the prior year's initial 53-man roster among the camp receivers and identified Smith as the most productive receiver after Brown's departure.
 - The July 7 running back preview described Barkley as the primary back entering camp and identified Bigsby, Shipley, Pierce, and Steele as depth/package names.
 
@@ -57,6 +59,7 @@ Saquon Barkley remains the clear lead back. The team's running back preview desc
 - Philadelphia Eagles - [Eagles 2026 Training Camp Position Preview: Wide Receiver](https://www.philadelphiaeagles.com/news/eagles-2026-training-camp-position-preview-wide-receiver) - published 2026-07-08.
 - Philadelphia Eagles - [Eagles 2026 Training Camp Position Preview: Running Back](https://www.philadelphiaeagles.com/news/eagles-2026-training-camp-position-preview-running-back) - published 2026-07-07.
 - Philadelphia Eagles/Dave Spadaro - [The NFL Draft is over, but the work is far from finished](https://www.philadelphiaeagles.com/news/eagles-2026-nfl-draft-recap-work-is-far-from-finished) - published 2026-04-27.
+- Philadelphia Eagles - [Makai Lemon returns to full participation at practice](https://www.philadelphiaeagles.com/news/eagles-makai-lemon-returns-to-full-participation-at-practice) - published 2026-08-24.
 
 ## Assessment
 
@@ -64,5 +67,4 @@ Saquon Barkley remains the clear lead back. The team's running back preview desc
 - Reason: Personnel facts and initial depth chart are current, but depth charts are unofficial and first-team route shares are not yet established.
 - Fact/inference boundary: Transactions, draft picks, and listed depth-chart order are facts. Target leadership and fantasy ranking effects are inference.
 - What would invalidate this: Lemon or Wicks falling out of first-team routes, Goedert being managed more heavily than expected, or Barkley losing meaningful high-value work.
-- Next review: First-team preseason route participation, two-minute personnel, red-zone snaps, and Barkley's route share.
-
+- Next review: Lemon's first-team route rate, two-minute personnel, red-zone snaps, and Barkley's route share.
