@@ -4,22 +4,22 @@ record_id: to-2026-ari-overview-001
 record_type: team_overview
 title: "Arizona Cardinals 2026 Core Overview"
 team_ids: ["ARI"]
-player_ids: []
+player_ids: ["local-player-jeremiyah-love-2026"]
 season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-08-24
+last_verified: 2026-08-26
 confidence: medium
-source_ids: ["local-source-cardinals"]
+source_ids: ["local-source-cardinals", "local-source-arizona-cardinals", "local-writer-tyler-drake"]
 supersedes: []
 ---
 
 # Arizona Cardinals 2026 Core Overview
 
 - Conference/division: NFC West
-- Last verified: 2026-08-17
+- Last verified: 2026-08-26
 - Scope: Core-tier preseason module for coaching, roster, offense, and defense
 
 The Cardinals enter 2026 with one of the league's cleaner fantasy reset profiles: a new head coach, a new offensive coordinator, a released former franchise quarterback, and a first-round running back added to an already crowded skill group. The defense is more continuous because Nick Rallis remains defensive coordinator, but the front has turnover and injury losses.
@@ -46,8 +46,10 @@ The supporting machine-readable files are:
 - Mike LaFleur is the new head coach, Nathaniel Hackett is offensive coordinator, and Nick Rallis is retained as defensive coordinator.
 - Kyler Murray was released on 2026-03-11; Jacoby Brissett is listed first on the official depth chart, ahead of Gardner Minshew II, Carson Beck, and Kedon Slovis.
 - Arizona drafted RB Jeremiyah Love No. 3 overall and signed him to a four-year contract with a fifth-year option.
-- The current official depth chart lists Tyler Allgeier first at running back, Love second, James Conner third, and Trey Benson fourth.
-- Love had 14 first-half touches in his preseason debut, then was held out with ankle soreness.
+- The August 17 official depth chart listed Tyler Allgeier first at running back, Love second,
+  James Conner third, and Trey Benson fourth; Arizona waived/injured Benson on August 24.
+- Love had 14 first-half touches in his preseason debut, then suffered a high ankle sprain. Mike
+  LaFleur ruled him out of practice for the week of August 24 and the preseason finale.
 - Marvin Harrison Jr., Kendrick Bourne, and Michael Wilson are the first listed wide receivers; Trey McBride is TE1.
 - Second-round guard Chase Bisontis and fourth-round defensive tackle Kaleb Proctor are on injured reserve.
 - Budda Baker, Mack Wilson Sr., Cody Simon, Zaven Collins, Baron Browning, Darius Robinson, Walter Nolen III, and the young corner group are the main defensive monitoring points.
@@ -55,7 +57,8 @@ The supporting machine-readable files are:
 ### Working fantasy hypotheses
 
 - Harrison and McBride are the safest target bets because their roles are least dependent on the new staff resolving backfield and quarterback transition.
-- Love has league-winning workload upside, but Allgeier's depth-chart position and Love's ankle soreness keep the early-season projection volatile.
+- Love has league-winning workload upside, but Allgeier's depth-chart position and Love's absence
+  through the final full preseason week keep the early-season projection volatile.
 - Brissett can stabilize the offense for pass catchers but should be treated as a low-ceiling fantasy quarterback unless volume or touchdown rate spikes.
 - Baker remains the clearest IDP anchor; Wilson/Simon are the linebacker snap-count watch.
 - Arizona D/ST is a matchup stream until the pass rush and run defense prove weekly pressure.
@@ -103,13 +106,13 @@ Use the generated [schedule](schedule.md) for game timing only. A current weekly
 
 ## Canonical player profiles
 
-Canonical player profiles have not yet been created. Do not duplicate full player biographies in this team overview; link them here after stable player IDs are verified.
+- [Jeremiyah Love](../../../../../players/jeremiyah-love/profile.md)
 
 ## Open questions
 
 - Does LaFleur or Hackett own final play-calling authority?
 - Does Love's ankle issue resolve before Week 1, and does he pass Allgeier for lead-back usage?
-- How much work do James Conner and Trey Benson reclaim when healthy?
+- How much work does James Conner reclaim when healthy after Benson's waived/injured transaction?
 - Does Brissett hold the job all season, or does Beck become a development-driven starter later?
 - Does the Bisontis injury materially weaken right guard and interior protection?
 - Does Rallis get enough pass rush from Sweat, Collins, Browning, Robinson, Nolen, and the rotation?
@@ -127,5 +130,7 @@ Canonical player profiles have not yet been created. Do not duplicate full playe
 - Arizona Cardinals - [Nick Rallis coach bio](https://www.azcardinals.com/team/coaches-roster/nick-rallis) - verified 2026-08-17.
 - Zach Gershman, Arizona Cardinals - [Reasons To Love Start For Cardinals' Top Pick Against Raiders](https://www.azcardinals.com/news/jeremiyah-love-first-start-cardinals-top-pick-against-raiders-preseason) - published 2026-08-13.
 - Zach Gershman, Arizona Cardinals - [Jeremiyah Love To Sit For Now With Ankle Injury](https://www.azcardinals.com/news/jeremiyah-love-to-sit-for-now-with-ankle-injury) - published 2026-08-15.
+- Arizona Cardinals - [2026 transactions](https://www.azcardinals.com/team/transactions/2026) - Benson waived/injured 2026-08-24; verified 2026-08-26.
+- Tyler Drake, Arizona Sports - [Cardinals' Jeremiyah Love in the next phase of recovery from ankle sprain](https://arizonasports.com/nfl/arizona-cardinals/cardinals-jeremiyah-love-in-the-the-next-phase-of-recovery-from-ankle-sprain) - published 2026-08-24; verified 2026-08-26.
 - Darren Urban, Arizona Cardinals - [Chase Bisontis Placed On Injured Reserve After Knee Injury](https://www.azcardinals.com/news/chase-bisontis-to-be-placed-on-injured-reserve) - published 2026-08-15 and updated 2026-08-15.
 - Darren Urban, Arizona Cardinals - [Camaraderie Supersedes Intense Wide Receiver Battle For Cardinals](https://www.azcardinals.com/news/camaraderie-supersedes-intense-wide-receiver-battle-for-cardinals) - published 2026-08-14 and updated 2026-08-14.

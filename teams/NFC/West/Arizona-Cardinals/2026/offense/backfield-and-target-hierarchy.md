@@ -10,9 +10,9 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-24
-last_verified: 2026-08-25
+last_verified: 2026-08-26
 confidence: medium
-source_ids: ["local-source-cardinals", "local-source-arizona-cardinals"]
+source_ids: ["local-source-cardinals", "local-source-arizona-cardinals", "local-writer-tyler-drake"]
 supersedes: []
 ---
 
@@ -24,7 +24,7 @@ supersedes: []
 - Area: running back competition, receiving hierarchy, tight-end usage
 - Season/week: 2026 preseason
 - Status: active
-- Last verified: 2026-08-25
+- Last verified: 2026-08-26
 
 ## Finding
 
@@ -34,9 +34,10 @@ The August 17 official depth chart listed Tyler Allgeier first at running back, 
 Jeremiyah Love, James Conner, Trey Benson, Bam Knight, Corey Kiner, and Evan Hull. Arizona then
 waived Benson with an injured designation for a knee injury on August 24, removing him from the
 immediate competition. Love was the No. 3 overall pick and had 11 carries plus three receptions in
-his preseason debut, then was held out for a week with ankle soreness. The official depth chart
-lists Marvin Harrison Jr., Kendrick Bourne, and Michael Wilson as the first listed receivers, with
-Trey McBride as TE1.
+his preseason debut, then suffered a high ankle sprain. Mike LaFleur said on August 24 that Love
+was progressing but would not practice that week or play in the preseason finale. The official
+depth chart lists Marvin Harrison Jr., Kendrick Bourne, and Michael Wilson as the first listed
+receivers, with Trey McBride as TE1.
 
 ### Inference
 
@@ -48,7 +49,7 @@ starter value, while Bourne/Wilson and the reserve receiver battle shape weekly 
 
 ## Fantasy implication
 
-Love is an upside RB with workload and health risk, not a locked-in bellcow as of 2026-08-25.
+Love is an upside RB with workload and health risk, not a locked-in bellcow as of 2026-08-26.
 Allgeier remains the practical early-season role hedge, while Benson no longer belongs in the
 immediate draftable competition. Harrison and McBride carry the best season-long target-floor
 assumptions.
@@ -58,6 +59,8 @@ assumptions.
 - Arizona drafted Love at No. 3 overall and signed him to a four-year contract with a fifth-year option.
 - Love produced 11 carries for 58 yards and three catches for 14 yards against Las Vegas on 2026-08-13.
 - Team reporting on 2026-08-15 said Love would sit that week with an ankle injury; the same article noted James Conner had not participated in 11-on-11 work and Trey Benson remained out with knee issues.
+- LaFleur said on 2026-08-24 that Love was progressing from a high ankle sprain but would not
+  practice that week, participate in the Green Bay joint session, or play in the preseason finale.
 - Arizona's official transaction ledger lists Benson as waived/injured with a knee injury on
   2026-08-24.
 - Arizona's receiver-room report identified Harrison and Wilson as the top two receivers, Bourne as elevating the No. 3 role, and Jalen Brooks/Simi Fehoko/Reggie Virgil among the reserve competition.
@@ -70,6 +73,7 @@ assumptions.
 - Darren Urban, Arizona Cardinals - [Love Story: Cardinals Select Jeremiyah Love In First Round Of 2026 Draft](https://www.azcardinals.com/news/cardinals-select-jeremiyah-love-in-first-round-of-2026-draft) - published 2026-04-23.
 - Zach Gershman, Arizona Cardinals - [Reasons To Love Start For Cardinals' Top Pick Against Raiders](https://www.azcardinals.com/news/jeremiyah-love-first-start-cardinals-top-pick-against-raiders-preseason) - published 2026-08-13.
 - Zach Gershman, Arizona Cardinals - [Jeremiyah Love To Sit For Now With Ankle Injury](https://www.azcardinals.com/news/jeremiyah-love-to-sit-for-now-with-ankle-injury) - published 2026-08-15.
+- Tyler Drake, Arizona Sports - [Cardinals' Jeremiyah Love in the next phase of recovery from ankle sprain](https://arizonasports.com/nfl/arizona-cardinals/cardinals-jeremiyah-love-in-the-the-next-phase-of-recovery-from-ankle-sprain) - published 2026-08-24; verified 2026-08-26.
 - Darren Urban, Arizona Cardinals - [Camaraderie Supersedes Intense Wide Receiver Battle For Cardinals](https://www.azcardinals.com/news/camaraderie-supersedes-intense-wide-receiver-battle-for-cardinals) - published 2026-08-14 and updated 2026-08-14.
 
 ## Assessment
