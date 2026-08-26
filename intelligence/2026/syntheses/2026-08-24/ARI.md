@@ -7,7 +7,7 @@ team_ids: ["ARI"]
 player_ids: []
 season: 2026
 week: null
-status: active
+status: superseded
 time_horizon: seasonal
 valid_as_of: 2026-08-24
 last_verified: 2026-08-24

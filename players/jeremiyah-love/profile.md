@@ -12,7 +12,7 @@ time_horizon: durable
 valid_as_of: 2026-08-25
 last_verified: 2026-08-26
 confidence: medium
-source_ids: ["local-source-arizona-cardinals"]
+source_ids: ["local-source-arizona-cardinals", "local-writer-tyler-drake"]
 supersedes: []
 ---
 
@@ -63,9 +63,10 @@ the protection trust needed for passing-down work.
 
 ### Health and availability
 
-Arizona held Love out after he developed ankle soreness following his preseason debut. No
-admissible return-to-practice update had been recorded through August 25. His final depth-chart and
-Week 1 status remain open checkpoints.
+Arizona held Love out after he suffered a high ankle sprain following his preseason debut. On
+August 24, Mike LaFleur said Love was progressing but would not practice that week, including the
+Green Bay joint session, or play in the preseason finale. His return-to-practice date, final
+depth-chart placement, and Week 1 status remain open checkpoints.
 
 ## Fantasy assessment
 
@@ -92,4 +93,5 @@ Week 1 status remain open checkpoints.
 - Arizona Cardinals — [Jeremiyah Love signed and starts on-field work](https://www.azcardinals.com/news/jeremiyah-love-signed-sealed-and-delivers-with-first-on-field-work-for-cardinals) — verified 2026-08-26.
 - Arizona Cardinals — [Reasons to Love start for Cardinals' top pick](https://www.azcardinals.com/news/jeremiyah-love-first-start-cardinals-top-pick-against-raiders-preseason) — published 2026-08-13.
 - Arizona Cardinals — [Jeremiyah Love to sit with ankle injury](https://www.azcardinals.com/news/jeremiyah-love-to-sit-for-now-with-ankle-injury) — published 2026-08-15.
+- Tyler Drake, Arizona Sports — [Jeremiyah Love progresses but will miss the joint practice and preseason finale](https://arizonasports.com/nfl/arizona-cardinals/cardinals-jeremiyah-love-in-the-the-next-phase-of-recovery-from-ankle-sprain) — published 2026-08-24; verified 2026-08-26.
 - Arizona Cardinals — [Official depth chart](https://www.azcardinals.com/team/depth-chart) — verified 2026-08-17.

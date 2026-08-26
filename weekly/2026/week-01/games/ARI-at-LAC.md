@@ -10,9 +10,9 @@ week: 1
 status: draft
 time_horizon: weekly
 valid_as_of: "2026-09-13"
-last_verified: "2026-08-05"
+last_verified: "2026-08-26"
 confidence: null
-source_ids: []
+source_ids: ["local-writer-tyler-drake"]
 supersedes: []
 game_id: 2026-W01-ARI-LAC
 fantasy_formats: ["general"]
@@ -34,7 +34,9 @@ fantasy_formats: ["general"]
 - Expected pace:
 - Weather:
 - Betting context:
-- Injury context:
+- Injury context: Arizona RB Jeremiyah Love was ruled out of all practice work for the week of
+  August 24 and the preseason finale while progressing from a high ankle sprain; his Week 1 status
+  remains undetermined.
 
 ## Matchup analysis
 
@@ -52,7 +54,8 @@ fantasy_formats: ["general"]
 
 ## Open questions and next checks
 
-- Are Josh Sweat and Tip Reiman available, and what is Jeremiyah Love's final depth-chart and Week 1 status?
+- Are Josh Sweat and Tip Reiman available, and can Jeremiyah Love return to practice before his
+  final depth-chart and Week 1 status are set?
 - Which five Chargers linemen start, and how stable is protection communication?
 - Does Omarion Hampton control routes, two-minute work, and inside-the-10 opportunities?
 - How does Mike McDaniel deploy motion, play action, launch points, and target depth with Justin Herbert?
@@ -60,3 +63,4 @@ fantasy_formats: ["general"]
 ## Sources
 
 - [NFL schedule](https://www.nfl.com/schedules/2026/by-week/week-1) — last verified 2026-08-05
+- Tyler Drake, Arizona Sports — [Jeremiyah Love progresses but will miss the joint practice and preseason finale](https://arizonasports.com/nfl/arizona-cardinals/cardinals-jeremiyah-love-in-the-the-next-phase-of-recovery-from-ankle-sprain) — published 2026-08-24; verified 2026-08-26

@@ -1,0 +1,3 @@
+run_id,reader_id,team_id,window_start,window_end,observation_cap,elapsed_minutes,source_id,access_outcome,items_inspected,observations_emitted,duplicate_clusters,conflicts,time_sensitive_items,meaningful_overflow,no_meaningful_update,spot_check_observation_ids,spot_check_failures,corrections,notes
+20260826T180455Z,reader-det-pm-ledger,DET,2026-08-26T12:52:22Z,2026-08-26T18:04:55Z,10,5,local-source-detroit-lions,no_new_material,1,0,0,0,0,0,true,,0,,"Official surfaces exposed no in-window edge snap, package, or pressure chart with Hutchinson context."
+20260826T180455Z,reader-det-pm-ledger,DET,2026-08-26T12:52:22Z,2026-08-26T18:04:55Z,10,5,local-writer-eric-woodyard,no_new_material,0,0,0,0,0,0,true,,0,,"No attributable in-window measured edge item was found."
