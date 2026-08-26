@@ -4,7 +4,7 @@ record_id: wm-2026-w01-ari-lac-001
 record_type: weekly_matchup
 title: "Week 1: Arizona Cardinals at Los Angeles Chargers"
 team_ids: ["ARI", "LAC"]
-player_ids: []
+player_ids: ["local-player-jeremiyah-love-2026", "local-player-josh-sweat-2018"]
 season: 2026
 week: 1
 status: draft

@@ -52,7 +52,14 @@ fantasy_formats: ["general"]
 
 ## Open questions and next checks
 
-_TBD_
+- Do Chris Godwin, Emeka Egbuka, and Jalen McMillan dominate Tampa Bay's routes, and who absorbs
+  the vacated boundary and red-zone work?
+- How are Bucky Irving and Kenneth Gainwell divided across early downs, routes, two-minute work,
+  and the goal line?
+- Does Cincinnati's rebuilt front create four-man pressure, or does Baker Mayfield get clean
+  access to Tampa Bay's receiver depth?
+- Do Ja'Marr Chase and Tee Higgins preserve the concentrated target tree, and does Chase Brown
+  retain every high-value backfield role?
 
 ## Sources
 

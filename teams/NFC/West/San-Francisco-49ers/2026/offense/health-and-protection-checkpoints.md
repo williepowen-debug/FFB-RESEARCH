@@ -4,7 +4,7 @@ record_id: rf-2026-sf-health-protection-checkpoints-001
 record_type: research_finding
 title: "49ers offensive ceiling depends on health and protection checkpoints"
 team_ids: ["SF"]
-player_ids: []
+player_ids: ["local-player-george-kittle-2017"]
 season: 2026
 week: null
 status: active

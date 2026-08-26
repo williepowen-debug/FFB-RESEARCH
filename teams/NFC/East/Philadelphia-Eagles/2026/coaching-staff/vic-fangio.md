@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: high
-source_ids: []
+source_ids: ["local-source-philadelphia-eagles"]
 supersedes: []
 coach_id: local-coach-vic-fangio
 ---
@@ -61,4 +61,3 @@ Official depth charts are compiled by the communications department, not necessa
 - Philadelphia Eagles - [Philadelphia Eagles Depth Chart](https://www.philadelphiaeagles.com/team/depth-chart) - verified 2026-08-17.
 - Philadelphia Eagles - [Eagles 2026 Training Camp Position Preview: Safety](https://www.philadelphiaeagles.com/news/eagles-2026-training-camp-position-preview-safety) - published 2026-07-14.
 - Philadelphia Eagles - [Eagles 2026 Training Camp Position Preview: Edge Rusher](https://www.philadelphiaeagles.com/news/eagles-2026-training-camp-position-preview-edge-rusher) - published 2026-07-16.
-

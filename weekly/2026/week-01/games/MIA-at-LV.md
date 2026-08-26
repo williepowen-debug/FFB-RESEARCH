@@ -4,7 +4,7 @@ record_id: wm-2026-w01-mia-lv-001
 record_type: weekly_matchup
 title: "Week 1: Miami Dolphins at Las Vegas Raiders"
 team_ids: ["MIA", "LV"]
-player_ids: []
+player_ids: ["local-player-ashton-jeanty-2025"]
 season: 2026
 week: 1
 status: draft
@@ -56,6 +56,8 @@ fantasy_formats: ["general"]
 - How are De'Von Achane's routes, targets, goal-line work, and two-minute snaps divided?
 - Which receivers own two-player personnel, first reads, third downs, and return responsibilities?
 - What are Bobby Slowik's personnel, motion, play-action, and designed-quarterback-run rates?
+- Does Ashton Jeanty return without limitation and retain passing-down and goal-line work over
+  Mike Washington Jr.?
 
 ## Sources
 

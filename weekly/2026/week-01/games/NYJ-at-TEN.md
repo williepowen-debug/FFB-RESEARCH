@@ -52,7 +52,13 @@ fantasy_formats: ["general"]
 
 ## Open questions and next checks
 
-_TBD_
+- Does Breece Hall retain first-unit carries, routes, two-minute snaps, and goal-line work in
+  Frank Reich's offense?
+- Who owns the complementary receiver and tight-end routes behind Garrett Wilson?
+- How are Tony Pollard, Tyjae Spears, and Nick Singleton divided across Tennessee's high-value
+  backfield snaps?
+- Does Cam Ward create efficient first-team offense against the Jets' unsettled perimeter, and
+  which Tennessee receivers earn his first reads?
 
 ## Sources
 

@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-01-28
 last_verified: 2026-08-13
 confidence: medium
-source_ids: []
+source_ids: ["local-source-cleveland-browns"]
 supersedes: []
 coach_id: local-coach-todd-monken
 ---

@@ -4,7 +4,7 @@ record_id: rf-2026-sf-receiver-room-reset-001
 record_type: research_finding
 title: "49ers receiver room has changed enough to reset target assumptions"
 team_ids: ["SF"]
-player_ids: []
+player_ids: ["local-player-mike-evans-2014"]
 season: 2026
 week: null
 status: active

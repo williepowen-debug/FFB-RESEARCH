@@ -4,7 +4,7 @@ record_id: ti-2026-nyg-20260825-001
 record_type: team_intelligence
 title: "New York Giants intelligence synthesis — 2026-08-25"
 team_ids: ["NYG"]
-player_ids: []
+player_ids: ["local-player-malik-nabers-2024"]
 season: 2026
 week: null
 status: active

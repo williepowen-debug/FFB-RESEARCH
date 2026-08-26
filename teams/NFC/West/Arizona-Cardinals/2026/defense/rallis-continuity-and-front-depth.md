@@ -4,7 +4,7 @@ record_id: rf-2026-ari-rallis-front-depth-001
 record_type: research_finding
 title: "Rallis continuity and front-depth reset"
 team_ids: ["ARI"]
-player_ids: []
+player_ids: ["local-player-josh-sweat-2018"]
 season: 2026
 week: null
 status: active

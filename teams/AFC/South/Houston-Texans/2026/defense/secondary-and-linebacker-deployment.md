@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: medium
-source_ids: []
+source_ids: ["local-source-houston-texans"]
 supersedes: []
 ---
 
@@ -63,4 +63,3 @@ The defense should remain difficult to attack, but individual fantasy and matchu
 - Fact/inference boundary: Additions, extensions, PUP listings, draft slots, and current roster presence are facts. Box usage, tackle floors, and matchup effects are inferences.
 - What would invalidate this: Stewart or Speed returning to full roles immediately, Ramsey playing only special teams, or injuries forcing a simplified two-safety structure.
 - Next review: First-team nickel/dime packages in the remaining preseason games and Week 1 snap/alignment charting.
-

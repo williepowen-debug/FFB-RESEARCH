@@ -4,10 +4,10 @@ record_id: ti-2026-ari-20260821-002
 record_type: team_intelligence
 title: "Arizona Cardinals intelligence follow-up — 2026-08-21"
 team_ids: ["ARI"]
-player_ids: []
+player_ids: ["local-player-jeremiyah-love-2026", "local-player-josh-sweat-2018"]
 season: 2026
 week: null
-status: draft
+status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-21
 last_verified: 2026-08-21

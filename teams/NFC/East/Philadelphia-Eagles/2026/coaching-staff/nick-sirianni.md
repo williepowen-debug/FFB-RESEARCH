@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: high
-source_ids: []
+source_ids: ["local-source-philadelphia-eagles"]
 supersedes: []
 coach_id: local-coach-nick-sirianni
 ---
@@ -60,4 +60,3 @@ Coordinator intentions from February through June are not the same as September 
 - Philadelphia Eagles - [Eagles are hiring Sean Mannion as offensive coordinator](https://www.philadelphiaeagles.com/news/eagles-sean-mannion-offensive-coordinator-hire) - published 2026-01-29.
 - Philadelphia Eagles/Dave Spadaro - [What will the Eagles' 2026 offense look like?](https://www.philadelphiaeagles.com/news/eagles-2026-offense-sean-mannion-jalen-hurts-dave-spadaro) - published 2026-02-24.
 - Philadelphia Eagles/Dave Spadaro - [What did Eagles fans learn about Sean Mannion from his introductory press conference?](https://www.philadelphiaeagles.com/news/what-did-eagles-fans-learn-about-sean-mannion-from-his-introductory-press-conference) - published 2026-05-21.
-

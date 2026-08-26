@@ -4,7 +4,7 @@ record_id: ti-2026-sf-20260825-001
 record_type: team_intelligence
 title: "San Francisco 49ers intelligence synthesis — 2026-08-25"
 team_ids: ["SF"]
-player_ids: []
+player_ids: ["local-player-george-kittle-2017", "local-player-mike-evans-2014"]
 season: 2026
 week: null
 status: active

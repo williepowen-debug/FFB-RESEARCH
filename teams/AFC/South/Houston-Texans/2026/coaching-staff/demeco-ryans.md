@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: high
-source_ids: []
+source_ids: ["local-source-houston-texans"]
 supersedes: []
 coach_id: local-coach-demeco-ryans
 ---
@@ -63,4 +63,3 @@ Do not treat defensive success as a direct fantasy boost to every offensive play
 - Houston Texans - [DeMeco Ryans coaching profile](https://www.houstontexans.com/team/coaches-roster/demeco-ryans) - verified 2026-08-17.
 - Houston Texans - [2026 free-agency tracker](https://www.houstontexans.com/news/houston-texans-2026-free-agency-tracker) - published 2026-03-19.
 - Houston Texans - [2026 transactions ledger](https://www.houstontexans.com/team/transactions/2026) - verified 2026-08-17.
-

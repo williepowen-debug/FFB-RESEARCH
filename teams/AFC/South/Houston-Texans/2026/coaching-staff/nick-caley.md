@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: medium
-source_ids: []
+source_ids: ["local-source-houston-texans"]
 supersedes: []
 coach_id: local-coach-nick-caley
 ---
@@ -62,4 +62,3 @@ Coordinator continuity is not proof of offensive stability. The offensive line h
 - Houston Texans - [Nick Caley coaching profile](https://www.houstontexans.com/team/coaches-roster/nick-caley) - verified 2026-08-17.
 - Houston Texans - [Davis Mills on Year 2 of the Texans offense](https://www.houstontexans.com/news/davis-mills-on-why-year-2-of-the-texans-offense-is-light-years-ahead) - published 2026-07-10.
 - Houston Chronicle - [Why Nick Caley is confident C.J. Stroud and the offense will improve in 2026](https://www.houstonchronicle.com/sports/texans/article/nick-caley-cj-stroud-schuplinski-22320553.php) - published 2026-07.
-

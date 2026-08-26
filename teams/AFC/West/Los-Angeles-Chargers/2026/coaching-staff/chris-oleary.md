@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-16
 last_verified: 2026-08-16
 confidence: medium
-source_ids: []
+source_ids: ["local-source-los-angeles-chargers"]
 supersedes: []
 coach_id: local-coach-chris-oleary
 ---
