@@ -1,0 +1,3 @@
+run_id,reader_id,team_id,window_start,window_end,observation_cap,elapsed_minutes,source_id,access_outcome,items_inspected,observations_emitted,duplicate_clusters,conflicts,time_sensitive_items,meaningful_overflow,no_meaningful_update,spot_check_observation_ids,spot_check_failures,corrections,notes
+20260826T011902Z,reader-lv-news,LV,2026-08-24T00:00:00Z,2026-08-26T01:19:02Z,20,7,local-source-las-vegas-raiders,checked,1,1,0,0,1,0,false,obs-2026-lv-20260826t011902z-001,0,,"ARCH verified Kubiak's exact wording and retained the absence of diagnosis or timetable."
+20260826T011902Z,reader-lv-news,LV,2026-08-24T00:00:00Z,2026-08-26T01:19:02Z,20,3,local-writer-ryan-mcfadden,no_new_material,0,0,0,0,0,0,true,,0,,"No accessible in-window item added a distinct material claim."

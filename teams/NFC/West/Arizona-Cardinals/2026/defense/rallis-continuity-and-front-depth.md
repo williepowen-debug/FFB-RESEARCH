@@ -9,10 +9,10 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-08-24
+last_verified: 2026-08-25
 confidence: medium
-source_ids: ["local-source-cardinals"]
+source_ids: ["local-source-cardinals", "local-source-arizona-cardinals"]
 supersedes: []
 ---
 
@@ -24,13 +24,17 @@ supersedes: []
 - Area: pass rush, run defense, D/ST baseline
 - Season/week: 2026 preseason
 - Status: active
-- Last verified: 2026-08-17
+- Last verified: 2026-08-25
 
 ## Finding
 
 ### Facts
 
 Nick Rallis is retained as defensive coordinator while the Cardinals changed head coaches. Arizona released Dalvin Tomlinson and Bilal Nichols, added Roy Lopez, Andrew Billings, Jonah Williams, and Jack Gibbens, retained L.J. Collier, and drafted Kaleb Proctor in Round 4. Proctor was placed on injured reserve on 2026-07-22, and P.J. Mustipher later went to injured reserve before being waived/injured with an injury settlement.
+
+Arizona activated Josh Sweat from PUP on August 24, clearing the roster-status checkpoint that had
+kept his opening-week availability under review. The transaction does not establish his practice
+load or pass-rush effectiveness.
 
 ### Inference
 
@@ -44,6 +48,7 @@ Arizona D/ST is matchup-streaming, not an every-week lock, until pressure and ru
 
 - Official staff pages list Rallis as defensive coordinator, and the staff announcement identified him as retained.
 - Transactions show defensive-line releases/additions and Proctor/Mustipher injury movement.
+- The August 24 transaction ledger records Sweat's activation from PUP.
 - Rallis' official bio cites Josh Sweat's 2025 pass-rush production and Arizona's 2024 second-half defensive improvement.
 - The official depth chart lists Robinson, Lopez, Walter Nolen III, Jordan Burch, Cody Simon, Mack Wilson Sr., Zaven Collins, and Baron Browning among first-listed front-seven players.
 
@@ -51,6 +56,8 @@ Arizona D/ST is matchup-streaming, not an every-week lock, until pressure and ru
 
 - Arizona Cardinals - [Nick Rallis coach bio](https://www.azcardinals.com/team/coaches-roster/nick-rallis) - verified 2026-08-17.
 - Arizona Cardinals - [Transactions](https://www.azcardinals.com/team/transactions/2026) - verified 2026-08-17.
+- Arizona Cardinals - [2026 transactions](https://www.azcardinals.com/team/transactions/2026) -
+  Sweat activated 2026-08-24; verified 2026-08-25.
 - Arizona Cardinals - [Official Depth Chart](https://www.azcardinals.com/team/depth-chart) - verified 2026-08-17.
 - Darren Urban, Arizona Cardinals - [Cardinals Announce Coaching Staff Under Mike LaFleur](https://www.azcardinals.com/news/cardinals-announce-coaching-staff-under-mike-lafleur-2025) - published 2026-02-20.
 
@@ -60,4 +67,4 @@ Arizona D/ST is matchup-streaming, not an every-week lock, until pressure and ru
 - Reason: coordinator and transaction facts are official; unit quality depends on early-season health and pressure rates.
 - Fact/inference boundary: staff/transaction/depth-chart items are facts. D/ST strength and pass-rush confidence are inference.
 - What would invalidate this: Sweat and Collins/Browning generate consistent pressure quickly, or run defense collapses despite the added interior veterans.
-- Next review: first-team preseason snaps, final roster, Weeks 1-3 pressure rate and explosive rushes allowed.
+- Next review: Sweat's Week 1 participation and Weeks 1-3 pressure rate and explosive rushes allowed.

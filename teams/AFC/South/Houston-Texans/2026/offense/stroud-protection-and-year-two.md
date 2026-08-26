@@ -9,10 +9,10 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-08-25
+last_verified: 2026-08-25
 confidence: medium
-source_ids: []
+source_ids: ["local-source-houston-texans"]
 supersedes: []
 ---
 
@@ -24,7 +24,7 @@ supersedes: []
 - Area: protection, play-calling continuity, and fantasy efficiency
 - Season/week: 2026 preseason baseline
 - Status: active
-- Last verified: 2026-08-17
+- Last verified: 2026-08-25
 
 ## Finding
 
@@ -36,7 +36,9 @@ The direction is coherent: more Stroud ownership, more line competition, and a m
 
 - Stroud's QB1 path requires the line improvements to reduce negative plays without forcing Caley into a low-volume protection shell.
 - Nico Collins is the clearest receiving projection because his role and production survived Caley's first season.
-- Tank Dell, Jayden Higgins, Jaylin Noel, and Lewis Bond need route and first-read confirmation behind Collins.
+- Tank Dell, Kayshon Boutte, Jaylin Noel, Lewis Bond, and Xavier Hutchinson need route and
+  first-read confirmation behind Collins. Houston placed Jayden Higgins on injured reserve on
+  August 21 and acquired Boutte on August 25.
 - If the line remains volatile, Schultz and the running backs could collect shorter-area targets while downfield volume becomes less stable.
 
 ## Evidence
@@ -55,6 +57,8 @@ The direction is coherent: more Stroud ownership, more line competition, and a m
 - Houston Texans - [Davis Mills on Year 2 of the Texans offense](https://www.houstontexans.com/news/davis-mills-on-why-year-2-of-the-texans-offense-is-light-years-ahead) - published 2026-07-10.
 - Houston Chronicle - [Why Nick Caley is confident C.J. Stroud and the offense will improve in 2026](https://www.houstonchronicle.com/sports/texans/article/nick-caley-cj-stroud-schuplinski-22320553.php) - published 2026-07.
 - Houston Chronicle - [Texans training camp risers and fallers](https://www.houstonchronicle.com/sports/texans/article/texans-training-camp-risers-fallers-22381555.php) - published 2026-08-11.
+- Houston Texans - [Transactions](https://www.houstontexans.com/team/transactions/) - Higgins IR
+  dated 2026-08-21 and Boutte trade dated 2026-08-25; verified 2026-08-25.
 
 ## Assessment
 
@@ -63,4 +67,3 @@ The direction is coherent: more Stroud ownership, more line competition, and a m
 - Fact/inference boundary: Transactions, staff roles, and official 2025 production notes are facts. Improved Stroud fantasy efficiency is an inference.
 - What would invalidate this: Continued pressure problems, heavy max protection, stalled early downs, or a starting line that keeps rotating because of performance.
 - Next review: Texans-Raiders joint practice, remaining preseason games, and Weeks 1-2 pressure/sack/play-action charting.
-
