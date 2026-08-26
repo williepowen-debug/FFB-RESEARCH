@@ -4,7 +4,7 @@ record_id: ti-2026-lv-20260825-001
 record_type: team_intelligence
 title: "Las Vegas Raiders intelligence synthesis — 2026-08-25"
 team_ids: ["LV"]
-player_ids: []
+player_ids: ["local-player-ashton-jeanty-2025"]
 season: 2026
 week: null
 status: active

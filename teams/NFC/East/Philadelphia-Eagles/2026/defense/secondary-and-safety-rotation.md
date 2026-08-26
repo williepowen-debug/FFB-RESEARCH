@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: medium
-source_ids: []
+source_ids: ["local-source-philadelphia-eagles"]
 supersedes: []
 ---
 
@@ -63,4 +63,3 @@ The official depth chart lists Woolen and Mitchell at outside corner, DeJean at 
 - Fact/inference boundary: Transactions, depth-chart listing, and Fangio's public competition framing are facts. Fantasy matchup and IDP conclusions are inference.
 - What would invalidate this: Woolen failing to win a starting role, DeJean playing almost exclusively one position, or Mukuba/Epps quickly locking every high-leverage safety snap.
 - Next review: Preseason nickel/base alignment charting and final Week 1 depth chart.
-

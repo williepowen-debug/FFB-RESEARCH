@@ -4,7 +4,7 @@ record_id: rf-2026-nyg-run-game-receiver-roles-001
 record_type: research_finding
 title: "Run-game investment and receiver crowding define the Giants offense"
 team_ids: ["NYG"]
-player_ids: []
+player_ids: ["local-player-malik-nabers-2024"]
 season: 2026
 week: null
 status: active

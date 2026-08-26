@@ -4,7 +4,7 @@ record_id: wm-2026-w01-dal-nyg-001
 record_type: weekly_matchup
 title: "Week 1: Dallas Cowboys at New York Giants"
 team_ids: ["DAL", "NYG"]
-player_ids: []
+player_ids: ["local-player-malik-nabers-2024"]
 season: 2026
 week: 1
 status: draft
@@ -52,7 +52,13 @@ fantasy_formats: ["general"]
 
 ## Open questions and next checks
 
-_TBD_
+- Does Malik Nabers complete full first-team routes and avoid a Week 1 workload restriction?
+- How are Cam Skattebo, Tyrone Tracy Jr., and Devin Singletary divided across early downs,
+  passing downs, and the goal line?
+- Can Dallas' left-tackle configuration protect Dak Prescott against the Giants' pressure
+  packages?
+- Do CeeDee Lamb and George Pickens command concentrated routes and first reads, and does Javonte
+  Williams keep the Cowboys' high-value backfield work?
 
 ## Sources
 

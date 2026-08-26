@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: medium
-source_ids: []
+source_ids: ["local-source-philadelphia-eagles"]
 supersedes: []
 ---
 
@@ -62,4 +62,3 @@ The practical implication is not to downgrade Hurts heavily before seeing the of
 - Fact/inference boundary: Mannion's role and Hurts' coordinator history are facts from team reporting. Projecting quarterback run rate and efficiency effects is inference.
 - What would invalidate this: Preseason and Week 1 usage showing no material scheme change, or a major Hurts health limitation.
 - Next review: First-team preseason drive charting and Week 1 neutral-situation play mix.
-

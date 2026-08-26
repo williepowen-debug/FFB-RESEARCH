@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: low
-source_ids: []
+source_ids: ["local-source-rotowire", "local-writer-aaron-wilson"]
 supersedes: []
 ---
 
@@ -63,4 +63,3 @@ The clearest market signal is Montgomery's available season-long rushing yardage
 - Fact/inference boundary: The Montgomery rushing-yard line, Week 1 prop range, and cited reporting are source-attributed facts. The fantasy conclusion that Montgomery is the preferred SOS target is an inference.
 - What would invalidate this: Marks receives first-team early-down or goal-line work, Marks gets a comparable season-long rushing line near Montgomery's, Montgomery's line falls materially, or preseason usage shows a true 50/50 split.
 - Next review: After Houston's next preseason game and again when major books post fuller Week 1 and season-long RB markets.
-

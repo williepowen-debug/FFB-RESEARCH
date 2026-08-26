@@ -52,7 +52,11 @@ fantasy_formats: ["general"]
 
 ## Open questions and next checks
 
-_TBD_
+- Does Daniel Jones have full mobility for Indianapolis' movement and rollout concepts?
+- Do Lamar Jackson's designed-run and scramble rates hold under Declan Doyle against the Colts'
+  rebuilt front?
+- Do Derrick Henry and Jonathan Taylor retain their expected early-down and goal-line shares?
+- Which Indianapolis receivers and tight ends inherit Michael Pittman's vacated high-value routes?
 
 ## Sources
 

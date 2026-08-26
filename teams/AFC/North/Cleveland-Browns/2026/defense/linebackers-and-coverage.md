@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-07-15
 last_verified: 2026-08-13
 confidence: medium
-source_ids: []
+source_ids: ["local-source-cleveland-browns"]
 supersedes: []
 ---
 

@@ -52,7 +52,13 @@ fantasy_formats: ["general"]
 
 ## Open questions and next checks
 
-_TBD_
+- Is Quinshon Judkins fully available, and how are Cleveland's early-down, passing-down, and
+  goal-line snaps divided?
+- Do KC Concepcion and Harold Fannin Jr. earn full-route roles behind Cleveland's established
+  receivers?
+- How does Jacksonville divide Travis Hunter's offensive and defensive snaps?
+- Which Jaguars back controls early downs and the goal line, and do the tight ends create a
+  meaningful multi-TE route split?
 
 ## Sources
 

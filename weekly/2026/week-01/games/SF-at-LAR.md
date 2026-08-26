@@ -4,7 +4,7 @@ record_id: wm-2026-w01-sf-lar-001
 record_type: weekly_matchup
 title: "Week 1: San Francisco 49ers at Los Angeles Rams"
 team_ids: ["SF", "LAR"]
-player_ids: []
+player_ids: ["local-player-george-kittle-2017", "local-player-mike-evans-2014"]
 season: 2026
 week: 1
 status: draft
@@ -53,6 +53,10 @@ fantasy_formats: ["general"]
 ## Open questions and next checks
 
 - What route participation, quarterback-unit snaps, and red-zone usage does De'Zhaun Stribling earn relative to San Francisco's other receivers?
+- Does George Kittle progress into competitive first-team work and avoid a Week 1 route
+  restriction?
+- Does Mike Evans return from groin tightness, and which receivers own two-player personnel and
+  end-zone targets?
 
 ## Sources
 

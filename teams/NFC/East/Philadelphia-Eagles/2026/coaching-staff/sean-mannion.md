@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: medium
-source_ids: []
+source_ids: ["local-source-philadelphia-eagles"]
 supersedes: []
 coach_id: local-coach-sean-mannion
 ---
@@ -62,4 +62,3 @@ Most public evidence is team-site reporting from installation periods. It is str
 - Philadelphia Eagles/Dave Spadaro - [Eagles are hiring Sean Mannion as offensive coordinator](https://www.philadelphiaeagles.com/news/eagles-sean-mannion-offensive-coordinator-hire) - published 2026-01-29.
 - Philadelphia Eagles/Dave Spadaro - [What did Eagles fans learn about Sean Mannion from his introductory press conference?](https://www.philadelphiaeagles.com/news/what-did-eagles-fans-learn-about-sean-mannion-from-his-introductory-press-conference) - published 2026-05-21.
 - Philadelphia Eagles - [Jalen Hurts: It will be a fun Training Camp](https://www.philadelphiaeagles.com/news/jalen-hurts-it-will-be-a-fun-training-camp) - published 2026-07-27.
-

@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: high
-source_ids: []
+source_ids: ["local-source-houston-texans"]
 supersedes: []
 ---
 
@@ -63,4 +63,3 @@ That combination supports a high baseline for Texans D/ST and for matchup downgr
 - Fact/inference boundary: Staff roles, honors, transactions, and official defensive statistics are facts. D/ST draft tier and matchup downgrade are fantasy inferences.
 - What would invalidate this: Injuries to Anderson Hunter Stingley or Al-Shaair, preseason coverage busts that persist into September, or pressure production that requires excessive blitzing.
 - Next review: Preseason pressure rate, first-team edge rotation, and Week 1 opponent-adjusted pass-rush production.
-

@@ -52,7 +52,12 @@ fantasy_formats: ["general"]
 
 ## Open questions and next checks
 
-_TBD_
+- Is Tucker Kraft in full team work, and how are Green Bay's first-team receiver routes divided?
+- Does Josh Jacobs retain early-down, passing-down, and goal-line control?
+- Who starts at quarterback for Minnesota, and does the final offensive-line configuration
+  protect the timing of Kevin O'Connell's offense?
+- How are Aaron Jones Sr. and Jordan Mason divided across routes, two-minute work, and the goal
+  line?
 
 ## Sources
 

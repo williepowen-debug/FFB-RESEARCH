@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: medium
-source_ids: []
+source_ids: ["local-source-philadelphia-eagles"]
 supersedes: []
 ---
 
@@ -63,4 +63,3 @@ The caution is edge health and rotation clarity. The Eagles acquired Jonathan Gr
 - Fact/inference boundary: Fangio's title, transactions, extensions, and PUP status are facts. D/ST ceiling and IDP prioritization are inference.
 - What would invalidate this: Greenard staying unavailable into Week 1, edge pressure failing in preseason, or major injuries to Carter/Davis.
 - Next review: Final roster, Greenard activation status, first-team third-down rush package, and Week 1 pressure rate.
-

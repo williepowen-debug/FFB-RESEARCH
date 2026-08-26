@@ -4,7 +4,7 @@ record_id: rf-2026-ari-backfield-target-hierarchy-001
 record_type: research_finding
 title: "Backfield and target hierarchy baseline"
 team_ids: ["ARI"]
-player_ids: []
+player_ids: ["local-player-jeremiyah-love-2026"]
 season: 2026
 week: null
 status: active

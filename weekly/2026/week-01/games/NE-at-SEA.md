@@ -52,7 +52,12 @@ fantasy_formats: ["general"]
 
 ## Open questions and next checks
 
-_TBD_
+- Does New England concentrate first reads and red-zone targets on A.J. Brown?
+- How are early downs, routes, two-minute snaps, and goal-line work divided between Rhamondre
+  Stevenson and TreVeyon Henderson?
+- Which Seattle back leads the healthy group in first-team early-down and passing-down work?
+- Do Rashid Shaheed and AJ Barner earn stable route shares against New England's returning
+  coverage core?
 
 ## Sources
 

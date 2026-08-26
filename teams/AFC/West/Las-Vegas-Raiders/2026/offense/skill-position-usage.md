@@ -4,7 +4,7 @@ record_id: rf-2026-lv-skill-usage-001
 record_type: research_finding
 title: "Bowers and Jeanty are the Raiders' clearest fantasy anchors"
 team_ids: ["LV"]
-player_ids: []
+player_ids: ["local-player-ashton-jeanty-2025"]
 season: 2026
 week: null
 status: active

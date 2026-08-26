@@ -12,7 +12,7 @@ time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
 confidence: high
-source_ids: []
+source_ids: ["local-source-houston-texans"]
 supersedes: []
 coach_id: local-coach-matt-burke
 ---
@@ -61,4 +61,3 @@ Elite prior performance can regress through injury, turnover luck, or schedule. 
 - Houston Texans - [Matt Burke coaching profile](https://www.houstontexans.com/team/coaches-roster/matt-burke) - verified 2026-08-17.
 - Houston Texans - [Will Anderson Jr., Danielle Hunter and Derek Stingley Jr. named AP All-Pro](https://www.houstontexans.com/news/houston-texans-anderson-jr-hunter-and-stingley-jr-associated-press-all-pro) - published 2026-01-10.
 - Houston Texans - [Will Anderson Jr. extension](https://www.houstontexans.com/news/houston-texans-sign-all-pro-de-will-anderson-jr-to-extension) - published 2026-04-21.
-
