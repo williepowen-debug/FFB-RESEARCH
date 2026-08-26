@@ -1,3 +1,2 @@
 ledger_id,review_date,team_id,synthesis_record_id,observation_ids,routing_level,signal_type,entity_or_unit,evidence_effect,target_ids,target_path,disposition,next_review_trigger,status,resolved_date,resolution_synthesis_id,supersedes_ledger_id,notes
 til-2026-hou-20260825-001,2026-08-25,HOU,ti-2026-hou-20260825-001,"obs-2026-hou-20260826t011902z-001;obs-2026-hou-20260826t012922z-001",escalate,transaction,Houston secondary wide receivers,mixed,hou-2026-off-q06,teams/AFC/South/Houston-Texans/2026/offense/hypotheses.csv,promoted,"Boutte first-team routes, alignment, and Week 1 active status",resolved,2026-08-25,ti-2026-hou-20260825-001,,"Replaced Higgins with Boutte in the live role competition while preserving the need for route evidence."
-

@@ -19,4 +19,3 @@ run admits that official transaction without altering the already-frozen main ru
 
 Admit only the official Higgins injured-reserve transaction. Do not infer an injury diagnosis,
 recovery timetable, or return eligibility beyond the transaction record.
-

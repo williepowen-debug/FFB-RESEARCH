@@ -1,3 +1,2 @@
 ledger_id,review_date,team_id,synthesis_record_id,observation_ids,routing_level,signal_type,entity_or_unit,evidence_effect,target_ids,target_path,disposition,next_review_trigger,status,resolved_date,resolution_synthesis_id,supersedes_ledger_id,notes
 til-2026-ne-20260825-001,2026-08-25,NE,ti-2026-ne-20260825-001,obs-2026-ne-20260826t011902z-001,escalate,transaction,Kayshon Boutte,challenges,ne-2026-off-q03,teams/AFC/East/New-England-Patriots/2026/offense/hypotheses.csv,promoted,"Week 1 routes and target distribution among Brown, Doubs, Douglas, and Henry",resolved,2026-08-25,ti-2026-ne-20260825-001,,"Resolved the Boutte-stays hypothesis against the baseline after the official trade."
-

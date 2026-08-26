@@ -1,3 +1,2 @@
 run_id,reader_id,team_id,window_start,window_end,observation_cap,elapsed_minutes,source_id,access_outcome,items_inspected,observations_emitted,duplicate_clusters,conflicts,time_sensitive_items,meaningful_overflow,no_meaningful_update,spot_check_observation_ids,spot_check_failures,corrections,notes
 20260826T012922Z,reader-hou-correction,HOU,2026-08-18T00:00:00-05:00,2026-08-26T01:29:22Z,5,4,local-source-houston-texans,checked,1,1,0,0,1,0,false,obs-2026-hou-20260826t012922z-001,0,,"ARCH verified the date against Houston's official transaction ledger and bounded the row to the transaction itself."
-

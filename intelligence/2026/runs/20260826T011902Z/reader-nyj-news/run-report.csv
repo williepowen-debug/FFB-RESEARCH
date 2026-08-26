@@ -1,4 +1,3 @@
 run_id,reader_id,team_id,window_start,window_end,observation_cap,elapsed_minutes,source_id,access_outcome,items_inspected,observations_emitted,duplicate_clusters,conflicts,time_sensitive_items,meaningful_overflow,no_meaningful_update,spot_check_observation_ids,spot_check_failures,corrections,notes
 20260826T011902Z,reader-nyj-news,NYJ,2026-08-24T00:00:00Z,2026-08-26T01:19:02Z,20,4,local-source-new-york-jets,no_new_material,0,0,0,0,0,0,true,,0,,"No official in-window item supplied a material Breece Hall or Mason Sadiq update."
 20260826T011902Z,reader-nyj-news,NYJ,2026-08-24T00:00:00Z,2026-08-26T01:19:02Z,20,5,local-writer-rich-cimini,inaccessible,1,0,0,0,0,0,true,,0,,"A downstream reference described both players as tracking toward Week 1, but the registered reporter's original item was not retrievable for exact-claim verification."
-
