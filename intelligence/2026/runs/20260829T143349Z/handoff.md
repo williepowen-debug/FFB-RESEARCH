@@ -36,4 +36,3 @@
 - `python3 scripts/validate_intelligence.py`: passed after synthesis, routing, ledger disposition,
   and promotion.
 - Full repository validation is owned by ARCHITECT closeout.
-

@@ -38,4 +38,3 @@
   repeated commentary, and claims without a precise in-window publication timestamp.
 - Output rule: zero observations is valid when all assigned sources receive an approved access
   outcome in the reader run report.
-
