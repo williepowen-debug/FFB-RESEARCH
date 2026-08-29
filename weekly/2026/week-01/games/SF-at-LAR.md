@@ -10,9 +10,9 @@ week: 1
 status: draft
 time_horizon: weekly
 valid_as_of: "2026-09-10"
-last_verified: "2026-08-05"
+last_verified: "2026-08-29"
 confidence: null
-source_ids: []
+source_ids: ["local-source-san-francisco-49ers"]
 supersedes: []
 game_id: 2026-W01-SF-LAR
 fantasy_formats: ["general"]
@@ -34,7 +34,9 @@ fantasy_formats: ["general"]
 - Expected pace:
 - Weather:
 - Betting context:
-- Injury context:
+- Injury context: Kyle Shanahan said George Kittle was taking a step back and still needed a Week 1
+  readiness evaluation before the team travels to Australia. Availability and route rate remain
+  uncertain pending pre-travel practices and the official game designation.
 
 ## Matchup analysis
 
@@ -48,7 +50,7 @@ fantasy_formats: ["general"]
 
 | Player/unit | Decision or range | Confidence | Primary reason | Invalidation trigger |
 |---|---|---|---|---|
-| | | | | |
+| George Kittle | Conditional start; prepare a replacement | Low | Renewed readiness concern before international travel | Competitive first-team work plus no Week 1 injury designation |
 
 ## Open questions and next checks
 
@@ -57,7 +59,10 @@ fantasy_formats: ["general"]
   restriction?
 - Does Mike Evans return from groin tightness, and which receivers own two-player personnel and
   end-zone targets?
+- Does Kittle complete competitive first-team work before travel, and would any limitation cap his
+  expected Week 1 route rate?
 
 ## Sources
 
 - [NFL schedule](https://www.nfl.com/schedules/2026/by-week/week-1) — last verified 2026-08-05
+- [49ers postgame comments](https://www.49ers.com/news/what-the-49ers-and-raiders-had-to-say-after-preseason-week-3) — published 2026-08-28; retrieved 2026-08-29; observation `obs-2026-sf-20260829t143349z-002`
