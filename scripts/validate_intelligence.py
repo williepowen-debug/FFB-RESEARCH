@@ -118,6 +118,12 @@ def read_csv(path: Path, expected: list[str], failures: list[str]) -> list[dict[
 
 
 def source_ids_by_team(root: Path, season: int) -> tuple[set[str], dict[str, set[str]]]:
+    """Resolve stable source identities, including historical reporters.
+
+    Frozen runs retain their provenance when a registry later retires a source.
+    Selecting active reporters is a preflight responsibility, not a retrospective
+    test of today's source status against an immutable historical assignment.
+    """
     teams_path = root / "league/teams.csv"
     if not teams_path.is_file():
         return set(), {}
@@ -133,7 +139,6 @@ def source_ids_by_team(root: Path, season: int) -> tuple[set[str], dict[str, set
         with path.open(newline="", encoding="utf-8") as handle:
             result[row["abbr"]] = {
                 item["source_id"] for item in csv.DictReader(handle)
-                if item.get("status", "active") == "active"
             }
     return team_ids, result
 
@@ -173,14 +178,14 @@ def validate_intelligence(root: Path = REPO_ROOT) -> list[str]:
             except ValueError:
                 failures.append(f"{label}: season must be an integer")
                 season = 0
-            known_teams, active_sources = source_ids_by_team(root, season)
+            known_teams, registered_sources = source_ids_by_team(root, season)
             expected_output = f"intelligence/{season}/runs/{run_id}/{reader_id}"
             if row.get("output_directory") != expected_output:
                 failures.append(f"{label}: output_directory must match the assigned run and reader")
-            allowed_sources = set().union(*(active_sources.get(team_id, set()) for team_id in team_ids))
+            allowed_sources = set().union(*(registered_sources.get(team_id, set()) for team_id in team_ids))
             unknown_sources = sorted(set(split_ids(row.get("source_ids", ""))) - allowed_sources)
             if unknown_sources:
-                failures.append(f"{label}: assignment contains unregistered or inactive sources {unknown_sources}")
+                failures.append(f"{label}: assignment contains unregistered sources {unknown_sources}")
             for team_id in team_ids:
                 if team_id not in known_teams:
                     failures.append(f"{label}: unknown team_id {team_id!r}")

@@ -95,6 +95,18 @@ class IntelligenceValidationTests(unittest.TestCase):
 
         self.assertEqual(failures, [])
 
+    def test_retired_source_preserves_frozen_run_provenance(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            self.build_fixture(root)
+            registry = root / "teams/NFC/North/Test-Team/2026/beat-writers/sources.csv"
+            registry.write_text("source_id,status\nlocal-writer-one,inactive\n", encoding="utf-8")
+            self.assertEqual(validate_intelligence(root), [])
+            registry.write_text("source_id,status\nlocal-writer-replacement,active\n", encoding="utf-8")
+            failures = validate_intelligence(root)
+            self.assertTrue(any("assignment contains unregistered sources" in failure for failure in failures))
+            self.assertTrue(any("source_id is not registered" in failure for failure in failures))
+
     def test_rejects_unregistered_source_and_broken_priority_provenance(self) -> None:
         with tempfile.TemporaryDirectory() as temporary_directory:
             root = Path(temporary_directory)
