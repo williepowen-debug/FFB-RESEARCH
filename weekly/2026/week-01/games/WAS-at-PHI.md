@@ -10,9 +10,9 @@ week: 1
 status: draft
 time_horizon: weekly
 valid_as_of: "2026-09-13"
-last_verified: "2026-08-05"
+last_verified: 2026-09-06
 confidence: null
-source_ids: []
+source_ids: ["local-source-washington-commanders"]
 supersedes: []
 game_id: 2026-W01-WAS-PHI
 fantasy_formats: ["general"]
@@ -36,6 +36,14 @@ fantasy_formats: ["general"]
 - Betting context:
 - Injury context:
 
+### WAS — September 6 evidence update
+
+Tunsil and Newton went to IR. See the [WAS synthesis](../../../../intelligence/2026/syntheses/2026-09-06/WAS.md) for dated facts and their limits.
+
+**Fantasy implication:** The opening protection and interior-DL personnel assumptions need adjustment; no numerical efficiency or DST change is established.
+
+**Next check:** Opening left tackle, protection assignments and interior-DL rotation.
+
 ## Matchup analysis
 
 ### Away offense vs. home defense
@@ -48,7 +56,6 @@ fantasy_formats: ["general"]
 
 | Player/unit | Decision or range | Confidence | Primary reason | Invalidation trigger |
 |---|---|---|---|---|
-| | | | | |
 
 ## Open questions and next checks
 
@@ -57,3 +64,5 @@ fantasy_formats: ["general"]
 ## Sources
 
 - [NFL schedule](https://www.nfl.com/schedules/2026/by-week/week-1) — last verified 2026-08-05
+
+- [WAS official update](https://www.commanders.com/news/commanders-place-tunsil-newton-on-ir-sign-moreau-tuttle) — published 2026-08-31T20:29:18.638Z; retrieved 2026-09-06T19:52:07+00:00; verified 2026-09-06.

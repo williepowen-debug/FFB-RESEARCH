@@ -10,9 +10,9 @@ week: 1
 status: draft
 time_horizon: weekly
 valid_as_of: "2026-09-13"
-last_verified: "2026-08-05"
+last_verified: 2026-09-06
 confidence: null
-source_ids: []
+source_ids: ["local-source-jacksonville-jaguars"]
 supersedes: []
 game_id: 2026-W01-CLE-JAX
 fantasy_formats: ["general"]
@@ -36,6 +36,14 @@ fantasy_formats: ["general"]
 - Betting context:
 - Injury context:
 
+### JAX — September 6 evidence update
+
+Van Lanen is progressing, but the dated update is not final Week 1 clearance. See the [JAX synthesis](../../../../intelligence/2026/syntheses/2026-09-06/JAX.md) for dated facts and their limits.
+
+**Fantasy implication:** Keep the offensive-line health checkpoint open; do not upgrade protection from recovery comments alone.
+
+**Next check:** Full practice, opening tackle alignment and final status.
+
 ## Matchup analysis
 
 ### Away offense vs. home defense
@@ -48,7 +56,6 @@ fantasy_formats: ["general"]
 
 | Player/unit | Decision or range | Confidence | Primary reason | Invalidation trigger |
 |---|---|---|---|---|
-| | | | | |
 
 ## Open questions and next checks
 
@@ -63,3 +70,5 @@ fantasy_formats: ["general"]
 ## Sources
 
 - [NFL schedule](https://www.nfl.com/schedules/2026/by-week/week-1) — last verified 2026-08-05
+
+- [JAX official update](https://www.jaguars.com/news/jaguars-friday-van-lanen-glad-to-be-back-approaching-full-health) — published 2026-09-04T15:43:43.802Z; retrieved 2026-09-06T19:52:07+00:00; verified 2026-09-06.

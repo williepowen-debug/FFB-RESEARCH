@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-16
-last_verified: 2026-08-16
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-los-angeles-chargers", "local-source-nfl-gamebooks"]
 supersedes: []
@@ -20,7 +20,7 @@ supersedes: []
 
 ## Finding
 
-McDaniel's run game gives the rebuilt line a plausible route to immediate functional improvement because the system can combine motion, formation variation and similar-looking concepts rather than asking every play to win through static displacement. The personnel also support movement: Biadasz was targeted partly for work in space, Strange knows the system, and healthy Slater and Alt can create perimeter leverage.
+McDaniel's run game gives the rebuilt line a plausible route to immediate functional improvement because the system can combine motion, formation variation and similar-looking concepts rather than asking every play to win through static displacement. Strange knows the system and healthy Slater and Alt can create perimeter leverage. Slaughter now replaces Biadasz at center, so the former veteran-center movement premise requires a fresh test.
 
 Houston supplied positive installation evidence. The reserve offense ran 29 times for 104 yards and two touchdowns, including a six-run scoring sequence, while Harbaugh credited the group with correct assignments and aggressive play. That is not proof of first-unit quality: the projected five did not play together, the opponent used preseason personnel and final rushing totals do not isolate blocking from back or quarterback creation.
 
@@ -32,8 +32,8 @@ Personnel traits, McDaniel's stated preferences, Houston game totals and the doc
 
 | Concept family | Personnel fit | Potential advantage | Main failure mode | Evidence needed |
 |---|---|---|---|---|
-| Outside zone | favorable if tackles are healthy | Slater/Alt movement, Biadasz range and McDaniel's established sequencing | LG lateral-range loss or backside penetration | edge capture, cutback lane, first contact and combination timing |
-| Inside zone | plausible | Biadasz anchor and veteran interior can keep the read clean | immediate A/B-gap leakage from a new interior | yards before contact by gap and negative-run cause |
+| Outside zone | favorable if tackles are healthy | Slater/Alt movement and McDaniel's established sequencing; rookie center execution remains open | LG lateral-range loss or backside penetration | edge capture, cutback lane, first contact and combination timing |
+| Inside zone | plausible | Strange's experience can support Slaughter's transition; interior execution remains unmeasured | immediate A/B-gap leakage from a new interior | yards before contact by gap and negative-run cause |
 | Duo | plausible | Alt, Strange and bigger reserve guards can generate vertical movement | linebackers remain clean when combinations release late | linebacker contact depth and short-yardage conversion |
 | Counter/power | situational | personnel versatility and motion can distort fits | slow pull path or penetration crossing the puller | puller success, kick-out result and back timing |
 | Pin-pull/perimeter | favorable on paper | athletic center/tackles can lead Hampton or Mitchell into space | congestion and missed second-level angles | lead-block result and explosive-run creation |
@@ -41,7 +41,7 @@ Personnel traits, McDaniel's stated preferences, Houston game totals and the doc
 
 ## Strength hypotheses
 
-- Biadasz increases the range and variety of center-led movement concepts.
+- Slaughter must establish the range and timing needed for center-led movement concepts; Biadasz's prior fit cannot be transferred automatically.
 - Strange's prior McDaniel experience accelerates combination timing on the right side.
 - Slater and Alt allow Los Angeles to create perimeter runs without routinely using a tight end solely as edge support.
 - Hampton's downhill power gives the line margin when first contact occurs near, rather than behind, the line of scrimmage.
@@ -87,6 +87,10 @@ Do not infer blocking quality from final rushing yards alone. Separate design le
 
 ## Sources
 
+- [September 6 reconciliation](../../../../../../../intelligence/2026/syntheses/2026-09-06/LAC.md) — `ti-2026-lac-20260906-001`; current personnel corrections, with historical preseason evidence retained.
+
+- Los Angeles Chargers — [September 1 roster briefing](https://www.chargers.com/news/roster-moves-jim-harbaugh-joe-hortiz) — published 2026-09-01; verified 2026-09-06.
+
 - Los Angeles Chargers — [How McDaniel views the 2026 offensive line](https://www.chargers.com/news/offensive-line-mike-mcdaniel-offseason) — published 2026-05-12.
 - Los Angeles Chargers — [2026 offensive-line training-camp preview](https://www.chargers.com/news/2026-training-camp-preview-offensive-line-depth-chart) — published 2026-07-27.
 - Los Angeles Chargers — [Houston opener recap](https://www.chargers.com/news/game-recap-texans-preseason-opener) — published 2026-08-13.
@@ -96,4 +100,4 @@ Do not infer blocking quality from final rushing yards alone. Separate design le
 
 - Confidence: medium that the concept and personnel fit is coherent; low-to-medium on first-unit execution.
 - What would invalidate this: a narrow menu, repeated backside penetration, poor short-yardage movement or first-unit results materially worse than the reserve installation sample.
-- Next review: chart every first-unit run against San Francisco, then compare the first two regular-season games.
+- Next review: chart first-unit runs and line combinations in the first two regular-season games.

@@ -7,7 +7,7 @@ team_ids: ["GB"]
 player_ids: []
 season: 2026
 week: null
-status: active
+status: superseded
 time_horizon: seasonal
 valid_as_of: 2026-08-17
 last_verified: 2026-08-17
@@ -17,6 +17,8 @@ supersedes: []
 ---
 
 # Finding: Jacobs is the volume baseline, but line and backup roles need confirmation
+
+Superseded on 2026-09-06 by [rf-2026-gb-backfield-line-stability-002](backfield-and-line-stability-002.md). The roster event invalidates the earlier immediate workload premise; the original analysis below is preserved as history.
 
 ## Scope
 

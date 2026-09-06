@@ -10,9 +10,9 @@ week: 1
 status: draft
 time_horizon: weekly
 valid_as_of: "2026-09-13"
-last_verified: "2026-08-05"
+last_verified: 2026-09-06
 confidence: null
-source_ids: []
+source_ids: ["local-source-tampa-bay-buccaneers", "local-source-cincinnati-bengals"]
 supersedes: []
 game_id: 2026-W01-TB-CIN
 fantasy_formats: ["general"]
@@ -36,9 +36,19 @@ fantasy_formats: ["general"]
 - Betting context:
 - Injury context:
 
+### CIN — September 6 evidence update
+
+Both primary receivers missed the September 3 work despite coach optimism. See the [CIN synthesis](../../../../intelligence/2026/syntheses/2026-09-06/CIN.md) for dated facts and their limits.
+
+**Fantasy implication:** Keep replacement plans for Chase and Higgins until official status; do not promote another receiver on an assumed absence.
+
+**Next check:** Week 1 participation and game designations for Chase and Higgins.
+
 ## Matchup analysis
 
 ### Away offense vs. home defense
+
+Egbuka (toe) and McMillan (knee) remained sidelined September 1. Bowles deferred a firmer outlook until game week, so neither is cleared for a normal opening workload in this evidence. Daniels became the only active QB2 after Browning and Bazelak were cut; that roster fact does not change Mayfield's starter status.
 
 ### Home offense vs. away defense
 
@@ -48,7 +58,8 @@ fantasy_formats: ["general"]
 
 | Player/unit | Decision or range | Confidence | Primary reason | Invalidation trigger |
 |---|---|---|---|---|
-| | | | | |
+| Emeka Egbuka / Jalen McMillan | Keep contingency options pending game status | Medium | Toe / knee absences persisted September 1 | Full practice and final active status |
+| Ja'Marr Chase / Tee Higgins | Prepare contingencies | Medium | Both missed September 3 work | Full participation and active designations |
 
 ## Open questions and next checks
 
@@ -64,3 +75,10 @@ fantasy_formats: ["general"]
 ## Sources
 
 - [NFL schedule](https://www.nfl.com/schedules/2026/by-week/week-1) — last verified 2026-08-05
+
+- [September 6 TB synthesis](../../../../intelligence/2026/syntheses/2026-09-06/TB.md) — `ti-2026-tb-20260906-001`; official evidence retrieved 2026-09-06.
+- [local-source-tampa-bay-buccaneers](https://www.buccaneers.com/news/jake-browning-chris-braswell-among-cuts-as-bucs-get-roster-down-to-53) — published 2026-08-31T00:55:00Z; retrieved 2026-09-06T19:52:08+00:00; `obs-2026-tb-20260906t193157z-001`.
+- [local-source-tampa-bay-buccaneers](https://www.buccaneers.com/news/september-2026-updates) — published 2026-09-02T19:10:00Z; retrieved 2026-09-06T19:52:09+00:00; `obs-2026-tb-20260906t193157z-002`.
+- [local-source-tampa-bay-buccaneers](https://www.buccaneers.com/news/september-2026-updates) — published 2026-09-02T19:10:00Z; retrieved 2026-09-06T19:52:09+00:00; `obs-2026-tb-20260906t193157z-003`.
+
+- [CIN official update](https://www.bengals.com/news/quick-hits-bengals-break-for-weekend-with-eyes-on-buccaneers) — published 2026-09-03T19:26:53.505Z; retrieved 2026-09-06T19:52:06+00:00; verified 2026-09-06.

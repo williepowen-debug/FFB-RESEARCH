@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-16
-last_verified: 2026-08-16
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-los-angeles-chargers"]
 supersedes: []
@@ -30,7 +30,7 @@ The projected personnel, 2025 pressure problem, McDaniel's public protection des
 
 ### Justin Herbert
 
-**Upside path:** Slater and Alt hold without routine help, Biadasz stabilizes the interior and the left-guard winner communicates cleanly. Herbert gains better early-down efficiency without losing access to downfield throws.
+**Upside path:** Slater and Alt hold without routine help, Slaughter establishes reliable interior communication and the left-guard winner communicates cleanly. Herbert gains better early-down efficiency without losing access to downfield throws.
 
 **Misleading path:** motion, screens and quick throws reduce sacks while the offense avoids conventional dropbacks. Herbert may become more efficient but fail to gain the volume or target depth implied by a simple line upgrade.
 
@@ -84,16 +84,20 @@ Mitchell gains from perimeter space, Vidal from stable downhill blocking and Ama
 - Upgrade Hampton's efficiency after repeatable first-unit yards-before-contact evidence, not one explosive result.
 - Downgrade pass catchers when line problems change routes, help assignments or target depth—not from one sack alone.
 - Treat Slater or Alt absence as a pass-catcher route-release event.
-- Treat Biadasz absence as an offense-wide communication event.
+- Treat the Biadasz-to-Slaughter transition as an offense-wide communication test; do not assume the former veteran-center upgrade.
 - Separate McDaniel's design success from individual blocking quality.
 
 ## Assessment
 
 - Confidence: medium on causal direction; low-to-medium on 2026 magnitude.
 - What would invalidate this: player production that repeatedly fails to respond to the predicted lineup, help or protection changes.
-- Next review: first-unit San Francisco route/protection chart and every material line injury.
+- Next review: Week 1 route/protection chart and every material line injury.
 
 ## Sources
+
+- [September 6 reconciliation](../../../../../../../intelligence/2026/syntheses/2026-09-06/LAC.md) — `ti-2026-lac-20260906-001`; current personnel corrections, with historical preseason evidence retained.
+
+- Los Angeles Chargers — [September 1 roster briefing](https://www.chargers.com/news/roster-moves-jim-harbaugh-joe-hortiz) — published 2026-09-01; verified 2026-09-06.
 
 - Los Angeles Chargers — [Harbaugh and McDaniel on the protection reset](https://www.chargers.com/news/jim-harbaugh-mike-mcdaniel-nfl-owners-meetings) — published 2026-03-31.
 - Los Angeles Chargers — [McDaniel's view of the offensive line](https://www.chargers.com/news/offensive-line-mike-mcdaniel-offseason) — published 2026-05-12.

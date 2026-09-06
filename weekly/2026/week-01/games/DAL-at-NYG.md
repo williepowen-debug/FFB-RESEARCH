@@ -10,9 +10,9 @@ week: 1
 status: draft
 time_horizon: weekly
 valid_as_of: "2026-09-13"
-last_verified: "2026-08-05"
+last_verified: 2026-09-06
 confidence: null
-source_ids: []
+source_ids: ["local-source-dallas-cowboys"]
 supersedes: []
 game_id: 2026-W01-DAL-NYG
 fantasy_formats: ["general"]
@@ -36,6 +36,14 @@ fantasy_formats: ["general"]
 - Betting context:
 - Injury context:
 
+### DAL — September 6 evidence update
+
+The newly acquired Jones will compete with Steele at right tackle. See the [DAL synthesis](../../../../intelligence/2026/syntheses/2026-09-06/DAL.md) for dated facts and their limits.
+
+**Fantasy implication:** Treat right tackle as unsettled; a trade and coach competition statement do not establish improved protection.
+
+**Next check:** Named opening tackle and pressure/protection sample.
+
 ## Matchup analysis
 
 ### Away offense vs. home defense
@@ -48,7 +56,6 @@ fantasy_formats: ["general"]
 
 | Player/unit | Decision or range | Confidence | Primary reason | Invalidation trigger |
 |---|---|---|---|---|
-| | | | | |
 
 ## Open questions and next checks
 
@@ -63,3 +70,5 @@ fantasy_formats: ["general"]
 ## Sources
 
 - [NFL schedule](https://www.nfl.com/schedules/2026/by-week/week-1) — last verified 2026-08-05
+
+- [DAL official update](https://www.dallascowboys.com/news/mailbag-can-jones-compete-at-right-tackle) — published 2026-09-01T14:41:06.226Z; retrieved 2026-09-06T19:52:07+00:00; verified 2026-09-06.

@@ -9,10 +9,10 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-09-06
+last_verified: 2026-09-06
 confidence: medium
-source_ids: ["local-source-atlanta-falcons"]
+source_ids: ["local-source-atlanta-falcons", "local-writer-will-mcfadden"]
 supersedes: []
 ---
 
@@ -24,13 +24,15 @@ supersedes: []
 - Area: 2026 offensive role projection under Kevin Stefanski and Tommy Rees
 - Season: 2026
 - Status: active preseason baseline
-- Last verified: 2026-08-17
+- Last verified: 2026-09-06
 
 ## Finding
 
-Atlanta's offense is not a talent rebuild. The Falcons retained Bijan Robinson through 2027, extended Drake London through 2030, extended Kyle Pitts Sr. through 2028, and extended left guard Matthew Bergeron through 2030. The reset is at quarterback and complementary roles: Tua Tagovailoa was signed, Michael Penix Jr. is still working back from a 2025 ACL injury, Kirk Cousins was released, and the team added Brian Robinson Jr., Jahan Dotson, Olamide Zaccheaus, Austin Hooper, Jawaan Taylor, and rookie Zachariah Branch.
+Atlanta's offense is not a talent rebuild. The Falcons retained Bijan Robinson through 2027, extended Drake London through 2030, extended Kyle Pitts Sr. through 2028, and extended left guard Matthew Bergeron through 2030. The reset is at quarterback and complementary roles: Tua Tagovailoa was signed, Michael Penix Jr. has returned to full-team work after a 2025 ACL injury, Kirk Cousins was released, and the team added Brian Robinson Jr., Jahan Dotson, Olamide Zaccheaus, Austin Hooper, Jawaan Taylor, and rookie Zachariah Branch.
 
 ## Evidence
+
+- As of September 2, Atlanta retained Penix, Tagovailoa, Cooper Rush and Jack Strand while continuing the starter competition; Penix had returned to full-team work.
 
 ### Facts
 
@@ -43,7 +45,7 @@ Atlanta's offense is not a talent rebuild. The Falcons retained Bijan Robinson t
 
 ### Inferences
 
-- Tua has the cleaner short-term projection if Penix remains limited, but the organization has not closed the competition.
+- The September 2 report describes all four quarterbacks as healthy and the competition still open. Earlier Tua first-team reps do not establish the Week 1 starter.
 - Bijan Robinson remains the highest-confidence fantasy asset because his elite 2025 role and team-control status survived the regime change.
 - London is the target-share anchor. Pitts is the tight-end swing piece. Branch is a package/YAC and return-role hypothesis until he earns full-time routes.
 - Brian Robinson Jr. is more likely a power complement than a true committee threat, but goal-line allocation must be charted.
@@ -71,3 +73,10 @@ Atlanta's offense is not a talent rebuild. The Falcons retained Bijan Robinson t
 - Fact/inference boundary: contracts, signings, releases, draft picks, and health reports are facts; fantasy ordering below Bijan/London is inference.
 - What would invalidate this: Penix quickly wins full first-team work, Brian Robinson Jr. takes a larger-than-expected share, or Branch earns an every-down role immediately.
 - Next review: final preseason depth chart and Week 1 usage.
+
+## September 6 reconciliation
+
+See [the intelligence synthesis](../../../../../../intelligence/2026/syntheses/2026-09-06/ATL.md) (`ti-2026-atl-20260906-001`) for the observation chain and remaining uncertainty.
+
+- [local-writer-will-mcfadden](https://www.atlantafalcons.com/news/falcons-gm-ian-cunningham-explains-4-qbs-53-man-roster) — published 2026-09-02T19:44:49.364Z; retrieved 2026-09-06T19:52:08+00:00; `obs-2026-atl-20260906t193157z-001`.
+- [local-writer-will-mcfadden](https://www.atlantafalcons.com/news/falcons-gm-ian-cunningham-explains-4-qbs-53-man-roster) — published 2026-09-02T19:44:49.364Z; retrieved 2026-09-06T19:52:08+00:00; `obs-2026-atl-20260906t193157z-002`.
