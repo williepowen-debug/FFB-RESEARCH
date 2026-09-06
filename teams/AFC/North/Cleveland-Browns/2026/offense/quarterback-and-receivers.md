@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-24
-last_verified: 2026-08-25
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-cleveland-browns"]
 supersedes: []
@@ -24,14 +24,15 @@ supersedes: []
 - Area: Week 1 starter, routes, and target hierarchy
 - Season/week: 2026 preseason baseline
 - Status: active
-- Last verified: 2026-08-25
+- Last verified: 2026-09-06 (receiver personnel checkpoint; quarterback finding retains its August 24 source)
 
 ## Finding
 
 Todd Monken named Deshaun Watson Cleveland's Week 1 starter against Jacksonville on August 24,
-resolving the preseason competition with Shedeur Sanders. Jerry Jeudy and Cedric Tillman return,
-but Cleveland invested picks 24 and 39 in KC Concepcion and Denzel Boston after Jeudy fell to 602
-yards in 2025. Harold Fannin Jr. also returns from a 72-catch, 731-yard rookie season and no longer
+resolving the preseason competition with Shedeur Sanders. Cleveland's September 2 account identifies
+its initial receiver group as Isaiah Bond, Denzel Boston, KC Concepcion, Malachi Corley, Jerry Jeudy
+and Tylan Wallace. Tillman's earlier departure is reflected in that group. Cleveland invested picks
+24 and 39 in Concepcion and Boston after Jeudy fell to 602 yards in 2025. Harold Fannin Jr. also returns from a 72-catch, 731-yard rookie season and no longer
 shares the top tight-end role with David Njoku.
 
 ## Fantasy implication
@@ -39,9 +40,14 @@ shares the top tight-end role with David Njoku.
 Fannin and Concepcion offer the most role-created upside. Naming Watson removes one source of
 uncertainty, but weekly passing reliability still depends on his post-injury performance and the
 protection quality. Jeudy is a rebound candidate rather than an established alpha, while Boston
-and Tillman compete for boundary work.
+competes for boundary work within the confirmed six-receiver group. The initial roster does not
+establish who inherits Tillman's routes or the Week 1 receiving order.
 
 ## Evidence
+
+- September 6 reconciliation: the initial six-receiver group removes the live Tillman competition
+  premise. The August 29 transaction follow-up is closed for roster membership; first-unit routes
+  remain open. See `ti-2026-cle-20260906-001` and `cle-2026-off-q05`.
 
 - Watson and Sanders split first-team minicamp work before Monken named Watson the Week 1 starter
   on August 24.
@@ -51,6 +57,8 @@ and Tillman compete for boundary work.
 - Fannin set the Browns rookie reception record and scored six touchdowns in 2025.
 
 ## Sources
+
+- Cleveland Browns — [Wideouts: the core six](https://www.clevelandbrowns.com/news/wideouts-part-three-the-core-six) — published 2026-09-02; verified 2026-09-06.
 
 - Cleveland Browns — [2026 Quarterback Position Preview](https://www.clevelandbrowns.com/news/assessing-the-browns-quarterback-room-ahead-of-the-2026-season-position-preview) — 2026-06-22; verified 2026-08-13.
 - Cleveland Browns — [2026 Wide Receiver Position Preview](https://www.clevelandbrowns.com/news/breaking-down-the-browns-receiving-corps-heading-into-the-2026-season-position-preview) — 2026-06-24; verified 2026-08-13.

@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-new-york-giants"]
 supersedes: []
@@ -19,7 +19,7 @@ supersedes: []
 # New York Giants - 2026 Harbaugh Reset
 
 - Conference/division: NFC East
-- Last verified: 2026-08-17
+- Last verified: 2026-09-06 (kicker checkpoint; other baseline dates retained)
 - Scope: 2026 preseason Core-tier baseline
 - Build tier: Core
 
@@ -109,7 +109,12 @@ The complete staff and authority model are in the [coaching intelligence module]
 
 ## Special teams
 
-Chris Horton is assistant head coach/special teams coordinator. The Giants changed specialists by moving on from Graham Gano and Jamie Gillan, adding Jordan Stout, and setting up a kicker competition after Jason Sanders was also released. Special teams remains scaffolded at Core tier.
+Chris Horton is assistant head coach/special teams coordinator. The Giants changed specialists by moving on from Graham Gano and Jamie Gillan, adding Jordan Stout, and setting up a kicker competition after Jason Sanders was also released. Dominic Zvada won that competition, as Schoen reaffirmed September 2. The September 6 roster
+announcement includes Zvada and reports Ben Sauls waived with an injury settlement. Zvada is the
+current rostered kicker; Week 1 active status remains a game-day verification step, not an open
+competition. This closes the roster gate from `til-2026-nyg-20260829-001`; see
+`ti-2026-nyg-20260906-001`. Kicker opportunity still depends on drive production and matchup.
+Special teams remains scaffolded at Core tier.
 
 ## Current depth chart
 
@@ -124,6 +129,9 @@ Canonical Giants player profiles have not yet been created. Link them here after
 The highest-leverage unknowns are Nabers' health ramp, Dart's rushing/movement usage, Skattebo versus Tracy high-value touches, Mauigoa's immediate role, the secondary receiver hierarchy, Reese's snap share, and whether Wilson can fix the run defense quickly enough for the Giants DST to matter.
 
 ## Sources
+
+- Giants.com — [Joe Schoen previews the season](https://www.giants.com/news/presser-points-gm-joe-schoen-previews-season-2026-john-harbaugh-deonte-banks-dominic-zvada) — published 2026-09-02; verified 2026-09-06.
+- Giants.com — [Initial roster announcement](https://www.giants.com/news/roster-update-giants-announce-initial-53-man-roster-for-2026-nfl-season-week-1-john-harbaugh) — published 2026-09-06; verified 2026-09-06.
 
 - Giants.com - [New York Giants hire John Harbaugh as head coach](https://www.giants.com/news/john-harbaugh-hired-head-coach-new-york-giants-nfl) - published 2026-01-20.
 - Giants.com - [John Harbaugh announces 2026 Giants coaching staff](https://www.giants.com/news/john-harbaugh-announces-2026-coaching-staff-coordinators-matt-nagy-dennard-wilson-chris-horton) - published 2026-02-18.

@@ -10,9 +10,9 @@ week: 1
 status: draft
 time_horizon: weekly
 valid_as_of: "2026-09-10"
-last_verified: "2026-08-29"
+last_verified: 2026-09-06
 confidence: null
-source_ids: ["local-source-san-francisco-49ers"]
+source_ids: ["local-source-san-francisco-49ers", "local-source-los-angeles-rams"]
 supersedes: []
 game_id: 2026-W01-SF-LAR
 fantasy_formats: ["general"]
@@ -34,9 +34,23 @@ fantasy_formats: ["general"]
 - Expected pace:
 - Weather:
 - Betting context:
-- Injury context: Kyle Shanahan said George Kittle was taking a step back and still needed a Week 1
-  readiness evaluation before the team travels to Australia. Availability and route rate remain
-  uncertain pending pre-travel practices and the official game designation.
+- Injury context: The August 31 briefing planned managed Kittle/Bosa work. This pass did not verify completed competitive work or final clearance; see the dated updates below.
+
+### LAR — September 6 evidence update
+
+Donald, Garrett and Ferguson had separate ramp or practice limitations in the August 31 report. See the [LAR synthesis](../../../../intelligence/2026/syntheses/2026-09-06/LAR.md) for dated facts and their limits.
+
+**Fantasy implication:** Treat the Australia personnel projection as conditional; a travel or recovery plan is not game clearance.
+
+**Next check:** Final Week 1 designations and expected workloads for all three.
+
+### SF — September 6 evidence update
+
+The club planned managed Kittle/Bosa work while left guard remained unsettled. See the [SF synthesis](../../../../intelligence/2026/syntheses/2026-09-06/SF.md) for dated facts and their limits.
+
+**Fantasy implication:** The plan updates the earlier Kittle concern but does not prove completed competitive work or a full route rate.
+
+**Next check:** Completed team work, final game designations and named opening left guard.
 
 ## Matchup analysis
 
@@ -50,7 +64,7 @@ fantasy_formats: ["general"]
 
 | Player/unit | Decision or range | Confidence | Primary reason | Invalidation trigger |
 |---|---|---|---|---|
-| George Kittle | Conditional start; prepare a replacement | Low | Renewed readiness concern before international travel | Competitive first-team work plus no Week 1 injury designation |
+| George Kittle | Conditional start; prepare a replacement | Low | Managed ramp still requires completed work and final status | Competitive first-team work plus no Week 1 injury designation |
 
 ## Open questions and next checks
 
@@ -59,10 +73,13 @@ fantasy_formats: ["general"]
   restriction?
 - Does Mike Evans return from groin tightness, and which receivers own two-player personnel and
   end-zone targets?
-- Does Kittle complete competitive first-team work before travel, and would any limitation cap his
-  expected Week 1 route rate?
+- Has Kittle completed competitive work, and will any restriction limit Week 1 routes?
 
 ## Sources
 
 - [NFL schedule](https://www.nfl.com/schedules/2026/by-week/week-1) — last verified 2026-08-05
 - [49ers postgame comments](https://www.49ers.com/news/what-the-49ers-and-raiders-had-to-say-after-preseason-week-3) — published 2026-08-28; retrieved 2026-08-29; observation `obs-2026-sf-20260829t143349z-002`
+
+- [LAR official update](https://www.therams.com/news/injury-updates-aaron-donald-not-practicing-monday-part-of-the-plan-all-along-myles-garrett-making-really-good-progress-and-updates-on-terrance-ferguson-grant-stuard-keagen-trost-and-justin-dedich) — published 2026-09-01T02:03:22.449Z; retrieved 2026-09-06T19:52:07+00:00; verified 2026-09-06.
+
+- [SF official update](https://www.49ers.com/news/5-takeaways-from-john-lynch-and-kyle-shanahan-ahead-of-australia) — published 2026-09-01T02:32:16.575Z; retrieved 2026-09-06T19:52:07+00:00; verified 2026-09-06.

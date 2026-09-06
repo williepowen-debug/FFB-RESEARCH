@@ -9,14 +9,14 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-09-06
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-minnesota-vikings"]
 supersedes: []
 ---
 
-# Finding: Safety and corner depth are the defensive coverage stress points after Harrison Smith
+# Finding: Harrison Smith's return changes the safety transition; deployment remains unconfirmed
 
 ## Scope
 
@@ -24,19 +24,21 @@ supersedes: []
 - Area: safety versatility, corner depth, and opponent passing-game matchups
 - Season/week: 2026 preseason
 - Status: active
-- Last verified: 2026-08-17
+- Last verified: 2026-09-06
 
 ## Finding
 
-The Vikings released Harrison Smith on 2026-03-11 and entered camp with a reshaped defensive back room around Joshua Metellus, Byron Murphy Jr., Isaiah Rodgers, James Pierre, Tavierre Thomas, Jakobe Thomas, Charles Demmings, and multiple UDFA competitors. Flores' defense values safety/slot versatility, so the open question is whether the replacement group can preserve disguise and coverage flexibility without Smith's communication and range of assignments.
+The Vikings released Harrison Smith on 2026-03-11 and entered camp with a reshaped defensive back room around Joshua Metellus, Byron Murphy Jr., Isaiah Rodgers, James Pierre, Tavierre Thomas, Jakobe Thomas, Charles Demmings, and multiple UDFA competitors. Smith agreed to return on September 5. That disproves the prior assumption of a full season without him; the remaining question is how Flores divides safety, slot and communication responsibilities after his arrival.
 
 ## Fantasy implication
 
-Opponent passing-game projections should not assume the old Smith-era coverage floor. Minnesota can still pressure and disguise, but uncertainty at safety and depth corner could create weekly matchup targets if injuries or rookie mistakes force simpler calls. For IDP, Metellus remains the role archetype to monitor, while Jakobe Thomas and Jacob Thomas are deep versatility watches.
+The Smith agreement removes the basis for automatically projecting a season-long communication deficit from his departure. It does not establish Week 1 availability, snaps or a return to his former workload; those remain required before improving matchup or D/ST projections. For IDP, Metellus remains the role archetype to monitor, while Jakobe Thomas and Jacob Thomas are deep versatility watches.
 
 ## Evidence
 
 ### Facts
+
+- Smith agreed to terms on September 5 to return for his 15th season.
 
 - The Vikings' free-agency tracker lists Smith as released on 2026-03-11.
 - The official roster lists Murphy, Rodgers, Pierre, Metellus, Tavierre Thomas, Jakobe Thomas, Charles Demmings, and multiple rookie defensive backs as active.
@@ -46,7 +48,7 @@ Opponent passing-game projections should not assume the old Smith-era coverage f
 
 ### Inferences
 
-- The secondary has enough versatile bodies for Flores' structure, but fewer proven answers than the peak Smith years.
+- Smith adds a proven option to the safety room, with readiness and package allocation still unverified.
 - Demmings' and James Pierre's roles matter because corner depth influences how much Flores can pressure.
 - Safety injury news can materially change Minnesota D/ST and opponent receiver projections.
 
@@ -63,5 +65,12 @@ Opponent passing-game projections should not assume the old Smith-era coverage f
 - Confidence: medium
 - Reason: roster and draft facts are official, but exact sub-package roles remain preseason estimates.
 - Fact/inference boundary: Smith release, roster presence, and draft picks are facts; coverage flexibility and matchup impact are inference.
-- What would invalidate this: an official Smith return, a veteran safety signing, Adams being healthy and locked into a major role, or rookies losing roster battles.
+- Prior invalidation: the official Smith return occurred; the Smith-absent premise has been revised.
+- What would change the revised view: Smith's game status and snap distribution, or a material shift in Metellus/rookie safety roles.
 - Next review: injury updates, final 53-man roster, and Week 1 nickel/dime personnel.
+
+## September 6 reconciliation
+
+See [the intelligence synthesis](../../../../../../intelligence/2026/syntheses/2026-09-06/MIN.md) (`ti-2026-min-20260906-001`) for the observation chain and remaining uncertainty.
+
+- [local-source-minnesota-vikings](https://www.vikings.com/news/harrison-smith-return-safety-15-season-nfl-2026) — published 2026-09-05T23:49:47.965Z; retrieved 2026-09-06T19:52:08+00:00; `obs-2026-min-20260906t193157z-001`.

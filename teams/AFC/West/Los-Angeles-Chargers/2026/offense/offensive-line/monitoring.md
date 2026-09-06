@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-16
-last_verified: 2026-08-16
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-los-angeles-chargers", "local-source-nfl-gamebooks"]
 supersedes: []
@@ -34,7 +34,7 @@ Dated observations belong in [`../../preseason/evidence-log.csv`](../../preseaso
 
 | Priority | Question | Confirming evidence | Disconfirming evidence | Review trigger |
 |---:|---|---|---|---|
-| 1 | Does Slater–one LG–Biadasz–Strange–Alt become the healthy first unit? | repeated joint-practice and game deployment | rotation, position move or availability change | every practice block and preseason game |
+| 1 | Does Slater–LG–Slaughter–Strange–Alt become the healthy first unit? | repeated joint-practice and game deployment | rotation, position move or availability change | every practice block and preseason game |
 | 1 | Who wins left guard? | sustained first-unit work plus clean collective execution | continuing rotation or another player rises | every first-unit series |
 | 1 | Is Slater's return durable? | consecutive full workloads without limitation | missed work, snap management or recurring symptoms | every availability report |
 | 1 | Can the interior handle twists and pressure? | clean identification and exchanges against starters | repeated lateral-range or assignment failure | every chartable pass set |
@@ -42,7 +42,7 @@ Dated observations belong in [`../../preseason/evidence-log.csv`](../../preseaso
 | 2 | Is the line genuinely multiple in the run game? | zone and gap families from overlapping personnel/looks | narrow menu or formation tipping | each competitive game |
 | 2 | Does the design improve protection without shrinking routes? | lower pressure with maintained target depth/releases | quick-only menu or fewer eligibles | each Herbert series |
 | 3 | Who are the sixth and seventh linemen? | stable first substitutions and game-day position coverage | order changes by game/position | each substitution |
-| 3 | Is Slaughter LG starter or C/G reserve? | repeated role-specific deployment | continued equal split | every first-unit and second-unit series |
+| 3 | How does Slaughter handle starting-center responsibility? | repeated role-specific deployment | continued equal split | every first-unit and second-unit series |
 | 3 | Which developmental tackle follows Pipkins? | Burke/other player consistently enters first | rotating order | each preseason game |
 
 ## Evidence hierarchy
@@ -98,7 +98,7 @@ Immediately update the module when:
 - Los Angeles changes the first-unit left guard;
 - the same stunt or identification error repeats;
 - backs or tight ends are routinely retained;
-- Slaughter moves into the starting lineup at guard or center;
+- Slaughter's established center role changes or another interior player enters;
 - a reserve tackle takes first-unit work;
 - a lineman is signed, waived or placed on reserve;
 - run concepts or direction narrow materially;
@@ -109,6 +109,10 @@ Immediately update the module when:
 This framework connects line evidence to player decisions: Herbert through clean-pocket volume and target depth, Hampton through first contact and protection duty, and pass catchers through route releases and help assignments.
 
 ## Sources
+
+- [September 6 reconciliation](../../../../../../../intelligence/2026/syntheses/2026-09-06/LAC.md) — `ti-2026-lac-20260906-001`; current personnel corrections, with historical preseason evidence retained.
+
+- Los Angeles Chargers — [September 1 roster briefing](https://www.chargers.com/news/roster-moves-jim-harbaugh-joe-hortiz) — published 2026-09-01; verified 2026-09-06.
 
 - Los Angeles Chargers — [2026 offensive-line training-camp preview](https://www.chargers.com/news/2026-training-camp-preview-offensive-line-depth-chart) — published 2026-07-27.
 - Los Angeles Chargers — [Left-guard competition and evaluation criteria](https://www.chargers.com/news/training-camp-report-left-guard-mike-mcdaniel-day-11) — published 2026-08-10.

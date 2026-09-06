@@ -42,3 +42,7 @@ questions as conclusions.
 | MIA at LV | Miami line availability, Achane workload, receiver order, and Slowik personnel usage |
 | WAS at PHI | Washington four-man-versus-blitz pressure evidence |
 | DEN at KC | Nix mobility, Waddle target role, and Harvey backfield allocation |
+
+## September 6 catch-up
+
+The [catch-up handoff](../../../intelligence/2026/runs/20260906T193157Z/handoff.md) records the roster and availability updates, closed evidence gates, and coverage gaps. Use the [priority board](../../../intelligence/2026/priority/2026-09-06/priority-board.csv) for the remaining checks before the opening games.

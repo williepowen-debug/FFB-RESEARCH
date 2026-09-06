@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-16
-last_verified: 2026-08-16
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-los-angeles-chargers"]
 supersedes: []
@@ -20,7 +20,7 @@ supersedes: []
 
 ## Finding
 
-Los Angeles has four clear healthy starters and a left-guard competition currently led by Kayode Awosika and Jake Slaughter. Trey Pipkins III is the most established tackle contingency, while Slaughter's Houston deployment makes him the leading interior-flexibility piece. The reserve room is deep in candidates but thin in proven Chargers-system performance.
+Los Angeles projects Slater, Slaughter, Strange and Alt around an unsettled Awosika/Pipkins left-guard position. Slaughter is the starting center following Biadasz's season-ending injury. Pipkins' tackle contingency value must be considered alongside his guard role. The reserve room is deep in candidates but thin in proven Chargers-system performance.
 
 ## Evidence
 
@@ -36,20 +36,20 @@ The team roster, unofficial depth chart, practice rotations, injury reporting an
 - **Risk:** availability after a major injury, especially across consecutive full-contact weeks.
 - **2026 test:** full first-unit game participation without recurring limitation or routine help.
 
-### LG Kayode Awosika / Jake Slaughter
+### LG Kayode Awosika / Trey Pipkins
 
 - **Awosika evidence:** first on the August 16 unofficial depth chart; 50 career games and 11 starts with Detroit; repeated camp work with the first unit.
-- **Slaughter evidence:** second-round rookie and college center; played Houston's first series at center and the next six at left guard; shared left-guard work with Awosika on August 16.
-- **Other competitors:** Penning, Pipkins and Branson Taylor have also worked at left guard.
+- **Pipkins evidence:** Harbaugh identified him with Awosika as a left-guard finalist on September 1 and left open a shared rotation.
+- **Historical competitors:** Slaughter now starts at center; Branson Taylor is on reserve/injured with a return designation. Earlier camp reps do not establish their present guard availability.
 - **Decision standard:** communication, lateral range against twists, movement in the run game and collective five-man execution—not draft capital or depth-chart typography.
-- **2026 test:** who starts beside Slater and Biadasz when the first offense plays, and whether that player keeps the job through the full preseason.
+- **2026 test:** who plays beside Slater and Slaughter in Week 1, whether the guards rotate, and how the combinations execute.
 
-### C Tyler Biadasz
+### C Jake Slaughter
 
-- **Role:** starting center, protection communicator and central movement blocker.
-- **Evidence:** seven-year veteran; team reporting says McDaniel targeted his athletic ability in space and A-gap anchor; Herbert described their early snap and communication work as smooth.
-- **Strength hypothesis:** stabilizes the interior while allowing McDaniel to ask more of the center in run and pass designs.
-- **Risk:** new quarterback-center language with new guards on both sides.
+- **Role:** starting center following Biadasz's season-ending injury.
+- **Evidence:** September 1 team reporting identifies the rookie as the starter; his Houston C/G deployment is historical preparation.
+- **Strength hypothesis:** college-center experience and preseason cross-training can support the transition.
+- **Risk:** rookie protection responsibility with a new quarterback-center relationship and an unsettled adjacent guard.
 - **2026 test:** identification, snap operation and clean exchanges against interior games.
 
 ### RG Cole Strange
@@ -57,7 +57,7 @@ The team roster, unofficial depth chart, practice rotations, injury reporting an
 - **Role:** projected starter and primary system translator.
 - **Evidence:** started 14 games for McDaniel in Miami in 2025; listed first at right guard.
 - **Strength hypothesis:** prior scheme knowledge reduces installation friction and supports adjacent blockers.
-- **Risk:** familiarity does not guarantee individual wins or instant cohesion with Biadasz and a new left guard.
+- **Risk:** familiarity does not guarantee individual wins or instant cohesion with Slaughter and a new left guard.
 - **2026 test:** isolated anchor, combination timing and communication in competitive first-unit reps.
 
 ### RT Joe Alt
@@ -70,13 +70,15 @@ The team roster, unofficial depth chart, practice rotations, injury reporting an
 
 ## Reserve and developmental inventory
 
+The revised top contingencies are shown below. Deep camp entries preserve the August 16 inventory and are not a claim that every player survived final cutdown.
+
 | Player | Current role | Useful evidence | Working interpretation |
 |---|---|---|---|
-| Trey Pipkins III | swing tackle; emergency guard | experienced Chargers starter; listed second at both tackle spots; camp LG work | first tackle response and possible lineup stabilizer |
+| Trey Pipkins III | LG finalist and tackle option | experienced Chargers starter; current guard competition | game-day tackle response depends on his guard use |
 | Trevor Penning | guard/tackle competition | 2025 trade acquisition; re-signed; listed behind Strange and has received LG work | experienced power option whose exact game-day role is unsettled |
-| Branson Taylor | G/T | opened Houston at LG and also played both tackle spots; has worked with first unit when Slater rested | multi-position reserve candidate; game versatility is more established than position quality |
-| Jake Slaughter | C/G | seven Houston series across two positions; listed behind Biadasz and in LG competition | likely interior game-day reserve even if he does not win LG |
-| Travis Burke | developmental tackle | fourth-round rookie; opened Houston at LT and remained there | leading young tackle-development candidate |
+| Branson Taylor | reserve/injured; designated for return | official cutdown transaction | currently unavailable; do not count him as active G/T cover |
+| Tyler Biadasz | season-ending injured reserve | September 1 report reiterates the season-ending knee injury | original starting-center plan is unavailable |
+| Travis Burke | tackle contingency candidate | fourth-round rookie; Houston LT work; September 1 coach discussion | game-day order still needs confirmation |
 | Logan Taylor | G/T | sixth-round rookie; opened Houston at RT; listed at reserve guard and tackle | developmental multi-position depth |
 | Alex Harkey | guard | sixth-round rookie; shared successful August 16 one-on-one work | developmental interior candidate |
 | Josh Kaltenberger | center | listed behind Biadasz and Slaughter | reserve-center competition; limited competitive evidence |
@@ -87,19 +89,25 @@ The team roster, unofficial depth chart, practice rotations, injury reporting an
 
 ## Current hierarchy
 
-1. **Healthy locks:** Slater, Biadasz, Strange and Alt.
-2. **Left-guard leaders:** Awosika and Slaughter.
-3. **Veteran tackle response:** Pipkins.
-4. **Versatile next wave:** Penning and Branson Taylor, with Slaughter already counted as the interior flex.
-5. **Rookie/development group:** Burke, Logan Taylor, Harkey, Kaltenberger, Spomer, Cleveland and Vakalahi.
+1. **Projected four:** Slater, Slaughter, Strange and Alt; weekly health remains a separate check.
+2. **Left-guard options:** Awosika and Pipkins.
+3. **Tackle contingencies:** Pipkins and Burke; exact game-day order remains open.
+4. **Unavailable:** Biadasz for the season and Branson Taylor on reserve/injured.
+5. **Deeper ordering:** requires game-day roster and substitution evidence.
 
-The hierarchy remains provisional. Houston emphasized reserve versatility because the projected starters were held out; first-unit work against San Francisco carries more weight.
+The hierarchy remains provisional. Houston emphasized reserve versatility because the projected starters were held out; Week 1 first-unit deployment carries more weight.
 
 ## Fantasy implication
 
-Slater and Alt carry the largest route-release cost if absent. Biadasz carries the largest interior communication cost. A left-guard change may be containable if the other four remain fixed, while moving Pipkins or Branson Taylor to solve one absence can weaken the next contingency.
+Slater and Alt carry the largest route-release cost if absent. Slaughter's transition carries the largest new interior communication test. A left-guard change may be containable if the other four remain fixed, while moving Pipkins to solve one absence can weaken the next contingency.
 
 ## Sources
+
+- [September 6 reconciliation](../../../../../../../intelligence/2026/syntheses/2026-09-06/LAC.md) — `ti-2026-lac-20260906-001`; current personnel corrections, with historical preseason evidence retained.
+
+- Los Angeles Chargers — [Roster cutdown transactions](https://www.chargers.com/news/reduce-roster-to-53-players-2026) — published 2026-08-30 Pacific; verified 2026-09-06.
+
+- Los Angeles Chargers — [September 1 roster briefing](https://www.chargers.com/news/roster-moves-jim-harbaugh-joe-hortiz) — published 2026-09-01; verified 2026-09-06.
 
 - Los Angeles Chargers — [2026 offensive-line training-camp preview](https://www.chargers.com/news/2026-training-camp-preview-offensive-line-depth-chart) — published 2026-07-27.
 - Los Angeles Chargers — [Left-guard competition after Day 11](https://www.chargers.com/news/training-camp-report-left-guard-mike-mcdaniel-day-11) — published 2026-08-10.
@@ -112,4 +120,4 @@ Slater and Alt carry the largest route-release cost if absent. Biadasz carries t
 - Confidence: medium for the first six roles; low for the deep reserve order.
 - Fact/inference boundary: depth-chart placement, practice/game deployment and roster status are facts; roster survival and replacement effectiveness are projections.
 - What would invalidate this: a different first-unit left guard, a transaction, a change in injury status or sustained first-team work for another lineman.
-- Next review: San Francisco joint practice, preseason game and every material availability change.
+- Next review: Week 1 active roster, line combinations and every material availability change.

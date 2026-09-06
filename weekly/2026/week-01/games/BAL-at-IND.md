@@ -10,9 +10,9 @@ week: 1
 status: draft
 time_horizon: weekly
 valid_as_of: "2026-09-13"
-last_verified: "2026-08-05"
+last_verified: 2026-09-06
 confidence: null
-source_ids: []
+source_ids: ["local-source-baltimore-ravens"]
 supersedes: []
 game_id: 2026-W01-BAL-IND
 fantasy_formats: ["general"]
@@ -36,6 +36,14 @@ fantasy_formats: ["general"]
 - Betting context:
 - Injury context:
 
+### BAL — September 6 evidence update
+
+Flowers returned to practice, clearing an attendance checkpoint. See the [BAL synthesis](../../../../intelligence/2026/syntheses/2026-09-06/BAL.md) for dated facts and their limits.
+
+**Fantasy implication:** Preserve the Flowers target-lead premise while checking workload and designation; attendance alone does not prove unrestricted routes.
+
+**Next check:** Flowers final Week 1 report and route participation.
+
 ## Matchup analysis
 
 ### Away offense vs. home defense
@@ -48,7 +56,7 @@ fantasy_formats: ["general"]
 
 | Player/unit | Decision or range | Confidence | Primary reason | Invalidation trigger |
 |---|---|---|---|---|
-| | | | | |
+| Zay Flowers | Retain projection subject to status | Medium | Returned to practice | Restricted routes or adverse final designation |
 
 ## Open questions and next checks
 
@@ -61,3 +69,5 @@ fantasy_formats: ["general"]
 ## Sources
 
 - [NFL schedule](https://www.nfl.com/schedules/2026/by-week/week-1) — last verified 2026-08-05
+
+- [BAL official update](https://www.baltimoreravens.com/news/zay-flowers-returns-ravens-practice-wide-receiver-injury) — published 2026-09-03T17:03:22.348Z; retrieved 2026-09-06T19:52:06+00:00; verified 2026-09-06.

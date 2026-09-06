@@ -10,13 +10,30 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-06
-last_verified: 2026-08-06
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-miami-dolphins"]
 supersedes: []
 ---
 
 # Wide-receiver monitoring framework
+
+## Current personnel checkpoint — September 6
+
+The [personnel checkpoint](personnel-and-roster-paths.md) governs current receiver membership: Atwell has exited, Bell is
+on the initial roster, and Hunter is a practice-squad running back. This invalidates Atwell's
+Miami opening-role questions `mia-2026-off-q09` and `mia-2026-off-q43`. Bell's roster gate is
+resolved; his measured-work question `mia-2026-off-q45` remains open. No route or target leader
+is established by these roster facts. See `ti-2026-mia-20260906-001` for the observation trail.
+
+- Miami Dolphins — [Initial roster](https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026), published 2026-08-30; [practice squad](https://www.miamidolphins.com/news/dolphins-sign-nine-players-to-the-practice-squad), published 2026-08-31; verified 2026-09-06.
+
+## Archived August 6 assessment
+
+The remainder preserves the August 6 evidence and projections for historical comparison.
+Its candidate counts, Atwell role paths, Bell reserve status and preseason review dates are not
+current instructions; the September 6 checkpoint above governs those premises. Historical player
+traits and the route-measurement framework remain useful, subject to the updated receiver set.
 
 ## Finding
 

@@ -7,7 +7,7 @@ team_ids: ["PIT"]
 player_ids: []
 season: 2026
 week: null
-status: active
+status: superseded
 time_horizon: seasonal
 valid_as_of: 2026-08-13
 last_verified: 2026-08-13
@@ -17,6 +17,8 @@ supersedes: []
 ---
 
 # Finding: Pittsburgh's backfield is a three-way committee with no confirmed lead back
+
+Superseded on 2026-09-06 by [rf-2026-pit-backfield-committee-002](backfield-committee-002.md). The roster event invalidates the earlier immediate workload premise; the original analysis below is preserved as history.
 
 ## Scope
 

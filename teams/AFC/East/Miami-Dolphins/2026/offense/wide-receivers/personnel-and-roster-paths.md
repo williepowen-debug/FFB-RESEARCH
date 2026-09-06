@@ -10,13 +10,37 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-06
-last_verified: 2026-08-06
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-miami-dolphins", "local-source-nfl", "local-writer-barry-jackson", "local-writer-alain-poupart"]
 supersedes: []
 ---
 
 # Wide-receiver personnel and roster paths
+
+## Current personnel checkpoint — September 6
+
+Miami's August 30 initial roster contains seven receivers: Jalen Tolbert, Malik Washington,
+Caleb Douglas, Chris Bell, Kevin Coleman Jr., Miller and AJ Henning. Atwell is absent after
+the transaction reviewed on August 29; his projected Miami opening role is invalidated. Bell's
+initial-roster inclusion replaces the active/NFI premise, but does not establish full practice,
+game-day availability or a route share. Jarquez Hunter is a **running back** signed to the practice
+squad on August 31; he is not Atwell's replacement in the receiver hierarchy.
+
+Use the [personnel checkpoint](personnel-and-roster-paths.md) and `ti-2026-mia-20260906-001` for current roster
+interpretation. Questions `mia-2026-off-q09` and `mia-2026-off-q43` are invalidated; Bell's
+`mia-2026-off-q45` remains open for measured offensive work. No new route or target ordering is
+established by this checkpoint.
+
+- Miami Dolphins — [Initial 53-man roster](https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026) — published 2026-08-30; verified 2026-09-06.
+- Miami Dolphins — [Practice-squad signings](https://www.miamidolphins.com/news/dolphins-sign-nine-players-to-the-practice-squad) — published 2026-08-31; verified 2026-09-06.
+
+## Archived August 6 assessment
+
+The remainder preserves the August 6 evidence and projections for historical comparison.
+Its candidate counts, Atwell role paths, Bell reserve status and preseason review dates are not
+current instructions; the September 6 checkpoint above governs those premises. Historical player
+traits and the route-measurement framework remain useful, subject to the updated receiver set.
 
 ## Finding
 

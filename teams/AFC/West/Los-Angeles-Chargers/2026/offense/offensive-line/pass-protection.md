@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-16
-last_verified: 2026-08-16
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-los-angeles-chargers", "local-source-nfl-gamebooks"]
 supersedes: []
@@ -33,16 +33,16 @@ The 2025 pressure baseline, current personnel, health reports, coach statements 
 | Area | Baseline | Risk | Decisive test |
 |---|---|---|---|
 | Left tackle | Slater has elite healthy-season evidence | workload response after patellar-tendon repair and recent flare-up | isolated first-unit sets over consecutive practices/games |
-| Left guard | Awosika is first on the chart; Slaughter is ascending and position-flexible | unresolved winner, lateral range and twist exchanges | starting-defender passing downs beside Slater and Biadasz |
-| Center | Biadasz brings experience, athleticism and A-gap anchor | new language and two new adjacent relationships | front identification and clean interior exchanges with Herbert |
+| Left guard | Awosika/Pipkins are the current options; a rotation remains possible | unresolved winner, lateral range and twist exchanges | starting-defender passing downs beside Slater and Slaughter |
+| Center | Slaughter replaces Biadasz following the season-ending injury | new language and two new adjacent relationships | front identification and clean interior exchanges with Herbert |
 | Right guard | Strange started for McDaniel in 2025 | system familiarity may not equal individual or unit performance | anchor, stunt exchange and ability to avoid help |
 | Right tackle | Alt owns high-end talent and a healthy camp trend | 2025 ankle reinjury and limited recent game sample | normal full-game workload against starting edge talent |
 | Quarterback/design | Herbert has arm talent; McDaniel can change launch point and timing | quick game can hide losses or suppress route depth | separate design, time to pressure and blocker responsibility |
 
 ## Protection questions
 
-1. Does Herbert and Biadasz identify pressure consistently before the snap?
-2. Can the left guard exchange twists with both Slater and Biadasz?
+1. Do Herbert and Slaughter identify pressure consistently before the snap?
+2. Can the left guard exchange twists with both Slater and Slaughter?
 3. Can Slater and Alt survive without routine chips?
 4. Does Strange's system familiarity improve the right-side operation?
 5. Are backs and tight ends releasing into routes or being retained?
@@ -89,6 +89,10 @@ The opening reserve line was Burke–Branson Taylor–Slaughter–Awosika–Loga
 - **Hampton:** pressure can create checkdowns, but a back held in protection receives no target; both outcomes must be charted.
 
 ## Sources
+
+- [September 6 reconciliation](../../../../../../../intelligence/2026/syntheses/2026-09-06/LAC.md) — `ti-2026-lac-20260906-001`; current personnel corrections, with historical preseason evidence retained.
+
+- Los Angeles Chargers — [September 1 roster briefing](https://www.chargers.com/news/roster-moves-jim-harbaugh-joe-hortiz) — published 2026-09-01; verified 2026-09-06.
 
 - Los Angeles Chargers — [Harbaugh discusses McDaniel and the line reset](https://www.chargers.com/news/jim-harbaugh-mike-mcdaniel-nfl-owners-meetings) — published 2026-03-31.
 - Los Angeles Chargers — [How McDaniel views the 2026 offensive line](https://www.chargers.com/news/offensive-line-mike-mcdaniel-offseason) — published 2026-05-12.

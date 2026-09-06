@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-16
-last_verified: 2026-08-16
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-los-angeles-chargers"]
 supersedes: []
@@ -24,15 +24,15 @@ supersedes: []
 - Area: protection, scheme transition, and passing efficiency
 - Season/week: 2026 preseason baseline
 - Status: active
-- Last verified: 2026-08-16
+- Last verified: 2026-09-06
 
 This finding is the offense-level companion to the detailed [`offensive-line/README.md`](offensive-line/README.md) module. Dated camp and game observations remain in [`../preseason/evidence-log.csv`](../preseason/evidence-log.csv).
 
 ## Finding
 
-The Chargers are addressing Herbert's 2025 pressure problem with both personnel and structure. Herbert was sacked 54 times and faced a league-high 263 pressures while Los Angeles cycled through more than two dozen offensive-line combinations. The 2026 plan restores tackles Rashawn Slater and Joe Alt, installs Tyler Biadasz at center and Cole Strange at right guard, holds an open left-guard competition, and uses Mike McDaniel's run/pass marriage to reduce obvious straight-dropback situations.
+The Chargers are addressing Herbert's 2025 pressure problem with both personnel and structure. Herbert was sacked 54 times and faced a league-high 263 pressures while Los Angeles cycled through more than two dozen offensive-line combinations. The revised 2026 line places Jake Slaughter at center after Tyler Biadasz's season-ending knee injury, alongside projected tackles Rashawn Slater and Joe Alt and right guard Cole Strange. Kayode Awosika and Trey Pipkins remain the left-guard choices, with a possible rotation. Mike McDaniel's run/pass marriage remains the intended way to reduce obvious straight-dropback situations.
 
-The direction is coherent, but it is not yet proof of improvement. Four likely starters either missed major 2025 time or changed teams/positions, and the left-guard job remained open entering camp. Treat reduced pressure and improved efficiency as a medium-confidence hypothesis until the starting five handles NFL movement and pressure together.
+The direction is coherent, but it is not yet proof of improvement. The rookie center transition and unresolved left-guard arrangement add interior uncertainty; the returning tackles still need sustained game availability. Treat reduced pressure and improved efficiency as a medium-confidence hypothesis until the starting five handles NFL movement and pressure together.
 
 ## Fantasy implication
 
@@ -45,12 +45,17 @@ The direction is coherent, but it is not yet proof of improvement. Four likely s
 
 - The team reported 54 sacks and 263 pressures against Herbert in 2025, with more than two dozen line combinations.
 - Slater missed all of 2025 with a patellar-tendon injury, and Alt's ankle injury limited him to six games; both participated in the 2026 offseason program and entered camp as the expected tackles.
-- Biadasz was signed to start at center, and Harbaugh identified Strange as the current right-guard projection in March.
+- Biadasz was originally signed to start at center; the September 1 team briefing now identifies Slaughter as his replacement after the season-ending injury. Strange remains the right-guard projection.
+- Harbaugh identified Awosika and Pipkins as left-guard finalists while leaving a rotation possible. That establishes the options, not a winner or their blocking quality.
 - The Chargers drafted four offensive linemen: Jake Slaughter, Travis Burke, Logan Taylor, and Alex Harkey.
 - Harbaugh described McDaniel's approach as using fewer pure dropbacks and tying play action to the run game so rushers must process before attacking the quarterback.
 - McDaniel said the offense was searching for the best five and left guard remained a live competition entering padded practices.
 
 ## Sources
+
+- [September 6 reconciliation](../../../../../../intelligence/2026/syntheses/2026-09-06/LAC.md) — `ti-2026-lac-20260906-001`; current personnel corrections, with historical preseason evidence retained.
+
+- Los Angeles Chargers — [September 1 roster briefing](https://www.chargers.com/news/roster-moves-jim-harbaugh-joe-hortiz) — published 2026-09-01; verified 2026-09-06.
 
 - Los Angeles Chargers — [Harbaugh discusses McDaniel and the offensive-line reset](https://www.chargers.com/news/jim-harbaugh-mike-mcdaniel-nfl-owners-meetings) — published 2026-03-31.
 - Los Angeles Chargers — [How McDaniel views the 2026 offensive line](https://www.chargers.com/news/offensive-line-mike-mcdaniel-offseason) — published 2026-05-12.

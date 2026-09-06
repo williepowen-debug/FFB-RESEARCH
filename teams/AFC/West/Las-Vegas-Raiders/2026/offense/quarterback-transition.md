@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-las-vegas-raiders"]
 supersedes: []
@@ -24,11 +24,11 @@ supersedes: []
 - Area: starter sequencing, pass-game stability, and rookie development
 - Season/week: 2026 preseason baseline
 - Status: active
-- Last verified: 2026-08-17
+- Last verified: 2026-09-06
 
 ## Finding
 
-Las Vegas turned over its quarterback room by trading Geno Smith, signing Kirk Cousins, and drafting Fernando Mendoza first overall. Kubiak named Cousins the starting quarterback entering camp, while Mendoza moved into meaningful second-team work after being selected No. 1. This creates a bridge structure rather than a pure rookie-start plan.
+Las Vegas turned over its quarterback room by trading Geno Smith, signing Kirk Cousins, and drafting Fernando Mendoza first overall. Kubiak named Cousins the Week 1 starter on September 2, confirming his earlier camp lead, while Mendoza moved into meaningful second-team work after being selected No. 1. This creates a bridge structure rather than a pure rookie-start plan.
 
 The fantasy-relevant issue is not just who starts Week 1. It is whether Cousins can keep the offense on schedule long enough for Bowers, Jeanty, and the receivers to avoid the volatility that often comes with early rookie starts. Mendoza's draft capital keeps a midseason change live if the offense stalls or if Cousins' play declines.
 
@@ -57,7 +57,9 @@ The fantasy-relevant issue is not just who starts Week 1. It is whether Cousins 
 ## Assessment
 
 - Confidence: medium
-- Reason: Cousins' camp role is explicit, but preseason and early regular-season performance can change the timing.
+- Reason: the opening starter is now official; later performance can still change the bridge timeline.
 - Fact/inference boundary: Transactions, draft slot, and camp rep reporting are facts. The bridge interpretation and fantasy stability forecast are inferences.
 - What would invalidate this: Mendoza taking first-team practice reps before Week 1, Cousins struggling in preseason, or Kubiak publicly reopening the job.
-- Next review: First unofficial depth chart, Preseason Week 2 usage, and Week 1 practice reports.
+- Next review: starter availability and early-season performance.
+
+- [LV cutdown / roster update](https://www.raiders.com/news/kirk-cousins-named-raiders-starting-quarterback) — published 2026-09-02T16:30:53.406Z; verified 2026-09-06.

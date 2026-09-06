@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-13
-last_verified: 2026-08-13
+last_verified: 2026-09-06
 confidence: high
 source_ids: ["local-source-pittsburgh-steelers", "local-source-espn", "local-source-wikipedia", "local-source-nfl", "local-source-steelers-depot"]
 supersedes: []
@@ -19,7 +19,7 @@ supersedes: []
 # Pittsburgh Steelers — 2026 McCarthy-Rodgers Reunion and a Win-Now Reset
 
 - Conference/division: AFC North
-- Last verified: 2026-08-13
+- Last verified: 2026-09-06
 - Scope: changes from the 2025 team to the 2026 preseason roster and staff
 - Build tier: Core
 
@@ -46,7 +46,7 @@ The supporting machine-readable files are:
 - Mike Tomlin stepped down; Mike McCarthy was hired as head coach in January 2026. GM Omar Khan remains.
 - New coordinators: Brian Angelichio (offense, reported play-caller) and Patrick Graham (defense); special-teams coordinator Danny Crossman. The prior OC (Arthur Smith) and DC (Teryl Austin) left.
 - Aaron Rodgers returned on a one-year deal and declared 2026 his final season; the QB room adds rookie Drew Allar (Round 3) behind him with Mason Rudolph and Will Howard.
-- The offense was upgraded: traded for wide receiver Michael Pittman Jr. to pair with DK Metcalf, and signed running back Rico Dowdle into a room with Jaylen Warren and Kaleb Johnson. Pat Freiermuth returns at tight end.
+- The offense was upgraded: traded for wide receiver Michael Pittman Jr. to pair with DK Metcalf, and signed running back Rico Dowdle alongside Jaylen Warren; Kaleb Johnson was subsequently traded to Green Bay. Pat Freiermuth returns at tight end.
 - The secondary was reworked (cornerback Jamel Dean; safeties Jaquan Brisker and Darnell Savage) and the defensive line added Sebastian Joseph-Day, around the T.J. Watt, Cameron Heyward, and Alex Highsmith core.
 - The interior offensive line lost veteran guard Isaac Seumalo. Pittsburgh made 10 draft selections.
 
@@ -56,7 +56,7 @@ These are projections to test, not established 2026 outcomes:
 
 - Rodgers's fantasy value depends on the pass volume and structure McCarthy and Angelichio build; the reunion points to a pass-forward lean, but that must be charted, and age/durability is a live risk.
 - DK Metcalf and Michael Pittman Jr. give Rodgers two established target earners; the split between them is the key receiver question.
-- The backfield (Warren, Johnson, Dowdle) is a committee to chart, not a settled lead-back situation.
+- The backfield (Warren, Dowdle) is a committee to chart, not a settled lead-back situation.
 - The defense should remain strong off the edge with Watt and Highsmith, but the reworked secondary's coverage identity under Graham is unestablished.
 
 ## Offensive identity
@@ -69,7 +69,7 @@ The offense turns over at the top — new head coach, new coordinator, new offen
 
 - Whether McCarthy or Angelichio actually authors and calls the passing game.
 - The target split between DK Metcalf and Michael Pittman Jr., and Freiermuth's route and red-zone role.
-- The backfield division of early-down and passing-down work among Warren, Johnson, and Dowdle.
+- The backfield division of early-down and passing-down work between Warren and Dowdle.
 - Rodgers's volume, mobility, and durability in a farewell season.
 - The interior offensive line after Seumalo's departure.
 
@@ -129,3 +129,5 @@ The highest-leverage unknowns are who authors the passing game (McCarthy or Ange
 - ESPN — [Steelers' Aaron Rodgers says he plans to retire after season](https://www.espn.com/nfl/story/_/id/48827851/steelers-aaron-rodgers-says-plans-retire-season) — verified 2026-08-13.
 - ESPN — [Steelers 2026 free agency tracker: offseason moves, signings, trades](https://www.espn.com/nfl/story/_/id/48080207/pittsburgh-steelers-2026-free-agency-tracker-offseason-moves-signings-contract-trades) — verified 2026-08-13.
 - Steelers Depot — [Pittsburgh Steelers coaching staff tracker (finalized)](https://steelersdepot.com/2026/02/pittsburgh-steelers-coaching-staff-tracker-updating/) — verified 2026-08-13.
+
+- [PIT cutdown / roster update](https://www.steelers.com/news/steelers-make-two-trades-as-part-of-final-roster-moves) — published 2026-08-30T22:27:00Z; verified 2026-09-06.

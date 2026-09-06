@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-green-bay-packers"]
 supersedes: []
@@ -19,7 +19,7 @@ supersedes: []
 # Green Bay Packers - 2026 Offensive Continuity and Gannon Defensive Transition
 
 - Conference/division: NFC North
-- Last verified: 2026-08-17
+- Last verified: 2026-09-06
 - Scope: changes from the 2025 team to the 2026 preseason roster and staff
 - Build tier: Core
 
@@ -48,7 +48,7 @@ The supporting files are:
 - LaFleur remains head coach and Stenavich remains offensive coordinator.
 - Gannon is the new defensive coordinator, and Achord is the new special teams coordinator.
 - Love remains QB1, with Tyrod Taylor added as the veteran backup.
-- Jacobs remains the rushing and touchdown baseline, while Brooks, Lloyd, Strong, Martinez, and rookie Jaden Nixon form the depth competition.
+- The September cutdown baseline is Lloyd/Brooks/Kaleb Johnson while Jacobs is exempt; see the updated backfield finding.
 - Watson and Reed were extended, Golden has a larger Year 2 opportunity, and Doubs/Wicks are no longer in the receiver room.
 - Kraft was activated off PUP on Jul. 31 after his 2025 ACL injury and remains the highest-upside tight-end variable.
 - Hargrave and Franklin were added to the defense, Wyatt and McDuffie were extended, Gary and Wooden were traded, and Parsons' return is not expected until several games into the regular season.
@@ -56,7 +56,7 @@ The supporting files are:
 ### Working fantasy hypotheses
 
 - Love's efficiency and touchdown environment remain strong, but his pass-catcher distribution requires route evidence.
-- Jacobs remains a high-end RB projection unless Green Bay changes his high-value touches.
+- Jacobs has no active projection while exempt; Lloyd is an opportunity candidate with unmeasured complementary roles.
 - Watson/Reed/Golden/Kraft are all draftable profiles; rank order should wait for first-team route, health, and red-zone evidence.
 - Lloyd remains an upside backup/dynasty monitor rather than a bankable redraft role.
 - Packers D/ST has a higher ceiling under Gannon, but early-season streaming confidence depends on pressure before Parsons returns.
@@ -72,7 +72,7 @@ The offensive coordinator did not change. The support staff did: Luke Getsy move
 - Does Love keep the 2025 efficiency step with a healthy receiving group?
 - Which of Watson, Reed, Golden, and Kraft leads first-team route and target priority?
 - How quickly does Kraft move from ACL ramp to full game-plan usage?
-- Does Jacobs retain goal-line and passing-down work, or do Brooks/Lloyd siphon specific packages?
+- How are Lloyd/Brooks/Johnson divided across high-value work, and when does Jacobs regain eligibility?
 - Does the Rhyan/Morgan line configuration stabilize early enough to support deep-shot and play-action efficiency?
 
 The evidence and invalidation tests are maintained in the [offensive research module](offense/README.md).
@@ -107,7 +107,7 @@ The complete staff and authority model are in the [coaching intelligence module]
 
 ### Analytical projection
 
-Treat the Packers as a good offense with unresolved target allocation. Love and Jacobs are the baseline fantasy pieces. Watson, Reed, Golden, and Kraft are all meaningful draft decisions, but their preseason route and health data should drive ranking. The defense is more matchup-sensitive: Gannon, Hargrave, Franklin, McKinney, Cooper, and eventually Parsons create ceiling, while Parsons' delayed return and cornerback competition lower early certainty.
+Treat the Packers as a good offense with unresolved target allocation. Love remains the quarterback baseline; the backfield requires a replacement allocation. Watson, Reed, Golden, and Kraft are all meaningful draft decisions, but their preseason route and health data should drive ranking. The defense is more matchup-sensitive: Gannon, Hargrave, Franklin, McKinney, Cooper, and eventually Parsons create ceiling, while Parsons' delayed return and cornerback competition lower early certainty.
 
 ## Special teams
 
@@ -139,3 +139,5 @@ The highest-leverage unknowns are Kraft's ramp, the Watson/Reed/Golden target or
 - Green Bay Packers/Wes Hodkiewicz - [Countdown to camp: Jordan Love has a new QB2](https://www.packers.com/news/countdown-to-camp-jordan-love-has-new-qb2-2026) - published 2026-07-20.
 - Green Bay Packers/Wes Hodkiewicz - [Pre-draft picture: It's a new day on Packers' defensive line](https://www.packers.com/news/pre-draft-picture-it-s-a-new-day-on-packers-defensive-line-april-20-2026) - published 2026-04-20.
 - Green Bay Packers/Mike Spofford - [2026 NFL Draft: Reviewing what the Packers accomplished](https://www.packers.com/news/2026-nfl-draft-reviewing-what-the-packers-accomplished-april-25) - published 2026-04-25.
+
+- [GB cutdown / roster update](https://www.packers.com/news/5-things-learned-from-gm-brian-gutekunst-about-packers-roster-sep-1-2026) — published 2026-09-01T16:35:39.425Z; verified 2026-09-06.

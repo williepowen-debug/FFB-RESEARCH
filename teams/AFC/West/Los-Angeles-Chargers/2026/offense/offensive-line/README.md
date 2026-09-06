@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-16
-last_verified: 2026-08-16
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-los-angeles-chargers", "local-source-nfl-gamebooks"]
 supersedes: []
@@ -20,9 +20,9 @@ supersedes: []
 
 ## Finding
 
-The Chargers have a credible path from a 2025 liability to a 2026 strength, but that path depends on health and five-man cohesion rather than the names alone. Rashawn Slater and Joe Alt provide a high-end tackle ceiling, Tyler Biadasz supplies an experienced center and Cole Strange brings prior Mike McDaniel system knowledge. Left guard remains open, and four projected starters either missed substantial 2025 time or joined the line this offseason.
+The Chargers have a credible path from a 2025 liability to a 2026 strength, but that path depends on health and five-man cohesion rather than the names alone. Rashawn Slater and Joe Alt provide a high-end tackle ceiling, Jake Slaughter replaces injured Tyler Biadasz at center and Cole Strange brings prior Mike McDaniel system knowledge. Left guard remains open, and four projected starters either missed substantial 2025 time or joined the line this offseason.
 
-The first preseason game provided positive depth evidence, not a starting-unit verdict. Travis Burke, Branson Taylor, Jake Slaughter, Kayode Awosika and Logan Taylor opened against Houston while the projected five did not play together. The reserve offense sustained drives and Harbaugh praised the protection, but the decisive test is still Slater–left guard–Biadasz–Strange–Alt against starting defenders.
+The first preseason game provided positive depth evidence, not a starting-unit verdict. Travis Burke, Branson Taylor, Jake Slaughter, Kayode Awosika and Logan Taylor opened against Houston while the projected five did not play together. The reserve offense sustained drives and Harbaugh praised the protection, but the decisive test is still Slater–left guard–Slaughter–Strange–Alt against starting defenders.
 
 **Preseason grade: high-variance, with tackle talent ahead of unit proof.** The ceiling is above average if both tackles stay available and the interior communicates cleanly. The floor remains below average if Slater's return stalls, Alt's ankle problems recur, or the new interior loses twists and pressure exchanges.
 
@@ -35,17 +35,17 @@ The projected lineup, team-issued depth chart, reported availability, Houston de
 | Position | Current leader | Established evidence | Central question |
 |---|---|---|---|
 | LT | Rashawn Slater | Two-time Pro Bowler; cleared for camp after missing 2025 with a torn patellar tendon | Can his managed return become a normal weekly workload? |
-| LG | Kayode Awosika | First on the unofficial depth chart; 50 career games and 11 starts before joining Los Angeles | Can he separate from Slaughter and the broader rotation through full-unit execution? |
-| C | Tyler Biadasz | Seven-year veteran signed to organize the interior; McDaniel cited his space blocking and A-gap anchor | How quickly does the Herbert–Biadasz protection interface stabilize? |
+| LG | Kayode Awosika / Trey Pipkins | Harbaugh identified this pair on September 1 and left open a rotation | Does one win the job or do they share it, and how does either arrangement communicate? |
+| C | Jake Slaughter | Team report identifies the rookie as the starter after Biadasz's season-ending injury | How quickly does the Herbert–Slaughter protection interface stabilize? |
 | RG | Cole Strange | Started 14 games for McDaniel in Miami in 2025 and carries the room's strongest system familiarity | Does that familiarity translate while the players around him change? |
 | RT | Joe Alt | Returned to camp after an ankle injury limited him to six games in 2025 | Can he resume isolated high-level protection over a full season? |
 
-This is a working projection, not a settled outcome. The team chart lists Awosika first, but Awosika and Slaughter were still sharing left-guard work on August 16.
+This is a working projection, not a settled outcome. The August 16 Awosika/Slaughter guard competition is historical: Slaughter now starts at center, and the September 1 guard choice is Awosika/Pipkins.
 
 ## Strengths
 
 1. **Tackle ceiling.** Healthy Slater and Alt can reduce the need to remove backs and tight ends from routes to help the edges.
-2. **Center upgrade and fit.** McDaniel has described Biadasz as an athlete in space with an A-gap anchor suited to the offense's unusual center responsibilities.
+2. **Center transition.** Slaughter's preseason cross-training supports readiness to compete, but the veteran-center upgrade premise is no longer applicable.
 3. **System carrier at right guard.** Strange played for McDaniel in Miami and can help translate technique and terminology to a new group.
 4. **Real competition and cross-training.** Slaughter played seven Houston series across center and left guard; Pipkins, Penning and Branson Taylor have worked multiple spots.
 5. **Scheme can change rush behavior.** Motion, play action, screens, boots and an outside-zone threat can prevent every down from becoming a static Herbert dropback.
@@ -56,7 +56,7 @@ This is a working projection, not a settled outcome. The team chart lists Awosik
 1. **Starting-five sample is zero.** Houston did not show the projected five together.
 2. **Slater return remains managed.** A minor flare-up led to missed camp practices even though Slater described the knee as strong and stable.
 3. **Alt availability is not yet durable.** His 2025 return lasted only two games before the ankle was reinjured.
-4. **Left guard is still a tournament.** Awosika and Slaughter lead now, but five players have taken work there.
+4. **Left guard remains unsettled.** Awosika and Pipkins are the current options; a rotation could extend the communication test.
 5. **Simultaneous interior change.** A new center, a new right guard and an unsettled left guard must communicate protections with a quarterback learning altered timing.
 6. **Design can hide blocking failure.** Quick throws and movement can lower sacks while route depth or eligible releases quietly contract.
 
@@ -86,9 +86,17 @@ This is a working projection, not a settled outcome. The team chart lists Awosik
 
 ## Evidence boundary
 
+Branson Taylor is on reserve/injured with a return designation, reducing the currently available G/T contingencies. His historical Houston versatility remains evidence of experience, not present availability.
+
 Roster status, the unofficial chart, player availability, Houston deployment and public coach descriptions are facts. Unit rank, concept quality, protection improvement and fantasy effects are hypotheses. Reserve execution can raise confidence in depth and installation without resolving the starting-unit question.
 
 ## Sources
+
+- [September 6 reconciliation](../../../../../../../intelligence/2026/syntheses/2026-09-06/LAC.md) — `ti-2026-lac-20260906-001`; current personnel corrections, with historical preseason evidence retained.
+
+- Los Angeles Chargers — [Roster cutdown transactions](https://www.chargers.com/news/reduce-roster-to-53-players-2026) — published 2026-08-30 Pacific; verified 2026-09-06.
+
+- Los Angeles Chargers — [September 1 roster briefing](https://www.chargers.com/news/roster-moves-jim-harbaugh-joe-hortiz) — published 2026-09-01; verified 2026-09-06.
 
 - Los Angeles Chargers — [2026 offensive-line training-camp preview](https://www.chargers.com/news/2026-training-camp-preview-offensive-line-depth-chart) — published 2026-07-27.
 - Los Angeles Chargers — [Where the left-guard battle stood after Day 11](https://www.chargers.com/news/training-camp-report-left-guard-mike-mcdaniel-day-11) — published 2026-08-10.
@@ -101,4 +109,4 @@ Roster status, the unofficial chart, player availability, Houston deployment and
 - Confidence: medium.
 - Reason: the personnel, intended structure and reserve deployment are well documented; the projected five has not played together in a game.
 - What would invalidate this: a materially different opening five, recurring tackle unavailability, or competitive first-unit evidence that moves the line clearly above or below the stated range.
-- Next review: the San Francisco joint practice and preseason game, with special attention to starting-five deployment and help usage.
+- Next review: Week 1 starting-five deployment, left-guard rotation, and help usage.

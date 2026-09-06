@@ -10,7 +10,7 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-25
-last_verified: 2026-08-25
+last_verified: 2026-09-06
 confidence: medium
 source_ids: ["local-source-houston-texans"]
 supersedes: []
@@ -24,7 +24,7 @@ supersedes: []
 - Area: protection, play-calling continuity, and fantasy efficiency
 - Season/week: 2026 preseason baseline
 - Status: active
-- Last verified: 2026-08-25
+- Last verified: 2026-09-06
 
 ## Finding
 
@@ -36,9 +36,7 @@ The direction is coherent: more Stroud ownership, more line competition, and a m
 
 - Stroud's QB1 path requires the line improvements to reduce negative plays without forcing Caley into a low-volume protection shell.
 - Nico Collins is the clearest receiving projection because his role and production survived Caley's first season.
-- Tank Dell, Kayshon Boutte, Jaylin Noel, Lewis Bond, and Xavier Hutchinson need route and
-  first-read confirmation behind Collins. Houston placed Jayden Higgins on injured reserve on
-  August 21 and acquired Boutte on August 25.
+- Kayshon Boutte, Jaylin Noel and Xavier Hutchinson need route and first-read confirmation behind Collins. The August 30 cutdown removed Lewis Bond; Dell and Higgins availability is tracked in the weekly record rather than assumed in the active route pool.
 - If the line remains volatile, Schultz and the running backs could collect shorter-area targets while downfield volume becomes less stable.
 
 ## Evidence
@@ -67,3 +65,5 @@ The direction is coherent: more Stroud ownership, more line competition, and a m
 - Fact/inference boundary: Transactions, staff roles, and official 2025 production notes are facts. Improved Stroud fantasy efficiency is an inference.
 - What would invalidate this: Continued pressure problems, heavy max protection, stalled early downs, or a starting line that keeps rotating because of performance.
 - Next review: Texans-Raiders joint practice, remaining preseason games, and Weeks 1-2 pressure/sack/play-action charting.
+
+- [HOU cutdown / roster update](https://www.houstontexans.com/news/houston-texans-transactions-8-30-2026) — published 2026-08-30T23:01:11.219Z; verified 2026-09-06.
