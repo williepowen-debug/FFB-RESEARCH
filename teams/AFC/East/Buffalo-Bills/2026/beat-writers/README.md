@@ -14,6 +14,12 @@ scheme, and transactions.
 The registry is the editorial view. The CSV files are the machine-readable source of
 truth for source identity, status, function, priority, and endpoints.
 
+## September 6 operating repair
+
+Use Sal Capaccio’s WGR Bills section and exact bylined written items as the accessible independent fallback. Buscaglia now has explicit canonical endpoints, but Athletic body access remains blocked. His stale author/podcast assumptions must not drive collection.
+
+[candidates.csv](candidates.csv) preserves discovery and fresh omission-pass dispositions.
+
 ## Signal hierarchy
 
 1. Official transactions, injury reports, gamebooks, participation records, and roster status.
@@ -34,4 +40,4 @@ maps to a row in [`../offense/hypotheses.csv`](../offense/hypotheses.csv).
 4. Red-zone and goal-line distribution between Josh Allen and Cook (`buf-2026-off-q10`).
 5. Whether DJ Moore concentrates target share in a historically distributed offense (`buf-2026-off-q03`, `buf-2026-off-q04`).
 
-Last verified: 2026-08-20.
+Last verified: 2026-09-06 (source endpoints; football questions retain their prior evidence dates).

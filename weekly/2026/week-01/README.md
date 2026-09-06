@@ -46,3 +46,9 @@ questions as conclusions.
 ## September 6 catch-up
 
 The [catch-up handoff](../../../intelligence/2026/runs/20260906T193157Z/handoff.md) records the roster and availability updates, closed evidence gates, and coverage gaps. Use the [priority board](../../../intelligence/2026/priority/2026-09-06/priority-board.csv) for the remaining checks before the opening games.
+
+## Week 1 preparation
+
+- [Conditional opportunity watchlist](opportunity-watchlist.md) — September 6 evidence, potential beneficiaries, remaining gates and falsifiers.
+- [Manual usage collection and ledger checks](usage-tracking.md) — NE-at-SEA pilot, denominator definitions and all 18 open-ledger triggers.
+- [Blank usage input CSV](usage-input.csv) — working sheet; all Week 1 measurements pending.

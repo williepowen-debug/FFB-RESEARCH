@@ -12,7 +12,7 @@ time_horizon: weekly
 valid_as_of: "2026-09-09"
 last_verified: 2026-09-06
 confidence: null
-source_ids: ["local-source-seattle-seahawks", "local-source-new-england-patriots"]
+source_ids: ["local-source-seattle-seahawks", "local-source-new-england-patriots", "local-writer-mike-reiss"]
 supersedes: []
 game_id: 2026-W01-NE-SEA
 fantasy_formats: ["general"]
@@ -43,6 +43,10 @@ Landry is unavailable to open the season; Henderson still required assessment in
 **Fantasy implication:** Prepare a Stevenson-heavy contingency if Henderson cannot play; no automatic workload upgrade while status remains unresolved.
 
 **Next check:** Official Henderson participation and final designation before the September 9 opener.
+
+### NE — supplemental readiness check
+
+See the [supplemental NE synthesis](../../../../intelligence/2026/syntheses/2026-09-06/NE-readiness.md) and its atomic evidence. **Next check:** Official Henderson participation and final designation; then actual passing-down allocation.
 
 ## Matchup analysis
 

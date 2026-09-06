@@ -12,7 +12,7 @@ time_horizon: weekly
 valid_as_of: "2026-09-10"
 last_verified: 2026-09-06
 confidence: null
-source_ids: ["local-source-san-francisco-49ers", "local-source-los-angeles-rams"]
+source_ids: ["local-source-san-francisco-49ers", "local-source-los-angeles-rams", "local-writer-sarah-barshop"]
 supersedes: []
 game_id: 2026-W01-SF-LAR
 fantasy_formats: ["general"]
@@ -51,6 +51,14 @@ The club planned managed Kittle/Bosa work while left guard remained unsettled. S
 **Fantasy implication:** The plan updates the earlier Kittle concern but does not prove completed competitive work or a full route rate.
 
 **Next check:** Completed team work, final game designations and named opening left guard.
+
+### SF — supplemental readiness check
+
+See the [supplemental SF synthesis](../../../../intelligence/2026/syntheses/2026-09-06/SF-readiness.md) and its atomic evidence. **Next check:** Kittle/Bosa completed team work and final status; opening left guard; Stribling routes.
+
+### LAR — supplemental readiness check
+
+See the [supplemental LAR synthesis](../../../../intelligence/2026/syntheses/2026-09-06/LAR-readiness.md) and its atomic evidence. **Next check:** Final designations and workload restrictions for Nacua, Donald, Garrett and Ferguson.
 
 ## Matchup analysis
 

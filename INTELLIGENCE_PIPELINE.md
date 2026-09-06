@@ -68,6 +68,10 @@ news. The cap is a noise control, not a quota; never manufacture rows to reach i
 
 For preseason game work, use [PRESEASON_GAME_RUNBOOK.md](PRESEASON_GAME_RUNBOOK.md). Preseason
 assignments require a completed `preflight.md` in the run directory before assignments are frozen.
+Select currently active sources at preflight; document any deliberate historical-source assignment.
+Retain retired source IDs in registries. Historical validation checks registered identity and frozen
+assignment membership, not today's active status, so a reporter's retirement does not erase prior
+provenance. Registry status changes do not retrospectively certify a reporter's earlier beat role.
 The preflight decides whether the run is an immediate triage pass, a 24–48 hour completion pass,
 or a wait for gamebooks, participation, snap, route, or independent postgame evidence. Put the pass
 type in assignment `notes`.

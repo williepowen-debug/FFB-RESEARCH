@@ -10,100 +10,53 @@ week: null
 status: active
 time_horizon: seasonal
 valid_as_of: 2026-08-20
-last_verified: 2026-08-20
+last_verified: 2026-09-06
 confidence: medium
 source_ids: []
 supersedes: []
 writer_ids: ["local-writer-joe-buscaglia", "local-writer-katherine-fitzgerald", "local-writer-sal-capaccio"]
 ---
 
-# Buffalo Bills 2026 Source Registry
+# Buffalo Bills 2026 source registry
 
-This registry prioritizes sources that can establish or explain changes in
-availability, role, usage, scheme, and roster construction. Priority describes
-monitoring frequency; source class describes function. See [sources.csv](sources.csv),
-[endpoints.csv](endpoints.csv), and the [monitoring guide](README.md).
+The September 6 repair restores missing endpoints and usable independent fallbacks. Existing source IDs and historical assignment evidence are preserved. This is a bounded repair, not a claim that every outlet or current article is covered. Candidate dispositions and verification limits are explicit in [candidates.csv](candidates.csv); operational access lives in [endpoints.csv](endpoints.csv).
 
-## Essential monitoring
+## Active source rotation
 
-| Name or source | Outlet | Source class | Primary value | Handling note |
-|---|---|---|---|---|
-| Buffalo Bills communications | Buffalo Bills | official | Transactions, roster, unofficial depth chart, injury reports, transcripts, daily camp reports | Source of record for team announcements; editorial analysis is not independent |
-| NFL gamebooks and participation records | NFL | official | Game participation, starters, statistics, play-by-play | Preferred postgame source of record |
-| Joe Buscaglia | The Athletic | reporting | Daily beat reporting, roster construction, personnel, camp observation | Hosts The Buffalo Beat; paywalled, so summarize rather than reproduce |
-| Katherine Fitzgerald | Buffalo News | reporting | Offseason and camp coverage, transactions, practice observation | Maintains a running 2026 offseason collection; partial paywall |
-| Sal Capaccio | WGR 550 / Audacy | reporting | Daily radio reporting on roster, staff, and draft | Radio-first; time-stamp audio claims and prefer written corroboration |
+Rows retaining August verification dates were not fully reverified during this repair. An active legacy registration is not a claim of successful September access; consult the candidate and endpoint notes before assigning it.
 
-## Valuable monitoring
+| Source | Outlet | Class / priority | Verified identity or access handling |
+|---|---|---|---|
+| Buffalo Bills communications | Buffalo Bills | official / essential | Source of record for team announcements; team-produced editorial and analysis are not independent. Identity checkpoint: 2026-08-20. |
+| NFL gamebooks and participation records | NFL | official / essential | Use the game-specific book or game center as the postgame source of record. Identity checkpoint: 2026-08-20. |
+| Joe Buscaglia | The Athletic | reporting / essential | Athletic author/team pages could not be opened September 6. Current self-profile still identifies Bills beat role; fresh publisher role/byline verification remains incomplete. Podcast-title metadata is a discovery lead only. Use registered Sal Capaccio written reporting for accessible independent intake; do not substitute aggregates for Athletic article bodies. Identity checkpoint: 2026-08-20. |
+| Katherine Fitzgerald | Buffalo News | reporting / essential | Maintains a running 2026 offseason coverage collection. Partial paywall. Identity checkpoint: 2026-08-20. |
+| Sal Capaccio | WGR 550 / Audacy | reporting / essential | Current bylined written practice reporting and Bills section verified September 6. Author article list is stale; use the section and inspect each byline. Audio requires a dated segment/timecode. WGR homepage returned 403 while section/article opened. Identity checkpoint: 2026-09-06. |
+| ESPN Bills coverage | ESPN | reporting / valuable | National desk; camp intel posts are updated in place so record the retrieval date. Identity checkpoint: 2026-08-20. |
+| Bills Central | Sports Illustrated / OnSI | analysis / valuable | Aggregation and analysis; verify primary claims against official or beat sources. Identity checkpoint: 2026-08-20. |
+| Buffalo Rumblings | SB Nation | analysis / valuable | Community analysis; useful for structured player breakdowns but not a reporting source of record. Identity checkpoint: 2026-08-20. |
+| Two Bills Drive | Two Bills Drive | analysis / situational | Aggregates other outlets' reporting; always trace to the originating reporter before relying on a claim. Identity checkpoint: 2026-08-20. |
+| Pro Football Reference | Sports Reference | data / valuable | Snap counts are unofficial; verify material discrepancies. Rate-limits automated access. Identity checkpoint: 2026-08-20. |
 
-| Name or source | Outlet | Source class | Primary value | Handling note |
-|---|---|---|---|---|
-| ESPN Bills coverage | ESPN | reporting | Camp intel, free-agency tracking, injury reporting | Camp intel posts are updated in place; record the retrieval date with any claim |
-| Bills Central | Sports Illustrated / OnSI | analysis | Snap counts, depth-chart reads, injury interpretation, roster bubble | Aggregation and analysis; verify primary claims upstream |
-| Buffalo Rumblings | SB Nation | analysis | Structured scouting reports and roster analysis | Community analysis, not a reporting source of record |
-| Pro Football Reference | Sports Reference | data | Game logs, snap counts, season and career splits | Snap counts unofficial; returned HTTP 403 to automated retrieval on 2026-08-20 |
+## Coverage-lane matrix
 
-## Situational monitoring
-
-| Name or source | Outlet | Source class | Primary value | Handling note |
-|---|---|---|---|---|
-| Two Bills Drive | Two Bills Drive | analysis | Injury-timeline aggregation and coaching notes | Aggregates others' reporting; trace to the originating reporter before relying on a claim |
+| Lane | Source and current access boundary |
+|---|---|
+| Official record | Bills communications and NFL game centers; official news and scores index opened. Specific injury/transaction/gamebook content still requires its own dated retrieval. |
+| Daily independent beat | Sal Capaccio: current WGR section and bylined practice article opened; Buscaglia primary article access remains unavailable. |
+| National or major local reporting | Unavailable as a fully reverified current original-body lane in this repair. Legacy ESPN/Buffalo News rows retained; Fitzgerald section redirected to Tollbit and Athletic body was blocked. |
+| Local television and radio | Sal Capaccio written and radio rotation; Matt Bové independently verified as an optional discovery fallback, not activated to duplicate the current repair. |
+| Film and scheme analysis | Fresh full film review unavailable in this repair. Buffalo Rumblings legacy analysis retained; Cover 1 primary 2026 film example verified and dispositioned as an optional specialist. |
+| Position usage and fantasy signal | Capaccio firsthand practice reporting and Bills official context; neither nominal participation nor commentary establishes measured route shares. |
+| Transactions and organization | Bills official announcements plus independently attributed Capaccio reporting; Two Bills Drive remains discovery-only aggregation. |
+| Team-controlled analysis | Bills news/interview index; in-house analysis is not independent confirmation. |
 
 ## Reliability history
 
-This registry is newly established on 2026-08-20. No reliability judgments have been
-earned from observed outcomes yet. The entries below record only what has been
-verified about each source's role and access, plus the first checkpoints against which
-reliability will be scored.
-
-### Joe Buscaglia
-
-- Strongest coverage areas: roster construction, personnel decisions, camp observation.
-- Known limitations: paywalled; podcast segments are harder to date and cite precisely.
-- Confirmed early reports: none scored yet.
-- Corrections or misses: none scored yet.
-- Current reliability assessment: unscored; treated as essential on role and access.
-- Evidence for assessment: identified as The Athletic's Bills beat reporter and host of
-  The Buffalo Beat, verified 2026-08-20.
-
-### Katherine Fitzgerald
-
-- Strongest coverage areas: offseason transaction sequencing and camp practice reports.
-- Known limitations: partial paywall; individual bylines require checking against the
-  Buffalo News Bills section index.
-- Confirmed early reports: none scored yet.
-- Corrections or misses: none scored yet.
-- Current reliability assessment: unscored; treated as essential on role and access.
-- Evidence for assessment: maintains a running Buffalo News collection covering the
-  2026 Bills offseason, verified 2026-08-20.
-
-### Sal Capaccio
-
-- Strongest coverage areas: daily roster and staff news, draft coverage.
-- Known limitations: radio-first delivery makes precise dating and quotation harder;
-  the repository's existing Bills staff records already lean on WGR 550 reporting.
-- Confirmed early reports: none scored yet.
-- Corrections or misses: none scored yet.
-- Current reliability assessment: unscored; treated as essential on role and access.
-- Evidence for assessment: identified as a longtime Bills reporter and Buffalo radio
-  host, verified 2026-08-20.
-
-### First scoring checkpoints
-
-Score these sources against outcomes already in motion, in this order:
-
-1. Connor McGovern's actual Week 1 availability against each source's reported
-   two-to-four-week timeline.
-2. The left-guard winner between Alec Anderson and Austin Corbett against each
-   source's preseason depth-chart read.
-3. Whether James Cook's Weeks 1-4 route participation matches the receiving expansion
-   attributed to Pete Carmichael.
+Original registry established 2026-08-20. No source has been outcome-scored in this repair. Endpoint success is an access result, not a reliability grade. Older identity dates remain visible in sources.csv.
 
 ## Usage notes
 
-Attribute individual reports, distinguish reporting from interpretation, and update
-reliability judgments from documented outcomes rather than reputation alone. Buffalo's
-camp-intel pages at national outlets are updated in place, so always record the date a
-claim was retrieved rather than assuming the page's publication date. Where a claim
-originates in a podcast or radio segment, cite the segment and date and prefer a
-written corroboration when one exists.
+For each future monitoring assignment, freeze the current source ID, exact endpoint, lane and time window. Open the supporting item, verify its byline and original publication timestamp, and report access failures honestly. Never substitute a bio, search snippet, paid preview or aggregator for an article body or a listened segment.
+
+The [September 6 source-repair audit](../../../../../../intelligence/2026/2026-09-06-buf-kc-source-repair.md) records phases, omissions and limits.

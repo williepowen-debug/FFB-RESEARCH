@@ -1,0 +1,1 @@
+game_id,team_id,player_or_unit,metric_name,quarter_filter,game_clock_filter,score_margin_filter,qb_unit,personnel_filter,player_available_context,numerator,denominator,denominator_definition,eligible_plays,chartable_plays,unknown_plays,source_id,source_url,source_locator,published_at,retrieved_at,method,status,ledger_id,target_ids,notes
