@@ -8,4 +8,4 @@ Seattle's defensive Core module starts from elite 2025 continuity. Mike Macdonal
 - [`secondary-replacement-roles.md`](secondary-replacement-roles.md): safety and CB3 competitions.
 - [`hypotheses.csv`](hypotheses.csv): preseason defensive monitoring questions.
 
-Last verified: 2026-08-17.
+Last verified: 2026-09-09 (Week 1 eve; dated status notes added inside each finding's Evidence section).

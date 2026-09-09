@@ -9,8 +9,8 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-09-09
+last_verified: 2026-09-09
 confidence: medium
 source_ids: ["local-source-seattle-seahawks"]
 supersedes: []
@@ -22,7 +22,7 @@ coach_id: local-coach-brian-fleury
 - Role: Offensive coordinator
 - Season: 2026
 - Joined team: 2026
-- Last verified: 2026-08-17
+- Last verified: 2026-09-09
 
 ## Responsibilities
 
@@ -41,6 +41,8 @@ Inference: Baseline expectations should be wide-zone/play-action carryover, tigh
 Fact: Seattle's official depth chart lists Darnold as QB1, Smith-Njigba and Kupp as primary receivers, Shaheed and Tory Horton in the receiver/return mix, Barner as TE1, and Holani/Price/Wilson ahead of Charbonnet at running back as of the verification date. Fact: Seattle returned all five starting offensive linemen from 2025 and added Beau Stephens plus Bobby Hart.
 
 Inference: Fleury's most fantasy-relevant decisions are whether Price becomes the lead back, how much Shaheed's full offseason expands his route role, and whether Barner becomes more than a blocking/ancillary tight end.
+
+Week 1 status (verified 2026-09-09): Fact: the initial 53 (2026-08-30) carries three running backs (Price, Wilson, Holani) plus FB Brady Russell, five receivers (Smith-Njigba, Kupp, Shaheed, Horton, Foster), and four tight ends (Barner, Saubert, Arroyo, Kallerup); Nick Vannett was released at cutdown. Fact: the official depth chart as of 2026-09-09 lists Price first at running back, then Wilson, then Holani; the 2026-08-17 order (Holani, Price, Wilson) no longer applies. Fact: Charbonnet is on reserve/PUP through at least Week 4. Fact: Wilson missed camp time and all preseason games (hamstring) but was a full participant on the Sunday and Monday Week 1 reports with no designation; Horton (hamstring) is questionable; Bradford was upgraded to full. Fact: Seahawks.com framed Price's debut as sharing the load with Holani and Wilson rather than carrying it alone. Inference: Fleury enters Week 1 with all five linemen and all three healthy backs available, so the first usage sample will be a clean read on his intended rotation rather than an injury-forced one.
 
 ## Pace and situational decisions
 
@@ -64,4 +66,8 @@ Coordinator intent is not usage. Price's pass protection, Holani/Wilson roles, C
 - John Boyle, Seahawks.com - [Seahawks Finalize 2026 Coaching Staff](https://www.seahawks.com/news/seattle-seahawks-finalize-2026-coaching-staff) - published 2026-03-12.
 - John Boyle, Seahawks.com - [Seahawks QB Sam Darnold Sees 'Incredible' Command From New Offensive Coordinator Brian Fleury](https://www.seahawks.com/news/seahawks-qb-sam-darnold-sees-incredible-command-from-new-offensive-coordinator-brian-fleury) - published 2026-06-04.
 - John Boyle, Seahawks.com - [The 'Kinda' New Offense, Injury Updates & Other Takeaways From Day 2 Of Seahawks Minicamp](https://www.seahawks.com/news/the-kinda-new-offense-injury-updates-other-takeaways-from-day-2-of-seahawks-minicamp) - published 2026-06-10.
-- Seattle Seahawks - [Depth Chart](https://www.seahawks.com/team/depth-chart) - verified 2026-08-17.
+- Seattle Seahawks - [Depth Chart](https://www.seahawks.com/team/depth-chart) - verified 2026-08-17 and 2026-09-09.
+- John Boyle, Seahawks.com - [A Position-By-Position Look At The Seahawks' Initial 2026 53-Man Roster](https://www.seahawks.com/news/a-position-by-position-look-at-the-seahawks-initial-2026-53-man-roster) - published 2026-08-30.
+- John Boyle, Seahawks.com - [What To Watch In The Seahawks' Season Opener Against The Patriots](https://www.seahawks.com/news/what-to-watch-in-the-seahawks-season-opener-against-the-patriots) - published 2026-09-07.
+- John Boyle, Seahawks.com - [Ty Okada Out, Nick Emmanwori Questionable For Seahawks Season Opener vs. Patriots](https://www.seahawks.com/news/ty-okada-out-nick-emmanwori-questionable-for-seahawks-season-opener-vs-patriots) - published 2026-09-08.
+- John Boyle, Seahawks.com - [2026 Week 1 Injury Report: Seahawks vs. Patriots](https://www.seahawks.com/news/2026-week-1-injury-report-seahawks-vs-patriots) - published 2026-09-08.

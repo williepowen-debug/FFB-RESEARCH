@@ -4,7 +4,7 @@ record_id: wm-2026-w01-ne-sea-001
 record_type: weekly_matchup
 title: "Week 1: New England Patriots at Seattle Seahawks"
 team_ids: ["NE", "SEA"]
-player_ids: []
+player_ids: ["local-player-rhamondre-stevenson-2021", "local-player-treveyon-henderson-2025", "local-player-drake-maye-2024", "local-player-aj-brown-2019", "local-player-hunter-henry-2016", "local-player-romeo-doubs-2022", "local-player-jadarian-price-2026", "local-player-george-holani-2024", "local-player-sam-darnold-2018", "local-player-jaxon-smith-njigba-2023", "local-player-rashid-shaheed-2022", "local-player-aj-barner-2024"]
 season: 2026
 week: 1
 status: draft
@@ -153,3 +153,4 @@ New England elevated P Mitch Wishnowsky with Bryce Baringer on injured reserve. 
 - [local-writer-brady-henderson](https://www.espn.com/nfl/story/_/id/49872328/patriots-henderson-seahawks-okada-ruled-sb-rematch) — published 2026-09-08T17:12:00-04:00 (byline display time); retrieved 2026-09-09T21:10:43+00:00; `obs-2026-sea-20260909t210706z-012`.
 
 - Betting references (unregistered; market context only): [ESPN odds page, DraftKings lines](https://www.espn.com/nfl/odds/_/gameId/401872656) — retrieved 2026-09-09 about 21:20Z; [FanDuel Research props](https://www.fanduel.com/research/patriots-vs-seahawks-prediction-10-best-bets-and-player-props-for-nfl-opening-night) — published 2026-09-09, retrieved 2026-09-09 about 21:20Z; [VSiN odds and props](https://vsin.com/nfl/patriots-vs-seahawks-predictions-week-1-odds-picks-and-player-props/) — published 2026-09-08, retrieved 2026-09-09 about 21:20Z.
+- Canonical player profiles: [Stevenson](../../../../players/rhamondre-stevenson/profile.md) · [Henderson](../../../../players/treveyon-henderson/profile.md) · [Maye](../../../../players/drake-maye/profile.md) · [A.J. Brown](../../../../players/aj-brown/profile.md) · [Henry](../../../../players/hunter-henry/profile.md) · [Doubs](../../../../players/romeo-doubs/profile.md) · [Price](../../../../players/jadarian-price/profile.md) · [Holani](../../../../players/george-holani/profile.md) · [Darnold](../../../../players/sam-darnold/profile.md) · [Smith-Njigba](../../../../players/jaxon-smith-njigba/profile.md) · [Shaheed](../../../../players/rashid-shaheed/profile.md) · [Barner](../../../../players/aj-barner/profile.md)
