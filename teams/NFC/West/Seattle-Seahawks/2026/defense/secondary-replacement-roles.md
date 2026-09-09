@@ -61,6 +61,7 @@ Seattle D/ST remains viable, but DFS and player-prop decisions should check whet
 - John Boyle, Seahawks.com - [Ty Okada Out, Nick Emmanwori Questionable For Seahawks Season Opener vs. Patriots](https://www.seahawks.com/news/ty-okada-out-nick-emmanwori-questionable-for-seahawks-season-opener-vs-patriots) - published 2026-09-08.
 - Mike Reiss and Brady Henderson, ESPN - [Patriots' Henderson, Seahawks' Okada ruled out for SB rematch](https://www.espn.com/nfl/story/_/id/49872328/patriots-henderson-seahawks-okada-ruled-sb-rematch) - published 2026-09-08 (Emmanwori unlikely to play is the reporters' judgment; ESPN may serve bot challenges).
 - John Boyle, Seahawks.com - [Seahawks Make Roster Moves Ahead Of Season Opener vs. Patriots](https://www.seahawks.com/news/seahawks-make-roster-moves-ahead-of-season-opener-vs-patriots) - published 2026-09-09.
+- Reconciled evidence: [September 9 SEA synthesis](../../../../../../intelligence/2026/syntheses/2026-09-09/SEA.md) (`ti-2026-sea-20260909-001`); dispositions in the [team intelligence ledger](../intelligence-ledger.csv) (`til-2026-sea-20260909-002`, `-003`).
 
 ## Assessment
 
