@@ -9,8 +9,8 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-09-09
+last_verified: 2026-09-09
 confidence: high
 source_ids: ["local-source-seattle-seahawks"]
 supersedes: []
@@ -22,7 +22,7 @@ coach_id: local-coach-mike-macdonald
 - Role: Head coach
 - Season: 2026
 - Joined team: 2024
-- Last verified: 2026-08-17
+- Last verified: 2026-09-09
 
 ## Responsibilities
 
@@ -41,6 +41,8 @@ Inference: Seattle should remain defense-led and matchup-adaptable. The main 202
 Fact: Seattle's official depth chart lists Sam Darnold, Jaxon Smith-Njigba, Cooper Kupp, Rashid Shaheed, George Holani, Jadarian Price, AJ Barner, and all five returning offensive-line starters as the offensive baseline. Fact: the defense lists Leonard Williams, Byron Murphy II, Jarran Reed, DeMarcus Lawrence, Uchenna Nwosu, Ernest Jones IV, Drake Thomas, Devon Witherspoon, Josh Jobe, Ty Okada, and Julian Love as first-team pieces.
 
 Inference: Macdonald's preseason roster decisions that matter most for fantasy are running back hierarchy, Shaheed's offense/return workload, TE route distribution, safety replacement for Coby Bryant, and CB3.
+
+Week 1 status (verified 2026-09-09): Fact: the initial 53-man roster set 2026-08-30 kept the offensive baseline above and carried only three safeties (Love, Okada, Emmanwori) after Bud Clark went to injured reserve 2026-08-25. Fact: Zach Charbonnet was moved to reserve/PUP 2026-08-30 (at least four games). Fact: the official depth chart as of 2026-09-09 lists Price, Wilson, Holani at running back and Montorie Foster Jr. as the fifth receiver after Jake Bobo's season-ending knee injury. Fact: Okada (hamstring) is out for the opener, Emmanwori and Tory Horton are questionable, and Seattle signed AJ Finley to the 53 and elevated Rodney Thomas II and Velus Jones Jr. on 2026-09-09. Fact: Seattle extended Devon Witherspoon (2026-08-17) and Leonard Williams (2026-08-27), signed CB Terrion Arnold (2026-08-29; Commissioner's Exempt List), and traded for CB Avery Smith (2026-08-30). Inference: none of these moves changes Macdonald's authority model; they narrow the open questions to a Week 1 safety replacement beside Love and a three-back rotation.
 
 ## Pace and situational decisions
 
@@ -63,4 +65,9 @@ This is a seasonal profile. Do not treat August depth-chart order as final workl
 - Seattle Seahawks - [Mike Macdonald coaching profile](https://www.seahawks.com/team/coaches-roster/mike-macdonald) - verified 2026-08-17.
 - John Boyle, Seahawks.com - [Seahawks Finalize 2026 Coaching Staff](https://www.seahawks.com/news/seattle-seahawks-finalize-2026-coaching-staff) - published 2026-03-12.
 - John Boyle, Seahawks.com - [The 'Kinda' New Offense, Injury Updates & Other Takeaways From Day 2 Of Seahawks Minicamp](https://www.seahawks.com/news/the-kinda-new-offense-injury-updates-other-takeaways-from-day-2-of-seahawks-minicamp) - published 2026-06-10.
-- Seattle Seahawks - [Depth Chart](https://www.seahawks.com/team/depth-chart) - verified 2026-08-17.
+- Seattle Seahawks - [Depth Chart](https://www.seahawks.com/team/depth-chart) - verified 2026-08-17 and 2026-09-09.
+- John Boyle, Seahawks.com - [A Position-By-Position Look At The Seahawks' Initial 2026 53-Man Roster](https://www.seahawks.com/news/a-position-by-position-look-at-the-seahawks-initial-2026-53-man-roster) - published 2026-08-30.
+- John Boyle, Seahawks.com - [Seahawks Make Roster Moves, Including Trade, To Establish Initial 53-Man Roster](https://www.seahawks.com/news/seahawks-make-roster-moves-including-trade-to-establish-initial-53-man-roster) - published 2026-08-30.
+- John Boyle, Seahawks.com - [Ty Okada Out, Nick Emmanwori Questionable For Seahawks Season Opener vs. Patriots](https://www.seahawks.com/news/ty-okada-out-nick-emmanwori-questionable-for-seahawks-season-opener-vs-patriots) - published 2026-09-08.
+- John Boyle, Seahawks.com - [Seahawks Make Roster Moves Ahead Of Season Opener vs. Patriots](https://www.seahawks.com/news/seahawks-make-roster-moves-ahead-of-season-opener-vs-patriots) - published 2026-09-09.
+- Seattle Seahawks - [Coaches](https://www.seahawks.com/team/coaches-roster/) - verified 2026-09-09.

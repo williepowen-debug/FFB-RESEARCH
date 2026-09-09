@@ -8,4 +8,4 @@ Seattle's offensive Core module is a continuity-with-transition file. Brian Fleu
 - [`post-walker-backfield.md`](post-walker-backfield.md): running back role split after Walker's departure.
 - [`hypotheses.csv`](hypotheses.csv): preseason offensive monitoring questions.
 
-Last verified: 2026-08-17.
+Last verified: 2026-09-09 (Week 1 eve; dated status notes added inside each finding's Evidence section).

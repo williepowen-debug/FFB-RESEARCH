@@ -9,8 +9,8 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-08-17
-last_verified: 2026-08-17
+valid_as_of: 2026-09-09
+last_verified: 2026-09-09
 confidence: high
 source_ids: ["local-source-seattle-seahawks"]
 supersedes: []
@@ -22,7 +22,7 @@ coach_id: local-coach-aden-durde
 - Role: Defensive coordinator
 - Season: 2026
 - Joined team: 2024
-- Last verified: 2026-08-17
+- Last verified: 2026-09-09
 
 ## Responsibilities
 
@@ -41,6 +41,8 @@ Inference: The defense is built around light-box run integrity, disguised pressu
 Fact: Seattle retained Leonard Williams, Byron Murphy II, Jarran Reed, DeMarcus Lawrence, Uchenna Nwosu, Derick Hall, Ernest Jones IV, Drake Thomas, Devon Witherspoon, Josh Jobe, Ty Okada, and Julian Love. Fact: Boye Mafe, Coby Bryant, and Riq Woolen departed; Dante Fowler Jr., Noah Igbinoghene, D'Anthony Bell, Rodney Thomas II, Bud Clark, Julian Neal, Andre Fuller, Michael Dansby, and Deven Eastern were added.
 
 Inference: Durde's preseason usage questions are edge replacement snaps after Mafe, safety alignment after Bryant, and CB3/dime roles after Woolen.
+
+Week 1 status (verified 2026-09-09): Fact: the initial 53 (2026-08-30) carries six defensive linemen, five outside linebackers (Lawrence, Nwosu, Hall, Fowler, O'Toole), five inside linebackers, five corners (Witherspoon, Jobe, Pritchett, Neal, trade acquisition Avery Smith), and three safeties (Love, Okada, Emmanwori). Fact: Igbinoghene, Bell, Thomas II, and Trevon Diggs were released at cutdown; Thomas II, Diggs, and AJ Finley went to the practice squad 2026-08-31 and Bell returned to it 2026-09-05. Fact: rookie safety Bud Clark went to injured reserve 2026-08-25 (broken ankle). Fact: CB Terrion Arnold was signed 2026-08-29 and placed on the Commissioner's Exempt List 2026-08-30 with no availability timetable. Fact: Leonard Williams signed a multi-year extension 2026-08-27 and Devon Witherspoon a four-year extension 2026-08-17. Fact: for Week 1, Okada is out (hamstring), Emmanwori is questionable (July ankle surgery), Finley was signed to the 53, and Thomas II was elevated; Seahawks.com expects Thomas II or Finley to start beside Love. Inference: Durde's Week 1 safety pairing is injury-forced rather than competition-decided, so it should not be read as the season-long answer to the Bryant replacement question.
 
 ## Pace and situational decisions
 
@@ -64,4 +66,11 @@ The defense can still create week-to-week fantasy traps if CB3 or safety turnove
 - John Boyle, Seahawks.com - [Seahawks Finalize 2026 Coaching Staff](https://www.seahawks.com/news/seattle-seahawks-finalize-2026-coaching-staff) - published 2026-03-12.
 - John Boyle, Seahawks.com - [Top 2026 Training Camp Storylines: Can A Loaded Defensive Front Be Even Better In 2026?](https://www.seahawks.com/news/top-2026-training-camp-storylines-can-a-loaded-defensive-front-be-even-better-in-2026) - published 2026-07-10.
 - John Boyle, Seahawks.com - [Seahawks Mailbag: Hard Knocks, Training Camp Competitions & More](https://www.seahawks.com/news/seahawks-mailbag-hard-knocks-training-camp-competitions-more) - published 2026-07-22.
-- Seattle Seahawks - [Depth Chart](https://www.seahawks.com/team/depth-chart) - verified 2026-08-17.
+- Seattle Seahawks - [Depth Chart](https://www.seahawks.com/team/depth-chart) - verified 2026-08-17 and 2026-09-09.
+- John Boyle, Seahawks.com - [A Position-By-Position Look At The Seahawks' Initial 2026 53-Man Roster](https://www.seahawks.com/news/a-position-by-position-look-at-the-seahawks-initial-2026-53-man-roster) - published 2026-08-30.
+- John Boyle, Seahawks.com - [Seahawks Make Roster Moves, Including Trade, To Establish Initial 53-Man Roster](https://www.seahawks.com/news/seahawks-make-roster-moves-including-trade-to-establish-initial-53-man-roster) - published 2026-08-30.
+- John Boyle, Seahawks.com - [Seahawks Sign Three Free Agents, Place Bud Clark & Mason Richman On Injured Reserve](https://www.seahawks.com/news/seahawks-sign-three-free-agents-place-bud-clark-mason-richman-on-injured-reserve) - published 2026-08-25.
+- John Boyle, Seahawks.com - [Seahawks Sign CB Terrion Arnold](https://www.seahawks.com/news/seahawks-sign-cb-terrion-arnold) - published 2026-08-29.
+- John Boyle, Seahawks.com - [Seahawks Sign 'Foundational Player' Leonard Williams To Multi-Year Contract Extension](https://www.seahawks.com/news/seahawks-sign-foundational-player-leonard-williams-to-multi-year-contract-extension) - published 2026-08-27.
+- John Boyle, Seahawks.com - [Ty Okada Out, Nick Emmanwori Questionable For Seahawks Season Opener vs. Patriots](https://www.seahawks.com/news/ty-okada-out-nick-emmanwori-questionable-for-seahawks-season-opener-vs-patriots) - published 2026-09-08.
+- John Boyle, Seahawks.com - [Seahawks Make Roster Moves Ahead Of Season Opener vs. Patriots](https://www.seahawks.com/news/seahawks-make-roster-moves-ahead-of-season-opener-vs-patriots) - published 2026-09-09.

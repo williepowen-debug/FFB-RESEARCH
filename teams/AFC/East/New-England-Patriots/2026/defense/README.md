@@ -1,23 +1,23 @@
 # New England Patriots 2026 Defensive Ecosystem
 
-This directory treats the defense as a connected system under promoted coordinator Zac Kuhr, who inherits the core of a 2025 Super Bowl defense (Terrell Williams moved to assistant head coach). New England reinforced the pass rush (Dre'Mont Jones, drafted Gabe Jacas) and the secondary (Kevin Byard) around returning cornerback Christian Gonzalez. The unit's identity should be treated as continuous with 2025 but unproven under a new play-caller.
+This directory treats the defense as a connected system under coordinator Zak Kuhr, promoted on 2026-03-16 after serving as the de facto defensive coordinator and play-caller for the final 20 games of 2025 while Terrell Williams (now assistant head coach) was on medical leave. New England reinforced the pass rush (Dre'Mont Jones, drafted Gabe Jacas) and the secondary (Kevin Byard, traded-for Jaylen Reed) around returning cornerback Christian Gonzalez, who agreed to a reported four-year extension on 2026-09-07. The unit's identity should be treated as continuous with 2025 — including Kuhr's playoff shift toward more blitz and man coverage — but no 2026 regular-season charting exists yet, and edge Harold Landry opens on reserve/PUP.
 
 ## Files
 
-- [`front-seven-and-pass-rush.md`](front-seven-and-pass-rush.md): edge and interior additions around a returning core, and pressure projection under Kuhr.
-- [`secondary.md`](secondary.md): the Gonzalez-led secondary, veteran safety help, and open role competitions.
+- [`front-seven-and-pass-rush.md`](front-seven-and-pass-rush.md): edge and interior additions around a returning core, the Landry absence, and pressure projection under Kuhr.
+- [`secondary.md`](secondary.md): the Gonzalez-led secondary, veteran safety help, and the open second-safety competition.
 - [`hypotheses.csv`](hypotheses.csv): machine-readable defensive questions with confirming and disconfirming evidence.
 
 ## Evidence boundary
 
-These records establish the pre-preseason baseline as of 2026-08-13. They do not convert the 2025 result or the additions into a settled 2026 scheme or role chart.
+These records establish the baseline as of 2026-09-09, the eve of Week 1. They absorb the official cutdown (2026-08-30), the Boutte–Reed trade (2026-08-25), the waiver claims (2026-08-31), and the reported Gonzalez extension. They do not convert the 2025 result or the additions into a settled 2026 scheme or role chart.
 
 ## Highest-leverage questions
 
-1. Does Kuhr keep the defense continuous with the 2025 Super Bowl unit?
-2. Does Dre'Mont Jones provide productive pressure in Kuhr's packages?
-3. How does the safety pairing settle alongside Kevin Byard?
+1. Does Kuhr keep the defense continuous with the 2025 unit he already called down the stretch?
+2. Does Dre'Mont Jones provide productive pressure in a three-man edge rotation (Jones, Ponder, Jacas) while Landry is out at least four games?
+3. Who starts beside Kevin Byard among Woodson, Reed, and Pettus?
 4. Does Christian Gonzalez function as a target-steering shutdown corner?
-5. Does the pass rush maintain or improve its pressure and takeaway profile?
+5. Does the pass rush maintain or improve its pressure and takeaway profile without Landry?
 
-Last verified: 2026-08-13.
+Last verified: 2026-09-09.

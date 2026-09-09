@@ -1,15 +1,37 @@
 source_id,endpoint_type,url,access,automation_suitability,notes,last_verified
-local-source-new-england-patriots,official_news,https://www.patriots.com/news/,free,metadata_and_summary,Official news and roster-move index.,2026-08-20
-local-source-new-england-patriots,official_roster,https://www.patriots.com/team/players-roster/,free,structured_page,Current roster and reserve lists.,2026-08-20
-local-source-new-england-patriots,official_injury_report,https://www.patriots.com/team/injury-report/,free,structured_monitoring,Official practice participation and game status.,2026-08-20
-local-source-new-england-patriots,official_media,https://www.patriots.com/press-room/mediasite/,free,metadata_and_summary,Official press conferences and transcripts.,2026-08-20
-local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve the completed game's gamebook or participation report.,2026-08-20
-local-writer-mike-reiss,outlet_profile,https://espnpressroom.com/bio/mike-reiss/,free,metadata_and_summary,Official ESPN biography confirming the Patriots assignment.,2026-08-20
-local-writer-mike-reiss,outlet_landing,https://www.espn.com/nfl/team/_/name/ne/new-england-patriots,mixed,metadata_and_summary,ESPN Patriots coverage landing page.,2026-08-20
-local-writer-andrew-callahan,outlet_landing,https://www.bostonherald.com/sports/nfl/new-england-patriots/,mixed,metadata_and_summary,Boston Herald Patriots coverage.,2026-08-20
-local-writer-doug-kyed,podcast_landing,https://www.iheart.com/podcast/269-pats-chat-a-patriots-podca-105622005/,free,metadata_only,Pats Chat episode discovery; do not reproduce transcripts.,2026-08-20
-local-writer-christopher-price,outlet_landing,https://www.bostonglobe.com/sports/patriots/,paid,metadata_and_summary,Boston Globe Patriots coverage and bylines.,2026-08-20
-local-writer-nicole-yang,outlet_profile,https://www.bostonglobe.com/about/staff-list/staff/nicole-yang/,mixed,metadata_and_summary,Globe profile confirming Patriots beat role.,2026-08-20
-local-writer-ben-volin,outlet_profile,https://www.bostonglobe.com/about/staff-list/staff/ben-volin/,mixed,metadata_and_summary,Globe profile confirming senior NFL role.,2026-08-20
-local-source-patriots-unfiltered,podcast_landing,https://www.patriots.com/audio/podcasts,free,metadata_only,Official podcast discovery page.,2026-08-20
-local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/nwe/2026.htm,free,structured_page,Season statistics and game logs; automated access may be rate-limited.,2026-08-20
+local-source-new-england-patriots,official_news,https://www.patriots.com/news/,free,metadata_and_summary,Official news and roster-move index.,2026-09-09
+local-source-new-england-patriots,official_roster,https://www.patriots.com/team/players-roster/,free,structured_page,Current roster and reserve lists.,2026-09-09
+local-source-new-england-patriots,official_injury_report,https://www.patriots.com/team/injury-report/,free,structured_monitoring,Official practice participation and game status.,2026-09-09
+local-source-new-england-patriots,official_media,https://www.patriots.com/press-room/mediasite/,free,metadata_and_summary,Official press conferences and transcripts.,2026-09-09
+local-source-new-england-patriots,official_transactions,https://www.patriots.com/team/transactions/,free,structured_monitoring,Official roster transaction log.,2026-09-09
+local-source-nfl-gamebooks,official_game_center,https://www.nfl.com/scores/,free,manual_retrieval,Retrieve the completed game's gamebook or participation report.,2026-09-09
+local-writer-mike-reiss,outlet_profile,https://espnpressroom.com/bio/mike-reiss/,free,metadata_and_summary,Official ESPN biography confirming the Patriots NFL Nation assignment; re-verified 2026-09-09.,2026-09-09
+local-writer-mike-reiss,outlet_landing,https://www.espn.com/nfl/team/_/name/ne/new-england-patriots,mixed,manual_retrieval,ESPN Patriots coverage landing page; ESPN serves bot challenges to scripted retrieval.,2026-09-09
+local-writer-andrew-callahan,outlet_profile,https://www.bostonherald.com/author/andrew-callahan/,mixed,metadata_and_summary,Herald author page and bio confirming the Patriots beat assignment since 2019.,2026-09-09
+local-writer-andrew-callahan,outlet_landing,https://www.bostonherald.com/sports/nfl/new-england-patriots/,mixed,metadata_and_summary,Boston Herald Patriots coverage; use a browser user-agent request.,2026-09-09
+local-writer-doug-kyed,outlet_profile,https://www.bostonherald.com/author/doug-kyed/,mixed,metadata_and_summary,Herald author page carrying the current Patriots byline volume.,2026-09-09
+local-writer-doug-kyed,podcast_landing,https://www.iheart.com/podcast/269-pats-chat-a-patriots-podca-105622005/,free,metadata_only,Pats Chat episode discovery; do not reproduce transcripts.,2026-09-09
+local-writer-christopher-price,outlet_profile,https://www.bostonglobe.com/about/staff-list/staff/christopher-price/,mixed,metadata_and_summary,Globe staff profile.,2026-09-09
+local-writer-christopher-price,outlet_landing,https://www.bostonglobe.com/sports/patriots/,paid,metadata_and_summary,Boston Globe Patriots coverage and bylines.,2026-09-09
+local-writer-nicole-yang,outlet_profile,https://www.bostonglobe.com/about/staff-list/staff/nicole-yang/,mixed,metadata_and_summary,Globe profile confirming Patriots beat role.,2026-09-09
+local-writer-ben-volin,outlet_profile,https://www.bostonglobe.com/about/staff-list/staff/ben-volin/,mixed,metadata_and_summary,Globe profile confirming senior NFL role.,2026-09-09
+local-writer-chad-graff,outlet_profile,https://www.nytimes.com/athletic/author/chad-graff/,paid,metadata_and_summary,The Athletic author page; bio states he has covered the Patriots since 2022.,2026-09-09
+local-writer-chad-graff,outlet_profile_mirror,https://theathletic.com/author/chad-graff/,paid,metadata_and_summary,Same author page on the legacy Athletic domain.,2026-09-09
+local-writer-mark-daniels,outlet_profile,https://www.masslive.com/staff/mdaniels/posts.html,mixed,manual_retrieval,MassLive staff archive; masslive.com returns HTTP 403 to automated retrieval.,2026-09-09
+local-writer-mark-daniels,outlet_landing,https://www.masslive.com/patriots/,mixed,manual_retrieval,MassLive Patriots section; browser retrieval required.,2026-09-09
+local-writer-greg-bedard,outlet_landing,https://www.bostonsportsjournal.com/team/patriots/feed,paid,metadata_and_summary,BSJ Patriots feed listing current Bedard and Giardi bylines.,2026-09-09
+local-writer-mike-giardi,outlet_landing,https://www.bostonsportsjournal.com/team/patriots/feed,paid,metadata_and_summary,Shared BSJ Patriots feed; Giardi shares the Week 1 on-site coverage credit.,2026-09-09
+local-writer-phil-perry,outlet_profile,https://www.nbcsportsboston.com/insiders/phil-perry/,free,metadata_and_summary,Outlet bio naming him the New England Patriots Insider.,2026-09-09
+local-writer-tom-curran,outlet_profile,https://www.nbcsportsboston.com/insiders/tom-curran/,free,metadata_and_summary,Outlet bio naming him a Patriots and NFL Insider.,2026-09-09
+local-writer-taylor-kyles,outlet_profile,https://www.clnsmedia.com/author/taylor-kyles/,free,metadata_and_summary,CLNS author archive with the numbered 2026 camp reports and Week 1 film pieces.,2026-09-09
+local-writer-taylor-kyles,podcast_landing,https://www.clnsmedia.com/podcasts/patriots-beat/,free,metadata_only,CLNS Patriots Beat episode discovery.,2026-09-09
+local-writer-brian-hines,outlet_profile,https://www.patspulpit.com/authors/brian-hines,free,metadata_and_summary,Pats Pulpit author page; masthead lists him as the site's beat writer.,2026-09-09
+local-writer-bernd-buchmasser,outlet_profile,https://www.patspulpit.com/authors/bernd-buchmasser,free,metadata_and_summary,Pats Pulpit author page for the site manager and cap analyst.,2026-09-09
+local-writer-bernd-buchmasser,topic_landing,https://www.patspulpit.com/new-england-patriots-salary-cap,free,metadata_and_summary,Standing Patriots salary-cap section.,2026-09-09
+local-writer-evan-lazar,outlet_profile,https://www.patriots.com/author/evan-lazar,free,metadata_and_summary,Patriots.com author page; team-employed film and gameplan analysis.,2026-09-09
+local-writer-paul-perillo,outlet_profile,https://www.patriots.com/author/paul-perillo,free,metadata_and_summary,Patriots.com author page carrying the numbered daily Blogservations practice reports.,2026-09-09
+local-writer-alex-barth,outlet_profile,https://985thesportshub.com/barth/,free,manual_retrieval,98.5 The Sports Hub author bio; the domain returns a Cloudflare challenge to automated retrieval.,2026-09-09
+local-writer-alex-barth,podcast_landing,https://www.clnsmedia.com/podcasts/patriots-beat/,free,metadata_only,Patriots Beat episode discovery; Barth co-hosts.,2026-09-09
+local-source-patriots-unfiltered,podcast_landing,https://www.patriots.com/audio/podcasts,free,metadata_only,Official podcast discovery page; Unfiltered airs live Tuesday-Thursday in season.,2026-09-09
+local-source-pro-football-reference,team_page,https://www.pro-football-reference.com/teams/nwe/2026.htm,free,manual_retrieval,Season statistics and game logs; automated access now returns a Cloudflare challenge.,2026-09-09
+local-source-over-the-cap,team_page,https://overthecap.com/salary-cap/new-england-patriots,free,structured_page,"2026 Patriots cap table, dead money and roster mechanics.",2026-09-09

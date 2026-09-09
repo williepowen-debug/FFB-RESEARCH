@@ -1,14 +1,18 @@
 coach_id,name,unit,2026_role,retained_from_2025,2025_role_if_retained,source_url,last_verified
-local-coach-mike-vrabel,Mike Vrabel,all,Head Coach,true,Head Coach,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-josh-mcdaniels,Josh McDaniels,offense,Offensive Coordinator,true,Offensive Coordinator,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-zac-kuhr,Zac Kuhr,defense,Defensive Coordinator,true,Inside Linebackers,https://en.wikipedia.org/wiki/2026_New_England_Patriots_season,2026-08-13
-local-coach-terrell-williams,Terrell Williams,defense,Assistant Head Coach,true,Defensive Coordinator,https://en.wikipedia.org/wiki/2026_New_England_Patriots_season,2026-08-13
-local-coach-jeremy-springer,Jeremy Springer,special_teams,Special Teams Coordinator,true,Special Teams Coordinator,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-thomas-brown,Thomas Brown,offense,Pass Game Coordinator/Tight Ends,true,Pass Game Coordinator/Tight Ends,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-doug-marrone,Doug Marrone,offense,Offensive Line,true,Offensive Line,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-todd-downing,Todd Downing,offense,Wide Receivers,true,Wide Receivers,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-tony-dews,Tony Dews,offense,Running Backs,true,Running Backs,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-ben-mcadoo,Ben McAdoo,defense,Senior Defensive Assistant,true,Senior Defensive Assistant,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-clint-mcmillan,Clint McMillan,defense,Defensive Line,true,Defensive Line,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-justin-hamilton,Justin Hamilton,defense,Cornerbacks,true,Cornerbacks,https://www.patriots.com/team/coaches-roster/,2026-08-13
-local-coach-scott-booker,Scott Booker,defense,Safeties,true,Safeties,https://www.patriots.com/team/coaches-roster/,2026-08-13
+local-coach-mike-vrabel,Mike Vrabel,all,Head Coach,true,Head Coach,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-josh-mcdaniels,Josh McDaniels,offense,Offensive Coordinator,true,Offensive Coordinator,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-zac-kuhr,Zak Kuhr,defense,Defensive Coordinator,true,Inside Linebackers (de facto defensive coordinator and play-caller for the final 20 games of 2025),https://www.patriots.com/news/analysis-patriots-promote-zak-kuhr-to-defensive-coordinator-terrell-williams-named-assistant-head-coach,2026-09-09
+local-coach-terrell-williams,Terrell Williams,defense,Assistant Head Coach,true,Defensive Coordinator,https://www.patriots.com/news/analysis-patriots-promote-zak-kuhr-to-defensive-coordinator-terrell-williams-named-assistant-head-coach,2026-09-09
+local-coach-jeremy-springer,Jeremy Springer,special_teams,Special Teams Coordinator,true,Special Teams Coordinator,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-thomas-brown,Thomas Brown,offense,Tight Ends / Passing Game Coordinator,true,Tight Ends / Passing Game Coordinator,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-doug-marrone,Doug Marrone,offense,Offensive Line,true,Offensive Line,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-todd-downing,Todd Downing,offense,Wide Receivers,true,Wide Receivers,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-tony-dews,Tony Dews,offense,Running Backs,true,Running Backs,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-ashton-grant,Ashton Grant,offense,Quarterbacks,true,Quarterbacks,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-ben-mcadoo,Ben McAdoo,defense,not on the 2026 staff (departure reported 2026-02-26; absent from the official coaches roster as of 2026-09-09),false,Senior Defensive Assistant,https://www.si.com/nfl/patriots/onsi/news/new-england-patriots-part-ways-senior-assistant-ben-mcadoo,2026-09-09
+local-coach-clint-mcmillan,Clinton McMillan,defense,Defensive Line,true,Defensive Line,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-justin-hamilton,Justin Hamilton,defense,Cornerbacks,true,Cornerbacks,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-scott-booker,Scott Booker,defense,Secondary,true,Safeties,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-vinny-depalma,Vinny DePalma,defense,Inside Linebackers,true,Defensive Assistant,https://www.patriots.com/news/analysis-patriots-promote-zak-kuhr-to-defensive-coordinator-terrell-williams-named-assistant-head-coach,2026-09-09
+local-coach-mike-smith,Mike Smith,defense,Outside Linebackers,true,Outside Linebackers,https://www.patriots.com/team/coaches-roster/,2026-09-09
+local-coach-tom-quinn,Tom Quinn,special_teams,Assistant Special Teams,true,Assistant Special Teams,https://www.patriots.com/team/coaches-roster/,2026-09-09
