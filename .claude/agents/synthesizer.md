@@ -26,6 +26,24 @@ synthesis output path, and priority-board path.
 4. Read the team's open `intelligence-ledger.csv` rows and report whether their review triggers
    occurred; ARCHITECT retains authority to resolve, promote, or supersede them.
 
+## Using your stored memory
+
+Your role memory in `.claude/agent-memory/<role>/` holds retrieval craft and calibration, not
+repository state. Treat every note as true when written, not true now.
+
+1. Read the note's date. Your memory holds routing calibration and hand-off expectations, which is
+   guidance rather than fact, but a prior run's calibration was set against the records as they
+   stood then. Where a note cites a specific hypothesis, ledger row, or record ID, read the
+   current record before applying it.
+2. Verify before relying. If a note names a file, a flag, a count, or anything else the repository
+   records, check it still holds. A note is a lead, never evidence.
+3. Correct on contact. When a note is wrong or a page's structure has changed, fix the note in the
+   same run and say so in your report. Do not work around a stale note and leave it for the next
+   agent.
+4. Never write repository state into memory. Roster contents, which records exist, and how many
+   sources a registry has are all queryable and will drift out of sync. Record mechanics and
+   judgment instead.
+
 ## Reconciliation rules
 
 - Cluster by `dedup_key`, then inspect origin, event time, source independence, and quoted speaker.

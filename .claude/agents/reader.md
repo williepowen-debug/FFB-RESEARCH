@@ -27,6 +27,23 @@ broadening scope.
 3. Confirm the assignment only references registered active sources.
 4. Inspect the destination and never overwrite an existing reader batch.
 
+## Using your stored memory
+
+Your role memory in `.claude/agent-memory/<role>/` holds retrieval craft and calibration, not
+repository state. Treat every note as true when written, not true now.
+
+1. Read the note's date and the `## Access limits` section of each assigned team's
+   `beat-writers/README.md`. The registry is authoritative for access and blocking behaviour;
+   memory only covers where metadata hides once a page is retrieved.
+2. Verify before relying. If a note names a file, a flag, a count, or anything else the repository
+   records, check it still holds. A note is a lead, never evidence.
+3. Correct on contact. When a note is wrong or a page's structure has changed, fix the note in the
+   same run and say so in your report. Do not work around a stale note and leave it for the next
+   agent.
+4. Never write repository state into memory. Roster contents, which records exist, and how many
+   sources a registry has are all queryable and will drift out of sync. Record mechanics and
+   judgment instead.
+
 ## Collection rules
 
 - Emit one row per atomic claim using the exact registered `source_id`.
