@@ -117,7 +117,22 @@ No dated depth-chart snapshot is maintained at Core tier. The official 2026-08-3
 
 ## Canonical player profiles
 
-Canonical player profiles are being created separately; link them here after stable player IDs are verified. Do not duplicate full player biographies in this overview.
+Enduring player biographies live in `players/` and are referenced by stable player ID; do not duplicate them in this overview.
+
+- [Drake Maye](../../../../../players/drake-maye/profile.md) — `local-player-drake-maye-2024`
+- [A.J. Brown](../../../../../players/aj-brown/profile.md) — `local-player-aj-brown-2019`
+- [Romeo Doubs](../../../../../players/romeo-doubs/profile.md) — `local-player-romeo-doubs-2022`
+- [Hunter Henry](../../../../../players/hunter-henry/profile.md) — `local-player-hunter-henry-2016`
+- [Rhamondre Stevenson](../../../../../players/rhamondre-stevenson/profile.md) — `local-player-rhamondre-stevenson-2021`
+- [TreVeyon Henderson](../../../../../players/treveyon-henderson/profile.md) — `local-player-treveyon-henderson-2025`
+
+## Source monitoring and intelligence trail
+
+Registered sources, endpoints, and the durable candidate ledger are in the [source-monitoring guide](beat-writers/README.md). Recurring monitoring follows the [reader and synthesis pipeline](../../../../../INTELLIGENCE_PIPELINE.md): readers emit immutable observations, a dated team synthesis reconciles them, and only then does ARCHITECT record a disposition.
+
+The [team intelligence ledger](intelligence-ledger.csv) is the filtered bridge between dated intelligence and this durable baseline. Every `review` or `escalate` signal receives a `promoted`, `deferred`, or `no_change` disposition there, so it is the correct starting point for asking why a finding did or did not change. Dated syntheses are in [`intelligence/2026/syntheses/`](../../../../../intelligence/2026/syntheses/); the most recent is [2026-09-09](../../../../../intelligence/2026/syntheses/2026-09-09/NE.md).
+
+As of 2026-09-09 two ledger rows are open and deferred to postgame usage: `til-2026-ne-20260909-002` (offense hypotheses q06 and q07) and `til-2026-ne-20260909-003` (the backfield timeshare finding).
 
 ## Open questions
 

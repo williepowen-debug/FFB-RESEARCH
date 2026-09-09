@@ -54,6 +54,7 @@ Smith-Njigba should remain Seattle's safest weekly volume projection. Darnold's 
 - John Boyle, Seahawks.com - [Seahawks Place WR Jake Bobo On Injured Reserve; Sign WR Julian Hicks](https://www.seahawks.com/news/seahawks-place-wr-jake-bobo-on-injured-reserve-sign-wr-julian-hicks) - published 2026-08-22.
 - John Boyle, Seahawks.com - [2026 Week 1 Injury Report: Seahawks vs. Patriots](https://www.seahawks.com/news/2026-week-1-injury-report-seahawks-vs-patriots) - published 2026-09-08.
 - John Boyle, Seahawks.com - [Seahawks Make Roster Moves Ahead Of Season Opener vs. Patriots](https://www.seahawks.com/news/seahawks-make-roster-moves-ahead-of-season-opener-vs-patriots) - published 2026-09-09.
+- Reconciled evidence: [September 9 SEA synthesis](../../../../../../intelligence/2026/syntheses/2026-09-09/SEA.md) (`ti-2026-sea-20260909-001`).
 
 ## Assessment
 

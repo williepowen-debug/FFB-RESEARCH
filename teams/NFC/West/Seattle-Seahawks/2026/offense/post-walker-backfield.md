@@ -58,6 +58,7 @@ Price is the upside target and a priority preseason charting subject. Holani and
 - John Boyle, Seahawks.com - [What To Watch In The Seahawks' Season Opener Against The Patriots](https://www.seahawks.com/news/what-to-watch-in-the-seahawks-season-opener-against-the-patriots) - published 2026-09-07.
 - John Boyle, Seahawks.com - [Ty Okada Out, Nick Emmanwori Questionable For Seahawks Season Opener vs. Patriots](https://www.seahawks.com/news/ty-okada-out-nick-emmanwori-questionable-for-seahawks-season-opener-vs-patriots) - published 2026-09-08 (Wilson cleared).
 - John Boyle, Seahawks.com - [Seahawks Make Roster Moves Ahead Of Season Opener vs. Patriots](https://www.seahawks.com/news/seahawks-make-roster-moves-ahead-of-season-opener-vs-patriots) - published 2026-09-09.
+- Reconciled evidence: [September 9 SEA synthesis](../../../../../../intelligence/2026/syntheses/2026-09-09/SEA.md) (`ti-2026-sea-20260909-001`); dispositions in the [team intelligence ledger](../intelligence-ledger.csv) (`til-2026-sea-20260909-005`).
 
 ## Assessment
 

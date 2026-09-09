@@ -125,7 +125,23 @@ No dated depth-chart snapshot is maintained at Core tier. The official Seahawks 
 
 ## Canonical player profiles
 
-Canonical Seahawks player profiles have not yet been created. Link them here after stable player IDs are verified rather than duplicating enduring biographies inside the team module.
+Enduring player biographies live in `players/` and are referenced by stable player ID; do not duplicate them inside the team module.
+
+- [Sam Darnold](../../../../../players/sam-darnold/profile.md) — `local-player-sam-darnold-2018`
+- [Jaxon Smith-Njigba](../../../../../players/jaxon-smith-njigba/profile.md) — `local-player-jaxon-smith-njigba-2023`
+- [Rashid Shaheed](../../../../../players/rashid-shaheed/profile.md) — `local-player-rashid-shaheed-2022`
+- [AJ Barner](../../../../../players/aj-barner/profile.md) — `local-player-aj-barner-2024`
+- [Jadarian Price](../../../../../players/jadarian-price/profile.md) — `local-player-jadarian-price-2026`
+- [George Holani](../../../../../players/george-holani/profile.md) — `local-player-george-holani-2024`
+- [Zach Charbonnet](../../../../../players/zach-charbonnet/profile.md) — `local-player-zach-charbonnet-2023`
+
+## Source monitoring and intelligence trail
+
+Registered sources, endpoints, and the durable candidate ledger are in the [source-monitoring guide](beat-writers/README.md). Roster construction by transaction type is in the [roster module](roster/README.md). Recurring monitoring follows the [reader and synthesis pipeline](../../../../../INTELLIGENCE_PIPELINE.md): readers emit immutable observations, a dated team synthesis reconciles them, and only then does ARCHITECT record a disposition.
+
+The [team intelligence ledger](intelligence-ledger.csv) is the filtered bridge between dated intelligence and this durable baseline. Every `review` or `escalate` signal receives a `promoted`, `deferred`, or `no_change` disposition there, so it is the correct starting point for asking why a finding did or did not change. Dated syntheses are in [`intelligence/2026/syntheses/`](../../../../../intelligence/2026/syntheses/); the most recent is [2026-09-09](../../../../../intelligence/2026/syntheses/2026-09-09/SEA.md).
+
+As of 2026-09-09 three ledger rows are open and deferred to postgame usage: `til-2026-sea-20260909-002` (safety hypothesis `sea-def-s-001`), `-003` (the secondary replacement finding), and `-005` (the Price lead-back hypothesis `sea-off-rb-001`).
 
 ## Open questions
 
