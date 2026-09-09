@@ -12,3 +12,21 @@ Start with official records and independent observations, then use film analysis
 - [candidates.csv](candidates.csv) — the durable audit ledger: every candidate considered, with evidence, disposition (`include`, `exclude`, `unverified`), and verification date.
 
 Refresh this directory using [SOURCE_REGISTRY_AUDIT.md](../../../../../../SOURCE_REGISTRY_AUDIT.md): ecosystem discovery, then a fresh adversarial omission pass, then construction and cross-file reconciliation. Never rename or delete a `source_id`; retire it with `status` and `ended_on` so historical frozen runs keep their provenance.
+
+## Access limits
+
+Retrieval behaviour observed on 2026-09-09. These are documented limitations, not reasons to drop
+a source:
+
+- `espn.com` article pages return a bot challenge to scripted requests but render through the
+  standard fetch tool. They expose no article JSON-LD on that path, so only the displayed byline
+  time (Eastern) is available; record the offset and say so in the observation note.
+- `seahawks.com` article pages respond to scripted requests and carry usable article metadata, but
+  the author archive at `/author/john-boyle` renders a profile with no article list. Reach a
+  bylined item through the `/news/` index instead.
+- `fox13seattle.com` responds normally and exposes clean article metadata.
+- `seattletimes.com`, `thenewstribune.com` and The Athletic are paywalled. Summarise in original
+  language and retain claim-level attribution; never reproduce paid text.
+
+Per-outlet metadata extraction traps, as opposed to access, are recorded in the reader agent's
+memory at [`.claude/agent-memory/reader/`](../../../../../../.claude/agent-memory/reader/).

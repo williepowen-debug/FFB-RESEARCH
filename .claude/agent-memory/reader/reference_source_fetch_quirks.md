@@ -1,24 +1,26 @@
 ---
 name: source-fetch-quirks
-description: Per-outlet retrieval quirks for reader runs (seahawks.com dual JSON-LD blocks, ESPN bot challenge, FOX 13 metadata) so timestamps are pinned correctly
+description: Where per-outlet publication metadata actually lives (seahawks.com serves two JSON-LD blocks; ESPN exposes only byline time) so published_at is pinned to the right item
 metadata:
   type: reference
 ---
 
-Retrieval quirks observed on 2026-09-09 (run 20260909T210706Z, reader-sea):
+Metadata-extraction traps observed 2026-09-09 (run `20260909T210706Z`). Access and blocking
+behaviour is **not** duplicated here: it belongs in each team's registry, under `## Access limits`
+in the `beat-writers/README.md` and in the `handling_note` column of `sources.csv`. Read those
+first; this note only covers where the timestamp hides once a page is in hand.
 
-- **seahawks.com articles** carry two JSON-LD blocks: the article's own `NewsArticle` (correct
-  `datePublished`, author John Boyle when bylined) plus an unrelated photo-gallery `WebPage` block
-  with its own dates. Always match the block whose `headline` equals the article title; do not
-  take the first `datePublished` you grep. Direct `curl` with a browser UA works.
-- **seahawks.com author archive** (`/author/john-boyle`) renders only a profile, no article list;
-  reach Boyle items via `/news/` index instead.
-- **ESPN** returns an HTTP 202 bot-challenge shell to `curl`; WebFetch renders fine. Only the
-  displayed byline time (ET) is available, so record it with `-04:00`/`-05:00` and say so in notes.
-- **fox13seattle.com** exposes clean JSON-LD `datePublished` (PDT offset) and `fox.author` meta;
-  `curl` works.
-- Repo has no `players/` profiles for SEA players, so `player_ids` stays blank in SEA rows
-  (consistent with prior SEA batches).
+- **seahawks.com articles carry two JSON-LD blocks.** One is the article's own `NewsArticle` with
+  the correct `datePublished` and byline; the other is an unrelated photo-gallery `WebPage` block
+  with its own dates. Match the block whose `headline` equals the article title. Grepping the first
+  `datePublished` in the page returns the wrong date more often than not.
+- **ESPN story pages** expose no article JSON-LD on the rendered path, so the displayed byline time
+  (Eastern) is the only timestamp. Record it with the correct offset and note the limitation.
+  Game-week stories are often joint bylines with the opponent's beat reporter, so attribute each
+  claim to the reporter who covers that team.
+- **fox13seattle.com** exposes a clean `datePublished` with a Pacific offset plus an author meta
+  tag.
 
-**How to apply:** use before pinning `published_at` for any SEA/NE reader run; re-verify quirks
-if a fetch looks different.
+**How to apply:** consult before pinning `published_at` on any reader run. Never substitute
+`dateModified` for publication time. If a page's structure no longer matches this note, correct
+the note in the same run rather than working around it.

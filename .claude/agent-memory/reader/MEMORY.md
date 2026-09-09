@@ -1,4 +1,8 @@
 # Reader memory index
 
-- [NE source access notes](reference_ne_source_access.md) — Boston Herald needs curl with a browser UA; where patriots.com, ESPN, and Herald put real item timestamps
-- [Source fetch quirks](reference_source_fetch_quirks.md) — seahawks.com dual JSON-LD blocks, ESPN curl bot challenge, FOX 13 metadata, blank SEA player_ids
+- [NE source timestamp locations](reference_ne_source_timestamp_locations.md) — patriots.com transcript placeholder dates, injury-report page has no item timestamp, Herald HTML parsing, unregistered bylines
+- [Source fetch quirks](reference_source_fetch_quirks.md) — seahawks.com serves two JSON-LD blocks so the first date is usually wrong; ESPN exposes only byline time
+
+Access and blocking behaviour is not recorded here. It lives in each team's
+`beat-writers/README.md` under `## Access limits` and in the `handling_note` column of that
+directory's `sources.csv`. These notes cover only where metadata hides once a page is retrieved.
