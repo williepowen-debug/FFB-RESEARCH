@@ -83,3 +83,56 @@ improvement available to this repository.**
 | Whether the Price/Holani split holds | SEA | Week 2 at Arizona |
 | Doubs snap and target share | NE | Week 2, assessed jointly with Brown's availability |
 | Register a route/alignment source | ARCHITECT | Before Week 2 collection |
+
+## Post-synthesis addendum (2026-09-10, after the first merge)
+
+Both synthesizers returned findings after the run's first publication. Four were material enough to
+promote, and are recorded here so the run's provenance chain stays complete.
+
+**1. Doubs drew zero targets while Brown was on the field.** All three of his targets came after
+Brown's third-quarter exit, and the first was intercepted and returned 30 yards. He is the only New
+England pass catcher with no target in the 13-target window Brown played. This materially sharpens
+`ne-2026-off-q04`: the Week 1 low is not an artefact of the offense reorganising after an injury, it
+happened while the offense was whole. It does **not** resolve the competing run-blocking explanation,
+which concerns snap counts rather than targets and is therefore untouched by it.
+
+**2. `sea-off-rb-001` had no test for the outcome that occurred.** Its confirming path required Price
+to win the work; its disconfirming path required Holani or Wilson to *lead*. A near-even split
+satisfied neither. The evidence was not ambiguous — the hypothesis simply did not cover the result.
+A third branch has been added: a sustained committee in which no back clears roughly 60% of backfield
+snaps refutes the highest-upside claim on workload grounds even when Price leads on efficiency.
+**This is a hypothesis-design defect worth checking for elsewhere:** a question whose two branches do
+not partition the outcome space will silently absorb a decisive result as "unresolved."
+
+**3. Seattle's clear WR1 had no research target.** Smith-Njigba produced the most fantasy-relevant
+usage in the run — 90% of snaps, 45.8% of team targets, 122 yards and the tying touchdown — and no
+live hypothesis covered him. `sea-off-wr-002` has been opened, carrying the caveat that 10 of his 11
+targets came from Lock.
+
+**4. Coby Bryant premise risk.** `sea-def-s-001` is framed as replacing Bryant, who appears nowhere in
+the gamebook — not in lineups, substitutions, did-not-play, inactives or the participation table.
+Recorded as observed, explicitly not interpreted, and flagged for a transactions check before that
+framing is relied on again.
+
+### Two rulings recorded rather than acted on
+
+**The Boyle "third-and-goal" conflict was resolved for the official book.** Boyle describes the
+negated Kupp touchdown as third-and-goal; the gamebook logs 3rd-and-4 at the NE 7 and records zero
+Seattle goal-to-go trips. Accepting the reporter's phrasing would have manufactured exactly the
+goal-to-go rep that the inside-five trigger asks about. The official record governs, and the
+discrepancy is noted in `til-2026-sea-20260910-005`.
+
+**`reader-sea-official`'s run report retains a stale sentence** asserting the 48-vs-50 gap is
+unreconciled, immediately alongside its own correction in the same field. The observations themselves
+are corrected and consistent. Reader batches are immutable once synthesis begins, and a run report is
+batch metadata, so the field is left as written: it reads as a correction history, which is what it
+is. Anyone reading it should take the later sentence as current.
+
+### A generalisation worth carrying forward
+
+Three separate defects in this run share one shape: **a trigger or hypothesis branch that cannot be
+satisfied.** Routes-versus-protection named evidence no source supplies; `ne-2026-off-q01`'s two-game
+trigger could not be met by a 44%-snap game; `sea-off-rb-001` had no branch for a near-even split.
+Each would have left a row looking like active monitoring while being incapable of ever resolving.
+**When writing a trigger, check that some obtainable observation would actually fire it, and that the
+branches partition the outcome space.**

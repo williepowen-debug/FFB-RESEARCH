@@ -72,6 +72,13 @@ finding is confirmed rather than resolved.
 back carried inside the New England 10; red-zone efficiency was 0-2. There is no inside-five
 evidence from this game in either direction.
 
+**One structural inference from the counts.** The three backs' snaps sum to exactly 50 — 24 plus 23 plus 3 —
+against a 50-snap offensive total. The straightforward reading is one running back on the field for every
+snap, with no two-back sets. This is arithmetic from measured counts, **not an alignment observation**, and
+the participation table carries no alignment labels; a snap with zero backs offset by one with two would
+produce the same sum. If the straightforward reading holds, the split is a straight rotation and neither
+back is insulated on passing downs by a second back on the field.
+
 **Read the denominator carefully.** Sam Darnold played 5 of the 50 snaps before his injury and
 Drew Lock the other 45, so this backfield sample is very nearly a Lock-unit sample. It is not
 directly comparable to a future game with a different quarterback.
