@@ -32,6 +32,8 @@ New England added veteran safety Kevin Byard III and depth defensive backs to a 
 
 ## Evidence
 
+- September 9 historical cross-check: see the [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) for comparable 2025 defensive efficiency, protection interactions and coverage limits. It extends this existing personnel record; it does not establish 2026 alignment or snap shares.
+
 ### Facts
 
 - Kevin Byard III signed a one-year, $8 million deal to add an experienced starting safety; New England also signed safety Mike Brown and corner Kindle Vildor on one-year deals.

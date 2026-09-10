@@ -28,13 +28,11 @@ supersedes: []
 
 ### Traits and role fit
 
-Holani is a former high-volume college back (Boise State: 3,569 rushing yards, 26
-rushing touchdowns, 88 receptions across 2019-2023; Mountain West Freshman of the Year
-in 2019) who has been a depth and special-teams back in the NFL. His college profile
-was a three-down one — two 1,100-plus-yard seasons and 47 receptions across 2020-2021
-— which is why Seattle's coaches describe his 2026 role in terms of passing downs and
-pass protection rather than early-down carries. His NFL sample is 25 carries at 3.3
-yards per attempt.
+Holani is a former Boise State lead back whose NFL work has primarily been depth and
+special teams. Seattle's official biography lists 3,596 college rushing yards and
+1,000-yard seasons in 2019 and 2022. That corrects the earlier 3,569-yard figure and
+claim of two 1,100-yard seasons. His NFL sample is 25 carries for 83 yards through 2025;
+college production alone does not prove an NFL three-down role.
 
 ### Historical usage and production
 
@@ -43,25 +41,14 @@ NFL:
 | Season | Team | GP/GS | Rush att | Rush yds | Y/A | Rush TD | Tgt | Rec | Rec yds | Rec TD |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2024 | SEA | 5/0 | 3 | 10 | 3.3 | 0 | n/v | 1 | -1 | 0 |
-| 2025 | SEA | 11/0 | 23 | 73 | 3.2 | 1 | n/v | 2 | 15 | 0 |
+| 2025 | SEA | 11/0 | 22 | 73 | 3.3 | 1 | n/v | 2 | 15 | 0 |
 | Career | SEA | 16/0 | 25 | 83 | 3.3 | 1 | — | 3 | 14 | 0 |
 
-Note: Wikipedia lists 23 rushing attempts in 2025 and NFL.com lists 22; the 73-yard
-total matches. Targets are marked n/v (not verified) because Pro Football Reference
-returned HTTP 403 on 2026-09-09. Postseason 2025: activated from injured reserve for
-the NFC Championship Game and played in two of three playoff games including the Super
-Bowl; 3 receptions for 27 yards and 3 carries for 4 yards against the Rams (ESPN).
-
-College (Boise State), from Wikipedia prose because no season table was retrievable
-and Sports Reference returned HTTP 403:
-
-| Season | Rush yds | Rush TD | Rec | Rec yds | Rec TD | Note |
-|---|---|---|---|---|---|---|
-| 2019 | n/v | n/v | n/v | n/v | n/v | Mountain West Freshman of the Year; second-team all-conference |
-| 2020-2021 (combined) | 1,691 | 9 | 47 | 427 | 5 | Two seasons reported together in the source |
-| 2022 | 1,157 | 10 | 24 | 151 | 3 | Second-team all-Mountain West |
-| 2023 | 748 | 7 | 17 | 199 | n/v | Final season; combine invite |
-| Career | 3,569 | 26 | 88 | 777 | 8 | |
+Correction checked September 9: the official Seahawks biography resolves the earlier
+23-versus-22 attempt conflict in favor of 22 for 2025 (3 + 22 = 25 career carries).
+The earlier secondary-source college table was removed because its totals conflicted
+with the club biography. The club verifies 1,014 rushing yards and 26 catches for 206
+yards in 2019, and 1,157 rushing yards in 2022; other college season rows remain unaudited.
 
 Pattern: a productive, receiving-capable college workhorse whose NFL usage has been
 almost entirely situational. There is no NFL evidence of efficiency on volume.
@@ -69,8 +56,7 @@ almost entirely situational. There is no NFL evidence of efficiency on volume.
 ### Strengths, limitations, and relevant context
 
 Strengths: a receiving and pass-protection reputation that gives him a defined
-passing-down role behind a rookie; the only Seattle back with any regular-season
-experience in this offense; exclusive-rights tender keeps him cheap and retained.
+passing-down role behind a rookie; experience in Seattle’s offense; exclusive-rights tender keeps him cheap and retained.
 
 Limitations: 3.3 yards per carry on 25 NFL attempts; zero NFL starts; a hamstring
 injury that ended his 2025 regular season on 2025-11-29 (injured after the 2025-11-23
@@ -104,8 +90,7 @@ structure concentrates carries in the lead back once one is established. See
 ### Health and availability
 
 Available, no designation. 2025: hamstring injury, injured reserve 2025-11-29,
-activated for the NFC Championship Game. He has one four-week-plus soft-tissue absence
-on his NFL record.
+activated for the NFC Championship Game. His official transaction history also records a 2024 ankle absence on practice-squad injured reserve.
 
 ## Fantasy assessment
 
@@ -115,7 +100,7 @@ on his NFL record.
   touch committee partner if Seattle protects Price on third downs and near the goal
   line. His single-game ceiling is highest in weeks Seattle trails.
 - Key upside condition: an injury to Price, or Price failing in pass protection, which
-  would make Holani the most experienced available back through Week 4.
+  could expand Holani’s role; Emanuel Wilson has more NFL rushing experience.
 - Key downside condition: Price handling all three downs and Wilson taking short
   yardage, leaving Holani a special-teams back; Charbonnet's return in Week 5 or later
   pushes him further down.
@@ -137,10 +122,12 @@ on his NFL record.
 - Any Price absence or a visible third-down substitution pattern against Price.
 - Wilson taking the short-yardage and two-minute work, which would remove Holani's
   second path to touches.
-- Charbonnet's return-to-practice date (eligible in Week 3) and Week 5 activation.
+- Charbonnet's announced return-to-practice and activation dates; eligibility alone is not an activation forecast.
 - A recurrence of the 2025 hamstring injury.
 
 ## Sources
+
+- Seahawks — [George Holani biography and career table](https://www.seahawks.com/team/players-roster/george-holani/) — dynamic; checked 2026-09-09; controls the corrected NFL attempts and college totals.
 
 - Wikipedia — [George Holani](https://en.wikipedia.org/wiki/George_Holani) — NFL statistics, college totals and season prose, transactions, injured-reserve dates, verified 2026-09-09.
 - NFL.com — [George Holani stats](https://www.nfl.com/players/george-holani/stats/) — season rushing and receiving lines, verified 2026-09-09.

@@ -81,6 +81,30 @@ broaden its assigned teams, sources, lanes, or time window.
 5. Read the closest template in `templates/` before creating a record.
 6. To build out a whole team, follow `TEAM_BUILD.md` (Core-tier layout, IDs, CSV headers, validation gate).
 
+## Check existing research before collecting more
+
+Before proposing research gaps, starting new collection, or writing a team or matchup report:
+
+1. Search the relevant team season folders with `rg --files` and `rg`, then read the matching
+   records and their sources. Include the overview, offense, defense, coaching staff, roster,
+   special teams, hypotheses, and intelligence ledger where present.
+2. Follow links to canonical `players/` profiles, the relevant `weekly/` workspace, and recent
+   team syntheses or observations in `intelligence/`. Use `catalog.jsonl` as a locator, not as
+   proof that information is absent; metadata or indexing can be incomplete.
+3. Classify each proposed gap as missing evidence, stale evidence, conflicting evidence,
+   insufficient detail, or an organization/linking gap. Cite the existing file and summarize
+   what it already establishes. A missing standalone profile does not mean the player is
+   unresearched; role and transaction evidence may already live in team records.
+4. Limit new collection to the unresolved question or needed freshness check. Extend or correct
+   canonical records and link to them instead of duplicating existing research. Preserve dated
+   forecasts and immutable intake history when adding later evidence.
+5. In the report or handoff, distinguish reused evidence, newly verified or added evidence, and
+   what remains unknown. Do not claim an absence or a completed gap audit from filenames alone.
+
+ARCHITECT must apply this check when scoping work or handing it to another agent. Bounded
+monitoring assignments retain their frozen source and time boundaries; existing context does
+not authorize a reader to expand collection.
+
 ## Canonical sources
 
 | Subject | Canonical location | Notes |

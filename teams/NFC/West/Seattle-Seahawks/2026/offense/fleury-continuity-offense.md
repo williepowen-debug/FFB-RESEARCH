@@ -4,7 +4,7 @@ record_id: rf-2026-sea-fleury-continuity-offense-001
 record_type: research_finding
 title: "Fleury transition is designed as offensive continuity, not a teardown"
 team_ids: ["SEA"]
-player_ids: ["local-player-sam-darnold-2018", "local-player-jaxon-smith-njigba-2023", "local-player-rashid-shaheed-2022", "local-player-aj-barner-2024"]
+player_ids: ["local-player-sam-darnold-2018", "local-player-jaxon-smith-njigba-2023", "local-player-rashid-shaheed-2022", "local-player-aj-barner-2024", "local-player-cooper-kupp-2017", "local-player-elijah-arroyo-2025"]
 season: 2026
 week: null
 status: active
@@ -37,6 +37,8 @@ Inference: the 2026 offense should be projected as an evolution of the 2025 atta
 Smith-Njigba should remain Seattle's safest weekly volume projection. Darnold's efficiency case is stronger than a typical coordinator-change quarterback because the line and top pass catchers remain intact. Shaheed carries best-ball upside if his first full offseason translates into more routes without sacrificing explosive return value.
 
 ## Evidence
+
+- September 9 research extension: canonical history/role records are now linked for [Cooper Kupp](../../../../../../players/cooper-kupp/profile.md), [Elijah Arroyo](../../../../../../players/elijah-arroyo/profile.md). These players were already covered in this team finding. The [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) adds historical baselines and identifies remaining uncertainties.
 
 - Fleury came from San Francisco, where he had run-game coordinator and tight-end coach experience.
 - Macdonald described the offense during minicamp as a partial evolution of last year's offense, still in installation.

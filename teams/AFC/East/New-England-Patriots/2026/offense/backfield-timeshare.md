@@ -4,7 +4,7 @@ record_id: rf-2026-ne-backfield-timeshare-001
 record_type: research_finding
 title: "New England Patriots 2026 backfield timeshare"
 team_ids: ["NE"]
-player_ids: ["local-player-rhamondre-stevenson-2021", "local-player-treveyon-henderson-2025"]
+player_ids: ["local-player-rhamondre-stevenson-2021", "local-player-treveyon-henderson-2025", "local-player-corey-kiner-2025"]
 season: 2026
 week: null
 status: active
@@ -31,6 +31,8 @@ supersedes: []
 New England returns a two-back tandem of Rhamondre Stevenson and TreVeyon Henderson. Stevenson is projected to open as the starter after finishing 2025 strongly, but Henderson led the team in touches, scrimmage yards, and touchdowns as a 2025 rookie and carries clear RB1 upside. Neither back has a locked workhorse role, so this is a genuine timeshare whose resolution — especially passing-down and goal-line work — determines each player's fantasy ceiling.
 
 ## Evidence
+
+- September 9 research extension: canonical history/role records are now linked for [Corey Kiner](../../../../../../players/corey-kiner/profile.md). These players were already covered in this team finding. The [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) adds historical baselines and identifies remaining uncertainties.
 
 ### Facts
 

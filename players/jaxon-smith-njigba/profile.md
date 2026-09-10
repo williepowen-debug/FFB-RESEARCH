@@ -61,10 +61,12 @@ Three patterns matter.
 all rose each season. 2025 was not a fluke on top of a plateau; it was the third step
 of a straight line.
 
-**Target share is the durable asset.** 163 targets in a 477-attempt Darnold season is
-roughly a third of the team's throws (inference from the two Wikipedia lines; exact
-team-attempt totals including other passers were not verified). No other Seahawk was
-within 100 targets. This is the highest-floor volume profile in the NFC West.
+**Target share is the durable asset.** The reproducible 2025 nflverse count is
+163 of 457 assigned Seattle targets (35.7%). Kupp is next at 71, a gap of 92;
+the earlier claim that nobody was within 100 was incorrect. Assigned targets exclude
+unassigned throws and are not the same denominator as Darnold's 477 pass attempts.
+See the [calculation and definitions](../../weekly/2026/week-01/research/ne-sea/README.md).
+This establishes concentration; it does not establish a league-wide floor ranking.
 
 **Touchdowns lag yardage.** Ten touchdowns on 1,793 yards is a modest rate for a
 receiver of this volume; his scoring is yardage-driven, not red-zone-driven, so
@@ -145,12 +147,14 @@ injury or limitation reported as of 2026-09-09.
   concentration; below 25 percent means the Fleury offense distributes differently.
 - Shaheed or Kupp posting a route share and target rate that clearly cuts into his
   downfield targets rather than adding to the whole.
-- Any Darnold absence; his production has been tied to a single passer for two years.
+- Any Darnold absence; 2025 established his connection with Darnold, while the prior Seattle season had a different starting quarterback.
 - A repeat of the 2025 fumble total early in the season.
 - Fleury demonstrably shifting the pass game toward two-tight-end and play-action
   structures that reduce three-receiver snaps.
 
 ## Sources
+
+- [Reproducible 2025 assigned-target baseline](../../weekly/2026/week-01/research/ne-sea/README.md) — computed from nflverse on 2026-09-09 ET; definitions, raw-source URL and hash retained.
 
 - Wikipedia — [Jaxon Smith-Njigba](https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba) — NFL and college statistics tables, awards, draft, extension date, verified 2026-09-09.
 - Over the Cap — [Jaxon Smith-Njigba contract details](https://overthecap.com/player/jaxon-smith-njigba/10844) — extension value, APY, guarantees, control through 2031, verified 2026-09-09 via search summary.

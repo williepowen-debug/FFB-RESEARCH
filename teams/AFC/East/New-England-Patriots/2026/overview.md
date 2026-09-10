@@ -158,3 +158,7 @@ The highest-leverage unknowns are the A.J. Brown target share, the Stevenson/Hen
 - New England Patriots — [Meet the Patriots 2026 draft class](https://www.patriots.com/news/meet-the-patriots-2026-draft-class) — published 2026-04-25.
 - ESPN — [Source: Patriots to release WR Stefon Diggs after one season](https://www.espn.com/nfl/story/_/id/48102428/source-patriots-release-wr-stefon-diggs-one-season) — verified 2026-08-13.
 - PFF — [New England Patriots 2026 season preview](https://www.pff.com/news/nfl-new-england-patriots-2026-season-preview) — verified 2026-08-13.
+
+## September 9 matchup research extension
+
+The [NE–SEA supplement](../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) builds on this team module with comparable 2025 efficiency and special-teams baselines, protection/coverage questions, and corrected player records. It distinguishes existing evidence from new checks and is dated separately from the original pregame forecast.

@@ -136,6 +136,11 @@ Before ending a session:
 
 ## Build posture
 
+- Before calling something a research gap or starting collection, apply root `AGENTS.md`'s
+  "Check existing research before collecting more" procedure: inspect the team subfolders,
+  linked player profiles, weekly records, and recent intelligence. Record what already exists,
+  its freshness and sources, and the specific unresolved question. Distinguish missing evidence
+  from missing profile files or links. Include those paths and boundaries in any research handoff.
 - Prefer boring, repeatable structure over clever one-off organization.
 - Keep Core-tier and Full-tier team modules comparable across the league.
 - Protect stable IDs, canonical paths, generated files, and source provenance.

@@ -38,6 +38,8 @@ Seattle D/ST should be a target in drafts and a weekly pressure/run-defense prob
 
 ## Evidence
 
+- September 9 historical cross-check: see the [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) for comparable 2025 defensive efficiency, protection interactions and coverage limits. It extends this existing personnel record; it does not establish 2026 alignment or snap shares.
+
 - The defensive-front preview says Seattle had 47 regular-season sacks in 2025 and played light boxes at high rates while allowing a league-low yards-per-carry figure.
 - The same preview identifies Mafe as the only notable defensive-front departure and Fowler as the veteran replacement addition.
 - The official depth chart lists a deep front with Williams, Murphy, Reed, Lawrence, Nwosu, Hall, Fowler, and multiple young reserves.
