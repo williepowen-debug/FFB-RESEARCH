@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-over-the-cap", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-source-pro-football-reference"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-over-the-cap", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-source-pro-football-reference"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: WR (KR/PR)
 - Current team: Seattle Seahawks
 - Season: durable profile (verified 2026-09-09)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -118,6 +118,20 @@ using a documented charting source before claiming an increase. See
 
 Available for Week 1 with no designation. History: 2024 meniscus surgery and injured
 reserve (2024-10-17); played 18 regular-season games across two teams in 2025.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**33 of 50 offensive snaps (66%), 1 reception on 3 targets for 4 yards. Return work retained: 1 punt return for 9 yards, 3 kickoff returns for 80.**
+
+Shaheed was on the field for two-thirds of the offense and kept both return jobs, but produced four
+receiving yards in a game where Tory Horton was inactive and the receiver room was already thin.
+This leans **disconfirming** on the volume half of `sea-off-wr-001`, which posits a larger route
+share — while the return-value half of that hypothesis clearly holds.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

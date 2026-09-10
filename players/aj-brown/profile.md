@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: high
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-source-espn"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-source-espn"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: WR
 - Current team: New England Patriots
 - Season: durable profile (verified 2026-09-09, pre-kickoff of 2026 Week 1)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -123,6 +123,30 @@ Brown, which is what would lift both his touchdown total and Maye's. See the
 
 Available for Week 1 with no designation. The relevant durable risk is the hamstring
 history from 2024 and 2025; there is no reported 2026 recurrence as of 2026-09-09.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**INJURED — left the game and did not return. 31 of 71 offensive snaps (44%), 3 receptions on 4 targets for 26 yards.**
+
+Brown was injured on a third-and-4 incompletion at 13:30 of the third quarter — that incompletion
+is his fourth target, not a drop or a coverage failure. The gamebook lists him Questionable at 12:41
+and **Out to start the fourth quarter**.
+
+**No prognosis exists.** A high ankle sprain has been widely reported, but that diagnosis originates
+with NFL Network — not a registered source — and head coach Vrabel **explicitly declined to confirm
+it**, said further testing was needed, promised an update the following week, and said he did not
+know whether Brown would be available for Week 2. Circulating "3-to-6 week" and "2-to-6 week"
+figures are general expectations for the injury class, **not reported timelines for this player**.
+
+**His full-game line understates him.** Restricted to the snaps he actually played, Brown led the
+team with 4 targets to DeMario Douglas's 3 — roughly a 31% share of the 13 targets thrown in that
+window — and led in receptions and yards when he exited. His fourth-place finish in team targets is
+an artefact of missing the final 24 minutes and is not evidence against his alpha-WR1 role.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-nfl-com", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-writer-brady-henderson", "local-source-espn", "local-source-pro-football-reference"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-nfl-com", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-writer-brady-henderson", "local-source-espn", "local-source-pro-football-reference"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: RB
 - Current team: Seattle Seahawks
 - Season: durable profile (verified 2026-09-09)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -91,6 +91,19 @@ structure concentrates carries in the lead back once one is established. See
 
 Available, no designation. 2025: hamstring injury, injured reserve 2025-11-29,
 activated for the NFC Championship Game. His official transaction history also records a 2024 ankle absence on practice-squad injured reserve.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**23 of 50 offensive snaps (46%), 8 of 22 carries for 29 yards (3.6 avg, long 9), 1 target, 0 receptions.**
+
+Holani matched rookie first-rounder Jadarian Price almost exactly in playing time — 23 snaps to 24 —
+while trailing him in efficiency. The significance is not Holani's own line but what it establishes
+about the backfield: **there is no lead back in Seattle after one game.**
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

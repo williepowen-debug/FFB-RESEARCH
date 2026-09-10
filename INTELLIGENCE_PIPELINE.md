@@ -169,7 +169,22 @@ the current navigation target.
 - `no_change`: the evidence was checked against the named baseline and does not change it.
 
 Use `open` for a deferred item still awaiting its trigger, `resolved` after promotion or a completed
-no-change review, and `superseded` when a later ledger row replaces its decision. Do not copy raw
+no-change review, and `superseded` when a later ledger row replaces its decision.
+
+`superseded` is **orthogonal to `disposition`**: a row in any disposition can be replaced by a later
+one. A superseded row keeps the disposition it actually recorded — superseding it must not
+retroactively rewrite what was decided at the time — and it carries `resolved_date` and
+`resolution_synthesis_id` naming the synthesis that replaced it, exactly as a resolved row does.
+Its successor records `supersedes_ledger_id`. Until 2026-09-10 the validator paired every
+disposition with a single permitted status, which made this documented state unreachable and left
+partially-triggered rows with no honest representation; `scripts/validate_intelligence.py` now
+implements it and `tests/test_validate_intelligence.py` covers it.
+
+When a trigger fires **partially** — some named evidence arrives and some remains unobtainable —
+do not force the row to resolve or leave it silently open. Supersede it with two rows: one
+`promoted`/`resolved` row recording the evidence that did arrive, and one `deferred`/`open` row
+carrying the half that did not, with a trigger naming only evidence a registered source can
+actually supply. Do not copy raw
 observations or article summaries into canonical findings. The ledger summarizes why evidence was
 or was not promoted and points back to the immutable provenance chain.
 

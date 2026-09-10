@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: high
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-over-the-cap", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-writer-brady-henderson", "local-source-pro-football-reference"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-over-the-cap", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-writer-brady-henderson", "local-source-pro-football-reference"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: QB
 - Current team: Seattle Seahawks
 - Season: durable profile (verified 2026-09-09)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -128,6 +128,35 @@ Kansas City; see
 Durable across the last two seasons: 34 of 34 regular-season starts in 2024-2025 plus
 three 2025 playoff games. Earlier-career absences (2020, 2021, 2022) were injury and
 benching related. No 2026 injury or designation reported as of 2026-09-09.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**INJURED ON THE OPENING POSSESSION. 5 of 50 offensive snaps (10%), 1 of 2 for 13 yards.**
+
+Darnold was injured on the D. Jones sack that ended Seattle's first drive — third-and-6, 12:27 of
+the first quarter. The gamebook records "return is Questionable" at 6:02 of the first quarter and
+**"Out of the game" at 0:45 of the second**. His five snaps were Price's 13-yard run, a 13-yard
+completion to Smith-Njigba, Holani's 9-yard run, an incompletion to Shaheed, and the sack. Drew Lock
+played the remaining 45 snaps and led Seattle to a 13-10 win.
+
+What is established: the club identified a **hip** injury; Macdonald said postgame that imaging had
+ruled out a fracture; and on his day-after radio show he said further results showed the hip intact
+and the problem muscular rather than structural, with Darnold in pain.
+
+**What is NOT established is a prognosis.** There is no timetable, no injury designation, no roster
+move and no named Week 2 starter. "Muscular, hip intact" is a ruling-out, not a prognosis, and must
+not be read as a minor injury. Asked whether Darnold could play in Week 2 at Arizona, Macdonald said
+he did not know, and that his own thinking was that Lock would play — while explicitly noting that
+this was not a decision he had been given.
+
+**This injury also broke the premises of two Seattle hypotheses** that had been written around
+Darnold specifically (`sea-off-te-001`, `sea-off-ol-001`); both have been restated to be
+quarterback-agnostic.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

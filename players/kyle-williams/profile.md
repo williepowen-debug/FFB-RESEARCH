@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-new-england-patriots"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-new-england-patriots"]
 supersedes: []
 ---
 
@@ -20,7 +20,7 @@ supersedes: []
 
 - Position: WR
 - Current team: NE
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Scope: durable history and role fit; current game status lives in the [weekly matchup](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Durable player profile
@@ -54,6 +54,19 @@ ARCH inference: selected deep routes can punish defenses that compress the field
 ### Health and availability
 
 Consult the weekly matchup for current eligibility; this profile does not infer unrestricted participation from preseason highlights.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**12 of 71 offensive snaps (17%), 0 targets**, plus 2 kickoff returns for 58 yards.
+
+A marginal Week 1 offensive role. This matters for `ne-2026-off-q04`: the team site had credited
+Williams's preseason with making Kayshon Boutte expendable, but in Week 1 he played 12 snaps to
+Doubs's 40. He is not currently taking Doubs's snaps.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

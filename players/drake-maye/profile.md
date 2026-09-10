@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: high
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-new-england-patriots", "local-source-espn", "local-source-fantasypros"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-new-england-patriots", "local-source-espn", "local-source-fantasypros"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: QB
 - Current team: New England Patriots
 - Season: durable profile (verified 2026-09-09, pre-kickoff of 2026 Week 1)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -119,6 +119,28 @@ Durable to date. One missed stretch: a Week 8 2024 concussion. He started all 17
 four playoff games in 2025. No 2026 injury or designation as of 2026-09-09. The structural
 availability risk is exposure to hits from his sack rate and scrambling, not a documented
 injury history.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**23 of 33 for 178 gross yards, 1 touchdown, 3 interceptions, 54.9 passer rating. 7 carries for 47 yards. 71 of 71 offensive snaps.**
+
+The interceptions decided the game. New England out-gained Seattle, held the ball for 34:17 and led
+10-0 into the second half; it lost 13-10. Nehemiah Pritchett returned one interception 30 yards,
+Julian Love took a second, and Josh Jobe ended the game by intercepting a deep throw intended for
+Mack Hollins at the goal line with 26 seconds left, with New England at the Seattle 16 and in
+position to win.
+
+Protection was not the primary failure: three sacks for ten yards, and Lazar's film charting puts
+the pressure rate at 38.1%. The breakdowns were decisions and ball placement. His rushing remained a
+genuine asset at 6.7 yards per carry.
+
+One game is not a trend, but the turnover mechanism is now the specific thing to watch on
+`ne-2026-off-q08`, whose confidence has been lowered to low.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

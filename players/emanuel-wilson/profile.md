@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-seattle-seahawks"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-seattle-seahawks"]
 supersedes: []
 ---
 
@@ -20,7 +20,7 @@ supersedes: []
 
 - Position: RB
 - Current team: SEA
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Scope: durable history and role fit; current game status lives in the [weekly matchup](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Durable player profile
@@ -55,6 +55,19 @@ ARCH inference: an experienced runner can help sustain the run menu while the st
 ### Health and availability
 
 The club biography records a 2023 shoulder-related injured-reserve spell. Current game eligibility belongs in the linked weekly matchup, rather than a permanent health assumption.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**3 of 50 offensive snaps (6%), 2 carries for 3 yards, 0 targets.**
+
+Cleared from his hamstring designation and active, Wilson was nonetheless a distant third in a
+backfield that split its work nearly evenly between Price and Holani. Availability did not translate
+into a role.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

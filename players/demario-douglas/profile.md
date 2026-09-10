@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-new-england-patriots"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-new-england-patriots"]
 supersedes: []
 ---
 
@@ -20,7 +20,7 @@ supersedes: []
 
 - Position: WR
 - Current team: NE
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Scope: durable history and role fit; current game status lives in the [weekly matchup](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Durable player profile
@@ -56,6 +56,19 @@ ARCH inference: motion, option routes and quick adjustments can use his interior
 ### Health and availability
 
 His club biography records missed games during his rookie season; current eligibility belongs in the weekly matchup. Do not infer health from a projected slot role.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**44 of 71 offensive snaps (62%), 5 receptions on 7 targets for 20 yards.**
+
+Douglas led New England in targets, though on a low yards-per-reception figure (4.0) consistent with
+an underneath slot role. Note the sample shape: he finished ahead of A.J. Brown in targets only
+because Brown left injured in the third quarter — while both were on the field, Brown led 4 to 3.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

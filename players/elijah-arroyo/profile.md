@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-seattle-seahawks"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-seattle-seahawks"]
 supersedes: []
 ---
 
@@ -20,7 +20,7 @@ supersedes: []
 
 - Position: TE
 - Current team: SEA
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Scope: durable history and role fit; current game status lives in the [weekly matchup](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Durable player profile
@@ -55,6 +55,15 @@ ARCH inference: two-tight-end formations could place Arroyo on routes while Barn
 ### Health and availability
 
 Seattle placed him on injured reserve with a knee injury on December 13, 2025 and activated him January 23, 2026. Consult the weekly matchup for current eligibility.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**11 of 50 offensive snaps (22%), 0 targets.** A clear TE2/TE3 rotation role behind Barner's 88%, alongside Eric Saubert's 10 snaps. Arroyo did not dilute Barner's usage.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

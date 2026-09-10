@@ -9,8 +9,8 @@ season: 2026
 week: 1
 status: active
 time_horizon: weekly
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: high
 source_ids: ["local-source-nfl-gamebooks", "local-source-new-england-patriots", "local-source-seattle-seahawks"]
 supersedes: []
@@ -104,10 +104,9 @@ Barner/Saubert/Arroyo routes versus blocking. Confirm actual position groups fro
 and film rather than interpreting the inactive list as a depth chart. Chart the opening offensive
 lines, substitutions and identifiable pressure responsibility on that same sample.
 
-No final book was recovered at the September 9 approximately 8:50 PM ET NFL game-center access
-check. No measured usage rows are entered into the working CSV. Capture the actual final PDF
-and participation table before calculating totals; record full-film coverage before calculating
-route, assignment or blocker-loss rates. No background collection is configured.
+*Superseded 2026-09-10: the official book was recovered and the pilot was executed. The
+measured rows are in [usage-input.csv](usage-input.csv); see the pilot audit at the end of
+this record. No background collection is configured.*
 
 ## Original evidence access points
 
@@ -266,3 +265,111 @@ filling the current blank sheet with estimates.
 - Team intelligence ledgers linked in the 18-row table — open state read 2026-09-06; individual historical review dates remain in those files.
 - [Reader/synthesis pipeline](../../../INTELLIGENCE_PIPELINE.md) and [preseason two-pass runbook](../../../PRESEASON_GAME_RUNBOOK.md) — existing provenance, access-gap and promotion controls; the one-game regular-season pilot above applies them without scheduling anything.
 - Official NFL and club access points in the source table — accessibility checked 2026-09-06; Week 1 gamebooks and results remain pending.
+
+## Pilot audit — NE at SEA, completed 2026-09-10
+
+Step 6 of the pilot requires an audit before expanding to other games. This is it.
+
+**The book was recovered.** The official gamebook for `2026-W01-NE-SEA` was retrieved at
+`https://static.www.nfl.com/image/upload/v1789038923/gamecenter/a8fb0d78-4feb-11f1-abca-2c54536568a9.pdf`
+(17 pages, 331,170 bytes) during run `20260910T222845Z`. **27 measured rows** are now entered in
+[usage-input.csv](usage-input.csv), covering both backfields, New England's target distribution,
+Seattle's defensive-back participation and the Seattle quarterback split.
+
+### What the pilot could measure
+
+Snap counts, snap share, carries, targets, receptions and defensive participation, all against
+matched and explicitly defined denominators. The gamebook carries a **"Playtime Percentage"**
+table on page 16 that the document itself labels *Unofficial*. That table was not anticipated by
+the September 6 plan, which assumed participation might be unavailable; it is the single most
+valuable artefact recovered, and it is what made the safety, nickel-candidate and
+quarterback-unit rows possible.
+
+### The denominator finding — the reusable methodological result
+
+Both teams' page-3 "Total Offensive Plays" figures disagree with the page-16 participation
+denominators. **This is not a document error and both numbers are correct.**
+
+| | Statistical plays (page 3) | Actual snaps (page 16) | Difference |
+|---|---|---|---|
+| New England | 67 | 71 | 4 |
+| Seattle | 48 | 50 | 2 |
+
+Statistical offensive plays = pass attempts + rushes + sacks. Actual snaps additionally include
+plays that were snapped and run but wiped out by a **live-ball** penalty. Dead-ball fouls
+(false start, delay of game, encroachment) add no snap because the ball is never snapped.
+
+**The discriminator is mechanical and reusable: does the gamebook log a play RESULT before the
+penalty line?** If it does, the ball was snapped. New England's four are Jobe's defensive pass
+interference, Campbell's illegal block, Campbell's holding and Vera-Tucker's ineligible-downfield.
+Seattle's two are the illegal shift that nullified Kupp's touchdown and the offensive offside
+that nullified Barner's direct-snap run — the second reads like a dead-ball foul from its name
+alone, which is exactly the trap.
+
+Two independent cross-checks confirm the model: New England's 71 offensive snaps equal Seattle's
+71 defensive snaps, Seattle's 50 equal New England's 50, and every offensive lineman on both
+teams sits at exactly 100%.
+
+**Apply this to every future game.** Snap share uses actual snaps; per-play rates use statistical
+plays; mixing them silently misstates a role. A related trap: New England's target denominator is
+**31**, not its 33 pass attempts, because two throws had no intended receiver recorded.
+
+### Spot checks performed
+
+- Every `No Play` line in the document was classified by both ARCHITECT and reader-sea-official
+  independently before the reconciliation was accepted. Zero disagreements after correction.
+- Rushing and receiving totals were re-derived independently from the ESPN box score and matched
+  the gamebook exactly.
+- The A.J. Brown injury sequence was verified line-by-line against the play-by-play.
+- One reader's initial claim that the Seattle denominator gap was unreconcilable was **wrong**
+  and was corrected in-run; one beat source's apparent self-contradiction on Stevenson's snap
+  count (57-of-67 versus 60-of-71) proved to be the same two denominators and **not** a source
+  reliability problem.
+
+### What the pilot could NOT measure — unchanged gaps
+
+- **No route counts, no routes-versus-protection split, no pass-block snaps.** The gamebook does
+  not carry them and no registered source published them. Every backfield question phrased as
+  "routes versus protection" remains open on both teams.
+- **No coverage or alignment assignments.** A snap count is not a position. Seattle's nickel
+  defender is unidentified by any official source; Pritchett's 53 snaps are a third-corner
+  workload, not an alignment finding.
+- **No official participation report exists** for this game. The page-16 table is the only
+  participation artefact and it is self-labelled unofficial.
+
+### Two null results, recorded deliberately
+
+New England ran **one** snap inside the Seattle 5 all game; Seattle ran **zero** goal-to-go
+snaps. Both inside-five questions therefore have no usable sample. These are entered as rows
+with `eligible_plays` of 1 and 0 rather than omitted, because an absent sample is a measurement
+result and omitting it would let a later reader mistake silence for a zero share.
+
+### Two limitations found by adversarial checking, recorded rather than smoothed over
+
+**A per-play share is not always derivable from a snap count.** Stevenson's 60 snaps are measured
+on the 71-snap base and already include nullified plays; he was the ball carrier on two of New
+England's four. His snaps on statistical plays are therefore 56-58, a share of **83.6-86.6%** on
+the 67-play base, and the gamebook exposes no per-player participation for nullified snaps, so no
+exact figure exists. ARCHITECT initially reasoned that 60-of-67 would give 90% and was corrected
+by reader-ne-official before anything was published. **Use the 85% snap share; never divide a
+snap count by the statistical-play base.**
+
+**The corroborating publication anchor is weaker than it first appeared.** The patriots.com
+gamebook article (`datePublished` 2026-09-10T03:35:57Z) was adopted as a dated anchor for the
+NFL-hosted PDF, whose CDN stamp reads 2026-09-10T11:15:23Z. On verification the article does not
+link the `static.www.nfl.com` asset actually retrieved, and its timestamp *precedes* the asset
+stamp by about 7.7 hours. That ordering supports treating the CDN stamp as an upload or re-upload
+time rather than first publication, but it means the article corroborates that *a* gamebook
+published inside the window, not that *this asset* did. Both timestamps fall inside the frozen
+window, so intake eligibility is unaffected either way. Future runs should not treat a club's
+gamebook article as provenance for a league-hosted document.
+
+### Verdict on expanding the method
+
+**Expand it.** The gamebook-first approach worked, the denominator definitions held up under
+adversarial checking, and the null-result discipline caught two questions that a naive reading
+would have answered wrongly. The binding constraint is not the method but the evidence ceiling:
+without route and alignment charting, roughly half the open backfield and secondary questions
+cannot be closed from official sources at all. Future runs should stop promising "routes versus
+protection" in ledger triggers unless a route-charting source is actually registered, because
+that trigger cannot currently be satisfied.

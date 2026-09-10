@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-nfl-com", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-source-espn", "local-source-pro-football-reference"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-nfl-com", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-source-espn", "local-source-pro-football-reference"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: RB
 - Current team: Seattle Seahawks (reserve/physically unable to perform)
 - Season: durable profile (verified 2026-09-09)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -119,6 +119,15 @@ Out through at least Week 4 on reserve/PUP (torn ACL 2026-01-19, surgery Februar
 An ACL return roughly eight to nine months after surgery is on the aggressive side for
 a running back, so the first eligible week should not be assumed to be the actual
 return week.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**DID NOT PLAY — reserve/PUP.** Charbonnet remains ineligible to return until after Week 4. In his absence Seattle split Week 1 work near-evenly between Jadarian Price (24 snaps) and George Holani (23), so no incumbent established a hold on the job ahead of his return window.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

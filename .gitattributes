@@ -1,0 +1,5 @@
+# CSV records are LF-only. Python csv.writer defaults to lineterminator="\r\n",
+# which makes `git diff --check` fail every line as trailing whitespace.
+# Pass newline="" plus lineterminator="\n", or let this normalize on commit.
+*.csv text eol=lf
+*.md text eol=lf

@@ -9,10 +9,10 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-seattle-seahawks"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-seattle-seahawks"]
 supersedes: []
 ---
 
@@ -24,7 +24,7 @@ supersedes: []
 - Area: rushing workload, passing-down role, injury recovery
 - Season/week: 2026 preseason
 - Status: active
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 
 ## Finding
 
@@ -51,6 +51,35 @@ Price is the upside target and a priority preseason charting subject. Holani and
 - The training-camp storylines article singled out Price's Week 1 starting-back competition as one of the camp questions.
 - Week 1 status (verified 2026-09-09), facts only: Seattle moved Charbonnet from active/PUP to reserve/PUP on 2026-08-30 at the cutdown, which the official roster-moves article states means he will miss at least the first four games. The initial 53 carries three running backs (Holani, Price, Wilson) plus FB Brady Russell; Jacardia Wright and Velus Jones Jr. were waived/released and signed to the practice squad 2026-08-31. The official 53-man analysis said Price and Holani expect to split the workload early. The official depth chart as of 2026-09-09 lists Price first, Wilson second, Holani third (the 2026-08-17 order was Holani, Price, Wilson). Price played no preseason games (minor early-camp leg issue per the team site) and is expected to make his NFL debut in Week 1 with no injury designation. Wilson missed camp time and all preseason games (hamstring) but was a full participant on the Sunday and Monday Week 1 reports and carries no designation. Seahawks.com's Week 1 preview framed Price as helping fill Walker's void but not carrying the load alone, with Holani and Wilson behind him. Velus Jones Jr. was elevated for Week 1 on 2026-09-09 with no stated role. None of this is measured usage; the workload split remains unresolved pending postgame snaps, routes, and short-yardage work (ledger row til-2026-sea-20260909-005).
 
+
+### Week 1 measured split (verified 2026-09-10, official gamebook)
+
+Snap share is measured against Seattle's **50 actual offensive snaps**; carries against 22 team
+rushing attempts. The book's participation table is self-labelled "Unofficial".
+
+| Back | Snaps | Share | Carries | Yards | Avg | Targets |
+|---|---|---|---|---|---|---|
+| Jadarian Price | 24 | 48% | 10 | 52 | 5.2 | 2 |
+| George Holani | 23 | 46% | 8 | 29 | 3.6 | 1 |
+| Emanuel Wilson | 3 | 6% | 2 | 3 | 1.5 | 0 |
+
+**This is a near-even committee.** Price out-snapped Holani by one and out-carried him by two. He
+was the more efficient back and took both backfield receptions, and his debut was the better of
+the two — but a one-snap gap does not describe a lead back, and the committee framing in this
+finding is confirmed rather than resolved.
+
+**The scoring-role question was not tested at all.** Seattle ran **zero goal-to-go snaps** and no
+back carried inside the New England 10; red-zone efficiency was 0-2. There is no inside-five
+evidence from this game in either direction.
+
+**Read the denominator carefully.** Sam Darnold played 5 of the 50 snaps before his injury and
+Drew Lock the other 45, so this backfield sample is very nearly a Lock-unit sample. It is not
+directly comparable to a future game with a different quarterback.
+
+ESPN's game story frames the committee as holding for roughly four games while Charbonnet is on
+reserve/PUP. That is **the reporters' own projection**, not club guidance, and is retained as
+analysis rather than fact.
+
 ## Sources
 
 - John Boyle, Seahawks.com - [Seahawks 2026 Free Agency Tracker](https://www.seahawks.com/news/seattle-seahawks-2026-free-agency-tracker-roster-moves) - published 2026-03-29.
@@ -73,5 +102,5 @@ Price is the upside target and a priority preseason charting subject. Holani and
 - Reason: The roster facts are official, but the workload split is unresolved.
 - Fact/inference boundary: Walker's departure, Wilson's signing, Price's draft slot, Charbonnet's reserve/PUP transaction, the 2026-09-09 depth-chart order, and Week 1 availability are facts; Price's lead-back path and the committee framing are inferences/team-site framing, not measured usage.
 - What would invalidate this: Holani or Wilson controls passing downs and goal-line work, Price misses time/struggles in protection, or Charbonnet returns to full first-team work when eligible after Week 4.
-- Next review: After Week 1 backfield snap, route, two-minute, and inside-five charting (no preseason sample exists for Price or Wilson); then Charbonnet's reserve/PUP return window after Week 4.
+- Next review: **Week 2 at Arizona** — whether the near-even split holds against a second opponent, and whether either back separates on passing downs. TRIGGER REWRITTEN 2026-09-10: the prior trigger required route charting, which no registered source supplies; that clause is removed as unsatisfiable (see the registry gap in the [pilot audit](../../../../../../weekly/2026/week-01/usage-tracking.md)). Inside-five remains untested because Seattle ran no goal-to-go snaps in Week 1. Charbonnet's reserve/PUP window opens after Week 4. Ledger: `til-2026-sea-20260910-004` resolved, `til-2026-sea-20260910-005` open.
 - Canonical player profiles: [Jadarian Price](../../../../../../players/jadarian-price/profile.md) · [George Holani](../../../../../../players/george-holani/profile.md) · [Zach Charbonnet](../../../../../../players/zach-charbonnet/profile.md)
