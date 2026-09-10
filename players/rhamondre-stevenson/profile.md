@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-writer-mike-reiss", "local-writer-doug-kyed", "local-writer-andrew-callahan"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-writer-mike-reiss", "local-writer-doug-kyed", "local-writer-andrew-callahan"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: RB
 - Current team: New England Patriots
 - Season: durable profile (verified 2026-09-09, historical statistics audited after scheduled kickoff)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -124,6 +124,31 @@ style.
 Available. He carries no Week 1 designation. History: a 2021 concussion, a 2023 ankle
 injury that ended his season after 12 games, and a 2025 toe injury (Week 8, three games
 missed). He has played 70 of a possible 84 regular-season games (83 percent).
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**60 of 71 offensive snaps (85%), 18 of 31 carries for 51 yards (2.8 avg, long 12), 5 receptions on 6 targets for 44 yards.**
+
+A genuine bell-cow deployment: the highest snap share on the offense, 58% of team carries, the
+second-most targets on the team, and **on the field for all 11 two-minute snaps across both
+halves**, taking a reception and a carry in the Q2 drill and a carry on the final drive.
+
+**Read this with the sample limit attached.** TreVeyon Henderson was an official inactive. The
+alternatives were a trade acquisition with roughly five practices and a practice-squad elevation,
+so this workload does not describe how the backfield divides when Henderson plays, and it does not
+count toward the two-game trigger on the healthy-timeshare question.
+
+Efficiency was poor and its cause is disputed: Lazar's film review credits Stevenson with 50 of his
+51 rushing yards after contact and blames the blocking, while Kyed writes that the line failed to
+open holes **and** that Stevenson was not creating on his own. Both readings are retained.
+
+His goal-line role was **not tested** — New England ran exactly one snap inside the Seattle 5 all
+game and it was a touchdown pass.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

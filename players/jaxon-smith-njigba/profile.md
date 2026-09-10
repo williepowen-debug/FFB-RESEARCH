@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: high
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-over-the-cap", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-source-pro-football-reference"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-over-the-cap", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-source-pro-football-reference"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: WR
 - Current team: Seattle Seahawks
 - Season: durable profile (verified 2026-09-09)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -118,6 +118,23 @@ and [post-Walker backfield](../../teams/NFC/West/Seattle-Seahawks/2026/offense/p
 
 Durable: 51 straight regular-season games plus all three 2025 playoff games. No 2026
 injury or limitation reported as of 2026-09-09.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**45 of 50 offensive snaps (90%), 8 receptions on 11 targets for 122 yards and a 45-yard touchdown.**
+
+The one unambiguous role in this game. Smith-Njigba drew 11 of Seattle's 24 targets — 46% of the
+team's passing volume — and his fourth-quarter touchdown tied the game. No other Seattle receiver
+drew more than three targets.
+
+**The volume belongs to a Drew Lock sample.** Sam Darnold was injured on the opening possession, and
+Lock accounted for 22 of Seattle's 24 targets including 10 of Smith-Njigba's 11. Whether this target
+concentration survives a quarterback change in either direction is the open question.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

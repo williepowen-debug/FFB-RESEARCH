@@ -9,10 +9,10 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-new-england-patriots", "local-source-pats-pulpit", "local-source-si", "local-writer-doug-kyed", "local-writer-andrew-callahan"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-new-england-patriots", "local-source-pats-pulpit", "local-source-si", "local-writer-doug-kyed", "local-writer-andrew-callahan"]
 supersedes: []
 ---
 
@@ -23,8 +23,8 @@ supersedes: []
 - Unit: running backs
 - Area: early-down, passing-down, and goal-line usage split
 - Season: 2026
-- Status: active preseason baseline
-- Last verified: 2026-09-09
+- Status: active, with Week 1 measured usage added
+- Last verified: 2026-09-10
 
 ## Finding
 
@@ -48,6 +48,34 @@ New England returns a two-back tandem of Rhamondre Stevenson and TreVeyon Hender
 - The offense returns offensive coordinator Josh McDaniels and added interior and tackle help (Vera-Tucker, first-round tackle Caleb Lomu) after trading center Garrett Bradbury.
 - Week 1 status (verified 2026-09-09), facts only: Henderson injured an ankle in practice on 2026-08-24, has not practiced since, and is officially OUT for the Week 1 opener at Seattle after DNP on Sunday, Monday and Tuesday. The initial 53-man roster carries three running backs — Stevenson, Henderson, and Corey Kiner, acquired from Arizona on 2026-08-28 for a 2028 seventh-round pick. Practice-squad back Lan Larison was elevated for Week 1 on 2026-09-09; Hassan Haskins remains on the practice squad. Team-site analysis and Boston Herald reporter Doug Kyed independently describe the Week 1 order as Stevenson first, Kiner second, Larison third; Kiner had roughly five practices with the team. Boston Herald columnist Andrew Callahan assessed Stevenson as the only back the staff should trust in pass protection, which is columnist interpretation rather than measured usage.
 
+- **Week 1 measured usage (verified 2026-09-10, official gamebook), Henderson absent.** Snap share
+  uses New England's 71-snap base; carries use 31 team rushes; targets use a 31-target denominator.
+
+  | Back | Snaps | Share | Carries | Rush yds | Targets | Rec-Yds | Two-minute snaps |
+  |---|---|---|---|---|---|---|---|
+  | Rhamondre Stevenson | 60 | 85% | 18 | 51 (2.8) | 6 | 5-44 | 11 of 11 |
+  | Corey Kiner | 8 | 11% | 6 | 11 (1.8) | 0 | — | 0 |
+  | Lan Larison | 3 | 4% | **0** | — | 2 | 2-9 | 1 (Q4 only) |
+
+  The reported Stevenson-Kiner-Larison depth order is confirmed by snaps, but **the three roles are
+  not points on one spectrum.** Stevenson was a bell cow who also owned the two-minute offense.
+  Kiner was an early-down spell back: all six carries came on first or second down, five of the six
+  in the second quarter, and he drew no targets. Larison took zero carries and both of his
+  offensive snaps produced targets — a passing-situation dart who is also the kick returner.
+
+  **This does not test the hypothesis.** Henderson was an official inactive. Stevenson's share was
+  earned against a five-practice trade acquisition and a practice-squad elevation, and it says
+  nothing about how the work divides when Henderson plays.
+
+  **The goal-line question was not tested either.** New England ran exactly ONE snap inside the
+  Seattle 5 all game, and it was a 2-yard touchdown pass to Eli Raridon. Stevenson's zero inside-5
+  carries reflect a sample of one, not a role.
+
+  Beat interpretation, retained as a live disagreement rather than resolved: Lazar's film review
+  credits Stevenson with 50 of his 51 rushing yards after contact and blames the blocking, while
+  Kyed writes that the line failed to open holes **and** that Stevenson was not creating on his own.
+  Lazar is team-employed; the two readings are preserved, not merged.
+
 ### Inferences
 
 - Stevenson's late-2025 efficiency and early-down role give him the current lead, but Henderson's receiving and explosive-play profile make him the more valuable back if the passing-down and goal-line share shifts.
@@ -58,7 +86,7 @@ New England returns a two-back tandem of Rhamondre Stevenson and TreVeyon Hender
 
 - Both backs are startable in the right weeks, but the timeshare caps each one's ceiling until roles clarify.
 - Henderson is the higher-upside dynasty and best-ball target given his dual-threat profile; Stevenson is the steadier early-down and short-yardage bet.
-- Track preseason and Week 1 passing-down and goal-line snaps as the deciding signal.
+- Week 1 measured Stevenson at an 85% snap share with the full two-minute role, but Henderson did not play. **The deciding signal is still unobserved.** The goal-line question also remains untested: only one inside-5 snap existed all game.
 
 ## Assessment
 
@@ -66,7 +94,7 @@ New England returns a two-back tandem of Rhamondre Stevenson and TreVeyon Hender
 - Reason: both roles are established as real, but the 2026 split is unresolved.
 - Fact/inference boundary: 2025 production and the projected starter designation are facts; the 2026 split projection is inference.
 - What would invalidate this: one back seizing a clear three-down role, or a decisive passing-down/goal-line assignment once both backs are healthy.
-- Next review: postgame Week 1 charting of Stevenson's absolute route, two-minute and goal-line involvement plus Kiner's role, then Henderson's Week 2 practice participation (ledger row `til-2026-ne-20260909-003`). Week 1 is a Henderson-absent sample: it does not test the split and must not count toward the two-game trigger on `ne-2026-off-q07`.
+- Next review: **Henderson's return to play.** TRIGGER REWRITTEN 2026-09-10: the prior trigger required route and protection charting, which no registered source supplies for this game — see the registry gap recorded in the [pilot audit](../../../../../../weekly/2026/week-01/usage-tracking.md). Replaced with obtainable evidence: snap share, carry share, target share, two-minute participation and inside-5 opportunity from the official gamebook. Week 1 is a Henderson-absent sample: it does not test the split and does not count toward the two-game trigger on `ne-2026-off-q07` (ledger rows `til-2026-ne-20260910-002` resolved, `til-2026-ne-20260910-003` and `-004` open).
 
 ## Sources
 

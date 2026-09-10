@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-nfl-com", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-source-pro-football-reference"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-nfl-com", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-source-pro-football-reference"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: TE
 - Current team: Seattle Seahawks
 - Season: durable profile (verified 2026-09-09)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -111,6 +111,20 @@ targets in the short term. See
 Durable: 34 straight regular-season games plus three playoff games. An oblique note
 appeared in one independent camp report (2026-09-06); the official Week 1 report did
 not list him. No designation as of 2026-09-09.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**44 of 50 offensive snaps (88%), 2 receptions on 2 targets for 13 yards.** He also took a fourth-quarter direct snap and ran for a gain that was negated by an offensive-offside penalty.
+
+Barner's 88% snap share was second among all Seattle pass catchers and confirms the TE1 role. But
+88% of snaps producing two targets is the blocking-heavy pattern `sea-off-te-001` warns about, and
+the room did not dilute him — Arroyo played 11 snaps and Saubert 10. **No route counts exist**, so
+snaps and targets cannot yet be separated into route participation versus blocking.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

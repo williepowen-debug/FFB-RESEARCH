@@ -437,17 +437,22 @@ def validate_intelligence(root: Path = REPO_ROOT) -> list[str]:
                 failures.append(f"{label}: invalid disposition")
             if status not in LEDGER_STATUSES:
                 failures.append(f"{label}: invalid status")
-            if disposition == "deferred" and status != "open":
-                failures.append(f"{label}: deferred ledger item must be open")
-            if disposition in {"promoted", "no_change"} and status != "resolved":
-                failures.append(f"{label}: promoted/no_change ledger item must be resolved")
+            # "superseded" is orthogonal to disposition: INTELLIGENCE_PIPELINE.md defines it as
+            # "a later ledger row replaces its decision", which can happen to a row in any
+            # disposition. Pairing it with the disposition rules below made the documented state
+            # unreachable, so those rules apply only to rows that were not superseded.
+            if status != "superseded":
+                if disposition == "deferred" and status != "open":
+                    failures.append(f"{label}: deferred ledger item must be open")
+                if disposition in {"promoted", "no_change"} and status != "resolved":
+                    failures.append(f"{label}: promoted/no_change ledger item must be resolved")
             resolved_date = row.get("resolved_date", "")
             resolution_synthesis_id = row.get("resolution_synthesis_id", "")
-            if status == "resolved":
+            if status in {"resolved", "superseded"}:
                 if not valid_date(resolved_date):
-                    failures.append(f"{label}: resolved item requires resolved_date")
+                    failures.append(f"{label}: {status} item requires resolved_date")
                 if resolution_synthesis_id not in synthesis_ids:
-                    failures.append(f"{label}: resolved item requires a valid resolution_synthesis_id")
+                    failures.append(f"{label}: {status} item requires a valid resolution_synthesis_id")
             elif resolved_date or resolution_synthesis_id:
                 failures.append(f"{label}: unresolved item cannot have resolution fields")
             if not valid_date(row.get("review_date", "")):

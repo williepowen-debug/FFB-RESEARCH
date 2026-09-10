@@ -1,0 +1,25 @@
+# NE at SEA Week 1 postgame completion preflight
+
+- Run: `20260910T222845Z`
+- Frozen publication window: `2026-09-09T21:07:06Z` through `2026-09-10T22:28:45Z` (contiguous with the end of the September 9 pre-kickoff window `20260909T210706Z`).
+- Scope: New England (NE) and Seattle (SEA) only. The Week 1 opener kicked off 2026-09-09 at 8:20 PM ET (`2026-09-10T00:20Z`) per `league/schedule/2026.csv` and is complete.
+- Pass: **postgame usage completion pass**, not an immediate triage pass. The game ended roughly 19 hours before this run was frozen, the official book is published, and `weekly/2026/week-01/usage-tracking.md` step 3 forbids a usage completion pass from highlights alone. Both the official book and registered postgame beat reporting are therefore in scope in a single run.
+- ARCHITECT preflight access check (retrieved 2026-09-10 ~22:30Z): the NFL game center for `patriots-at-seahawks-2026-reg-1` renders as a completed game and exposes a downloadable official book at `https://static.www.nfl.com/image/upload/v1789038923/gamecenter/a8fb0d78-4feb-11f1-abca-2c54536568a9.pdf`. The ESPN box score for game `401872656` renders full passing, rushing and receiving lines. This check establishes that the endpoints resolve; **it is not evidence.** Readers must retrieve the exact supporting item themselves and record its own publication timestamp and their own retrieval time.
+- Known headline facts from that access check, recorded so readers are not collecting blind and so a reader cannot present them as independent discovery: final Seattle 13, New England 10; Seattle quarterback Sam Darnold recorded 1-of-2 for 13 yards and Drew Lock 16-of-22 for 187 yards, indicating a quarterback change early in the game. **The cause, timing and status of that change are unverified and are this run's highest-priority official-record target.**
+- Open ledger review (required before assignment): five rows are open across the two teams, and every one names official Week 1 usage as its next review trigger.
+  - `til-2026-ne-20260909-002` — Stevenson/Kiner/Larison opportunities with matched denominators (`ne-2026-off-q06`, `ne-2026-off-q07`).
+  - `til-2026-ne-20260909-003` — same NE backfield sample for `rf-2026-ne-backfield-timeshare-001`; not an independent second measurement.
+  - `til-2026-sea-20260909-002` — Thomas/Finley safety deployment beside Love and the actual nickel replacement (`sea-def-s-001`).
+  - `til-2026-sea-20260909-003` — same secondary sample for `rf-2026-sea-secondary-replacement-roles-001`; not an independent second measurement.
+  - `til-2026-sea-20260909-005` — Price/Wilson/Holani split (`sea-off-rb-001`).
+- Standing sample limits carried into this run and binding on synthesis:
+  - New England played this game **without TreVeyon Henderson** (official Week 1 inactive). A Henderson-absent sample cannot test the healthy timeshare in `ne-2026-off-q06` and cannot count toward the first-two-games trigger in `ne-2026-off-q07`.
+  - Seattle played **without Okada, Emmanwori, Horton and Kallerup**. A one-game injury-forced secondary pairing cannot settle the durable job described by `sea-def-s-001`.
+  - A quarterback change alters the denominator for every Seattle receiving and backfield rate in this game. Splits must be recorded by quarterback unit, not merged, wherever the supporting evidence allows it.
+- Active-source selection: registered active official and beat sources per team, frozen in `assignments.csv`. No historical or retired source is assigned. `local-source-nfl-gamebooks` is the official-book source for both teams.
+- Maximum 20 atomic observations per team, split 12 official/data and 8 beat/analysis. A cap, not a quota. Zero is an acceptable reader result with documented access outcomes.
+- Publication timestamps must belong to the exact supporting item. The official book is a dated document without a reliable publication timestamp; readers record the document URL, the page or table, and their actual retrieval time, and declare the timestamp limitation in `notes` rather than inventing one. ARCHITECT resolves intake eligibility for that document.
+- Inaccessible evidence is a coverage gap, never evidence of no news. Paywalled outlets (Seattle Times, News Tribune, The Athletic) are summarised in original language with claim-level attribution; paid text is never reproduced.
+- No rankings, projections or lineup conclusions in reader output. Synthesis routes signals; ARCHITECT records ledger dispositions before any promotion into `wm-2026-w01-ne-sea-001`, team records or `players/` profiles.
+- Measured usage rows enter `weekly/2026/week-01/usage-input.csv` only after ARCHITECT reconciles them against the official book, with matched denominators and unknown plays declared.
+- Validation: validate_intelligence.py, validate_schedule.py, generate_catalog.py, validate_repository.py, generate_catalog.py --check, git diff --check, and the unittest suite.

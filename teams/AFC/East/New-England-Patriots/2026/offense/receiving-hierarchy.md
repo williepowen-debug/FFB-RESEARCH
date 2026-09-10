@@ -9,8 +9,8 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
 source_ids: ["local-source-new-england-patriots", "local-source-espn", "local-source-boston-globe"]
 supersedes: []
@@ -48,14 +48,45 @@ remaining targets.
   Houston on August 25.
 - Additional receivers include DeMario "Pop" Douglas (slot), Mack Hollins, and 2025 third-round pick Kyle Williams. Hunter Henry returns at tight end, with rookie Eli Raridon (third round, Notre Dame) added.
 - Drake Maye returns at quarterback as a 2025 MVP runner-up after leading New England to the Super Bowl.
-- Week 1 status (verified 2026-09-09), facts only: the initial 53-man roster of 2026-08-30 carries six receivers — Brown, Doubs, DeMario Douglas, Mack Hollins, Kyle Williams, and Efton Chism III — plus tight ends Hunter Henry, Eli Raridon and Tanner Arkin and fullback Reggie Gilliam. No receiver or tight end carried a Week 1 injury designation on the official 2026-09-08 report. The receiver and tight-end room therefore opens the season intact, and no target has yet been measured.
+- Week 1 status (verified 2026-09-09), facts only: the initial 53-man roster of 2026-08-30 carries six receivers — Brown, Doubs, DeMario Douglas, Mack Hollins, Kyle Williams, and Efton Chism III — plus tight ends Hunter Henry, Eli Raridon and Tanner Arkin and fullback Reggie Gilliam. No receiver or tight end carried a Week 1 injury designation on the official 2026-09-08 report. The receiver and tight-end room therefore opened the season intact. **That statement went false during Week 1:** A.J. Brown was injured on a third-and-4 incompletion at 13:30 of the third quarter and was ruled out to start the fourth. See the measured Week 1 distribution below.
+
+- **Week 1 measured distribution (verified 2026-09-10, official gamebook).** Targets are measured
+  against a **31-target** denominator, not New England's 33 pass attempts: two throws had no
+  intended receiver recorded. Snap share uses the **71-snap** base.
+
+  | Player | Snaps | Share | Targets | Rec | Yards | TD |
+  |---|---|---|---|---|---|---|
+  | Mack Hollins | 50 | 70% | 5 | 4 | 51 | 0 |
+  | DeMario Douglas | 44 | 62% | 7 | 5 | 20 | 0 |
+  | Romeo Doubs | 40 | 56% | 3 | **0** | 0 | 0 |
+  | Eli Raridon | 38 | 54% | 1 | 1 | 2 | **1** |
+  | A.J. Brown | 31 | 44% | 4 | 3 | 26 | 0 |
+  | Hunter Henry | 54 | 76% | 3 | 3 | 26 | 0 |
+  | Kyle Williams | 12 | 17% | 0 | 0 | 0 | 0 |
+  | Rhamondre Stevenson | 60 | 85% | 6 | 5 | 44 | 0 |
+
+  **The full-game table understates Brown and must not be read as a hierarchy.** He played 44% of
+  snaps and left injured. Restricted to the snaps he was on the field for, Brown **led the team in
+  targets 4 to Douglas's 3**, roughly a 31% share of the 13 targets thrown in that window, and led
+  in receptions and yards at the moment he exited. Brown's apparent fourth-place finish is an
+  artefact of his absence for the final 24 minutes.
+
+  Mack Hollins led the team in receiving yards and played more snaps than either Doubs or Brown.
+  **Hollins has no canonical player profile**, which is an organization gap rather than an evidence
+  gap — he is already recorded here and in the team overview as a roster fact.
+
+  Romeo Doubs is the weakest measured signal: 56% of snaps, three targets, **zero receptions**.
+  Kyed reports that Hollins was used heavily on run plays in the first half, which suppressed Doubs
+  and Douglas snaps for a reason unrelated to standing — a competing read that is retained rather
+  than resolved. Doubs's Week 2 opportunity and his Week 1 measurement point in opposite
+  directions; see `ne-2026-off-q04`.
 
 ### Current role hypotheses
 
 | Player | Best current hypothesis | Confidence | What would change it |
 |---|---|---:|---|
-| A.J. Brown | defined alpha WR1 and clear target leader | medium | a Maye-driven distributed approach caps his share, or a slow scheme fit |
-| Romeo Doubs | starting complementary receiver | medium | Kyle Williams or another younger receiver takes outside snaps |
+| A.J. Brown | defined alpha WR1 and clear target leader | medium | a Maye-driven distributed approach caps his share, or a slow scheme fit. **Week 1 is partial supporting evidence** (led targets while on the field) but cannot complete the two-game trigger: he played 44% of snaps and left injured, and his Week 2 availability is unknown. |
+| Romeo Doubs | starting complementary receiver | **lowered to low-medium** | Kyle Williams or another younger receiver takes outside snaps. Week 1: 40 snaps behind Hollins and Douglas, 3 targets, 0 receptions. Competing explanation on record (first-half run-blocking personnel), so this is not recorded as a demotion. |
 | DeMario Douglas | primary slot and underneath target | low | loses slot snaps or third-down work |
 | Hunter Henry | steady middle-field and red-zone tight end | medium | rookie Raridon or a receiver absorbs tight-end targets |
 

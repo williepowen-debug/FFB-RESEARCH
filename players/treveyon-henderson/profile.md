@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-writer-mike-reiss", "local-writer-doug-kyed"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-writer-mike-reiss", "local-writer-doug-kyed"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: RB
 - Current team: New England Patriots
 - Season: durable profile (verified 2026-09-09, pre-kickoff of 2026 Week 1)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -131,6 +131,25 @@ all three Week 1 practice days; ruled OUT 2026-09-08. No timeline beyond Week 1 
 reported. A 2026-08-24 injury with three-plus weeks without practice is not a
 day-to-day sprain; treat Week 2 availability as unknown until practice participation is
 reported.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**INACTIVE — did not play (ankle).**
+
+Henderson was an official Week 1 inactive after not practising Sunday through Tuesday. His absence
+is the single most important caveat on New England's Week 1 backfield data: Stevenson's 85% snap
+share and complete two-minute role were earned against a five-practice trade acquisition and a
+practice-squad elevation, and **Week 1 cannot test the healthy timeshare and does not count toward
+the two-game trigger** on `ne-2026-off-q07`.
+
+**No registered source established a Week 2 practice expectation** as of 2026-09-10. That is a
+coverage gap, not evidence of a setback. New England did not practise on the Thursday after the
+game.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

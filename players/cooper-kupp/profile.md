@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-seattle-seahawks"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-seattle-seahawks"]
 supersedes: []
 ---
 
@@ -20,7 +20,7 @@ supersedes: []
 
 - Position: WR
 - Current team: SEA
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Scope: durable history and role fit; current game status lives in the [weekly matchup](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Durable player profile
@@ -57,6 +57,23 @@ ARCH inference: Kupp is an alternative when defenses devote resources to Smith-N
 ### Health and availability
 
 Use the weekly matchup for current eligibility. The August feature says his joint-practice workload was managed and he did not appear in preseason games; neither establishes a new injury or a lost role.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**39 of 50 offensive snaps (78%), 2 receptions on 3 targets for 35 yards.**
+
+A high snap share that did not convert into volume, well behind Smith-Njigba's 11 targets.
+
+**The box score understates him by one significant play.** Kupp caught a third-quarter touchdown
+from Drew Lock that was erased by an illegal-shift penalty; Seattle then failed to convert and
+settled for a field goal. A negated play is correctly not a statistical target, so a fourth pass
+was thrown his way inside the New England 10 and does not appear in his line at all. That is
+deployment evidence the box score hides.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-writer-brady-henderson", "local-source-espn", "local-source-nfl-com"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-seattle-seahawks", "local-writer-john-boyle", "local-writer-brady-henderson", "local-source-espn", "local-source-nfl-com"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: RB
 - Current team: Seattle Seahawks
 - Season: durable profile (verified 2026-09-09)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -127,6 +127,27 @@ Available for Week 1 with no designation. History: ruptured Achilles (2022, full
 missed); minor lower-body soreness in August 2026 that cost about a week of camp and
 contributed to the decision to hold him out of preseason games. Nothing reported as
 lingering as of 2026-09-09.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**24 of 50 offensive snaps (48%), 10 of 22 carries for 52 yards (5.2 avg, long 13), 2 receptions on 2 targets for 6 yards.**
+
+A promising NFL debut on efficiency — the best yards-per-carry figure among Seattle's backs, a
+13-yard long, and both of the backfield's receptions. **But the deployment was a committee, not a
+lead-back role:** George Holani played 23 snaps to Price's 24, a one-snap difference, and took 8
+carries to Price's 10.
+
+This is the measured evidence the `sea-off-rb-001` lead-back hypothesis had been waiting for, and it
+**challenges** rather than confirms it. Confidence on that hypothesis has been lowered to low.
+
+Two limits. His scoring role is **untested**: Seattle ran zero goal-to-go snaps and no back carried
+inside the New England 10. And the sample is very nearly a Drew Lock sample — Sam Darnold played 5
+of the 50 snaps before being injured.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

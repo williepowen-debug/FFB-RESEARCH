@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-source-espn", "local-source-nfl-com"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-source-espn", "local-source-nfl-com"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: WR
 - Current team: New England Patriots
 - Season: durable profile (verified 2026-09-09, pre-kickoff of 2026 Week 1)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -120,6 +120,24 @@ close to his Green Bay usage, in a better offense.
 
 Available with no designation. Relevant history: two concussions in 2024, a 2022 ankle
 injury, and 59 of 68 possible regular-season games played (87 percent).
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**40 of 71 offensive snaps (56%), 3 targets, ZERO receptions.**
+
+The weakest measured line of any New England regular, and the reason `ne-2026-off-q04` has been
+lowered to low confidence. Doubs played fewer snaps than both Mack Hollins (50) and Douglas (44)
+despite repping as a starting receiver alongside Brown throughout camp.
+
+**A competing explanation is on record and is not resolved.** Kyed reports Hollins was used heavily
+on first-half run plays, which suppressed Doubs's and Douglas's snap counts for a reason unrelated
+to standing. This is therefore **not recorded as a demotion**. Doubs's Week 1 measurement and his
+Week 2 opportunity from Brown's injury point in opposite directions and must be read together.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

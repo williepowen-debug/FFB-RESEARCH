@@ -9,10 +9,10 @@ season: 2026
 week: null
 status: active
 time_horizon: seasonal
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-seattle-seahawks"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-seattle-seahawks"]
 supersedes: []
 ---
 
@@ -24,7 +24,7 @@ supersedes: []
 - Area: safety competition, CB3, dime packages
 - Season/week: 2026 preseason
 - Status: active
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 
 ## Finding
 
@@ -79,10 +79,50 @@ availability do not settle who covers the slot, the deep zones or tight ends. Fo
 Week 1 inactive status, use the [weekly report](../../../../../../weekly/2026/week-01/games/NE-at-SEA.md);
 the QUESTIONABLE labels in the earlier dated intake above are historical.
 
+
+### Week 1 measured participation (verified 2026-09-10, official gamebook)
+
+Measured against Seattle's **71 defensive snaps**. Okada, Emmanwori, Horton and Kallerup were
+inactive.
+
+| Player | Snaps | Share |
+|---|---|---|
+| Julian Love (S) | 71 | 100% |
+| **Rodney Thomas II (S)** | **70** | **99%** |
+| Devon Witherspoon (CB) | 70 | 99% |
+| Josh Jobe (CB) | 70 | 99% |
+| Nehemiah Pritchett (CB) | 53 | 75% |
+| **AJ Finley (S)** | **0** | **0%** |
+| Julian Neal (CB) | 0 | special teams only |
+| Avery Smith (CB) | 0 | special teams only |
+
+Three results matter, and two of them are negatives:
+
+1. **Rodney Thomas II, a practice-squad elevation, played all but one defensive snap beside Love.**
+2. **AJ Finley was active and played zero defensive snaps** — despite being signed to the 53-man
+   roster on September 9 and named by the team site as an expected option beside Love. An active
+   player at zero snaps is stronger evidence than an inactive one.
+3. **Coby Bryant appears nowhere in the gamebook** — not in lineups, substitutions, did-not-play,
+   inactives or the participation table. Recorded as observed, not interpreted.
+
+**Two limits, both binding.** First, this is a one-game injury-forced configuration. Macdonald said
+afterward that Emmanwori and Horton had practised limited, looked good and might have been able to
+play, and were held out as a precaution — so the entire Week 1 alignment was precautionary rather
+than a depth-chart statement. It cannot settle the durable job.
+
+Second, **a snap count is not an alignment.** The participation table carries no position labels;
+its S/CB letters are the book's roster designation column, not evidence of where a player lined up.
+Pritchett's 53 snaps establish a third-corner *workload* and say nothing about who played the
+nickel. **No official or registered source identified Seattle's nickel defender in Week 1**, and
+that question remains open — see `til-2026-sea-20260910-009`.
+
+This finding's volatility thesis is reinforced. Its Okada-and-Love first-team statement remains
+stale, and is retained as the dated preseason baseline rather than rewritten.
+
 ## Assessment
 
 - Confidence: medium
 - Reason: The departures and current depth chart are official; role quality and dime usage must be proven. Confidence stays medium: the Week 1 injury-forced safety pairing, Clark's injured-reserve placement, and the Arnold/Smith corner additions reinforce the volatility thesis without resolving it.
 - Fact/inference boundary: Bryant/Woolen departures and current depth-chart order are facts; volatility assessment is a preseason inference.
 - What would invalidate this: Okada and Jobe lock down full-time roles cleanly, Clark/Neal are not needed early, and Seattle avoids explosive-pass leakage in the first month.
-- Next review: After Week 1 safety and nickel snaps beside Love (Thomas II, Finley, Emmanwori if active) and CB3/dime usage among Pritchett, Neal, and Smith; then Arnold's exempt-list resolution and Okada's return.
+- Next review: **Okada's and Emmanwori's return to availability**, then whether Thomas II retains defensive snaps; then Arnold's exempt-list resolution. TRIGGER REWRITTEN 2026-09-10: the prior trigger required identifiable coverage assignments, which no registered source supplies — snap counts carry no alignment. Ledger: `til-2026-sea-20260910-006` resolved, `til-2026-sea-20260910-007` and `til-2026-sea-20260910-009` open.

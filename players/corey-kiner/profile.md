@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-new-england-patriots"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-new-england-patriots"]
 supersedes: []
 ---
 
@@ -20,7 +20,7 @@ supersedes: []
 
 - Position: RB
 - Current team: NE
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Scope: durable history and role fit; current game status lives in the [weekly matchup](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Durable player profile
@@ -54,6 +54,19 @@ ARCH inference: he can provide relief carries, but meaningful passing-down respo
 ### Health and availability
 
 Use the weekly matchup’s official eligibility check. No multi-season durability conclusion is possible from this sample.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**8 of 71 offensive snaps (11%), 6 carries for 11 yards (1.8 avg), 0 targets.**
+
+A narrow early-down spell role in his first game with New England. All six carries came on first or
+second down, five of the six in the second quarter. He drew no targets and took no two-minute snaps.
+Being the No. 2 back on the depth chart translated into 11% of the offense with Stevenson healthy.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 

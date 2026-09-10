@@ -9,10 +9,10 @@ season: 2026
 week: 1
 status: active
 time_horizon: weekly
-valid_as_of: "2026-09-09"
-last_verified: 2026-09-09
+valid_as_of: "2026-09-10"
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-seattle-seahawks", "local-source-new-england-patriots", "local-writer-mike-reiss", "local-writer-doug-kyed", "local-writer-andrew-callahan", "local-writer-john-boyle", "local-writer-curtis-crabtree", "local-writer-brady-henderson"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-seattle-seahawks", "local-source-new-england-patriots", "local-writer-mike-reiss", "local-writer-doug-kyed", "local-writer-andrew-callahan", "local-writer-john-boyle", "local-writer-curtis-crabtree", "local-writer-brady-henderson"]
 supersedes: []
 game_id: 2026-W01-NE-SEA
 fantasy_formats: ["general"]
@@ -29,7 +29,188 @@ fantasy_formats: ["general"]
 - Schedule source: [NFL](https://www.nfl.com/schedules/2026/by-week/week-1)
 - Last schedule verification: 2026-08-05
 
-## ARCH pregame outlook
+## Final result — Seattle 13, New England 10
+
+New England led 10-0 into the second half and did not score again. Seattle scored the
+game's last 13 points.
+
+| Scoring | Qtr | Time | Play | NE | SEA |
+|---|---|---|---|---|---|
+| NE | 2 | 9:11 | E. Raridon 2 yd. pass from D. Maye (Borregales kick), 10 plays 77 yards | 7 | 0 |
+| NE | 3 | 11:49 | A. Borregales 50 yd. field goal, 8 plays 39 yards | 10 | 0 |
+| SEA | 3 | 3:13 | J. Myers 30 yd. field goal, 7 plays 31 yards | 10 | 3 |
+| SEA | 4 | 11:28 | J. Smith-Njigba 45 yd. pass from D. Lock (Myers kick), 5 plays 67 yards | 10 | 10 |
+| SEA | 4 | 5:50 | J. Myers 26 yd. field goal, 8 plays 39 yards | 10 | 13 |
+
+New England out-gained Seattle 277 to 285 net yards — essentially even — and held the ball
+for 34:17. It lost on turnovers: **Maye threw three interceptions and Seattle threw none.**
+Nehemiah Pritchett returned one 30 yards; Julian Love took one; Josh Jobe ended the game by
+intercepting a deep throw intended for Mack Hollins at the goal line with 26 seconds left,
+with New England at the Seattle 16 and in range to win. Neither team scored a rushing
+touchdown. Seattle went 0-for-2 in the red zone and still won.
+
+| | NE | SEA |
+|---|---|---|
+| Total net yards | 277 | 285 |
+| Offensive plays (statistical) | 67 | 48 |
+| Actual snaps | 71 | 50 |
+| Rushing | 31-109 (3.5) | 22-97 (4.4) |
+| Passing | 23-33, 178 gross, 1 TD, 3 INT | 17-24, 200 gross, 1 TD, 0 INT |
+| Sacks allowed | 3-10 | 2-12 |
+| Third down | 5-16 (31.3%) | 2-11 (18.2%) |
+| Red zone | 1-2 | 0-2 |
+| Goal-to-go | 1-1 | 0-0 |
+| Time of possession | 34:17 | 25:43 |
+
+Quarterbacks: Maye 23-of-33 for 178, 1 TD, 3 INT, 54.9 rating, plus 7 carries for 47 yards.
+Lock 16-of-22 for 187 and the touchdown, 113.3 rating. Darnold 1-of-2 for 13 before leaving
+injured.
+
+### The two injuries that outrank the result
+
+**Sam Darnold (SEA) — hip.** Injured on the D. Jones sack that ended Seattle's opening
+possession at 12:27 of the first quarter. The gamebook records "return is Questionable"
+at 6:02 of the first quarter and "Out of the game" at 0:45 of the second. He played 5 of
+Seattle's 50 offensive snaps. Imaging ruled out a fracture; Macdonald said the next day
+that the hip is intact and the problem is muscular, and that Darnold is in pain. **There is
+no prognosis.** No timetable, no injury designation, no roster move and no named Week 2
+starter exist as of this record's verification. Macdonald's stated expectation that Lock
+would play was explicitly his own thinking and not a decision he had been given. Treat this
+as an unreported prognosis, not a minor injury.
+
+**A.J. Brown (NE) — ankle.** Injured on a third-and-4 incompletion at 13:30 of the third
+quarter, listed Questionable at 12:41, and ruled out to start the fourth. He finished with
+3 receptions on 4 targets for 26 yards on 31 snaps (44%); the fourth target is the play he
+was hurt on. A high ankle sprain has been widely reported, but that diagnosis traces to a
+single unregistered origin and **Vrabel explicitly declined to confirm it**, said more tests
+were needed, and did not know whether Brown would be available in Week 2.
+
+## ARCH postgame reconciliation — how the pregame forecast held up
+
+The pregame lean below called **Seattle to win a one-score game, illustrated as 24-23**.
+Seattle won by three. The winner and the one-score shape were right; **the scoring level was
+badly wrong.** The 47-point central illustration missed a 23-point game by 24 points, and the
+market total of 44.5 missed it by more. Of the four alternative scripts listed, the one that
+actually happened was **"Both defenses control the game" (illustrated SEA 20-17)** — the
+lowest-scoring branch, not the central case.
+
+What the evidence base got right:
+
+- "Competitive, neither offense consistently explosive" — correct, and understated.
+- Seattle's front limiting easy early-down rushing: Stevenson averaged 2.8 yards on 18
+  carries and New England 3.5 as a team.
+- "New England needs functional protection more than a large passing-yard total; late
+  yardage while chasing the score would not confirm an effective game plan" — correct.
+  New England gained more yards, held the ball nine minutes longer, and lost.
+- "A sack that ends a red-zone drive, a turnover or a long return can outweigh the
+  difference between the teams" — this is exactly what decided the game.
+- "Seattle can win through field position and shared rushing production; it does not require
+  Price to establish a workhorse role immediately" — correct, and the sharing was near-total.
+
+What it got wrong, and why:
+
+- **The forecast priced no quarterback injury.** It reasoned about Darnold's decision-making
+  across a full game; he played five snaps. No script in the table contemplated either team
+  losing a starting quarterback, even though the report elsewhere treated availability as the
+  dominant Week 1 variable. This is a structural gap in the method, not bad luck: a one-game
+  qualitative forecast that enumerates alternative scripts should include a
+  starter-unavailable branch for each side.
+- **It named the wrong focal point.** "Brown is the most plausible focal point" — Brown drew
+  4 targets and left injured; Hollins led the team in receiving yards and Douglas in targets.
+- **It over-anticipated red-zone conversion for both teams.** Combined 1-for-4 in the red
+  zone produced the low total the illustrations missed.
+
+The forecast was labelled a qualitative lean rather than a calibrated probability, and that
+labelling holds up — but a correct winner should not be read as a validated method. One
+game supplies no calibration evidence either way.
+
+## Measured Week 1 usage
+
+All figures are reconciled from the official gamebook into
+[the Week 1 usage sheet](../usage-input.csv) (27 measured rows). Two denominators are in
+play and must not be mixed: **actual snaps** (NE 71, SEA 50) govern snap share, while
+**statistical offensive plays** (NE 67, SEA 48) govern per-play rates. The difference is
+plays that were snapped and run but wiped out by a live-ball penalty — four for New England,
+two for Seattle. New England's target denominator is **31**, not its 33 pass attempts, because
+two throws had no intended receiver. The gamebook labels its participation table
+"Unofficial", and no official participation report exists for this game.
+
+### New England backfield — the Henderson-absent sample
+
+| Player | Snaps | Share | Carries | Targets | Rec-Yds |
+|---|---|---|---|---|---|
+| Rhamondre Stevenson | 60 | 85% | 18 of 31 | 6 of 31 | 5-44 |
+| Corey Kiner | 8 | 11% | 6 of 31 | 0 | — |
+| Lan Larison | 3 | 4% | **0** | 2 of 31 | 2-9 |
+
+Stevenson was a genuine bell cow: 85% of snaps, 58% of carries, the team's second-most
+targets, and **on the field for all 11 two-minute snaps across both halves**, taking a
+reception and a carry in the Q2 drill and a carry on the final drive. Kiner's eight snaps
+were early-down only — all six carries came on first or second down and five of the six in
+the second quarter — and he drew no targets and took no two-minute snaps. Larison, the
+elevated third back, took **zero carries**; both of his offensive snaps produced targets.
+The reported "Stevenson, Kiner, Larison" depth order is confirmed by snaps, but the three
+roles are not on a spectrum: they are a workhorse, an early-down spell back, and a
+passing-situation dart who is also the kick returner.
+
+**This does not test the healthy timeshare.** TreVeyon Henderson was an official inactive.
+Nothing here bears on `ne-2026-off-q06` or counts toward the two-game trigger on
+`ne-2026-off-q07`.
+
+### Seattle backfield — a near-even committee
+
+| Player | Snaps | Share | Carries | Yards | Targets |
+|---|---|---|---|---|---|
+| Jadarian Price | 24 | 48% | 10 of 22 | 52 (5.2) | 2 |
+| George Holani | 23 | 46% | 8 of 22 | 29 (3.6) | 1 |
+| Emanuel Wilson | 3 | 6% | 2 of 22 | 3 | 0 |
+
+**Price 24 snaps to Holani 23 is a one-snap difference.** Price was more efficient and
+debuted well, but the deployment was a committee, not a lead-back workload. This is the
+measured evidence `sea-off-rb-001` has been waiting for, and it does not confirm the
+hypothesis that Price wins enough work to be the highest-upside Seattle back.
+
+### Two null results that resolve nothing — and that is the finding
+
+- **New England ran exactly one snap inside the Seattle 5 all game**, and it was the
+  2-yard touchdown pass to Raridon. Stevenson's zero inside-5 carries therefore establish
+  nothing about the goal-line role. Eligible plays: 1.
+- **Seattle ran zero goal-to-go snaps** and no back carried inside the New England 10.
+  The inside-five question named in the open ledger trigger has **no eligible sample** and
+  stays open. An unobserved scoring situation cannot resolve a scoring role.
+
+### Seattle secondary — the safety question answered, the nickel question not
+
+| Player | Def. snaps | Share |
+|---|---|---|
+| Julian Love | 71 | 100% |
+| **Rodney Thomas II** | **70** | **99%** |
+| Devon Witherspoon | 70 | 99% |
+| Josh Jobe | 70 | 99% |
+| Nehemiah Pritchett | 53 | 75% |
+| **AJ Finley** | **0** | **0%** |
+
+Rodney Thomas II, a practice-squad elevation, played all but one defensive snap beside
+Love. AJ Finley — signed to the 53-man roster on September 9 and one of the two players the
+team site expected to start — **was active and never took a defensive snap.** Coby Bryant
+appears nowhere in the gamebook at all.
+
+Two limits on reading this. First, it is a one-game injury-forced configuration: Okada,
+Emmanwori, Horton and Kallerup were inactive, and Macdonald said afterward that Emmanwori
+and Horton might have been able to play and were held out as a precaution. It cannot settle
+the durable job in `sea-def-s-001`. Second, **a snap count is not an alignment.** The
+participation table carries no position labels, so Pritchett's 53 snaps do not establish
+that he played the nickel. No official source identifies Seattle's nickel defender, and
+that question remains unanswered.
+
+### The quarterback change splits every Seattle receiving rate
+
+Darnold took 5 of 50 snaps and 2 of 24 pass attempts. **Lock accounted for 22 of Seattle's
+24 targets, including 10 of Smith-Njigba's 11.** Any Seattle receiving rate computed on the
+full-game base silently attributes Lock's distribution to a two-quarterback sample.
+Smith-Njigba's 8-of-11 for 122 and the 45-yard touchdown are, in practice, a Lock-unit line.
+
+## ARCH pregame outlook — historical, superseded by the result above
 
 **Lean: Seattle wins a one-score game. Illustrative score: Seahawks 24, Patriots 23.**
 Confidence is medium in the matchup mechanisms and low in the exact result. This is a
@@ -234,6 +415,12 @@ or one long return could matter more than either team's aggregate rushing total.
 
 ## Fantasy decisions
 
+**Pregame, retained as history.**
+
+*These were the pre-kickoff assessments. The postgame answers are in the section below; read
+that first. Retained unedited so the forecast can be graded against what was actually claimed.*
+
+
 | Player/unit | Decision or range | Confidence | Primary reason | Invalidation trigger |
 |---|---|---|---|---|
 | TreVeyon Henderson | OUT (official); do not start | High | Official Week 1 designation after DNP Sunday–Tuesday | Week 2 practice participation |
@@ -284,6 +471,63 @@ uncertainty**. That does not establish which back will score more fantasy points
 
 Postgame, compare these mechanisms with the gamebook and available snap/route charting before
 grading the forecast. A correct winner with the wrong mechanism is not full confirmation.
+
+## Postgame answers to the pregame open questions
+
+The pregame record closed by requiring that these mechanisms be compared against the
+gamebook before grading the forecast, and noting that a correct winner with the wrong
+mechanism is not full confirmation. That check follows.
+
+| Pregame question | Measured answer |
+|---|---|
+| Does New England concentrate first reads and red-zone targets on A.J. Brown? | **No.** Brown drew 4 of 31 targets and was hurt in the third quarter. Douglas led with 7, Stevenson 6, Hollins 5. Only one red-zone-adjacent target existed — the goal-to-go touchdown to Raridon. |
+| With Henderson out, what are Stevenson's route, two-minute and goal-line shares versus Kiner? | Stevenson 85% of snaps, 6 targets, **all 11 two-minute snaps**. Kiner 11% of snaps, 0 targets, 0 two-minute snaps, all six carries on early downs. Goal-line is unresolved: only one inside-5 snap existed. |
+| Which Seattle back leads the healthy group in early-down and passing-down work? | **Neither leads.** Price 24 snaps, Holani 23. Price took 10 carries to Holani's 8 and both receiving targets among the backs went to Price, but a one-snap gap is not a lead role. |
+| Who plays beside Love, and how does Seattle replace Emmanwori's package responsibilities? | Rodney Thomas II played 70 of 71 snaps beside Love. Finley was active and played zero. The package/nickel replacement is **still unanswered** — the participation table carries no alignment labels and no source named a nickel defender. |
+| Do Shaheed and Barner earn stable route shares with Horton inactive? | Partly. Barner played 88% of snaps but drew only 2 targets; Shaheed played 66% and drew 3 targets for 4 yards. Both were secondary to Smith-Njigba's 11 targets. Neither established receiving volume. |
+
+Against the five first-half observations the pregame record said would change the forecast:
+
+1. **Pressure and protection.** New England allowed 3 sacks for 10 yards; Seattle allowed 2
+   for 12. Neither line collapsed. Maye's three interceptions were not primarily a protection
+   failure, which means the pregame framing — that New England's path ran through protection —
+   identified the right variable but the wrong failure mode. The decisive breakdowns were
+   decisions and ball placement, not free rushers.
+2. **Run success in context.** Confirmed as forecast. New England ran 31 times for 109 yards
+   (3.5) with a long of 16 and no rushing touchdown; Stevenson averaged 2.8. Seattle's front
+   did defend the run.
+3. **Receiver access and safety communication.** Not resolved. No route or coverage-assignment
+   charting is available, and no registered source published alignment detail. The pregame
+   hypothesis that New England could attack replacement safeties is **untested**, not refuted.
+4. **Backfield jobs.** Answered for snaps, carries, targets and two-minute work; **not**
+   answered for pass-blocking, routes run, or inside-five work on either side. See the
+   measured-usage section for the two null results.
+5. **Drive quality and field position.** Seattle scored 13 points on drives of 31, 67 and 39
+   yards, one of them set up by an interception. New England held the ball 34:17 and gained
+   more yards. This is the mechanism the pregame record flagged: points off turnovers, not a
+   sustained offensive edge.
+
+**Grade: right winner, right shape, partly right mechanism, badly wrong scoring level.** The
+turnover-decides-it mechanism was explicitly anticipated. The scoring environment was not, and
+the quarterback-injury branch was never modelled at all.
+
+## Week 2 forward view — conditional, not decisions
+
+Both teams play on 2026-09-20: Seattle at Arizona, Pittsburgh at New England. Every row below
+is gated on injury information that **does not yet exist**.
+
+| Player/unit | Status entering Week 2 | What must resolve first |
+|---|---|---|
+| Sam Darnold | Hip; fracture ruled out, described as muscular, **no prognosis, no timetable, no designation** | First official injury report of Week 2; any roster move |
+| Drew Lock | Took 45 of 50 snaps and 22 of 24 targets' worth of attempts; Macdonald's expectation that he starts is an explicit non-decision | A named starter, not a coach's lean |
+| A.J. Brown | Ankle; ruled out in-game; reported high ankle sprain **unconfirmed by the team** | Vrabel's promised update; first Week 2 practice report |
+| Mack Hollins / DeMario Douglas | Led New England in receiving yards and targets respectively; both project up if Brown misses time | Brown's availability |
+| Romeo Doubs | 40 snaps (56%), 3 targets, **0 receptions** — the weakest signal of any regular | Whether the snap share survives a second week |
+| TreVeyon Henderson | Missed Week 1 (ankle); no registered source established a Week 2 practice expectation | Week 2 practice participation |
+| Rhamondre Stevenson | 85% snap share and the two-minute role, but on a Henderson-absent sample | Henderson's return, which is the only thing that tests the timeshare |
+| Jadarian Price / George Holani | Near-even committee, 24 to 23 snaps | Whether the split holds against a second opponent; Charbonnet is eligible to return after Week 4 |
+| Jaxon Smith-Njigba | 90% snaps, 11 targets, 122 yards and the touchdown — the one unambiguous Week 1 role | Whether the volume holds with a different quarterback |
+| Rodney Thomas II | 99% of defensive snaps beside Love | Okada's and Emmanwori's availability, which would end the forced configuration |
 
 ## Sources
 

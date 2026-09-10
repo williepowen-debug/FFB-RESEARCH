@@ -169,3 +169,26 @@ class IntelligenceValidationTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class LedgerSupersededStatusTests(unittest.TestCase):
+    """`superseded` is documented in INTELLIGENCE_PIPELINE.md but was unreachable.
+
+    Every disposition is constrained to a status (deferred->open, promoted/no_change->resolved),
+    so pairing those rules with the status check made `superseded` fail in all three cases and no
+    ledger row could ever record that a later row replaced its decision.
+    """
+
+    def test_superseded_is_orthogonal_to_disposition(self):
+        source = (Path(__file__).resolve().parents[1] / 'scripts/validate_intelligence.py').read_text()
+        from scripts.validate_intelligence import LEDGER_STATUSES
+        self.assertIn('superseded', LEDGER_STATUSES)
+        # The disposition/status pairing must be skipped for superseded rows.
+        self.assertIn('if status != "superseded":', source)
+        # A superseded row records who replaced it, exactly as a resolved row does.
+        self.assertIn('if status in {"resolved", "superseded"}:', source)
+
+    def test_superseded_row_still_requires_resolution_fields(self):
+        source = (Path(__file__).resolve().parents[1] / 'scripts/validate_intelligence.py').read_text()
+        self.assertIn('{status} item requires resolved_date', source)
+        self.assertIn('{status} item requires a valid resolution_synthesis_id', source)

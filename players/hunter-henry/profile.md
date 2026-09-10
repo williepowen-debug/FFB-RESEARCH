@@ -9,10 +9,10 @@ season: null
 week: null
 status: active
 time_horizon: durable
-valid_as_of: 2026-09-09
-last_verified: 2026-09-09
+valid_as_of: 2026-09-10
+last_verified: 2026-09-10
 confidence: medium
-source_ids: ["local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-source-espn"]
+source_ids: ["local-source-nfl-gamebooks", "local-source-wikipedia-nfl-stats", "local-source-fantasypros", "local-source-new-england-patriots", "local-source-espn"]
 supersedes: []
 ---
 
@@ -21,7 +21,7 @@ supersedes: []
 - Position: TE
 - Current team: New England Patriots
 - Season: durable profile (verified 2026-09-09, pre-kickoff of 2026 Week 1)
-- Last verified: 2026-09-09
+- Last verified: 2026-09-10
 - Status: active
 
 ## Durable player profile
@@ -122,6 +122,20 @@ open question; no 2026 charting exists.
 Available with no designation. Injury history is front-loaded: a lacerated kidney (IR,
 2017-12-19), a torn ACL in 2018 OTAs (missed the season), and a tibial plateau fracture
 in 2019 (missed four games). Since 2021 he has missed four games total.
+
+## Week 1 2026 — measured usage
+
+*New England at Seattle, 2026-09-09. Seattle won 13-10.*
+
+**54 of 71 offensive snaps (76%), 3 receptions on 3 targets for 26 yards.** He also left the game briefly and returned, per Vrabel.
+
+Henry led all New England pass catchers in snap share, supporting the steady-role half of
+`ne-2026-off-q05`. The red-zone half of that hypothesis is **untested rather than answered**: New
+England ran exactly one snap inside the Seattle 5 all game, and rookie Eli Raridon caught it for the
+team's only touchdown.
+
+Source: official gamebook for `2026-W01-NE-SEA`, retrieved 2026-09-10. The participation table is labelled "Unofficial" by the document; no official participation report exists for this game.
+Full measured rows: [Week 1 usage sheet](../../weekly/2026/week-01/usage-input.csv). Matchup record: [NE at SEA](../../weekly/2026/week-01/games/NE-at-SEA.md).
 
 ## Fantasy assessment
 
