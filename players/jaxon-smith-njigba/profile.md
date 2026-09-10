@@ -62,8 +62,8 @@ all rose each season. 2025 was not a fluke on top of a plateau; it was the third
 of a straight line.
 
 **Target share is the durable asset.** The reproducible 2025 nflverse count is
-163 of 457 assigned Seattle targets (35.7%). Kupp is next at 71, a gap of 92;
-the earlier claim that nobody was within 100 was incorrect. Assigned targets exclude
+163 of 455 assigned Seattle targets (35.8%). Kupp is next at 70, a gap of 93;
+the earlier claim that nobody was within 100 was incorrect. The September 9 audit corrected the filter to exclude two-point tries. Assigned targets exclude
 unassigned throws and are not the same denominator as Darnold's 477 pass attempts.
 See the [calculation and definitions](../../weekly/2026/week-01/research/ne-sea/README.md).
 This establishes concentration; it does not establish a league-wide floor ranking.

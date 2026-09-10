@@ -13,13 +13,17 @@ hashes and computation timestamp. Save those inputs locally and run:
 python3 weekly/2026/week-01/research/ne-sea/audit/compute_context.py PBP.csv.gz FTN.csv PFR_SEASON.csv PFR_WEEK.csv NGS.csv.gz OUTPUT_DIRECTORY
 ```
 
-The script uses Python's standard library and imports the existing [baseline filter](../compute_baseline.py).
+The script uses Python's standard library and imports the corrected [baseline filter](../compute_baseline.py).
+Both scripts exclude two-point attempts explicitly: these rows can contain finite EPA. The
+previous baseline admitted them; this audit regenerates that baseline and its cited tables.
+Stevenson's 37 ordinary targets now agree with the earlier vendor count. The temporary 38-target
+interpretation was a filter error, not an unresolved source disagreement.
 Upstream release assets can change: compare input hashes before claiming exact reproduction.
 CSV output is deterministic for identical inputs; the manifest computation time changes.
 
 | Output | Definition and limits |
 |---|---|
-| [FTN tendencies](ftn-tendencies.csv) | Matched 2025 run/pass plays with finite EPA, excluding kneels/spikes/deleted plays. Under center uses known U/S/P locations; motion uses known flags; play action uses known flags on dropbacks. Report missing fields separately. |
+| [FTN tendencies](ftn-tendencies.csv) | Matched 2025 run/pass plays with finite EPA, excluding kneels/spikes/deleted plays and two-point attempts. Under center uses known U/S/P locations; motion uses known flags; play action uses known flags on dropbacks. Report missing fields separately. |
 | [FTN rusher splits](ftn-rusher-splits.csv) | Dropbacks grouped by actual charted rusher count: 1–3, 4, 5+, and 0/unknown. Sacks/dropbacks is a sack rate, **not pressure rate**. The subjective QB-fault flag is retained for transparency, not adopted as blocker responsibility. |
 | [Scoring opportunities](historical-scoring-opportunities.csv) | Plays starting at the opponent's 20/5 or closer; designed carries exclude scrambles, targets require an assigned receiver. Counts are historical opportunities, not routes or 2026 role shares. |
 | [Opponent context](opponent-context.csv), [detail](opponent-detail.csv) | One-step adjustment described below; regular season only. |

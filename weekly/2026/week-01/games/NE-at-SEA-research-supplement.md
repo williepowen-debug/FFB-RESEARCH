@@ -42,25 +42,30 @@ ARCH inference: the historical evidence makes protection and drive efficiency mo
 
 ### Comparable 2025 regular-season baseline
 
+**September 9 calculation correction:** the original filter admitted finite-EPA two-point
+tries. The tables and canonical CSVs below now exclude them from ordinary offense and
+assigned targets. The [audit](NE-at-SEA-evidence-audit.md) documents this correction; it does
+not revise the original pregame forecast or erase the earlier version from Git history.
+
 Computed from the same nflverse file and filters; [method, provenance and full denominators](../research/ne-sea/README.md). EPA measures expected points added; success is EPA above zero. Negative defensive EPA allowed is favorable. Designed runs exclude QB scrambles. These rates are not opponent-adjusted.
 
 | Measure | NE offense | SEA defense allowed | SEA offense | NE defense allowed |
 |---|---:|---:|---:|---:|
-| Eligible plays | 1,017 | 1,061 | 997 | 966 |
-| EPA per play | +0.159 | −0.116 | +0.033 | −0.047 |
-| Success | 48.5% | 39.7% | 46.3% | 44.6% |
+| Eligible plays | 1,014 | 1,056 | 994 | 963 |
+| EPA per play | +0.157 | −0.118 | +0.030 | −0.046 |
+| Success | 48.3% | 39.6% | 46.2% | 44.7% |
 | Early-down EPA | +0.132 | −0.065 | +0.045 | +0.009 |
-| Dropback EPA | +0.306 | −0.075 | +0.121 | −0.038 |
-| Sacks / dropbacks | 48/614 (7.8%) | 47/693 (6.8%) | 27/520 (5.2%) | 35/591 (5.9%) |
-| Designed-run EPA | −0.064 | −0.194 | −0.063 | −0.062 |
-| Designed-run yards/carry | 4.46 | 3.49 | 4.25 | 4.10 |
-| 20+ yard completions / dropbacks | 11.2% | 6.3% | 11.0% | 7.1% |
-| 10+ yard runs / designed runs | 9.9% | 4.9% | 11.1% | 9.1% |
-| TDs / qualifying red-zone possessions | 39/61 (63.9%) | 27/54 (50.0%) | 33/59 (55.9%) | 28/44 (63.6%) |
+| Dropback EPA | +0.304 | −0.078 | +0.117 | −0.038 |
+| Sacks / dropbacks | 48/613 (7.8%) | 47/689 (6.8%) | 27/518 (5.2%) | 35/589 (5.9%) |
+| Designed-run EPA | −0.070 | −0.192 | −0.066 | −0.059 |
+| Designed-run yards/carry | 4.47 | 3.50 | 4.25 | 4.11 |
+| 20+ yard completions / dropbacks | 11.3% | 6.4% | 11.0% | 7.1% |
+| 10+ yard runs / designed runs | 10.0% | 4.9% | 11.1% | 9.1% |
+| TDs / qualifying red-zone possessions | 37/59 (62.7%) | 26/52 (50.0%) | 32/57 (56.1%) | 27/43 (62.8%) |
 
-NE used dropbacks on 58.1% of 396 neutral plays; SEA on 52.2% of 318. No-huddle rates were 1.0% and 7.2%, respectively. Our neutral filter uses Q1/Q3 and a score margin within seven. It establishes a tendency comparison, **not seconds-per-snap pace**. Custom red-zone possession counts must not be mixed with an official/vendor denominator.
+NE used dropbacks on 58.2% of 395 neutral plays; SEA on 52.2% of 318. No-huddle rates were 1.0% and 7.2%, respectively. Our neutral filter uses Q1/Q3 and a score margin within seven. It establishes a tendency comparison, **not seconds-per-snap pace**. Custom red-zone possession counts must not be mixed with an official/vendor denominator.
 
-Postseason EPA/play was NE offense −0.189 (251 plays), NE defense allowed −0.254 (260), SEA offense +0.108 (188), and SEA defense allowed −0.163 (184). NE's sacks rose to 21/156 dropbacks (13.5%). The playoffs involved different opponents and only four NE/three SEA games; they include the Super Bowl. They expose downside but do not replace the larger regular-season baseline.
+Postseason EPA/play was NE offense −0.186 (250 plays), NE defense allowed −0.254 (260), SEA offense +0.108 (188), and SEA defense allowed −0.158 (183). NE's sacks rose to 21/155 dropbacks (13.5%). The playoffs involved different opponents and only four NE/three SEA games; they include the Super Bowl. They expose downside but do not replace the larger regular-season baseline.
 
 ### What February actually establishes
 

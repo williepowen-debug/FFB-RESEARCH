@@ -49,8 +49,8 @@ College: Indiana 2020-2022, Michigan 2023 (22 catches, 249 yards, 1 touchdown in
 2023; season tables were not available from the sources reached).
 
 The official Seahawks biography cross-checks the 2025 rushing and receiving line.
-The reproducible nflverse count verifies 68 assigned targets out of 457 for Seattle
-(14.9%); see the [baseline definitions](../../weekly/2026/week-01/research/ne-sea/README.md).
+The reproducible nflverse count verifies 68 assigned targets out of 455 for Seattle
+(14.9%, excluding two-point tries); see the [baseline definitions](../../weekly/2026/week-01/research/ne-sea/README.md).
 This replaces the earlier unverified fantasy-summary attribution. The 2024 target
 count remains unverified; the September 9 official biography audit now also checks
 the 2024 receiving counts and career totals.

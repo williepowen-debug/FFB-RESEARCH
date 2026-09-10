@@ -29,6 +29,7 @@ def flag(row, key):
 def eligible(row):
     return (row['play_type'] in ('run', 'pass')
             and not flag(row, 'qb_kneel') and not flag(row, 'qb_spike')
+            and not flag(row, 'two_point_attempt')
             and not flag(row, 'play_deleted')
             and number(row, 'epa') is not None)
 

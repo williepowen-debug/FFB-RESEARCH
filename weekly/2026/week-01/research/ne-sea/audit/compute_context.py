@@ -52,7 +52,8 @@ def main():
     assert max(r['game_date'] for r in raw) == '2026-02-08'
     index = {(r['nflverse_game_id'], r['nflverse_play_id']): r for r in ftn}
     assert len(index) == len(ftn), 'Duplicate FTN play keys'
-    plays = [r for r in raw if b.eligible(r)]
+    # Ordinary offense excludes conversion tries, which can carry finite EPA in PBP.
+    plays = [r for r in raw if b.eligible(r) and not b.flag(r, 'two_point_attempt')]
     assert len({r['game_id'] for r in raw if r['season_type'] == 'REG'}) == 272
     out.mkdir(parents=True, exist_ok=True)
     summaries, rushes, rz = [], [], []

@@ -49,7 +49,7 @@ targets retain their FantasyPros definition, with the 2025 reconciliation below.
 | 2022 | 17/7 | 210 | 1,040 | 5.0 | 5 | 88 | 69 | 421 | 1 | 4 (1) |
 | 2023 | 12/12 | 156 | 619 | 4.0 | 4 | 51 | 38 | 238 | 0 | 1 (1) |
 | 2024 | 15/14 | 207 | 801 | 3.9 | 7 | 41 | 33 | 168 | 1 | 7 (3) |
-| 2025 | 14/13 | 130 | 603 | 4.6 | 7 | 38* | 32 | 345 | 2 | 3 (3) |
+| 2025 | 14/13 | 130 | 603 | 4.6 | 7 | 37* | 32 | 345 | 2 | 3 (3) |
 | Career | 70/48 | 836 | 3,669 | 4.4 | 28 | — | 186 | 1,295 | 4 | 17 (9) |
 
 2025 postseason (all four games, including Super Bowl LX): 58 carries, 217 yards,
@@ -60,7 +60,7 @@ the Super Bowl. See the linked audit for the method and gamebook reconciliation.
 Three patterns matter.
 
 **Receiving usage peaked in 2022 and has been cut roughly in half since.** Targets by
-year: 88, 51, 41, then 38 assigned targets in 2025 (definition note below). The 2025 line was efficient (10.8 yards per catch, 345 yards on 32
+year: 88, 51, 41, then 37 assigned targets in 2025 (definition note below). The 2025 line was efficient (10.8 yards per catch, 345 yards on 32
 grabs) but the volume is a third-down and two-minute role, not a hub.
 
 **Carry volume fell sharply in 2025 as Henderson arrived.** 130 attempts in 14 games
@@ -163,10 +163,10 @@ missed). He has played 70 of a possible 84 regular-season games (83 percent).
 - Any transaction adding a veteran back, which would signal staff concern about depth
   beyond Henderson's return.
 
-*The 2025 target count uses the documented nflverse assigned-target filter (38); the
-previous FantasyPros count was 37. The career target total is withheld because earlier
-seasons have not been recomputed using that same definition. This is a definition/source
-reconciliation, not a claim that every vendor must publish 38.
+*The corrected nflverse filter verifies 37 ordinary 2025 targets, matching FantasyPros.
+The first calculation included one two-point conversion attempt and returned 38; this
+was a filter error, not a vendor discrepancy. Earlier target seasons retain their stated
+source attribution; the career total is withheld pending the same independent check.
 
 ### NFL statistical audit — September 9, 2026
 

@@ -2,6 +2,12 @@
 
 This is the calculation companion to the [September 9 research supplement](../../games/NE-at-SEA-research-supplement.md). It contains historical 2025 data only, through Super Bowl LX on February 8, 2026. Computation began before the September 9, 2026 opener; documentation was completed after scheduled kickoff. No Week 1 results enter these files.
 
+September 9 audit correction: the first version admitted two-point attempts with finite EPA.
+The script and generated tables now exclude conversion tries. This corrects ordinary target,
+red-zone and efficiency denominators; previous versions remain in Git history. Seattle's target
+denominator is 455 (formerly 457), Kupp has 70 targets (formerly 71), and Stevenson's 37 ordinary
+targets exclude one conversion attempt. This is a filter correction, not a vendor disagreement.
+
 ## Inputs and reproduction
 
 Source: [nflverse 2025 play-by-play CSV.gz](https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz), retrieved September 9, 2026 ET. This is an external analytical dataset, not an NFL official statistic or a registered monitoring-feed observation. The [manifest](provenance.json) retains the exact downloaded file's SHA-256 and computation time. Upstream files may be revised; a later download with a different hash is a different snapshot.
@@ -17,7 +23,7 @@ The script uses Python's standard library and makes no network requests. The lar
 ## Definitions
 
 - Separate `REG` (17 games per team), `POST` (NE four games, SEA three), and `SB` (one game). POST includes SB; do not add or treat them as independent samples.
-- Eligible plays have type run/pass and finite EPA; exclude deleted plays, kneels and spikes. Penalty-only/no-play rows are excluded. This can differ from other providers' scrimmage filters.
+- Eligible plays have type run/pass and finite EPA; exclude deleted plays, kneels, spikes and two-point attempts. Penalty-only/no-play rows are excluded. This can differ from other providers' scrimmage filters.
 - EPA is the dataset's expected-points-added value, averaged without opponent adjustment. Success means EPA greater than zero. Defense values remain the opposing offense's EPA: lower is better on defense. These are descriptive 2025 baselines, not calibrated 2026 predictions.
 - Dropbacks use `qb_dropback`, including sacks and scrambles. Designed runs exclude scrambles and include designed QB runs. Sack rates use dropbacks, not attempts plus sacks; do not compare to another denominator without converting.
 - Explosive passes are completions gaining at least 20 yards per dropback; explosive runs gain at least 10 per designed run. These denominators are different by design.

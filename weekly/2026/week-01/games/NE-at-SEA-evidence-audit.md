@@ -64,9 +64,9 @@ competition and protection duties left open.
 - **Maye:** 2025 fumbles are 9, not 8; career fumbles are 18, not 17. Lost-fumble totals are unchanged.
 - **Charbonnet:** six starts in 2024 and eight career starts, correcting 11 and 13.
 - **Stevenson:** all four 2025 playoff games total 58 carries/217 yards and 12 catches/126 yards,
-  with one receiving TD. The old three-game table omitted the Super Bowl. His 2025 assigned-target
-  count is 38 under our nflverse filter; the prior vendor counted 37, so the mixed-definition
-  career target total is withheld.
+  with one receiving TD. The old three-game table omitted the Super Bowl. His 2025 ordinary target count is 37. The first nflverse filter
+  admitted a two-point attempt and returned 38; excluding conversions resolves that discrepancy.
+  The earlier target seasons still need an independent same-method check.
 
 The [primary count snapshot and limits](../research/ne-sea/audit/README.md#official-player-table-audit)
 link each original biography. Eleven source career receiving-average displays conflict with their
@@ -91,19 +91,23 @@ See [pressure data](../research/ne-sea/audit/pfr-pressure.csv),
 [NGS data](../research/ne-sea/audit/ngs-passing.csv).
 
 FTN independently charts **five of Seattle's six Super Bowl sacks with exactly four rushers**:
-46 such NE dropbacks produced five sacks; eight against five-plus produced one. This corroborates
+45 such NE dropbacks produced five sacks; eight against five-plus produced one. This corroborates
 the existing team-site breakdown. Rusher count does not identify the coverage shell, disguise,
 individual block lost or pressure frequency. The stored subjective QB-fault flags are not adopted
 as proven responsibility. [FTN Data via nflverse; CC BY-SA 4.0 adaptation](../research/ne-sea/audit/README.md#source-definitions-and-reuse).
 
 ### Opponent context
 
+The audit also corrects the baseline's inclusion of conversion tries: ordinary offense,
+assigned targets and scoring opportunities now exclude two-point attempts. The earlier
+supplement and generated CSVs were corrected together; prior versions remain in Git history.
+
 | 2025 EPA/play | Raw | One-step opponent normalized |
 |---|---:|---:|
-| NE offense | +0.159 | +0.134 |
-| SEA offense | +0.033 | +0.035 |
-| NE defense, EPA allowed | −0.047 | −0.003 |
-| SEA defense, EPA allowed | −0.116 | −0.127 |
+| NE offense | +0.157 | +0.130 |
+| SEA offense | +0.030 | +0.031 |
+| NE defense, EPA allowed | −0.046 | −0.002 |
+| SEA defense, EPA allowed | −0.118 | −0.130 |
 
 New England's defensive schedule had weaker opposing offensive results; Seattle's had stronger
 ones. This simple leave-focal-team-out calculation changes the comparison materially, while NE's
@@ -114,10 +118,10 @@ offensive advantage remains. It is descriptive, without QB/lineup or game-state 
 
 | 2025 regular-season offense | NE | SEA |
 |---|---:|---:|
-| Under center / known QB locations | 453 / 1,014 (44.7%) | 532 / 997 (53.4%) |
-| Motion / known eligible plays | 539 / 1,017 (53.0%) | 570 / 997 (57.2%) |
-| Play-action dropbacks / dropbacks with known flag | 148 / 614 (24.1%) | 131 / 520 (25.2%) |
-| EPA/dropback, play action / other | +0.339 / +0.295 | +0.405 / +0.026 |
+| Under center / known QB locations | 452 / 1,011 (44.7%) | 531 / 994 (53.4%) |
+| Motion / known eligible plays | 536 / 1,014 (52.9%) | 567 / 994 (57.0%) |
+| Play-action dropbacks / dropbacks with known flag | 148 / 613 (24.1%) | 131 / 518 (25.3%) |
+| EPA/dropback, play action / other | +0.339 / +0.293 | +0.405 / +0.020 |
 
 [FTN Data via nflverse; CC BY-SA 4.0 adaptation](../research/ne-sea/audit/README.md#source-definitions-and-reuse).
 All eligible NE/SEA plays matched charting rows; three NE regular-season QB-location fields were
@@ -125,8 +129,8 @@ unknown. Play-action efficiency is selected by situation and does not prove that
 would reproduce that result. Seattle's coaching continuity is an inference, not a 2026 frequency.
 
 Historical PBP adds specificity: Henry had 22 assigned targets inside the 20 and six inside the
-five; Barner had 13 and three. Stevenson had 12 inside-five designed carries to Henderson's eight;
-Seattle's Charbonnet had 19 to Walker's eight. Those departed/absent backs' shares do not transfer
+five; Barner had 13 and three. Stevenson had 11 inside-five designed carries to Henderson's eight;
+Seattle's Charbonnet had 18 to Walker's eight. Those departed/absent backs' shares do not transfer
 automatically to Price. [Counts and definitions](../research/ne-sea/audit/historical-scoring-opportunities.csv).
 
 ### Coverage and current usage boundaries
