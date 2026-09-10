@@ -52,7 +52,8 @@ The official Seahawks biography cross-checks the 2025 rushing and receiving line
 The reproducible nflverse count verifies 68 assigned targets out of 457 for Seattle
 (14.9%); see the [baseline definitions](../../weekly/2026/week-01/research/ne-sea/README.md).
 This replaces the earlier unverified fantasy-summary attribution. The 2024 target
-count remains unverified; older career rows were not re-audited in this pass.
+count remains unverified; the September 9 official biography audit now also checks
+the 2024 receiving counts and career totals.
 Postseason 2025 (3 games): 6 receptions, 67 yards, 1 touchdown.
 
 Two patterns matter.
@@ -143,7 +144,20 @@ not list him. No designation as of 2026-09-09.
 - An oblique or other injury designation, since one independent report noted a soft
   flag in early September.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.seahawks.com/team/players-roster/aj-barner/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.seahawks.com/team/players-roster/aj-barner/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Seahawks — [AJ Barner biography and career table](https://www.seahawks.com/team/players-roster/aj-barner/) — dynamic; checked 2026-09-09; 2025 rushing and receiving cross-check.
 - [2025 assigned-target calculation](../../weekly/2026/week-01/research/ne-sea/README.md) — nflverse extract computed 2026-09-09 ET.

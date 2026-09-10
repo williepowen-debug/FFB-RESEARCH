@@ -122,3 +122,9 @@ Primary statistical/gamebook sources and dated analyst reports are linked beside
 - Still unknown: 2026 safety/nickel assignments, backfield and receiving routes, early-down play-action, measured tempo, and healthy-roster usage. No source access or elapsed time substitutes for actual observations.
 - Next review: use [Week 1 usage tracking](../usage-tracking.md) after the official gamebook and complete snaps are available. Record protection calls, pressure with four versus extra rushers, score state, safety/nickel alignment, routes and returns. One injury-forced game cannot settle the season-long roles.
 - What would change the interpretation: sustained clean NE protection against SEA's front, changed SEA run-fit quality, or materially different SEA personnel/tendencies under Fleury. Record those later findings separately from the pregame forecast.
+
+### Further September 9 evidence audit
+
+The [remaining-gap audit](NE-at-SEA-evidence-audit.md) adds primary career-count corrections,
+pressure conversion, FTN charting and opponent context after scheduled kickoff. It also refreshes
+the usage queue and documents what remains unmeasured. Earlier evidence cutoffs are preserved.

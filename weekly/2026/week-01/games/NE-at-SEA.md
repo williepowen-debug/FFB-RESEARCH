@@ -321,3 +321,9 @@ grading the forecast. A correct winner with the wrong mechanism is not full conf
 ## Later research supplement
 
 The [historical research and existing-record audit](NE-at-SEA-research-supplement.md) was documented after scheduled kickoff on September 9 using pregame publications and 2025 data only. It supplies calculation definitions, additional protection/coverage context and player-profile corrections. The 8:03 PM ET forecast above is preserved; this link does not move its evidence cutoff or imply the supplement was available when that forecast was written.
+
+### Further September 9 evidence audit
+
+The [remaining-gap audit](NE-at-SEA-evidence-audit.md) adds primary career-count corrections,
+pressure conversion, FTN charting and opponent context after scheduled kickoff. It also refreshes
+the usage queue and documents what remains unmeasured. Earlier evidence cutoffs are preserved.

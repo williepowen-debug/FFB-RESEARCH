@@ -57,10 +57,12 @@ lines were not retrievable).
 
 NFL: no regular-season games as of 2026-09-09; no preseason game appearances.
 
-Source: Wikipedia college table, verified 2026-09-09. Sports Reference (college
-football) returned HTTP 403 on 2026-09-09 and could not be used as the primary source
-the template prefers; the Wikipedia table is the season source of record until Sports
-Reference can be re-checked.
+Primary cross-check: Notre Dame's official biography verifies the complete 2025 line
+above (113 carries, 674 yards, 11 rushing TD; 6 catches, 87 yards, 2 receiving TD),
+plus 12 kick returns for 450 yards and 2 TD. The earlier college rows retain their
+secondary-source attribution and are not fully reverified by this audit. Seattle's
+career table has no completed NFL season row; that is not evidence of a 2026 workload.
+
 
 Two patterns matter.
 
@@ -155,12 +157,14 @@ lingering as of 2026-09-09.
   a share above roughly 55 percent of carries with any passing-down work confirms the
   lead-back reading; below 40 percent confirms the committee reading.
 - Who takes the first inside-the-five carry and the two-minute-drill snaps.
-- Charbonnet's return-to-practice date (eligible as early as Week 3) and any coach
+- Charbonnet's announced return-to-practice date and any coach
   statement about the post-return hierarchy.
 - Any pass-protection failure that leads to visible substitution on third downs.
 - A recurrence of the lower-body issue that held him out of preseason.
 
 ## Sources
+
+- Notre Dame — [Jadarian Price, 2025 biography](https://fightingirish.com/sports/football/roster/player/jadarian-price) — dynamic; 2025 season summary checked September 9, 2026.
 
 - Wikipedia — [Jadarian Price](https://en.wikipedia.org/wiki/Jadarian_Price) — college statistics table, Achilles history, draft, contract, measurements, verified 2026-09-09.
 - Sports Reference (CFB) — [Jadarian Price](https://www.sports-reference.com/cfb/players/jadarian-price-1.html) — attempted 2026-09-09; returned HTTP 403, not used.

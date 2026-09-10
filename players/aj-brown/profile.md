@@ -168,7 +168,20 @@ history from 2024 and 2025; there is no reported 2026 recurrence as of 2026-09-0
 - A quarterback injury; his projection is more quarterback-dependent than his Eagles
   seasons were because Maye is the offense's engine.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.patriots.com/team/players-roster/a-j-brown/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.patriots.com/team/players-roster/a-j-brown/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Wikipedia — [A. J. Brown](https://en.wikipedia.org/wiki/A._J._Brown) — career statistics tables, transactions, contracts, injuries, records, verified 2026-09-09.
 - FantasyPros — [A.J. Brown stats](https://www.fantasypros.com/nfl/stats/aj-brown.php) — season target totals, verified 2026-09-09.

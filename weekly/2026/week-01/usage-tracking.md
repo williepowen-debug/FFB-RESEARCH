@@ -9,8 +9,8 @@ season: 2026
 week: 1
 status: active
 time_horizon: weekly
-valid_as_of: 2026-09-06
-last_verified: 2026-09-06
+valid_as_of: 2026-09-09
+last_verified: 2026-09-09
 confidence: high
 source_ids: ["local-source-nfl-gamebooks", "local-source-new-england-patriots", "local-source-seattle-seahawks"]
 supersedes: []
@@ -75,6 +75,39 @@ misread as a stable role change in PPR, standard, tight-end-premium or IDP forma
    atomic observations into the new run, validate them, synthesize, and route any ledger or
    canonical update through ARCH. For SF at LAR, include the [supplemental Nacua readiness
    gate](opportunity-watchlist.md#supplemental-early-game-gate) before interpreting his route sample.
+
+## September 9 NE/SEA queue refresh
+
+The 18-row list below is a **September 6 snapshot**, not a complete current queue. This
+refresh covers the five open NE/SEA ledger rows added September 9; it does not re-audit
+other teams. The [evidence audit](games/NE-at-SEA-evidence-audit.md) supplies the completed
+historical work and source conflicts. Linked ledger triggers have been narrowed accordingly.
+
+Eligibility is established by the [official 6:50 PM ET inactive list](https://www.patriots.com/news/week-1-inactives-patriots-at-seahawks),
+published September 9: Henderson and Chism are inactive for NE; Horton, Okada, Emmanwori
+and Kallerup are inactive for SEA. Previously recorded Clark/Bobo injured-reserve status
+and the lack of a Bell elevation remain separate roster facts. Do not include them as
+assumed game participants. Eligible does not mean a player ran a route or played a snap.
+
+| Open ledger row | Collection after the official final book |
+|---|---|
+| SEA `til-2026-sea-20260909-002` | Thomas/Finley safety deployment beside Love; separately identify the actual nickel replacement and coverage assignments. Preserve unknown plays. |
+| SEA `til-2026-sea-20260909-003` | Reuse that same secondary sample for the replacement-role finding; this is not an independent second measurement. A one-game forced pairing cannot settle the durable job. |
+| SEA `til-2026-sea-20260909-005` | Price/Wilson/Holani opening series, designed carries, routes versus protection, two-minute and inside-five shares. |
+| NE `til-2026-ne-20260909-002` | Stevenson/Kiner/Larison opportunities with matched denominators; follow Henderson's Week 2 availability separately. The healthy-timeshare hypotheses remain untested. |
+| NE `til-2026-ne-20260909-003` | Reuse the same NE backfield chart for the canonical finding; separate absolute Stevenson involvement from a healthy Henderson comparison. |
+
+Source-of-truth ledgers: [NE](../../../teams/AFC/East/New-England-Patriots/2026/intelligence-ledger.csv),
+[SEA](../../../teams/NFC/West/Seattle-Seahawks/2026/intelligence-ledger.csv). All five remain open.
+Extend the same pilot to Brown/Doubs/Douglas/Hollins/Kyle Williams receiving deployment and
+Barner/Saubert/Arroyo routes versus blocking. Confirm actual position groups from participation
+and film rather than interpreting the inactive list as a depth chart. Chart the opening offensive
+lines, substitutions and identifiable pressure responsibility on that same sample.
+
+No final book was recovered at the September 9 approximately 8:50 PM ET NFL game-center access
+check. No measured usage rows are entered into the working CSV. Capture the actual final PDF
+and participation table before calculating totals; record full-film coverage before calculating
+route, assignment or blocker-loss rates. No background collection is configured.
 
 ## Original evidence access points
 

@@ -75,7 +75,20 @@ Use the weekly matchup for current eligibility. The August feature says his join
 Does Kupp retain regular routes and third-down opportunities when defenses help against Smith-Njigba? Track participation and targets separately; leadership and good practice reports do not establish volume.
 Separate injury-forced opportunity and score state from the healthy-roster baseline.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.seahawks.com/team/players-roster/cooper-kupp/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.seahawks.com/team/players-roster/cooper-kupp/) — dynamic; NFL count columns checked 2026-09-09.
 
 - [Seattle official biography and career statistics](https://www.seahawks.com/team/players-roster/cooper-kupp/) — dynamic; checked 2026-09-09.
 - [John Boyle — Cooper Kupp heading into his tenth season](https://www.seahawks.com/news/seahawks-wr-cooper-kupp-continuing-to-show-he-s-a-force-multiplier-heading-into-10th-season) — published 2026-08-26; checked 2026-09-09.

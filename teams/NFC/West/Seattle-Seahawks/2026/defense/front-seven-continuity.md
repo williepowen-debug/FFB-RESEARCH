@@ -38,6 +38,11 @@ Seattle D/ST should be a target in drafts and a weekly pressure/run-defense prob
 
 ## Evidence
 
+- September 9 audit: the [weekly evidence reconciliation](../../../../../../weekly/2026/week-01/games/NE-at-SEA-evidence-audit.md)
+  adds historical pressure, motion/play-action, opponent and scoring-opportunity context.
+  Consult its source definitions and remaining assignment gaps before applying this finding
+  to Week 1; the linked usage queue records current eligibility without claiming measured roles.
+
 - September 9 historical cross-check: see the [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) for comparable 2025 defensive efficiency, protection interactions and coverage limits. It extends this existing personnel record; it does not establish 2026 alignment or snap shares.
 
 - The defensive-front preview says Seattle had 47 regular-season sacks in 2025 and played light boxes at high rates while allowing a league-low yards-per-carry figure.

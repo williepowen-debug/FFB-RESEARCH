@@ -43,22 +43,23 @@ to win a Super Bowl as a starter.
 
 ### Historical usage and production
 
-| Season | Team | GP/GS | Cmp | Att | Cmp% | Pass yds | Pass TD | INT | Rating | Rush att | Rush yds | Rush TD |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2018 | NYJ | 13/13 | 239 | 414 | 57.7 | 2,865 | 17 | 15 | 77.6 | 44 | 138 | 1 |
-| 2019 | NYJ | 13/13 | 273 | 441 | 61.9 | 3,024 | 19 | 13 | 84.3 | 33 | 62 | 2 |
-| 2020 | NYJ | 12/12 | 217 | 364 | 59.6 | 2,208 | 9 | 11 | 72.7 | 37 | 217 | 2 |
-| 2021 | CAR | 12/11 | 243 | 406 | 59.9 | 2,527 | 9 | 13 | 71.9 | 48 | 222 | 5 |
-| 2022 | CAR | 6/6 | 82 | 140 | 58.6 | 1,143 | 7 | 3 | 92.6 | 26 | 106 | 2 |
-| 2023 | SF | 10/1 | 28 | 46 | 60.9 | 297 | 2 | 1 | 85.1 | 21 | 15 | 1 |
-| 2024 | MIN | 17/17 | 361 | 545 | 66.2 | 4,319 | 35 | 12 | 102.5 | 67 | 212 | 1 |
-| 2025 | SEA | 17/17 | 323 | 477 | 67.7 | 4,048 | 25 | 14 | 99.1 | 35 | 95 | 0 |
-| Career | — | 100/90 | 1,766 | 2,833 | 62.3 | 20,431 | 123 | 82 | 86.5 | 311 | 1,067 | 14 |
+| Season | Team | GP/GS | Cmp | Att | Cmp% | Pass yds | Pass TD | INT | Rtg | Sacks | Rush att | Rush yds | Rush TD | Fum (lost) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2018 | NYJ | 13/13 | 239 | 414 | 57.7 | 2865 | 17 | 15 | 77.6 | 30 | 44 | 138 | 1 | 5 (2) |
+| 2019 | NYJ | 13/13 | 273 | 441 | 61.9 | 3024 | 19 | 13 | 84.3 | 33 | 33 | 62 | 2 | 11 (3) |
+| 2020 | NYJ | 12/12 | 217 | 364 | 59.6 | 2208 | 9 | 11 | 72.7 | 35 | 37 | 217 | 2 | 4 (2) |
+| 2021 | CAR | 12/11 | 243 | 406 | 59.9 | 2527 | 9 | 13 | 71.9 | 35 | 48 | 222 | 5 | 9 (4) |
+| 2022 | CAR | 6/6 | 82 | 140 | 58.6 | 1143 | 7 | 3 | 92.6 | 10 | 26 | 106 | 2 | 6 (2) |
+| 2023 | SF | 10/1 | 28 | 46 | 60.9 | 297 | 2 | 1 | 85.1 | 6 | 21 | 15 | 1 | 3 (1) |
+| 2024 | MIN | 17/17 | 361 | 545 | 66.2 | 4319 | 35 | 12 | 102.5 | 48 | 67 | 212 | 1 | 8 (4) |
+| 2025 | SEA | 17/17 | 323 | 477 | 67.7 | 4048 | 25 | 14 | 99.1 | 27 | 35 | 95 | 0 | 11 (6) |
+| Career | — | 100/90 | 1766 | 2833 | 62.3 | 20431 | 123 | 82 | 86.5 | 224 | 311 | 1067 | 14 | 57 (24) |
 
-Source: Wikipedia career table, verified 2026-09-09. Pro Football Reference returned an
-access block (HTTP 403) on 2026-09-09, so PFR was not used as the cross-check; the
-Wikipedia table is the season-level source of record for this profile until PFR can be
-re-checked.
+Primary audit, September 9: the earlier table contained rushing attempts but omitted sacks.
+Seattle's official career table verifies 27 sacks and 35 rushes in 2025, 48 sacks and
+67 rushes in 2024, and 224 career sacks versus 311 career rushes. All annual NFL counts
+above were checked; completion percentages are calculated from completions/attempts.
+The official biography replaces the earlier Wikipedia-only statistical attribution.
 
 Three patterns matter for projection.
 
@@ -118,8 +119,7 @@ seasons, but Fleury has no regular-season play-calling sample in Seattle. See
 [Fleury continuity finding](../../teams/NFC/West/Seattle-Seahawks/2026/offense/fleury-continuity-offense.md).
 
 The pass-catching room is Jaxon Smith-Njigba (extended in March 2026), Cooper Kupp,
-Rashid Shaheed (first full Seattle offseason), Tory Horton (questionable for Week 1
-with a hamstring), and tight end AJ Barner. The backfield lost Kenneth Walker III to
+Rashid Shaheed (first full Seattle offseason), Tory Horton (see the weekly record for eligibility), and tight end AJ Barner. The backfield lost Kenneth Walker III to
 Kansas City; see
 [post-Walker backfield](../../teams/NFC/West/Seattle-Seahawks/2026/offense/post-walker-backfield.md).
 
@@ -171,7 +171,20 @@ benching related. No 2026 injury or designation reported as of 2026-09-09.
 - Any 2027 contract restructure or roster-bonus decision would be a durable-signal
   change for dynasty formats but does not affect 2026.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.seahawks.com/team/players-roster/sam-darnold/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.seahawks.com/team/players-roster/sam-darnold/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Wikipedia — [Sam Darnold](https://en.wikipedia.org/wiki/Sam_Darnold) — season-by-season statistics, transactions, contract dates, 2025 postseason line, verified 2026-09-09.
 - Over the Cap — [Sam Darnold contract details](https://overthecap.com/player/sam-darnold/6888) — contract value, guarantees, 2026-2027 cap charges and dead money, contract history, verified 2026-09-09.

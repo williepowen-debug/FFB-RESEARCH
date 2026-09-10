@@ -1,0 +1,45 @@
+{
+  "computed_at_utc": "2026-09-10T00:51:48.379090+00:00",
+  "season": 2025,
+  "ftn_attribution": "FTN Data via nflverse",
+  "ftn_license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "inputs": [
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "sha256": "2f135887790a013fd004e609e37096bb4816d5cc80b9f19122e1bad478961978"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "sha256": "d2a69726c9a93fe0a3a25e6387d88b7a4865634dad2fcc81dcf60703b94aa254"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_pass.csv",
+      "sha256": "6814d3d00d2d29e8681560beefe2dfeff89f875416773d655f9fe36cf32bcf54"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_pass_2025.csv",
+      "sha256": "79cd92f9a3b46a3fcc50904b3199b39303f7cab8b484040a1cb2b2c3bf51bd40"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz",
+      "sha256": "bcca6c643c9dd453bf189b10946c94e055d433058ec12a1dae449138deef0ff9"
+    }
+  ],
+  "validation": "272 REG games; unique FTN keys; all NE/SEA eligible plays matched; PFR sacks cross-checked and within-source pressure components reconcile",
+  "pfr_snapshot_reconciliation": [
+    {
+      "player": "Drake Maye",
+      "season_pressures": 131,
+      "weekly_pressures": 132,
+      "difference": 1,
+      "status": "source_snapshot_conflict"
+    },
+    {
+      "player": "Sam Darnold",
+      "season_pressures": 109,
+      "weekly_pressures": 109,
+      "difference": 0,
+      "status": "matched"
+    }
+  ]
+}

@@ -97,9 +97,8 @@ improved timing with Darnold and said the staff would keep exploring ways to get
 the ball, and that Shaheed wants to keep returning. Ari Horton's 2026-07-06 camp
 storyline framed the question directly: if his offensive load grows, does he keep both
 return jobs, with Tory Horton (punts) and Holani, Price, and Emmanuel Henderson Jr.
-(kickoffs) as alternatives. Horton is questionable for Week 1 with a hamstring, which
-if he is inactive leaves Shaheed as the default returner and makes the Week 1 route
-share a thinner-room reading. He carries no injury designation.
+(kickoffs) as alternatives. The official Week 1 list made Horton inactive; that game is a thinner-room
+sample. Use the weekly record for the dated status and actual return assignments. He carries no injury designation.
 
 See hypothesis `sea-off-wr-001` in
 [offense hypotheses](../../teams/NFC/West/Seattle-Seahawks/2026/offense/hypotheses.csv)
@@ -160,7 +159,20 @@ reserve (2024-10-17); played 18 regular-season games across two teams in 2025.
 - Any soft-tissue or knee issue, given the 2024 meniscus history and return-game
   exposure.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.seahawks.com/team/players-roster/rashid-shaheed/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.seahawks.com/team/players-roster/rashid-shaheed/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Seahawks — [Rashid Shaheed biography and career table](https://www.seahawks.com/team/players-roster/rashid-shaheed/) — dynamic; checked 2026-09-09; primary cross-check of the 2025 team splits and combined total. Older rows were not independently re-audited.
 
