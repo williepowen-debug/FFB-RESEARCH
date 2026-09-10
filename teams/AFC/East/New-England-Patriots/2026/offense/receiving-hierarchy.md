@@ -4,7 +4,7 @@ record_id: rf-2026-ne-receiving-hierarchy-001
 record_type: research_finding
 title: "New England Patriots 2026 receiving hierarchy"
 team_ids: ["NE"]
-player_ids: ["local-player-aj-brown-2019", "local-player-romeo-doubs-2022", "local-player-hunter-henry-2016", "local-player-drake-maye-2024"]
+player_ids: ["local-player-aj-brown-2019", "local-player-romeo-doubs-2022", "local-player-hunter-henry-2016", "local-player-drake-maye-2024", "local-player-demario-douglas-2023", "local-player-kyle-williams-2025"]
 season: 2026
 week: null
 status: active
@@ -36,6 +36,8 @@ divide among Doubs and the remaining receivers and how the slot and tight-end ro
 remaining targets.
 
 ## Evidence
+
+- September 9 research extension: canonical history/role records are now linked for [DeMario Douglas](../../../../../../players/demario-douglas/profile.md), [Kyle Williams](../../../../../../players/kyle-williams/profile.md). These players were already covered in this team finding. The [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) adds historical baselines and identifies remaining uncertainties.
 
 ### Facts
 

@@ -30,9 +30,8 @@ supersedes: []
 
 Shaheed is a vertical field-stretcher and one of the league's best return men. His
 receiving profile is low volume and high yield: a career 14.7 yards per reception,
-season averages of 17.4 and 17.5 in his two healthiest New Orleans years, and career
-long receptions of 68, 58, 70, and 87 yards. He has never had more than 46 receptions
-in a season. His return value is durable and honored: first-team All-Pro (2023) and two
+season averages of 17.4 as a rookie and 17.5 in his injury-shortened 2024 season, and career
+long receptions of 68, 58, 70, and 87 yards. He caught a career-high 59 passes across New Orleans and Seattle in 2025. His return value is durable and honored: first-team All-Pro (2023) and two
 Pro Bowls (2023, 2025) as a returner, with three career punt-return touchdowns and one
 kickoff-return touchdown in the regular season plus a divisional-round kickoff-return
 touchdown in the 2025 playoffs.
@@ -63,20 +62,21 @@ Seattle after the 2025-11-04 trade produced 15 catches for 188 yards and no rece
 touchdowns, but 1 kickoff-return touchdown, 1 punt-return touchdown, and a 2025 Pro Bowl
 nod as a returner. Seattle got the returner immediately and the receiver barely at all.
 
-**He has never sustained volume.** 46 receptions is his best season. Every efficient
-year came on 20-46 catches. Any projection above roughly 50 receptions is a projection
-of a role he has not held.
+**Seattle volume remains the open question.** His combined 2025 line was 59 catches
+for 687 yards across 18 appearances with the two clubs. The earlier 46-catch ceiling and
+claim that he had never played a full season were incorrect. The relevant uncertainty
+is whether his small Seattle receiving role expands, not whether he can exceed 50 catches.
 
-**Availability is the recurring problem.** He has never played 17 games: 12, 15, 6
-(meniscus surgery and injured reserve from 2024-10-17), and 18 across two teams in 2025.
+**Availability needs season-specific treatment.** His 2024 season ended after six games
+with meniscus surgery; his 18 appearances in 2025 do not support a blanket availability warning.
 
 ### Strengths, limitations, and relevant context
 
 Strengths: genuine deep speed and long-touchdown ability; an All-Pro return profile
-that guarantees game-day activity; a full 2026 offseason and camp with Darnold after
+that supports game-day value; a full 2026 offseason and camp with Darnold after
 joining mid-season; a contract that signals a planned offensive role.
 
-Limitations: no season above 46 receptions; a 2025 Seattle sample of 15 catches in nine
+Limitations: a 2025 Seattle sample of 15 catches in nine
 games; a meniscus surgery in 2024; the return job competes with offensive snaps;
 Smith-Njigba's target dominance and Cooper Kupp's presence cap the available share.
 
@@ -109,16 +109,16 @@ and the [Seahawks 2026 overview](../../teams/NFC/West/Seattle-Seahawks/2026/over
 
 Fleury's Shanahan-tree offense uses play-action shot plays that suit a deep-speed
 receiver, and the continuity framing means the 2025 Seattle alignment is the starting
-point. The 2025 problem was integration time, not scheme: he arrived in November into
-a running offense. A public route-share figure of about 62 percent after the trade
-circulated in fantasy coverage (unverified against charting data) and is the baseline
-any expansion must beat. See
+point. Limited integration time is a plausible explanation for his smaller Seattle role: he arrived in November into
+a running offense. That does not independently rule out scheme or personnel effects. The previously cited approximately 62 percent route share was
+unverified and is withdrawn as a baseline. Compare full-game routes with team dropbacks
+using a documented charting source before claiming an increase. See
 [Fleury continuity finding](../../teams/NFC/West/Seattle-Seahawks/2026/offense/fleury-continuity-offense.md).
 
 ### Health and availability
 
 Available for Week 1 with no designation. History: 2024 meniscus surgery and injured
-reserve (2024-10-17); has never played a full 17-game season.
+reserve (2024-10-17); played 18 regular-season games across two teams in 2025.
 
 ## Fantasy assessment
 
@@ -126,9 +126,9 @@ reserve (2024-10-17); has never played a full 17-game season.
   asset; formats that award return yards or return touchdowns second; weekly
   redraft last, where his floor is the problem.
 - Range of outcomes: a 35-55 catch, 550-850 yard boom-bust WR3/WR4 with 4-7
-  touchdowns and meaningful return scoring in formats that count it. A true breakout
-  (60-plus catches) requires a role he has never held and a share that Smith-Njigba
-  and Kupp currently occupy.
+  touchdowns and meaningful return scoring in formats that count it. Sustained Seattle volume
+  would require a larger role alongside Smith-Njigba and Kupp; 60 catches would only
+  narrowly exceed his combined 2025 total.
 - Key upside condition: a route share above roughly 75 percent in Weeks 1-4 with
   designed touches (his 7 Seattle carries in 2025 hint at this) while keeping return
   duties.
@@ -161,6 +161,8 @@ reserve (2024-10-17); has never played a full 17-game season.
   exposure.
 
 ## Sources
+
+- Seahawks — [Rashid Shaheed biography and career table](https://www.seahawks.com/team/players-roster/rashid-shaheed/) — dynamic; checked 2026-09-09; primary cross-check of the 2025 team splits and combined total. Older rows were not independently re-audited.
 
 - Wikipedia — [Rashid Shaheed](https://en.wikipedia.org/wiki/Rashid_Shaheed) — statistics table, transactions, trade compensation, injury history, honors, verified 2026-09-09.
 - Over the Cap — [Rashid Shaheed contract details](https://overthecap.com/player/Rashid-Shaheed/10704) — contract value, guarantees, per-game bonuses, verified 2026-09-09 via search summary.

@@ -174,3 +174,7 @@ The highest-leverage unknowns are the Week 1 running back split among Price, Wil
 - Ari Horton, Seahawks.com - [Top 2026 Training Camp Storylines: How Much Will Continuity Help This Year's Offensive Line?](https://www.seahawks.com/news/top-2026-training-camp-storylines-how-much-will-continuity-help-this-year-s-offensive-line) - published 2026-07-13.
 - John Boyle, Seahawks.com - [Top 2026 Training Camp Storylines: Can A Loaded Defensive Front Be Even Better In 2026?](https://www.seahawks.com/news/top-2026-training-camp-storylines-can-a-loaded-defensive-front-be-even-better-in-2026) - published 2026-07-10.
 - John Boyle, Seahawks.com - [10 Storylines To Watch In 2026 Seahawks Training Camp](https://www.seahawks.com/news/10-storylines-to-watch-in-2026-seahawks-training-camp) - published 2026-07-24.
+
+## September 9 matchup research extension
+
+The [NE–SEA supplement](../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) builds on this team module with comparable 2025 efficiency and special-teams baselines, protection/coverage questions, and corrected player records. It distinguishes existing evidence from new checks and is dated separately from the original pregame forecast.

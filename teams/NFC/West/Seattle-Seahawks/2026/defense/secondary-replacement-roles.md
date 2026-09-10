@@ -38,6 +38,8 @@ Seattle D/ST remains viable, but DFS and player-prop decisions should check whet
 
 ## Evidence
 
+- September 9 historical cross-check: see the [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) for comparable 2025 defensive efficiency, protection interactions and coverage limits. It extends this existing personnel record; it does not establish 2026 alignment or snap shares.
+
 - The free-agency tracker says Bryant's departure opens a safety role, with Okada and Nick Emmanwori among internal options.
 - The same tracker says Woolen's departure likely moves Jobe toward a full-time starting role opposite Witherspoon.
 - Training-camp storylines identified the open safety job and No. 3 corner job as major camp questions.
@@ -62,6 +64,15 @@ Seattle D/ST remains viable, but DFS and player-prop decisions should check whet
 - Mike Reiss and Brady Henderson, ESPN - [Patriots' Henderson, Seahawks' Okada ruled out for SB rematch](https://www.espn.com/nfl/story/_/id/49872328/patriots-henderson-seahawks-okada-ruled-sb-rematch) - published 2026-09-08 (Emmanwori unlikely to play is the reporters' judgment; ESPN may serve bot challenges).
 - John Boyle, Seahawks.com - [Seahawks Make Roster Moves Ahead Of Season Opener vs. Patriots](https://www.seahawks.com/news/seahawks-make-roster-moves-ahead-of-season-opener-vs-patriots) - published 2026-09-09.
 - Reconciled evidence: [September 9 SEA synthesis](../../../../../../intelligence/2026/syntheses/2026-09-09/SEA.md) (`ti-2026-sea-20260909-001`); dispositions in the [team intelligence ledger](../intelligence-ledger.csv) (`til-2026-sea-20260909-002`, `-003`).
+
+### Role clarification from existing and additional sources
+
+Emmanwori primarily fills nickel duties alongside two safeties; replacing him and
+replacing Okada are separate assignment problems. The official [May 13 mailbag](https://www.seahawks.com/news/seahawks-mailbag-secondary-competitions-breakout-rookies-more)
+clarifies that structure (checked September 9). Thomas II's experience and Finley's
+availability do not settle who covers the slot, the deep zones or tight ends. For final
+Week 1 inactive status, use the [weekly report](../../../../../../weekly/2026/week-01/games/NE-at-SEA.md);
+the QUESTIONABLE labels in the earlier dated intake above are historical.
 
 ## Assessment
 

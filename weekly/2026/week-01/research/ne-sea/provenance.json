@@ -1,0 +1,10 @@
+{
+  "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+  "sha256": "2f135887790a013fd004e609e37096bb4816d5cc80b9f19122e1bad478961978",
+  "computed_at_utc": "2026-09-10T00:13:47.288557+00:00",
+  "rows": 48771,
+  "season": 2025,
+  "min_game_date": "2025-09-04",
+  "max_game_date": "2026-02-08",
+  "validation": "272 regular-season games; season and Super Bowl sack counts matched official totals"
+}

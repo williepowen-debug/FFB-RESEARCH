@@ -4,7 +4,7 @@ record_id: rf-2026-sea-post-walker-backfield-001
 record_type: research_finding
 title: "Post-Walker backfield is Seattle's biggest offensive fantasy variable"
 team_ids: ["SEA"]
-player_ids: ["local-player-jadarian-price-2026", "local-player-george-holani-2024", "local-player-zach-charbonnet-2023"]
+player_ids: ["local-player-jadarian-price-2026", "local-player-george-holani-2024", "local-player-zach-charbonnet-2023", "local-player-emanuel-wilson-2023"]
 season: 2026
 week: null
 status: active
@@ -37,6 +37,8 @@ Inference: Price has the highest ceiling because of draft capital and explosive 
 Price is the upside target and a priority preseason charting subject. Holani and Wilson are contingency plays if Seattle opens with a committee or protects Price from passing-down/goal-line responsibility. Charbonnet's recovery timing can reshape the room and should not be assumed from the depth chart alone.
 
 ## Evidence
+
+- September 9 research extension: canonical history/role records are now linked for [Emanuel Wilson](../../../../../../players/emanuel-wilson/profile.md). These players were already covered in this team finding. The [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) adds historical baselines and identifies remaining uncertainties.
 
 - The free-agency tracker says Walker's departure created a clear running back need, especially with Charbonnet coming off a late-season knee injury.
 - Seattle used first-round capital on Price and later signed him, making the whole draft class under contract.

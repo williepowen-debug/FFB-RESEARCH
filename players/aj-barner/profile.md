@@ -32,8 +32,8 @@ Barner is a complete, in-line tight end — 6-foot-6, 251 pounds — whose real-
 value is split between blocking and receiving and whose fantasy value comes from
 red-zone and short-yardage trust rather than route volume. In 2025 he was Seattle's
 starting tight end in all 17 games, caught 52 passes for 519 yards and 6 touchdowns,
-and was also used as a short-yardage ball carrier (10 carries, 9 first downs, 1
-touchdown, per the team site). He caught Seattle's only offensive touchdown in the Super
+and was also used as a short-yardage ball carrier (10 carries for 14 yards and 1
+touchdown, per the official career table). He caught Seattle's only offensive touchdown in the Super
 Bowl LX win. Seattle drafted him in the fourth round in 2024 out of Michigan after
 three seasons at Indiana.
 
@@ -48,11 +48,12 @@ three seasons at Indiana.
 College: Indiana 2020-2022, Michigan 2023 (22 catches, 249 yards, 1 touchdown in
 2023; season tables were not available from the sources reached).
 
-Sources: Wikipedia and NFL.com season tables, verified 2026-09-09. The 2025 target
-figure (68) comes from a public fantasy-data summary and is not verified against Pro
-Football Reference, which returned HTTP 403 on 2026-09-09; the 2024 target count is
-marked n/v (not verified). Postseason 2025 (3 games): 6 receptions, 67 yards, 1
-touchdown.
+The official Seahawks biography cross-checks the 2025 rushing and receiving line.
+The reproducible nflverse count verifies 68 assigned targets out of 457 for Seattle
+(14.9%); see the [baseline definitions](../../weekly/2026/week-01/research/ne-sea/README.md).
+This replaces the earlier unverified fantasy-summary attribution. The 2024 target
+count remains unverified; older career rows were not re-audited in this pass.
+Postseason 2025 (3 games): 6 receptions, 67 yards, 1 touchdown.
 
 Two patterns matter.
 
@@ -143,6 +144,9 @@ not list him. No designation as of 2026-09-09.
   flag in early September.
 
 ## Sources
+
+- Seahawks — [AJ Barner biography and career table](https://www.seahawks.com/team/players-roster/aj-barner/) — dynamic; checked 2026-09-09; 2025 rushing and receiving cross-check.
+- [2025 assigned-target calculation](../../weekly/2026/week-01/research/ne-sea/README.md) — nflverse extract computed 2026-09-09 ET.
 
 - Wikipedia — [AJ Barner](https://en.wikipedia.org/wiki/AJ_Barner) — season statistics, postseason line, draft, measurements, verified 2026-09-09.
 - NFL.com — [AJ Barner stats](https://www.nfl.com/players/aj-barner/stats/) — season receiving and rushing lines, verified 2026-09-09.

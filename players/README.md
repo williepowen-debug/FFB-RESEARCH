@@ -16,8 +16,13 @@ Known metadata inconsistency: profiles created on 2026-09-09 populate `team_ids`
 | [A.J. Brown](aj-brown/profile.md) | WR | NE | 2026-09-09 | high |
 | [Ashton Jeanty](ashton-jeanty/profile.md) | RB | — | 2026-08-26 | high |
 | [Bijan Robinson](bijan-robinson/profile.md) | RB | — | 2026-08-17 | high |
+| [Cooper Kupp](cooper-kupp/profile.md) | WR | SEA | 2026-09-09 | medium |
+| [Corey Kiner](corey-kiner/profile.md) | RB | NE | 2026-09-09 | medium |
+| [DeMario Douglas](demario-douglas/profile.md) | WR | NE | 2026-09-09 | medium |
 | [Drake London](drake-london/profile.md) | WR | — | 2026-08-17 | high |
 | [Drake Maye](drake-maye/profile.md) | QB | NE | 2026-09-09 | high |
+| [Elijah Arroyo](elijah-arroyo/profile.md) | TE | SEA | 2026-09-09 | medium |
+| [Emanuel Wilson](emanuel-wilson/profile.md) | RB | SEA | 2026-09-09 | medium |
 | [George Holani](george-holani/profile.md) | RB | SEA | 2026-09-09 | medium |
 | [George Kittle](george-kittle/profile.md) | TE | — | 2026-08-26 | high |
 | [Hunter Henry](hunter-henry/profile.md) | TE | NE | 2026-09-09 | medium |
@@ -28,6 +33,7 @@ Known metadata inconsistency: profiles created on 2026-09-09 populate `team_ids`
 | [Josh Allen](josh-allen/profile.md) | QB | — | 2026-08-20 | high |
 | [Josh Sweat](josh-sweat/profile.md) | Edge defender | — | 2026-08-26 | high |
 | [Kyle Pitts Sr.](kyle-pitts/profile.md) | TE | — | 2026-08-17 | high |
+| [Kyle Williams](kyle-williams/profile.md) | WR | NE | 2026-09-09 | medium |
 | [Makai Lemon](makai-lemon/profile.md) | WR | — | 2026-08-26 | medium |
 | [Malik Nabers](malik-nabers/profile.md) | WR | — | 2026-08-26 | high |
 | [Mike Evans](mike-evans/profile.md) | WR | — | 2026-08-26 | high |

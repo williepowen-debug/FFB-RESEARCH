@@ -16,7 +16,7 @@ source_ids: ["local-source-new-england-patriots", "local-source-espn", "local-so
 supersedes: []
 ---
 
-# Finding: New England added edge and interior help around a returning core, under a new play-caller
+# Finding: New England added edge and interior help around a returning core, under returning play-caller Zak Kuhr
 
 ## Scope
 
@@ -28,9 +28,11 @@ supersedes: []
 
 ## Finding
 
-New England reached the Super Bowl in 2025 with a Vrabel-built defense and returns its core into 2026, now called by promoted coordinator Zak Kuhr. The Patriots added edge rusher Dre'Mont Jones in free agency and drafted edge Gabe Jacas (Round 2, Illinois), reinforcing the pass rush around returning front-seven pieces. The unit's identity should be treated as continuous with 2025 but unproven under Kuhr's play-calling until charted.
+New England reached the Super Bowl in 2025 with a Vrabel-built defense and returns its core into 2026, now called by promoted coordinator Zak Kuhr. The Patriots added edge rusher Dre'Mont Jones in free agency and drafted edge Gabe Jacas (Round 2, Illinois), reinforcing the pass rush around returning front-seven pieces. Kuhr already called the final 20 games of 2025, as documented in the coaching profile. The open question is how his established approach works with the changed 2026 edge rotation, not whether he can call an NFL defense.
 
 ## Evidence
+
+- September 9 historical cross-check: see the [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) for comparable 2025 defensive efficiency, protection interactions and coverage limits. It extends this existing personnel record; it does not establish 2026 alignment or snap shares.
 
 ### Facts
 
@@ -44,7 +46,7 @@ New England reached the Super Bowl in 2025 with a Vrabel-built defense and retur
 
 - Dre'Mont Jones's versatility (interior and edge) gives Kuhr flexible pressure packages, but production depends on how he is deployed.
 - Rookie Jacas is the depth swing that could keep the rush fresh; his rotational role is the early indicator.
-- Because the core returns, the front seven carries less roster risk than a rebuilt unit; the variance is scheme (Kuhr's pressure design), not personnel churn.
+- Because the core returns, the front seven carries less roster risk than a rebuilt unit; both pressure deployment and the changed edge rotation remain sources of variance.
 
 ## Fantasy implication
 
@@ -55,7 +57,7 @@ New England reached the Super Bowl in 2025 with a Vrabel-built defense and retur
 ## Assessment
 
 - Confidence: low
-- Reason: personnel is known and the core returns, but Kuhr's scheme rates and the edge rotation are unestablished.
+- Reason: personnel is known and the core returns, but the changed 2026 edge rotation is unproven. Kuhr's 2025 regular-season/playoff rates are already documented in the coaching profile; his promotion is not a first-time play-calling transition.
 - Fact/inference boundary: signings, the draft, and the 2025 result are facts; the pressure and rotation projections are inference.
 - What would invalidate this: a clear edge rotation and pressure identity emerging in regular-season charting, or a decline under the new coordinator.
 - Next review: postgame Week 1 pass-rush snap and pressure charting for the Jones/Ponder/Jacas rotation, then Kuhr's 2026 blitz and coverage rates across the first four games while Landry is out.
