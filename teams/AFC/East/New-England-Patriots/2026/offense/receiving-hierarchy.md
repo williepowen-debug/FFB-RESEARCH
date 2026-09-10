@@ -65,6 +65,9 @@ remaining targets.
   | Kyle Williams | 12 | 17% | 0 | 0 | 0 | 0 |
   | Rhamondre Stevenson | 60 | 85% | 6 | 5 | 44 | 0 |
 
+  **In-window targets, while Brown was on the field (13 total):** Brown 4, Douglas 3, Henry 2,
+  Stevenson 1, Hollins 1, Larison 1, Raridon 1, **Doubs 0**.
+
   **The full-game table understates Brown and must not be read as a hierarchy.** He played 44% of
   snaps and left injured. Restricted to the snaps he was on the field for, Brown **led the team in
   targets 4 to Douglas's 3**, roughly a 31% share of the 13 targets thrown in that window, and led
@@ -75,7 +78,10 @@ remaining targets.
   **Hollins has no canonical player profile**, which is an organization gap rather than an evidence
   gap — he is already recorded here and in the team overview as a roster fact.
 
-  Romeo Doubs is the weakest measured signal: 56% of snaps, three targets, **zero receptions**.
+  Romeo Doubs is the weakest measured signal: 56% of snaps, three targets, **zero receptions** — and
+  **all three targets came after Brown left**. Over the 13 targets thrown while Brown was on the field,
+  Doubs was the only pass catcher who drew none. His first target of the game, early in the fourth
+  quarter, was intercepted and returned 30 yards.
   Kyed reports that Hollins was used heavily on run plays in the first half, which suppressed Doubs
   and Douglas snaps for a reason unrelated to standing — a competing read that is retained rather
   than resolved. Doubs's Week 2 opportunity and his Week 1 measurement point in opposite

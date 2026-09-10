@@ -131,7 +131,14 @@ The weakest measured line of any New England regular, and the reason `ne-2026-of
 lowered to low confidence. Doubs played fewer snaps than both Mack Hollins (50) and Douglas (44)
 despite repping as a starting receiver alongside Brown throughout camp.
 
-**A competing explanation is on record and is not resolved.** Kyed reports Hollins was used heavily
+**The in-window detail is worse than the full-game line.** All three of Doubs's targets came AFTER
+Brown's third-quarter exit — he drew **zero targets while Brown was on the field**, the only New England
+pass catcher of whom that is true, over a window in which 13 targets were thrown and Brown led with 4.
+His Week 1 low is therefore not an artefact of the offense reorganising after an injury; it happened
+while the offense was whole. The first target he did draw, early in the fourth quarter, was intercepted
+by Nehemiah Pritchett and returned 30 yards.
+
+**A competing explanation is still on record and is not resolved.** Kyed reports Hollins was used heavily
 on first-half run plays, which suppressed Doubs's and Douglas's snap counts for a reason unrelated
 to standing. This is therefore **not recorded as a demotion**. Doubs's Week 1 measurement and his
 Week 2 opportunity from Brown's injury point in opposite directions and must be read together.
