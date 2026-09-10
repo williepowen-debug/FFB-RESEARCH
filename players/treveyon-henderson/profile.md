@@ -167,7 +167,20 @@ reported.
 - A repeat of the 2025 late-season snap decline once healthy, which would settle the
   durable role as change-of-pace.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.patriots.com/team/players-roster/treveyon-henderson/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.patriots.com/team/players-roster/treveyon-henderson/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Wikipedia — [TreVeyon Henderson](https://en.wikipedia.org/wiki/TreVeyon_Henderson) — NFL and college statistics tables, draft, contract, rookie records, verified 2026-09-09.
 - FantasyPros — [TreVeyon Henderson stats](https://www.fantasypros.com/nfl/stats/treveyon-henderson.php) — 2025 target total, verified 2026-09-09.

@@ -1,0 +1,12 @@
+player,metric,source_display,computed,numerator,denominator,disposition,source_url
+a-j-brown,career_yards_per_reception,15.6,15.3,8029,524,use_arithmetic_from_counts,https://www.patriots.com/team/players-roster/a-j-brown/
+aj-barner,career_yards_per_reception,9.1,9.3,764,82,use_arithmetic_from_counts,https://www.seahawks.com/team/players-roster/aj-barner/
+demario-douglas,career_yards_per_reception,11.7,11.2,1629,146,use_arithmetic_from_counts,https://www.patriots.com/team/players-roster/demario-douglas/
+emanuel-wilson,career_yards_per_reception,5.6,5.7,170,30,use_arithmetic_from_counts,https://www.seahawks.com/team/players-roster/emanuel-wilson/
+george-holani,career_yards_per_reception,3.2,4.7,14,3,use_arithmetic_from_counts,https://www.seahawks.com/team/players-roster/george-holani/
+hunter-henry,career_yards_per_reception,11.7,11.6,5295,455,use_arithmetic_from_counts,https://www.patriots.com/team/players-roster/hunter-henry/
+jaxon-smith-njigba,career_yards_per_reception,12.1,12.6,3551,282,use_arithmetic_from_counts,https://www.seahawks.com/team/players-roster/jaxon-smith-njigba/
+rashid-shaheed,career_yards_per_reception,14.8,14.7,2243,153,use_arithmetic_from_counts,https://www.seahawks.com/team/players-roster/rashid-shaheed/
+rhamondre-stevenson,career_yards_per_reception,7.4,7.0,1295,186,use_arithmetic_from_counts,https://www.patriots.com/team/players-roster/rhamondre-stevenson/
+romeo-doubs,career_yards_per_reception,11.9,12.0,2424,202,use_arithmetic_from_counts,https://www.patriots.com/team/players-roster/romeo-doubs/
+zach-charbonnet,career_yards_per_reception,7.2,7.3,693,95,use_arithmetic_from_counts,https://www.seahawks.com/team/players-roster/zach-charbonnet/

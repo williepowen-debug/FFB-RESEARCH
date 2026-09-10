@@ -32,6 +32,11 @@ New England returns a two-back tandem of Rhamondre Stevenson and TreVeyon Hender
 
 ## Evidence
 
+- September 9 audit: the [weekly evidence reconciliation](../../../../../../weekly/2026/week-01/games/NE-at-SEA-evidence-audit.md)
+  adds historical pressure, motion/play-action, opponent and scoring-opportunity context.
+  Consult its source definitions and remaining assignment gaps before applying this finding
+  to Week 1; the linked usage queue records current eligibility without claiming measured roles.
+
 - September 9 research extension: canonical history/role records are now linked for [Corey Kiner](../../../../../../players/corey-kiner/profile.md). These players were already covered in this team finding. The [matchup research supplement](../../../../../../weekly/2026/week-01/games/NE-at-SEA-research-supplement.md) adds historical baselines and identifies remaining uncertainties.
 
 ### Facts

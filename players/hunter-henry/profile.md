@@ -161,7 +161,20 @@ in 2019 (missed four games). Since 2021 he has missed four games total.
   hypotheses file.
 - A Maye injury; Henry's production has been quarterback-sensitive across his career.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.patriots.com/team/players-roster/hunter-henry/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.patriots.com/team/players-roster/hunter-henry/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Wikipedia — [Hunter Henry](https://en.wikipedia.org/wiki/Hunter_Henry) — career statistics tables, transactions, contracts, injuries, verified 2026-09-09.
 - FantasyPros — [Hunter Henry stats](https://www.fantasypros.com/nfl/stats/hunter-henry.php) — season target totals, verified 2026-09-09.

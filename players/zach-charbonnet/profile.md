@@ -43,9 +43,9 @@ NFL:
 | Season | Team | GP/GS | Rush att | Rush yds | Y/A | Rush TD | Tgt | Rec | Rec yds | Rec TD | Fum |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 2023 | SEA | 16/2 | 108 | 462 | 4.3 | 1 | n/v | 33 | 209 | 0 | 0 |
-| 2024 | SEA | 17/11 | 135 | 569 | 4.2 | 8 | n/v | 42 | 340 | 1 | 0 |
+| 2024 | SEA | 17/6 | 135 | 569 | 4.2 | 8 | n/v | 42 | 340 | 1 | 0 |
 | 2025 | SEA | 16/0 | 184 | 730 | 4.0 | 12 | n/v | 20 | 144 | 0 | 0 |
-| Career | SEA | 49/13 | 427 | 1,761 | 4.1 | 21 | — | 95 | 693 | 1 | 0 |
+| Career | SEA | 49/8 | 427 | 1,761 | 4.1 | 21 | — | 95 | 693 | 1 | 0 |
 
 College:
 
@@ -88,16 +88,14 @@ deal runs through 2026).
 
 Context: Seattle placed him on the active/PUP list 2026-07-22 and moved him to
 reserve/PUP at the 2026-08-30 cutdown, which requires him to miss at least the first
-four games; under the current rule he can return to practice as early as Week 3 and
-is first eligible to play in Week 5 against San Francisco. Macdonald said in July that
+four games. A practice or activation date has not been announced. Macdonald said in July that
 he was doing a great job in recovery, with no timetable set.
 
 ## Current situation
 
 ### Team and depth-chart role
 
-Reserve/PUP; not eligible to play until Week 5 (2026-10-11 or later, depending on
-schedule verification). While he is out the backfield is Jadarian Price (listed first
+Reserve/PUP; see the weekly record for the dated eligibility check. While he is out the backfield is Jadarian Price (listed first
 on the 2026-09-09 depth chart), Emanuel Wilson, and George Holani. The official
 framing is that Price will not carry the load alone; ESPN's Henderson wrote that the
 role will shift once Charbonnet returns. Nothing about his post-return role has been
@@ -117,7 +115,7 @@ likely re-entry point is the goal-line and short-yardage role he already held. S
 ### Health and availability
 
 Out through at least Week 4 on reserve/PUP (torn ACL 2026-01-19, surgery February
-2026). Return to practice is possible from Week 3; the team has published no timetable.
+2026). The team has published no return timetable.
 An ACL return roughly eight to nine months after surgery is on the aggressive side for
 a running back, so the first eligible week should not be assumed to be the actual
 return week.
@@ -147,7 +145,7 @@ return week.
 
 ## What would change this assessment
 
-- The date he returns to practice (eligible from Week 3) and the date he is activated;
+- The announced return-to-practice date and the date he is activated;
   activation in Week 5 signals a fast recovery, activation after Week 8 signals a
   slower one.
 - Price's carry, goal-line, and passing-down shares through Week 4; each role Price
@@ -157,13 +155,26 @@ return week.
 - Any Seattle transaction adding a veteran back, which would signal doubt about the
   timeline.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.seahawks.com/team/players-roster/zach-charbonnet/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.seahawks.com/team/players-roster/zach-charbonnet/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Wikipedia — [Zach Charbonnet](https://en.wikipedia.org/wiki/Zach_Charbonnet) — NFL and college statistics, draft, ACL date, PUP status, verified 2026-09-09.
 - NFL.com — [Zach Charbonnet stats](https://www.nfl.com/players/zach-charbonnet/stats/) — season lines, verified 2026-09-09.
 - Pro Football Reference — [Zach Charbonnet](https://www.pro-football-reference.com/players/C/CharZa00.htm) — attempted 2026-09-09; returned HTTP 403, not used.
 - John Boyle, Seahawks.com — [Seahawks RB Zach Charbonnet Placed On PUP List](https://www.seahawks.com/news/seahawks-rb-zach-charbonnet-placed-on-pup-list) — published 2026-07-22, verified 2026-09-09.
 - John Boyle, Seahawks.com — [Seahawks Make Roster Moves, Including Trade, To Establish Initial 53-Man Roster](https://www.seahawks.com/news/seahawks-make-roster-moves-including-trade-to-establish-initial-53-man-roster) — published 2026-08-30; reserve/PUP, at least four games; verified via team finding 2026-09-09.
-- ESPN — [Seahawks' Zach Charbonnet still on PUP list, out first 4 games](https://www.espn.com/nfl/story/_/id/49778534/seahawks-zach-charbonnet-remains-pup-list-miss-least-first-four-games) — August 2026; Week 3 practice eligibility and Week 5 return window; verified 2026-09-09 via search summary.
+- ESPN — [Seahawks' Zach Charbonnet still on PUP list, out first 4 games](https://www.espn.com/nfl/story/_/id/49778534/seahawks-zach-charbonnet-remains-pup-list-miss-least-first-four-games) — August 2026; historical PUP report, accessed through a search summary. Its practice-window claim is not used as a verified rule.
 - Brady Henderson, ESPN — [Are the Seahawks ready for rookie Jadarian Price to lead run game?](https://www.espn.com/nfl/story/_/id/49778349/seahawks-rookie-rb-jadarian-price-ready-lead-run-game) — published 2026-08-31; February surgery and role-shift note; verified 2026-09-09.
 - Repository — [SEA synthesis 2026-09-09](../../intelligence/2026/syntheses/2026-09-09/SEA.md).

@@ -62,8 +62,8 @@ all rose each season. 2025 was not a fluke on top of a plateau; it was the third
 of a straight line.
 
 **Target share is the durable asset.** The reproducible 2025 nflverse count is
-163 of 457 assigned Seattle targets (35.7%). Kupp is next at 71, a gap of 92;
-the earlier claim that nobody was within 100 was incorrect. Assigned targets exclude
+163 of 455 assigned Seattle targets (35.8%). Kupp is next at 70, a gap of 93;
+the earlier claim that nobody was within 100 was incorrect. The September 9 audit corrected the filter to exclude two-point tries. Assigned targets exclude
 unassigned throws and are not the same denominator as Darnold's 477 pass attempts.
 See the [calculation and definitions](../../weekly/2026/week-01/research/ne-sea/README.md).
 This establishes concentration; it does not establish a league-wide floor ranking.
@@ -96,7 +96,8 @@ practical guarantees and control through 2031).
 
 WR1 with no competition for the primary role. The 2026 receiver room is Smith-Njigba,
 Cooper Kupp, Rashid Shaheed (extended in March; first full Seattle offseason), Tory
-Horton (questionable for Week 1 with a hamstring), Jake Bobo, and depth. He carries no
+Horton and depth; Jake Bobo is on injured reserve. The weekly record contains final
+game-day eligibility. He carries no
 Week 1 injury designation. The team overview lists him as Seattle's safest
 target-volume projection; see
 [Seahawks 2026 overview](../../teams/NFC/West/Seattle-Seahawks/2026/overview.md).
@@ -152,7 +153,20 @@ injury or limitation reported as of 2026-09-09.
 - Fleury demonstrably shifting the pass game toward two-tight-end and play-action
   structures that reduce three-receiver snaps.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.seahawks.com/team/players-roster/jaxon-smith-njigba/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.seahawks.com/team/players-roster/jaxon-smith-njigba/) — dynamic; NFL count columns checked 2026-09-09.
 
 - [Reproducible 2025 assigned-target baseline](../../weekly/2026/week-01/research/ne-sea/README.md) — computed from nflverse on 2026-09-09 ET; definitions, raw-source URL and hash retained.
 

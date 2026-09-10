@@ -125,7 +125,20 @@ activated for the NFC Championship Game. His official transaction history also r
 - Charbonnet's announced return-to-practice and activation dates; eligibility alone is not an activation forecast.
 - A recurrence of the 2025 hamstring injury.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.seahawks.com/team/players-roster/george-holani/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.seahawks.com/team/players-roster/george-holani/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Seahawks — [George Holani biography and career table](https://www.seahawks.com/team/players-roster/george-holani/) — dynamic; checked 2026-09-09; controls the corrected NFL attempts and college totals.
 

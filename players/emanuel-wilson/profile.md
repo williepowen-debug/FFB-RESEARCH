@@ -73,7 +73,20 @@ The club biography records a 2023 shoulder-related injured-reserve spell. Curren
 Does Wilson earn repeated carries, inside-five work, or passing-down trust? Track his assignments alongside Price and Holani, including series where all three are available.
 Separate injury-forced opportunity and score state from the healthy-roster baseline.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.seahawks.com/team/players-roster/emanuel-wilson/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.seahawks.com/team/players-roster/emanuel-wilson/) — dynamic; NFL count columns checked 2026-09-09.
 
 - [Seattle official biography and career statistics](https://www.seahawks.com/team/players-roster/emanuel-wilson/) — dynamic; checked 2026-09-09.
 - [Ari Horton — Seahawks sign RB Emanuel Wilson](https://www.seahawks.com/news/seahawks-sign-rb-emanuel-wilson) — published 2026-03-13; checked 2026-09-09.

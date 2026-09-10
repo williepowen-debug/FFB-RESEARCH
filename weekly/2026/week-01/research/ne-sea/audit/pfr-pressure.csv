@@ -1,0 +1,5 @@
+player,team,phase,sacks,hurries,hits,pressures,published_pressure_percent,pocket_time_seconds,sacks_per_pressure
+Drake Maye,NE,REG,47,42,42,131,21.8,2.4,0.358779
+Drake Maye,NE,SB,6,9,3,18,34.0,,0.333333
+Sam Darnold,SEA,REG,27,47,35,109,21,2.4,0.247706
+Sam Darnold,SEA,SB,1,9,4,14,35.0,,0.071429

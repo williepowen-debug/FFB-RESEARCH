@@ -159,7 +159,20 @@ injury, and 59 of 68 possible regular-season games played (87 percent).
 - A concussion, given two in 2024; a third documented concussion would raise a
   longer-horizon availability question.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.patriots.com/team/players-roster/romeo-doubs/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.patriots.com/team/players-roster/romeo-doubs/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Wikipedia — [Romeo Doubs](https://en.wikipedia.org/wiki/Romeo_Doubs) — career statistics tables (sourced to PFR), transactions, 2024 suspension and concussions, contract, verified 2026-09-09.
 - FantasyPros — [Romeo Doubs stats](https://www.fantasypros.com/nfl/stats/romeo-doubs.php) — season target totals, verified 2026-09-09.

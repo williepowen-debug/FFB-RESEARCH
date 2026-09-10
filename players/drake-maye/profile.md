@@ -42,14 +42,15 @@ the NFL Top 100 of 2026.
 
 ### Historical usage and production
 
-Regular season (Wikipedia career table, verified 2026-09-09; Pro Football Reference was
-behind a bot challenge at verification time, so PFR was not used as a second source):
+Regular season: annual count columns cross-checked with the official Patriots biography on
+2026-09-09. That corrects 2025 fumbles from 8 to 9 and career fumbles from 17 to 18;
+completion rates are calculated from completions/attempts.
 
 | Season | GP/GS | Cmp | Att | Cmp% | Pass yds | Pass TD | INT | Rtg | Sacks | Rush att | Rush yds | Rush TD | Fum (lost) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2024 | 13/12 | 225 | 338 | 66.6 | 2,276 | 15 | 10 | 88.1 | 34 | 54 | 421 | 2 | 9 (6) |
-| 2025 | 17/17 | 354 | 492 | 72.0 | 4,394 | 31 | 8 | 113.5 | 47 | 103 | 450 | 4 | 8 (3) |
-| Career | 30/29 | 579 | 830 | 69.8 | 6,670 | 46 | 18 | 103.1 | 81 | 157 | 871 | 6 | 17 (9) |
+| 2025 | 17/17 | 354 | 492 | 72.0 | 4,394 | 31 | 8 | 113.5 | 47 | 103 | 450 | 4 | 9 (3) |
+| Career | 30/29 | 579 | 830 | 69.8 | 6,670 | 46 | 18 | 103.1 | 81 | 157 | 871 | 6 | 18 (9) |
 
 2025 postseason (4 games, 3-1): 70 of 120 for 828 yards, 6 TD, 4 INT, 21 sacks; 29 carries
 for 178 yards and 1 TD. He completed 27 of 43 for 295 yards, 2 TD, and 2 INT with six sacks
@@ -64,9 +65,10 @@ highest single-game QBR in that metric's history.
 
 **Sacks and fumbles are the durable weakness.** Maye was sacked 47 times in 2025 (an 8.0
 percent sack rate, seventh-highest of 33 qualifiers per the team site) and 21 more times in
-four playoff games; he fumbled 15 times including playoffs. The Super Bowl exposed
-cover-zero pressure specifically — his EPA per dropback against cover zero ranked 20th of
-33.
+four playoff games; he fumbled 15 times including playoffs. The team-site NGS coverage table reports 2025 EPA/dropback of −0.18 against
+cover zero and −0.28 against cover six. Those are coverage splits, not evidence that
+every Super Bowl sack came against zero coverage. The cover-six sample was only 36
+dropbacks; do not treat the ranking as a stable trait.
 
 **Rushing is real but not a touchdown engine.** 871 career rushing yards on 157 carries
 (5.5 per carry) but only 6 rushing touchdowns in 30 games. He is not a Josh Allen-style
@@ -157,7 +159,20 @@ injury history.
 - Pass attempts per game: 2025 averaged 28.9; a sustained move above 32 would mark a
   shift toward a pass-first identity around Brown.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.patriots.com/team/players-roster/drake-maye/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.patriots.com/team/players-roster/drake-maye/) — dynamic; NFL count columns checked 2026-09-09.
 
 - Wikipedia — [Drake Maye](https://en.wikipedia.org/wiki/Drake_Maye) — regular-season and postseason statistics tables, draft, contract, awards, verified 2026-09-09.
 - New England Patriots — [How Patriots QB Drake Maye can be even better in his third NFL season](https://www.patriots.com/news/how-patriots-qb-drake-maye-can-be-even-better-in-his-third-nfl-season) — published 2026-09-08; sack rate, fumble total, coverage EPA, coordinator-continuity framing, verified 2026-09-09.

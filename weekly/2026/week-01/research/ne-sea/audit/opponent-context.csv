@@ -1,0 +1,5 @@
+team,unit,plays,raw_epa,league_epa,weighted_opponent_epa_elsewhere,schedule_component,normalized_epa
+NE,offense,1014,0.156563,0.007448,0.033912,0.026465,0.130098
+NE,defense,963,-0.046396,0.007448,-0.036612,-0.04406,-0.002336
+SEA,offense,994,0.029716,0.007448,0.006351,-0.001096,0.030812
+SEA,defense,1056,-0.117679,0.007448,0.019767,0.012319,-0.129998

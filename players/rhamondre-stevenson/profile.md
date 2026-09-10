@@ -20,7 +20,7 @@ supersedes: []
 
 - Position: RB
 - Current team: New England Patriots
-- Season: durable profile (verified 2026-09-09, pre-kickoff of 2026 Week 1)
+- Season: durable profile (verified 2026-09-09, historical statistics audited after scheduled kickoff)
 - Last verified: 2026-09-09
 - Status: active
 
@@ -40,8 +40,8 @@ that cost him the starting job.
 
 ### Historical usage and production
 
-Regular season (Wikipedia career table, verified 2026-09-09; targets from FantasyPros;
-Pro Football Reference returned a bot challenge at verification time):
+Regular season: official Patriots career counts cross-checked September 9; older
+targets retain their FantasyPros definition, with the 2025 reconciliation below.
 
 | Season | GP/GS | Att | Rush yds | Y/A | Rush TD | Tgt | Rec | Rec yds | Rec TD | Fum (lost) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -49,17 +49,18 @@ Pro Football Reference returned a bot challenge at verification time):
 | 2022 | 17/7 | 210 | 1,040 | 5.0 | 5 | 88 | 69 | 421 | 1 | 4 (1) |
 | 2023 | 12/12 | 156 | 619 | 4.0 | 4 | 51 | 38 | 238 | 0 | 1 (1) |
 | 2024 | 15/14 | 207 | 801 | 3.9 | 7 | 41 | 33 | 168 | 1 | 7 (3) |
-| 2025 | 14/13 | 130 | 603 | 4.6 | 7 | 37 | 32 | 345 | 2 | 3 (3) |
-| Career | 70/48 | 836 | 3,669 | 4.4 | 28 | 235 | 186 | 1,295 | 4 | 17 (9) |
+| 2025 | 14/13 | 130 | 603 | 4.6 | 7 | 37* | 32 | 345 | 2 | 3 (3) |
+| Career | 70/48 | 836 | 3,669 | 4.4 | 28 | — | 186 | 1,295 | 4 | 17 (9) |
 
-2025 postseason (3 games): 51 carries, 194 yards, 0 TD; 7 receptions, 86 yards, 0 TD; he
-scored a receiving touchdown in Super Bowl LX (the Wikipedia postseason table records
-zero receiving TD, which conflicts with its own prose — see the source note).
+2025 postseason (all four games, including Super Bowl LX): 58 carries, 217 yards,
+0 rushing TD; 12 receptions, 126 yards, 1 receiving TD. Recomputed from the historical
+play-by-play with two-point attempts excluded; the previous three-game table omitted
+the Super Bowl. See the linked audit for the method and gamebook reconciliation.
 
 Three patterns matter.
 
 **Receiving usage peaked in 2022 and has been cut roughly in half since.** Targets by
-year: 88, 51, 41, 37. The 2025 line was efficient (10.8 yards per catch, 345 yards on 32
+year: 88, 51, 41, then 37 assigned targets in 2025 (definition note below). The 2025 line was efficient (10.8 yards per catch, 345 yards on 32
 grabs) but the volume is a third-down and two-minute role, not a hub.
 
 **Carry volume fell sharply in 2025 as Henderson arrived.** 130 attempts in 14 games
@@ -140,7 +141,7 @@ missed). He has played 70 of a possible 84 regular-season games (83 percent).
   demotion), or Henderson returning to a three-down role that pushes Stevenson to a
   pure short-yardage specialist.
 - Confidence: medium — role is secure for Week 1 but the healthy-roster split remains
-  unresolved, and this profile is written before any 2026 snap has been played.
+  unresolved, and this assessment uses no 2026 game-play evidence.
 
 ## Team history
 
@@ -162,9 +163,27 @@ missed). He has played 70 of a possible 84 regular-season games (83 percent).
 - Any transaction adding a veteran back, which would signal staff concern about depth
   beyond Henderson's return.
 
+*The corrected nflverse filter verifies 37 ordinary 2025 targets, matching FantasyPros.
+The first calculation included one two-point conversion attempt and returned 38; this
+was a filter error, not a vendor discrepancy. Earlier target seasons retain their stated
+source attribution; the career total is withheld pending the same independent check.
+
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.patriots.com/team/players-roster/rhamondre-stevenson/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
 
-- Wikipedia — [Rhamondre Stevenson](https://en.wikipedia.org/wiki/Rhamondre_Stevenson) — career statistics tables, contract, 2024 demotion, 2025 toe injury, verified 2026-09-09. Source note: the postseason table shows zero 2025 receiving touchdowns while the prose credits a Super Bowl LX receiving touchdown; the prose is retained here and the table is flagged as unreconciled.
+- [Official club biography and career statistics](https://www.patriots.com/team/players-roster/rhamondre-stevenson/) — dynamic; NFL count columns checked 2026-09-09.
+
+- Wikipedia — [Rhamondre Stevenson](https://en.wikipedia.org/wiki/Rhamondre_Stevenson) — career statistics tables, contract, 2024 demotion, 2025 toe injury, verified 2026-09-09. Historical source conflict: the zero-TD postseason table is superseded by the official Super Bowl gamebook, which records his receiving touchdown.
 - FantasyPros — [Rhamondre Stevenson stats](https://www.fantasypros.com/nfl/stats/rhamondre-stevenson.php) — season target totals, verified 2026-09-09.
 - New England Patriots — [Injury report analysis: Patriots RB TreVeyon Henderson (ankle) ruled out for season-opener vs. Seahawks](https://www.patriots.com/news/injury-report-analysis-patriots-rb-treveyon-henderson-ankle-ruled-out-for-season-opener-vs-seahawks) — published 2026-09-08; Stevenson's late-2025 lead role, Kiner, and elevation options; team-produced analysis, verified 2026-09-09.
 - New England Patriots — [Week 1 injury report: Patriots at Seahawks](https://www.patriots.com/news/week-1-injury-report-patriots-at-seahawks) — published 2026-09-08, verified 2026-09-09.

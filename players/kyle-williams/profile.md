@@ -72,7 +72,20 @@ UNLV, then Washington State. New England drafted him in Round 3, 69th overall, i
 Does Williams earn regular routes with Maye and repeated targets beyond occasional shot plays? Compare his opportunities with the other outside receivers.
 Separate injury-forced opportunity and score state from the healthy-roster baseline.
 
+### NFL statistical audit — September 9, 2026
+
+Available regular-season count fields were cross-checked against the [official club career table](https://www.patriots.com/team/players-roster/kyle-williams/).
+The [audit snapshot](../../weekly/2026/week-01/research/ne-sea/audit/official-career-counts.csv)
+retains the source counts; [verification limits](../../weekly/2026/week-01/research/ne-sea/audit/README.md)
+separate targets, return statistics, college history and source-average discrepancies.
+Blank source fields remain unverified; this audit does not independently confirm every
+older target, return or postseason statistic. Derived averages use their stated
+numerator/denominator. This check does not reverify
+contracts, every scouting claim or current game status.
+
 ## Sources
+
+- [Official club biography and career statistics](https://www.patriots.com/team/players-roster/kyle-williams/) — dynamic; NFL count columns checked 2026-09-09.
 
 - [Patriots official biography and career statistics](https://www.patriots.com/team/players-roster/kyle-williams/) — dynamic; checked 2026-09-09.
 - [Evan Lazar — preseason observations against Philadelphia](https://www.patriots.com/news/game-observations-9-takeaways-from-the-patriots-preseason-victory-over-the-eagles) — published 2026-08-23; checked 2026-09-09.
